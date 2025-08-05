@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacklipson/jacklipson.github.io.git"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +21,7 @@
   "bugs": {
     "url": "https://github.com/jacklipson/jacklipson.github.io/issues"
   },
+  
   "homepage": "https://github.com/jacklipson/jacklipson.github.io#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2"
