@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx eleventy",
-    "serve": "npx eleventy --serve",
+    "clean": "rm -rf _site/",
+    "build": "npm run clean && npx eleventy",
+    "dev": "npm run clean && npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
 
@@ -21,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/jacklipson/jacklipson.github.io/issues"
   },
-  
+
   "homepage": "https://github.com/jacklipson/jacklipson.github.io#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2"
