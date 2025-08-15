@@ -4,7 +4,7 @@ module.exports = function(eleventyConfig) {
 
     return {
         dir: {
-            output: "gh-pages"
+            output: "docs"
         }
     }
 
