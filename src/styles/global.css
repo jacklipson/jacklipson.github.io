@@ -9,3 +9,31 @@ main {
 p {
     color: white;
 }
+
+a {
+    color: white; /* Applies to all links by default */
+    text-decoration: none;
+}
+
+a:link {
+    color: white; /* Ensures unvisited links are white */
+}
+
+a:visited {
+    color: white; /* Ensures visited links remain white */
+}
+
+a:hover {
+    text-decoration: underline; /* Ensures the underline is present */
+    background-color: rgb(128,128,128);
+    color: white; /* Keeps link white on hover */
+} 
+
+a:active {
+    color: white; /* Keeps link white when clicked/active */
+}
+
+.move a {
+    text-decoration: underline; /* Ensures the underline is present */
+    text-decoration-color: #800080; /* Sets the underline color to purple for unvisited links */
+}

@@ -1,5 +1,5 @@
 ---
-layout: layouts/notes.njk
+layout: layouts/page.njk
 title: note 1
 ---
 hey there! here is me using latex, i.e. $\TeX$
