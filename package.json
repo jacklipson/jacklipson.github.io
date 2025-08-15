@@ -4,17 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf _site/",
+    "clean": "rm -rf docs/",
     "build": "npm run clean && npx eleventy",
     "dev": "npm run clean && npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacklipson/jacklipson.github.io.git"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,9 +20,12 @@
   "bugs": {
     "url": "https://github.com/jacklipson/jacklipson.github.io/issues"
   },
-
   "homepage": "https://github.com/jacklipson/jacklipson.github.io#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "mathjax": "^4.0.0"
+  },
+  "devDependencies": {
+    "eleventy-plugin-mathjax": "^2.0.4"
   }
 }

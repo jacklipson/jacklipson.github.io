@@ -13,3 +13,5 @@
     - git push origin main (pushes to git, may need to pull first)
     - git push origin main --force (forces in case online is different)
     - git status (check kosher)
+
+3. LaTeX is always on in markdown. use \\$ to not start math mode.

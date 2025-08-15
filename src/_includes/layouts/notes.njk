@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.siteName }} | {{ title }}</title>
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/titlepage.css">
+    {% block head_css %}{% endblock %} {# Optional: for page-specific CSS #}
+  </head>
+
+  <body>
+    <main>
+      {{content | safe}}
+    </main>
+  </body>
+
+</html>
