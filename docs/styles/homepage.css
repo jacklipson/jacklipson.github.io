@@ -18,4 +18,5 @@
 
 .center p{
     color: white;
+    object-fit: contain;
 }
