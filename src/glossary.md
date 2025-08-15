@@ -5,6 +5,6 @@ title: glossary
 
 a little glossary of my stuff.
 
-<a href="/notes"> class notes </a>
+<a href="/glossary/notes"> class notes </a>
 <br>
-<a href="/about"> about me </a>
+<a href="/glossary/about"> about me </a>

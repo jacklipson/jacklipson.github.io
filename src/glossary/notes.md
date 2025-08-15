@@ -15,3 +15,5 @@ here are some notes i wrote during class.
 <a href="/assets/notes/phys 7b.pdf"> physics 7b </a><br>
 <a href="/assets/notes/phys 105.pdf"> physics 105 (very incomplete) </a><br>
 <a href="/assets/notes/math 113.pdf"> math 113 </a>
+
+<a href = "/glossary/notes/note1"> a non-class note using LaTeX </a>
