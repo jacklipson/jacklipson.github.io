@@ -3,6 +3,8 @@ layout: layouts/page.njk
 title: glossary
 ---
 
-here is the glossary for things on my site.
+a little glossary of my stuff.
 
-<a href = "/notes/note1"> first note </a>
+<a href="/notes"> class notes </a>
+<br>
+<a href="/about"> about me </a>
