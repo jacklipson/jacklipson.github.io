@@ -1,14 +1,17 @@
----
-layout: layouts/base.njk
----
-<link rel="stylesheet" href="/styles/homepage.css">
+{% extends "layouts/base.njk" %}
 
-<div class = "center move">
-  <a href="/glossary">
-    <img src = "/assets/img/legoinfinite.gif" alt = "my lego">
-  </a>
+{% block css %} <link rel="stylesheet" href="/styles/homepage.css"> {% endblock %}
 
-  <a href="/glossary">
-    {{ content | safe }}
-  </a>
-</div>
+{% block main %}
+  <div class = "container">
+    <a href="/glossary">
+      <img src = "/assets/img/legoinfinite.gif" alt = "my lego">
+    </a>
+
+    <a href="/glossary">
+      {{ content | safe }}
+    </a>
+  </div>
+{% endblock %}
+
+{% block footer %} {% endblock %} {# clearing the navigation footer #}

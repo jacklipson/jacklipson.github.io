@@ -8,7 +8,7 @@ here are some notes i wrote during class.
 **fall 2025 (these links don't work yet)**<br>
 <a href=""> math 206 </a><br>
 <a href=""> math 222a </a><br>
-<a href=""> math 241 </a><br>
+<a href="/glossary/notes/math241"> math 241 </a><br>
 <a href=""> math 254a </a>
 
 **fall 2023**<br>

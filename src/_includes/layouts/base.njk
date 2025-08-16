@@ -6,15 +6,24 @@
 
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
-    {% block head_css %}{% endblock %} {# Optional: for page-specific CSS #}
+    {% block css %}{% endblock %}
 
     <title>{{ site.siteName }} | {{ title }}</title>
   </head>
 
   <body>
     <main>
+      {% block main %}
       {{content | safe}}
+      {% endblock %}
     </main>
   </body>
 
+  <footer>
+    {% block footer %}
+      <div class = "nav"> 
+        <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
+      </div>
+    {% endblock %}
+  </footer>
 </html>
