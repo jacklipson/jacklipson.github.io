@@ -12,9 +12,9 @@ here are some notes i wrote during class.
 <a href="/glossary/class notes/math 254a"> math 254a </a>
 
 **fall 2024**<br>
-<a href = "/assets/class notes/math 242 paper.pdf"> math 242 (my best final paper) </a>
+<a href = "/assets/class notes/math 242 paper.pdf" target="_blank"> math 242 (my best final paper) </a>
 
 **fall 2023**<br>
-<a href="/assets/class notes/phys 7b.pdf"> physics 7b </a><br>
-<a href="/assets/class notes/phys 105.pdf"> physics 105 (very incomplete) </a><br>
-<a href="/assets/class notes/math 113.pdf"> math 113 </a>
+<a href="/assets/class notes/phys 7b.pdf" target="_blank"> physics 7b </a><br>
+<a href="/assets/class notes/phys 105.pdf" target="_blank"> physics 105 (very incomplete) </a><br>
+<a href="/assets/class notes/math 113.pdf" target="_blank"> math 113 </a>

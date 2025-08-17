@@ -13,4 +13,4 @@ i grew up in los angeles and newport beach, CA.
 
 right now, i am applying to math grad school.
 
-<p> <a href = "/assets/my cv.pdf"> my cv </a> &nbsp; | &nbsp; <a href = "https://www.linkedin.com/in/jack-lipson/"> my linkedin </a> </p>
+<p> <a href = "/assets/my cv.pdf" target="_blank"> my cv </a> &nbsp; | &nbsp; <a href = "https://www.linkedin.com/in/jack-lipson/" target="_blank"> my linkedin </a> </p>
