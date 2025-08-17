@@ -4,7 +4,7 @@ title: ostrowski's theorem
 publish_date: "2025-08-17"
 ---
 
-<b>ostrowski's theorem</b> says that any non-trivial absolute value on the rational numbers $\Q$ is some power in $(0,1]$ of either the real or p-adic absolute value.
+<b>ostrowski's theorem</b> says that any non-trivial absolute value on the rational numbers $\Q$ is either the real or p-adic absolute value to some power in $(0,1]$.
 
 absolute values are quite similar to topological metrics but with an added constraint:
 
@@ -32,7 +32,12 @@ let's return to the other element in ostrowski's theorem that might be unfamilia
     the p-adic integers $\Z_p$ is the projective limit $\varprojlim (\Z/p^n\Z, \phi_n)$.
 </div>
 
-<div>
+<div class = "subthm-box" type = "prop">
+    <ol type = "i">
+        <li> </li>
+        <li> </li>
+    </ol>
+</div>
 
 now let's get to the proof.
 
