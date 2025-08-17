@@ -1,5 +1,11 @@
 {% extends "layouts/base.njk" %}
 
+{% block main %}
+    <p> <span style = "color: Tomato"> {{class}} </span> | <i>{{ lec_date | customDateFormat | lower}}</i> | <span style = "color: SlateBlue"> {{page.fileSlug | replace("lec", "lecture ")}} </span> </p>
+
+    {{content | safe}}
+{% endblock %}
+
 {% block footer %}
     {% include "partials/notesnavig.html" %}
     <br>

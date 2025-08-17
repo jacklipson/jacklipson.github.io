@@ -11,6 +11,20 @@ module.exports = function(eleventyConfig) {
         return array.indexOf(item);
     });
 
+    eleventyConfig.addFilter("customDateFormat", (dateObj) => {
+        if (!dateObj) return "";
+
+        const d = new Date(dateObj + "T12:00:00");
+
+        // Get weekday, date, month, year
+        const weekday = d.toLocaleDateString("en-US", { weekday: "long" });
+        const day = d.getDate(); // numeric day
+        const month = d.toLocaleDateString("en-US", { month: "long" });
+        const year = d.getFullYear();
+
+        return `${day} ${month} ${year} - ${weekday}`;
+    });
+
     return {
         dir: {
             input: "src",

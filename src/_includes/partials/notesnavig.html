@@ -19,13 +19,13 @@
 
 <p>
   {% if prevFile %}
-    <a href="{{ '/glossary/class notes/' + class + '/' + prevFile | replace('.md', '') | url }}">
+    <a href="{{ '/glossary/class notes/' + class + '/' + prevFile | replace('.md', '') | url }}" style = "color:#1CA406">
       < - {{ prevFile | replace('.md', '')}} &nbsp;&nbsp;&nbsp;&nbsp;
     </a>
   {% endif %}
   
   {% if nextFile %}
-    <a href="{{ '/glossary/class notes/' + class + '/' + nextFile | replace('.md', '') | url }}">
+    <a href="{{ '/glossary/class notes/' + class + '/' + nextFile | replace('.md', '') | url }}" style = "color:#1CA406">
       {{ nextFile | replace('.md', '')}} - >
     </a>
   {% endif %}
