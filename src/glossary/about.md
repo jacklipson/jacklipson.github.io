@@ -9,7 +9,7 @@ i am a senior at uc berkeley studying math and physics.
 
 i am interested in functional analysis and want to learn more about number theory and Langlands program.
 
-i love proofs that use one area of math to solve something seemingly unrelated problem (e.g. Dirichlet's theorem).
+i love proofs that use one area of math to solve seemingly unrelated problems (e.g. Dirichlet's theorem).
 
 i grew up in los angeles and newport beach, CA. 
 
