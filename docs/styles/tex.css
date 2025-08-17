@@ -1,26 +1,26 @@
-.theorem-box {
+.thm-box {
     width: 75%;
-    max-width: 75%;          /* keeps it from being too wide */
     margin: 15px auto;         /* centers horizontally with space above/below */
-    padding: 20px 30px;        /* inner spacing */
+    padding: 15px 25px;        /* inner spacing */
     background-color: #383838;    /* medium gray background */
     color: white;              /* white text */
     /* border-radius: 4px;       rounded corners */
+    border-left: 6px solid white;    /* subtle accent line */
     line-height: 1.25;
 }
 
-.theorem-box::before {
+.thm-box::before {
     font-weight: bold;
     display: block;      /* forces onto its own line */
     margin-bottom: 10px; /* spacing before theorem text */
     content: "theorem.";  /* auto adds name */
 }
 
-.theorem-box[name]::before {
+.thm-box[name]::before {
     content: "theorem. (" attr(name) ")";
 }
 
-.proof-box {
+.subthm-box {
     width: 75%;
     margin: 15px auto;              /* a bit tighter than theorem */
     padding: 15px 25px;
@@ -31,39 +31,14 @@
     line-height: 1.25;
 }
 
-.proof-box::before {
-    content: "proof.";
+.subthm-box::before {
     font-weight: bold;
     font-style: italic;             /* makes “Proof.” stand out a bit */
     display: block;      /* forces onto its own line */
     margin-bottom: 10px; /* spacing before theorem text */
-    content: "proof.";  /* auto adds name */
+    content: attr(type)".";  /* auto adds name */
 }
 
-.proof-box[name]::before {
-    content: "proof. (" attr(name) ")";
-}
-
-.def-box {
-    width: 75%;
-    margin: 15px auto;              /* a bit tighter than theorem */
-    padding: 15px 25px;
-    background-color: #555;         /* darker gray than theorem */
-    color: white;
-    border-left: 6px solid #383838;    /* subtle accent line */
-    /* border-radius: 4px; */
-    line-height: 1.25;
-}
-
-.def-box::before {
-    content: "proof.";
-    font-weight: bold;
-    font-style: italic;             /* makes “Proof.” stand out a bit */
-    display: block;      /* forces onto its own line */
-    margin-bottom: 10px; /* spacing before theorem text */
-    content: "def.";  /* auto adds name */
-}
-
-.def-box[name]::before {
-    content: "def. (" attr(name) ")";
+.subthm-box[name]::before {
+    content: attr(type)". (" attr(name) ")";
 }
