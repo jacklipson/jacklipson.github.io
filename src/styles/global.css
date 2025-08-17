@@ -37,3 +37,7 @@ a:active {
     text-decoration: underline; /* Ensures the underline is present */
     text-decoration-color: #800080; /* Sets the underline color to purple for unvisited links */
 }
+
+li {
+    color: white;
+}

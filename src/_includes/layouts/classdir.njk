@@ -1,0 +1,15 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+    {% set classKey = title | replace(" ", "_") %}
+    {{content | safe}}
+    <ul>
+        {% for file in classFiles[classKey] %}
+            <li>
+                <a href="{{ '/glossary/class notes/' + title + '/' + file | replace(".md", "") | url }}">
+                    {{ file | replace(".md", "") | replace("lec", "lecture ") }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

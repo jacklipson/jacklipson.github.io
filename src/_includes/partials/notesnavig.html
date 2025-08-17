@@ -1,0 +1,32 @@
+{% set currentFile = page.fileSlug + '.md' %}
+
+{% set classKey = class | replace(" ", "_") %}
+{% set files = classFiles[classKey] %}
+
+{% set currentIndex = files | indexOf(currentFile) %}
+
+{% if currentIndex > 0 %}
+  {% set prevFile = files[currentIndex - 1] %}
+{% else %}
+  {% set prevFile = null %}
+{% endif %}
+
+{% if currentIndex < files | length - 1 %}
+  {% set nextFile = files[currentIndex + 1] %}
+{% else %}
+  {% set nextFile = null %}
+{% endif %}
+
+<p>
+  {% if prevFile %}
+    <a href="{{ '/glossary/class notes/' + class + '/' + prevFile | replace('.md', '') | url }}">
+      < - {{ prevFile | replace('.md', '')}} &nbsp;&nbsp;&nbsp;&nbsp;
+    </a>
+  {% endif %}
+  
+  {% if nextFile %}
+    <a href="{{ '/glossary/class notes/' + class + '/' + nextFile | replace('.md', '') | url }}">
+      {{ nextFile | replace('.md', '')}} - >
+    </a>
+  {% endif %}
+</p>

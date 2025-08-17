@@ -1,7 +1,7 @@
 ---
 layout: layouts/classnote.njk
-title: math 206 - lec 01
+title: math 206 - lec 10
 class: math 206
 ---
 
-hihihi
+this is lec 10!

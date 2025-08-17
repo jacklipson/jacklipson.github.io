@@ -21,9 +21,7 @@
 
   <footer>
     {% block footer %}
-      <div class = "nav"> 
-        <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
-      </div>
+      {% include "partials/basenavig.html" %}
     {% endblock %}
   </footer>
 </html>

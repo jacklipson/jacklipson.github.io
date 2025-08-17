@@ -7,6 +7,9 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPlugin(mathjaxPlugin);
 
+    eleventyConfig.addFilter("indexOf", function(array, item) {
+        return array.indexOf(item);
+    });
 
     return {
         dir: {
