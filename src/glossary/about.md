@@ -1,9 +1,9 @@
 ---
-layout: layouts/page.njk
+layout: layouts/about.njk
 title: about
 ---
 
-<span style = "color : red">hello</span><span style = "color : orange">,</span> <span style = "color : yellow">i</span> <span style = "color : green">am</span> <span style = "color: darkturquoise">jack</span> <span style = "color : blue">lipson</span><span style = "color : purple">.</span>
+<div class="colorwave">hello, i am jack lipson.</div>
 
 i am a senior at uc berkeley studying math and physics.
 
