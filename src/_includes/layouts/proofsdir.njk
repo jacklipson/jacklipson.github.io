@@ -1,0 +1,13 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+    {{content | safe}}
+
+    <ul>
+        {% for file in proofFiles %}
+            {% if file != "index.md" %}
+                <li><a href="{{ file | replace(".md", "") }}">{{ file }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -5,7 +5,7 @@ title: notes
 
 here are some notes i wrote during class.
 
-**fall 2025 (these links don't work yet)**<br>
+**fall 2025 (these are empty)**<br>
 <a href="/glossary/class notes/math 206"> math 206 </a><br>
 <a href="/glossary/class notes/math 222a"> math 222a </a><br>
 <a href="/glossary/class notes/math 241"> math 241 </a><br>

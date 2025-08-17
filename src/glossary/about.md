@@ -3,6 +3,8 @@ layout: layouts/page.njk
 title: about
 ---
 
+hello, i am jack lipson.
+
 i am a senior at uc berkeley studying math and physics.
 
 i am interested in functional analysis and want to learn more about number theory and Langlands program.
