@@ -18,25 +18,56 @@ absolute values are quite similar to topological metrics but with an added const
 </div>
 
 <div class="subthm-box" type = "rmk">
-    this third condition tells us $|1 \times 1| = |1||1|$ so $|1| = 1$. similarly, $|-1 \times -1| = |-1|$ gives $|-1| = 1$. since we are in an integral domain, we can divide (via the fraction field) so actually $|-x| = |x|$ also. moreover, $|\frac{a}{b}|^{-1} = |\frac{b}{a}|$.
+    this third condition tells us $|1 \times 1| = |1||1|$ so $|1| = 1$. similarly, $|-1 \times -1| = |-1|$ gives $|-1| = 1$. since we are in an integral domain, we can divide (via the fraction field) so actually $|-x| = |x|$ also. moreover, $|\frac{a}{b}|^{-1} = |\frac{b}{a}|$ (when this is well-defined of course).
 
-    also, for any natural number, $|\overbrace{1+\cdots + 1}^{n}| \leq n$. equality does not hold if $|\cdot|$ is a power (outside of $(0,1)$) of the usual real absolute value.
+    also, for any natural number, $|\overbrace{1+\cdots + 1}^{n}| \leq n$. note equality does not hold when $|\cdot|$ is a power (outside of $(0,1)$) of the usual real absolute value.
 
 </div>
 
-let's return to the other element in ostrowski's theorem that might be unfamiliar to a reader: the p-adics. chapter 2 of Serre's <i> a course in arithmetic </i> gives a great introduction to the p-adics that i regurgitate here.
+let's return to the other element in ostrowski's theorem that might be unfamiliar: the p-adics. chapter 2 of Serre's <i> a course in arithmetic </i> gives a great introduction to the p-adics which i regurgitate here.
 
 <div class="subthm-box" type = "def" name = "p-adic integers">
     for a prime $p$, consider the projective system: $$\cdots \to \Z/p^n\Z \overset{\phi_n}\to \Z/p^{n-1}\Z \to \cdots \overset{\phi_2}\to \Z/p\Z$$
 
-    the p-adic integers $\Z_p$ is the projective limit $\varprojlim (\Z/p^n\Z, \phi_n)$.
+    the <u>p-adic integers</u> $\Z_p$ is the projective limit $\varprojlim (\Z/p^n\Z, \phi_n)$.
 </div>
+
+here is a conceptually useful proposition and proof.
 
 <div class = "subthm-box" type = "prop">
     <ol type = "i">
-        <li> </li>
-        <li> </li>
+        <li> an element in $\Z_p$ is invertible iff it is not divisble by $p$. </li>
+        <li> say $\mathbb{U}$ is the group of invertible elements of $\Z_p$. then every element of $\Z_p$ is uniquely written as $p^nu$ for $n \in \N, u \in \mathbb{U}$. </li>
     </ol>
+</div>
+
+<div class = "subthm-box" type = "proof">
+    it is useful to think of any $x \in \Z_p$ as either $\sum_0^\infty a_i p^i$ for $a_i \in \mathbb{F}_p$ (try to visualize an infinite descending cone) or as a particular integer that can only be examined with a finite degree of clarity.
+    <ol type = "i">
+        <li> clearly, if $x$ is invertible, then it will map to a unit in $\mathbb{F}_p$ so cannot be divisible by $p$. conversely, if $x$ is not divisible by $p$, $x$ will have nonzero image in the field $\Z/p\Z$, hence there are $y,z \in \Z/p\Z$ so $xy = 1 - pz$. thus, $xy(1+ pz + \cdots + p^{n-1}z^{n-1}) = 1$ showing $x$ is invertible.</li>
+        <li> if $x$ is nonzero, then there must a greatest $n$ for which the image of $x$ in $\Z/p^n\Z$ is $0$. obviously, its image in any smaller $\Z/p^{\leq n-1}Z$ is 0; thus, dividing by $p^n$ leaves an invertible element of $\mathbb{U}$ via part i. since $p^{-n}x$ cannot be divisible by $p$. the uniqueness is obvious.</li>
+    </ol>
+</div>
+
+this lets us define the p-adic metric!
+
+<div class = "subthm-box" type = "def" name ="p-adic valuation and metric">
+    for $x \in \Z_p$, $x = p^nu$. put $\nu_p(x) = n$ and $\nu_p(0) = +\infty$ – this is the <u> p-adic valuation </u>.
+
+    $\nu_p$ satisfies $\nu_p(xy) = \nu_p(x) + \nu_p(y)$ and $\nu_p(x+y) \geq \min (\nu_p(x), \nu_p(y))$.
+
+    hence, we get the non-archimedean <u>p-adic metric</u>: $d_p(x,y) = e^{-\nu_p(x-y)}$.
+</div>
+
+before we jump into the proof, here's a remark to make the p-adic metric more familiar.
+
+<div class = "subthm-box" type = "rmk">    
+    for $\epsilon > 0$ take the ball $$B_\epsilon(x) = \{y : d_p(x, y) < \epsilon\} = \{y: e^{-\nu_p(x-y)} < \epsilon\} = \{y : \nu_p(x-y) > \ln{ \epsilon^{-1}}\}.$$
+
+    if we put $\epsilon = e^{-N}$ (which is always possible since $\epsilon > 0$), then $$B_{\epsilon}(x) = \\{y: \nu_p(x-y) > N \\} = \\{ y: \nu_p(x-y) \geq \lfloor N \rfloor + 1 \\}.$$
+    
+    in other words, $$B_\epsilon(x) = \\{y: \text{x and y share at least the first } \lfloor -\ln \epsilon \rfloor + 1 = \lfloor N \rfloor + 1 \text{ values} \\}.$$
+
 </div>
 
 now let's get to the proof.
@@ -45,6 +76,10 @@ now let's get to the proof.
     the only absolute values $|\cdot|:\Q \to \R_{\geq 0}$ are either $|x|^\alpha$ for $\alpha \in (0,1)$ OR $|x|_p^\beta$ for $p$ a prime number and $\beta \in \R_{\geq 0}$.
 </div>
 
-<div class="subthm-box" type = "proof" name = "continued">
-    we deal with two cases.
+<div class="subthm-box" type = "proof" name = "case 1">
+    say $|n| < 1$ for some $n \in \N$.
+</div>
+
+<div class="subthm-box" type = "proof" name = "case 2">
+    say $|n| \geq 1$ for all $n \in \N$.
 </div>
