@@ -2,7 +2,7 @@
     width: 75%;
     margin: 15px auto;         /* centers horizontally with space above/below */
     padding: 15px 25px;        /* inner spacing */
-    background-color: #383838;    /* medium gray background */
+    background-color: #303030;    /* medium gray background */
     color: white;              /* white text */
     /* border-radius: 4px;       rounded corners */
     border-left: 6px solid white;    /* subtle accent line */
@@ -24,9 +24,9 @@
     width: 75%;
     margin: 15px auto;              /* a bit tighter than theorem */
     padding: 15px 25px;
-    background-color: #555;         /* darker gray than theorem */
+    background-color: #484848;         /* darker gray than theorem */
     color: white;
-    border-left: 6px solid #383838;    /* subtle accent line */
+    border-left: 6px solid #909090;    /* subtle accent line */
     /* border-radius: 4px; */
     line-height: 1.25;
 }
