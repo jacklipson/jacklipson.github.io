@@ -29,7 +29,7 @@ also, for any natural number, $|\overbrace{1+\cdots + 1}^{n}| \leq n$. equality 
 now let's get to the proof.
 
 <div class="theorem-box" name = "ostrowski">
-    the only absolute values $|\cdot|:\Q \to \R_{\geq 0}$ are either $\;$ $|x|^\alpha$ $\;$ for $\alpha \in (0,1)$ $\;$ OR $\;$ $|x|_p^\beta$ $\;$ for $p$ a prime number and $\beta \in \R_{\geq 0}$.
+    the only absolute values $|\cdot|:\Q \to \R_{\geq 0}$ are either $|x|^\alpha$ for $\alpha \in (0,1)$ OR $|x|_p^\beta$ for $p$ a prime number and $\beta \in \R_{\geq 0}$.
 </div>
 
 <div class="proof-box">
