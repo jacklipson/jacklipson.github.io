@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/styles");
     eleventyConfig.addPassthroughCopy("src/scripts");
 
-    eleventyConfig.addPlugin(mathjaxPlugin);
+    // eleventyConfig.addPlugin(mathjaxPlugin);
 
     eleventyConfig.addFilter("indexOf", function(array, item) {
         return array.indexOf(item);

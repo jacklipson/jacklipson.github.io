@@ -8,6 +8,8 @@ window.MathJax = {
       N: "{\\mathbb{N}}",
       C: "{\\mathbb{C}}",
       norm: ["{\\lVert #1 \\rVert}", 1]  // one-argument macro
-    }
+    },
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
   }
 };
