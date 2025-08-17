@@ -4,7 +4,7 @@ title: ostrowski's theorem
 publish_date: "2025-08-17"
 ---
 
-<b>ostrowski's theorem</b> says that any non-trivial absolute value on the rational numbers $\Q$ is either some power in $(0,1]$ of the real or p-adic absolute value.
+<b>ostrowski's theorem</b> says that any non-trivial absolute value on the rational numbers $\Q$ is some power in $(0,1]$ of either the real or p-adic absolute value.
 
 absolute values are quite similar to topological metrics but with an added constraint:
 
