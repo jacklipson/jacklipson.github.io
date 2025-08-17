@@ -1,3 +1,4 @@
 {
-    "siteName": "jack's site"
+    "siteName": "jack's site",
+    "classes": ["math 206", "math 222a", "math 241", "math 254a"]
 }
