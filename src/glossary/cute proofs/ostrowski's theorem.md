@@ -4,7 +4,7 @@ title: ostrowski's theorem
 publish_date: "2025-08-17"
 ---
 
-<b>ostrowski's theorem</b> says that any non-trivial absolute value on the rational numbers $\Q$ is either the real or p-adic absolute value to some power in $(0,1]$.
+<b>ostrowski's theorem</b> says that any non-trivial absolute value on the rational numbers $\Q$ is either the real or p-adic absolute value to some power.
 
 absolute values are quite similar to topological metrics but with an added constraint:
 
@@ -42,7 +42,9 @@ here is a conceptually useful proposition and proof.
 </div>
 
 <div class = "subthm-box" type = "proof">
-    it is useful to think of any $x \in \Z_p$ as either $\sum_0^\infty a_i p^i$ for $a_i \in \mathbb{F}_p$ (try to visualize an infinite descending cone) or as a particular integer that can only be examined with a finite degree of clarity.
+    it is useful to think of any $x \in \Z_p$ as one of $(\ldots, a_n, a_{n-1}, \ldots, a_1, a_0) \longleftrightarrow \sum_0^\infty a_i p^i$ for $a_i \in \mathbb{F}_p$.
+    
+    i visualize $\Z_p$ as an infinite descending cone with integer levels each broken into $p$ segments so that $x$ gets more and more refined as you go down.
     <ol type = "i">
         <li> clearly, if $x$ is invertible, then it will map to a unit in $\mathbb{F}_p$ so cannot be divisible by $p$. conversely, if $x$ is not divisible by $p$, $x$ will have nonzero image in the field $\Z/p\Z$, hence there are $y,z \in \Z/p\Z$ so $xy = 1 - pz$. thus, $xy(1+ pz + \cdots + p^{n-1}z^{n-1}) = 1$ showing $x$ is invertible.</li>
         <li> if $x$ is nonzero, then there must a greatest $n$ for which the image of $x$ in $\Z/p^n\Z$ is $0$. obviously, its image in any smaller $\Z/p^{\leq n-1}Z$ is 0; thus, dividing by $p^n$ leaves an invertible element of $\mathbb{U}$ via part i. since $p^{-n}x$ cannot be divisible by $p$. the uniqueness is obvious.</li>
@@ -66,7 +68,7 @@ before we jump into the proof, here's a remark to make the p-adic metric more fa
 
     if we put $\epsilon = e^{-N}$ (which is always possible since $\epsilon > 0$), then $$B_{\epsilon}(x) = \\{y: \nu_p(x-y) > N \\} = \\{ y: \nu_p(x-y) \geq \lfloor N \rfloor + 1 \\}.$$
     
-    in other words, $$B_\epsilon(x) = \\{y: \text{x and y share at least the first } \lfloor -\ln \epsilon \rfloor + 1 = \lfloor N \rfloor + 1 \text{ values} \\}.$$
+    in other words, $$B_\epsilon(x) = \\{y: \text{x and y share the first } \lfloor -\ln \epsilon \rfloor + 1 = \lfloor N \rfloor + 1 \text{ values} \\}.$$
 
 </div>
 
@@ -76,10 +78,38 @@ now let's get to the proof.
     the only absolute values $|\cdot|:\Q \to \R_{\geq 0}$ are either $|x|^\alpha$ for $\alpha \in (0,1)$ OR $|x|_p^\beta$ for $p$ a prime number and $\beta \in \R_{\geq 0}$.
 </div>
 
+<div class = "subthm-box" type = "rmk">
+    note, since we are in an integral domain, it is enough to determine the absolute value of integers.
+</div>
+
 <div class="subthm-box" type = "proof" name = "case 1">
-    say $|n| < 1$ for some $n \in \N$.
+    say $|n| < 1$ for some $n \in \N$. suppose $p$ is the least such number. if $p = ab$ for $a, b \in \N$, then $|p| = |a||b| < 1$ so WLOG $|a| < 1$. but then $a \leq p \leq a$ so $p$ is prime. 
+
+    it follows that any integer $m = \sum_0^k m_ip^i$ with $m_i \in \mathbb{F}_p$ and $m_k \neq 0$. hence $$|m| \leq \sum_0^k |m_i| |p|^i < \sum_0^k |m_i| \leq (k+1)(p-1).$$
+
+    the first trick is that $p^{k+1} \leq pm$ so $k+1 \leq \log_p m + 1$. our second trick is $$|m|^N = |m^N| \leq (\log_pm^N + 1)(p-1) \implies |m| \leq \sqrt[N]{(N\log_pm + 1)(p-1)} \overset{N \to \infty}\to 1.$$
+
+    wow! let's hone in on $|m|$ for $(m,p) = 1$.
+
+    for any integer $m$ coprime to $p$, $m^n$ is coprime to $p^n$ so we get integers $x_n, y_n$ with $x_nm^n + y_np^n = 1$. hence: $$1 = |1| \leq |x_n||m|^n + |y_n||p|^n \leq |m|^n + |p|^n.$$
+
+    since $|p|<1$, $|m| = \sqrt[n]{1 - |p|^n} \to 1$, and so $|m| = 1$.
+
+    notice $0 < |p| < 1$ so writing $|p| = e^{-\alpha}$ just forces $0 < \alpha < +\infty$.
+
+    so finally, for any $N = p^j\ell \neq 0$ where $(p, \ell) = 1$, it holds that $$|N| = |p^j||\ell| = |p|^j = (e^{-j})^\alpha = (e^{-\nu(N)})^\alpha = |N|_p^\alpha.$$
 </div>
 
 <div class="subthm-box" type = "proof" name = "case 2">
-    say $|n| \geq 1$ for all $n \in \N$.
+    say $|n| \geq 1$ for all $n \in \N$. fix $a, b \in \N_{\geq 2}$. we can write $b = \sum_0^k b_i a^i$ as before to get: $$|b| \leq (k+1)(a-1)|a|^k \leq (\log_ab + 1)(a-1) |a|^{\log_ab}.$$
+
+    taking this to the $N$-th power gives $$|b| \leq \sqrt[N]{(N\log_ab +1)(a-1)}|a|^{\log_ab} \to |a|^{\log_ab}.$$
+
+    $a,b$ were arbitrary so we can swap them, giving: $$|b|^{\frac{1}{\log b}} = |a|^{\frac{1}{\log a}}$$ in any log-base for any $a,b \geq 2$.
+
+    and because $1 \leq |n| \leq n$ (from earlier), we know $|2| = 2^\alpha$ for $\alpha \in [0,1]$. 
+    
+    hence, $|b|^{\frac{1}{\log_2b}} = 2^\alpha$ forces $\log_b|b| = \frac{\log_2 |b|}{\log_2 b} = \alpha$ so $|b| = b^\alpha$.
+
+    of course, we can extend this to fractions and negatives in the obvious way such that $|\cdot|$ is the normal absolute value to the power of $\alpha \in (0,1]$ (where we exclude $\alpha = 0$ since this returns the trivial absolute value).
 </div>

@@ -42,3 +42,11 @@
 .subthm-box[name]::before {
     content: attr(type)". (" attr(name) ")";
 }
+
+.subthm-box[type="proof"]::after {
+    content: "□";        /* Q.E.D. symbol */
+    display: inline-block;
+    margin-left: 100%;    /* a bit of space after the last text */
+    font-weight: bold;
+    color: white;        /* match your box text color */
+}
