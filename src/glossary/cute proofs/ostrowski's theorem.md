@@ -1,10 +1,14 @@
 ---
 layout: layouts/proof.njk
 title: ostrowski's theorem
-publish_date: "2025-08-17"
+publish_date: "2025-08-18"
 ---
 
 <b>ostrowski's theorem</b> says that any non-trivial absolute value on the rational numbers $\Q$ is either the real or p-adic absolute value to some power.
+
+<div class = "subthm-box" type = "background">
+    i originally stumbled upon ostrowski's theorem while reading professor edward frenkel's <a href = "/assets/proof notes/frenkel langlands.pdf" target = "_blank"> <i><u>lectures on the langlands program and conformal field theory</i></u></a>.
+</div>
 
 absolute values are quite similar to topological metrics but with an added constraint:
 
@@ -112,4 +116,12 @@ now let's get to the proof.
     hence, $|b|^{\frac{1}{\log_2b}} = 2^\alpha$ forces $\log_b|b| = \frac{\log_2 |b|}{\log_2 b} = \alpha$ so $|b| = b^\alpha$.
 
     of course, we can extend this to fractions and negatives in the obvious way such that $|\cdot|$ is the normal absolute value to the power of $\alpha \in (0,1]$ (where we exclude $\alpha = 0$ since this returns the trivial absolute value).
+</div>
+
+<div class = "subthm-box" type = "cor">
+    however! it is obvious that $\alpha$ will have absolutely no impact on the topology induced by this absolute value/metric. and therefore, we have actually classified every completion of $\Q$ – it is either $\R$ or $\Q_p = \Z_p[p^{-1}] = \text{Frac}(\Z_p)$!
+</div>
+
+<div class="subthm-box" type = "further reading">
+    keith conrad extended ostrowski's theorem to number fields <a href = "https://home.mathematik.uni-freiburg.de/arithgeom/lehre/ss20/algzt/Keith%20Conrad%20-%20Ostrowski%20for%20number%20fields.pdf" target = "_blank"><u>here</u></a>.
 </div>
