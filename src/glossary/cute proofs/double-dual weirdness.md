@@ -92,5 +92,22 @@ my friend serkan salik came up with a different proof during the exam.
 i present that here also:
 
 <div class = "subthm-box" type = "proof">
+    define $\Phi(\text{ev}_{\frac{1}{n}}) = 1, \Phi(\text{ev}_0) = 0$ and extend this linearly over the span.
     
+    <i>(note that here, $\text{ev}$ is evaluating on points in $[0,1]$ whereas earlier in the page, i was evaluating on $C_\R[0,1]$)</i>
+
+    clearly, $\Phi$ is bounded on this subspace so we can apply hahn-banach extension (different from the separation theorem):
+
+    <div class = "thm-box" name = "hahn-banach extension">
+        given an $\R$-vector space $V$ and a minkowski gauge $p: V \to \R_{\geq 0}$, i.e. $$p(rv) = rp(v) \text{ for } r \in \R_{\geq 0} \quad \text{and} \quad p(v+w) \leq p(v) + p(w),$$
+        if a linear functional $\phi:W \to \R$ is subordinate to $p$ on $W$, then there is an extension $\tilde\phi: V \to \R$ subordinate to $p$.
+    </div>
+
+    if we apply this to $p(v) = ||v||$, we get some $\tilde{\Phi}$ over $V^*$. notably, $\Phi(\text{ev}_{\frac{1}{n}}) = 1 \not\to \Phi(\text{ev}\_{0}) = 0$.
+    
+    but, if $\Phi = \text{ev}\_f$ for some $f \in C\_\R[0,1]$, then $f(\frac{1}{n}) \to f(0)$ since any $f$ is continuous.
+
+    this is a contradiction.
+
+    hence, $\Phi \neq \text{ev}_f$ for any $f \in V$ so $\Phi \in V^{**} - V$.
 </div>
