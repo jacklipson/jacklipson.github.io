@@ -21,14 +21,14 @@ here is a refresher on banach algebras.
 </div>
 
 <div class = "subthm-box" type = "def" name="banach algebra">
-    a <u>banach algebra</u> $A$ is an associative algebra over $\R$ or $\C$ or a non-archimedean complete normed field (i.e. $\Q_p$) such that: $$||xy|| \leq ||x|| \; ||y||.$$
+    a <u>banach algebra</u> $A$ is an associative algebra and banach space over $\R$ or $\C$ or a non-archimedean complete normed field (i.e. $\Q_p$) such that: $$||xy|| \leq ||x||.$$
 
-    this submultiplactivity of the norm forces continuity of the algebra multiplication.
+    this submultiplicatitive property forces continuity of the algebra multiplication.
 </div>
 
 now gelfand-mazur:
 
-<div class = "thm-box" name = "gelfand-mazur">
+<div class = "thm-box" name = "gelfand-mazur (complex)">
     a complex banach algebra with unit and multiplicative inverses (for any non-zero element) is isometrically isomorphic to $\C$.
 </div>
 
@@ -98,4 +98,4 @@ it's surprisingly easy from here:
     and since $|\lambda_a| \mapsto ||a|| = |\lambda_a| ||1_A||$, this map is an isometry scaling by $||1_A||$.
 </div>
 
-it is possible to generalize this to <i>real</i> normed division algebras which i do <u><a href = "../real gelfand-mazur theorem">here<a></u>.
+it is possible to generalize this to <i>real</i> normed division algebras – which i do <u><a href = "../real gelfand-mazur theorem">here<a></u>.

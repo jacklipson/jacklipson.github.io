@@ -28,7 +28,7 @@
 </div>
 <p>for reference, here is the definition of a division ring:</p>
 <div class = "subthm-box" type = "def" name = "division ring">
-    a <u>division ring</u> is a nontrivial ring with multiplicaitive inverses for nonzero elements.
+    a <u>division ring</u> is a nontrivial unital ring with multiplicative inverses for nonzero elements.
 </div>
 <p>observe a division ring has no zero divisors so is a domain.</p>
 <p><i>(the converse also holds in the finite case since left and right multiplication are obviously injective so (by finite) surjective. this gives inverses for nonzero elements.)</i></p>
@@ -38,13 +38,13 @@
 <p>i will use ernst witt's proof.</p>
 <p>a little jarringly, wikipedia says that ted kaczynski's first published paper was a short two-page proof of this fact....</p>
 </div>
-<p>witt's proof will require this little bit of group theory and number theory:</p>
+<p>witt's proof will require this little bit of group and number theory:</p>
 <div class = "thm-box" name = "class equation">
     for a finite group $G$, pick conjugacy class representatives $x_1, \ldots, x_n$. it holds that: $$|G| = \sum_i [G: \zz(x_i)]$$ where $\zz(x_i)$ is the centralizer of $x_i$.
 <p>moreover, if we drop any $x_i$ that live in the center $\zz(G)$: $$|G| = |\zz(G)| + \sum_i [G: \zz(x_i)].$$</p>
 </div>
 <div class = "subthm-box" type = "proof" name = "class equation">
-    applying the orbit stabilizer theorem where the group is acting on itself via conjugation gives: $|G \cdot x_i| = |[G: \zz(x_i)]|$. each orbit is disjoint so we simply add these up for each $x_i$ to get $|G|$. 
+    apply the orbit-stabilizer theorem where the group acts on itself via conjugation. this implies $|G \cdot x_i| = [G: \zz(x_i)]$. these finite number of orbits is disjoint so we simply add up their cardinalities for each $x_i$ to get $|G|$.
 </div>
 <p>now the number theory part:</p>
 <div class = "subthm-box" type = "def" name = "cyclotomic polynomial">

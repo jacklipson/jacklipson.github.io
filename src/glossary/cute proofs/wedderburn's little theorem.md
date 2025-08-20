@@ -13,7 +13,7 @@ publish_date: "2025-08-19"
 for reference, here is the definition of a division ring:
 
 <div class = "subthm-box" type = "def" name = "division ring">
-    a <u>division ring</u> is a nontrivial ring with multiplicaitive inverses for nonzero elements.
+    a <u>division ring</u> is a nontrivial unital ring with multiplicative inverses for nonzero elements.
 </div>
 
 observe a division ring has no zero divisors so is a domain.
@@ -30,7 +30,7 @@ notably, division rings differ from fields in that they may not be commutative (
     a little jarringly, wikipedia says that ted kaczynski's first published paper was a short two-page proof of this fact....
 </div>
 
-witt's proof will require this little bit of group theory and number theory:
+witt's proof will require this little bit of group and number theory:
 
 <div class = "thm-box" name = "class equation">
     for a finite group $G$, pick conjugacy class representatives $x_1, \ldots, x_n$. it holds that: $$|G| = \sum_i [G: \zz(x_i)]$$ where $\zz(x_i)$ is the centralizer of $x_i$.
@@ -39,7 +39,7 @@ witt's proof will require this little bit of group theory and number theory:
 </div>
 
 <div class = "subthm-box" type = "proof" name = "class equation">
-    applying the orbit stabilizer theorem where the group is acting on itself via conjugation gives: $|G \cdot x_i| = |[G: \zz(x_i)]|$. each orbit is disjoint so we simply add these up for each $x_i$ to get $|G|$. 
+    apply the orbit-stabilizer theorem where the group acts on itself via conjugation. this implies $|G \cdot x_i| = [G: \zz(x_i)]$. these finite number of orbits is disjoint so we simply add up their cardinalities for each $x_i$ to get $|G|$.
 </div>
 
 now the number theory part:
