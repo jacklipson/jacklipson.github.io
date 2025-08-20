@@ -1,6 +1,6 @@
 ---
 layout: layouts/proof.njk
-title: frobenius's theorem (algebra)
+title: frobenius's theorem
 publish_date: "2025-08-20"
 ---
 

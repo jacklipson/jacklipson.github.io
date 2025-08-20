@@ -123,5 +123,5 @@ now let's get to the proof.
 </div>
 
 <div class="subthm-box" type = "further reading">
-    keith conrad extended ostrowski's theorem to number fields <a href = "https://home.mathematik.uni-freiburg.de/arithgeom/lehre/ss20/algzt/Keith%20Conrad%20-%20Ostrowski%20for%20number%20fields.pdf" target = "_blank"><u>here</u></a>.
+    keith conrad extended ostrowski's theorem to number fields <a href = "/assets/proof notes/keith conrad ostrowski.pdf" target = "_blank"><u>here</u></a>.
 </div>

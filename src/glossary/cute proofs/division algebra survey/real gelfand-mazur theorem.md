@@ -26,6 +26,24 @@ here's a refresher on normed division algebras:
     a <u>division algebra</u> $A$ is an associative algebra with $1_A$ such that every nonzero element has a multiplicative inverse.
 </div>
 
-the proof requires a lot of groundwork which we give below.
+now let's reexamine what i said at the start.
+
+<div class = "subthm-box" type = "rmk">
+    the reason i call this version of gelfand-mazur a <i>generalization</i> of the complex version is because any complex normed division algebra is of course real, but the quaternions and reals are not complex algebras.
+
+    this second part follows because if the quaternions were a complex algebra, then we would have a copy of $\C$ in $\H$. but by definition of associative algebra, $\C$ commutes with everything in $\H$ so $\C$ is in the center $\zz(\H)$. but this is absurd after a quick check: $$i(a+bi+cj+dk) = (a+bi+cj+dk)i \implies c = d = 0 \implies \zz(\H) \subseteq \R.$$
+</div>
+
+back to the proof of the real version:
+
+<div class = "subthm-box" type = "background">
+    apparently, mazur proved this result first but refused to oblige his publisher and shorten the proof so it was stated without explanation.
+
+    soon after though, gelfand published a proof. i am referencing his original proof however it has been a struggle since the only version i can find is in <u><a href = "/assets/proof notes/gelfand normierte ringe.pdf" target = "_blank">german</a></u>!
+</div>
+
+the proof requires a lot of groundwork which i give below.
+
+
 
 under construction.
