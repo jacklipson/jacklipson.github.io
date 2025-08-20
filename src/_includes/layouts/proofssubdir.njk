@@ -1,0 +1,29 @@
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+    {{content | safe}}
+
+    {% set folder = false %}
+    {% set folderName = "" %}
+
+    {% for name, f in proofFiles.folders %}
+    {% if name | lower == title | lower %}
+        {% set folder = f %}
+        {% set folderName = name %}
+    {% endif %}
+    {% endfor %}
+
+    {% if folder %}
+    <ul>
+        {% for file in folder.files %}
+        {% if file != "index.md" %}
+            <li>
+            <a href="{{ '/glossary/cute proofs/' + folderName + '/' + file | replace('.md', '') | url }}">
+                {{ file | replace('.md', '') }}
+            </a>
+            </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+{% endblock %}

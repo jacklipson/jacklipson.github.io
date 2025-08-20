@@ -3,11 +3,37 @@
 {% block main %}
     {{content | safe}}
 
+    {% if proofFiles.files | length > 1 %}
     <ul>
-        {% for file in proofFiles %}
+        {# Top-level files (ignore index.md) #}
+        {% for file in proofFiles.files %}
             {% if file != "index.md" %}
-                <li><a href="{{ file | replace(".md", "") }}">{{ file | replace(".md", "") }}</a></li>
+                <li>
+                    <a href="{{ file | replace('.md', '') }}">{{ file | replace('.md', '') }}</a>
+                </li>
             {% endif %}
         {% endfor %}
     </ul>
+    {% endif %}
+
+    {# Subfolders #}
+    {% for folderName, folder in proofFiles.folders %}
+        <ul>
+            <li>
+            {# Use the folder’s index.md title as the "header link" #}
+                <a href="{{ folderName }}/">{{ folderName }}</a>
+                <ul>
+                {% for file in folder.files %}
+                    {% if file != "index.md" %}
+                    <li>
+                        <a href="{{ folderName }}/{{ file | replace('.md', '') }}">
+                        {{ file | replace('.md', '') }}
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            </li>
+        </ul>
+    {% endfor %}
 {% endblock %}
