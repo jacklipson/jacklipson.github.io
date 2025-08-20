@@ -49,30 +49,34 @@ here's a little blurb explaining what this question means:
 
 here is the example i came up with:
 
-<div class = "subthm-box" type = "proof">
-    after a few minutes of staring blankly at the wall that i finally came to the realization that i had absolutely no clue what was in $V^{**}$ <i>besides</i> evaluations.
+<div class = "subthm-box" type = "proof" name = "jack">
+    after a few minutes of staring blankly at my proctor, i finally realized that i had absolutely no clue what was in $V^{**}$ <i>besides</i> evaluations.
 
-    but the only evaluations i could use were discontinuous ones.
+    but obviously any continuous evaluation would not work.
 
-    great!... but i can't just pick any discontinuous function, the evaluation needs to actually exist and be continuous/bounded. but how do i find those?!
+    so what would evaluation at a discontinuous function over $[0,1]$ look like?
 
     here was my <del>guess</del> idea.
 
     define $f_n = \chi_{[0, \frac{1}{2} - \frac{1}{n}]} + (-nx + \frac{n}{2})\chi_{[\frac{1}{2} - \frac{1}{n}, \frac{1}{2}]}$. of course $f_n \to f = \chi_{[0, \frac{1}{2}]}$.
 
-    put $\Phi(\psi) = \lim \psi(f_n)$. since $V^*$ is made up of bounded linear functionals, it's clear this is even worthwhile and that $\Phi$ is continuous since (if we assume existence) $$||\Phi(f_n)|| \leq ||\lim \psi(f_n)|| \leq \lim ||\psi(f_n)|| \leq \lim ||\psi|| \cancelto{1}{||f_n||_\infty} = ||\psi||.$$
+    put $\Phi(\psi) = \lim \psi(f_n)$. 
+    
+    assuming $\Phi$ exists, this example looks promising since $\Phi$ would be continuous: $$||\Phi(\psi)|| = ||\lim \psi(f_n)|| \leq \lim ||\psi(f_n)|| \leq \lim ||\psi|| \cancelto{1}{||f_n||_\infty} = ||\psi||.$$
+    
+    so the hard part is knowing $\Phi$ makes sense.
 
-    here is how I showed existence:
+    this was my method:
 
-    for any $\psi \in V^*$, we can split it up as $\psi = \psi^+ - \psi^-$.
+    for any $\psi \in V^*$, we can split it up as $\psi = \psi^+ - \psi^-$ where $\psi^\pm \geq 0$.
 
-    now, via the riesz-markov-kakutani representation theorem:
+    now we need the riesz-markov-kakutani representation theorem:
 
     <div class = "thm-box" name = "r-m-k representation">
         given a locally compact hausdorff space $X$ and a positive linear functional $\psi$ on the compactly-supported complex-valued continuous functions $C_c(X)$, there exists a unique positive borel measure $\mu$ so that $$\psi(f) = \int_X f(x) d\mu(x), \quad \text{ for all } f \in C_c(X).$$
     </div>
 
-    $[0,1]$ and $\psi^\pm$ certainly fit the bill so we get two unique positive borel measures $\mu^\pm$ such that
+    $[0,1]$ and $\psi^\pm$ certainly fit the bill so we get two positive measures $\mu^\pm$ such that:
 
     $$\psi(f_n) = \int_X f_n d\mu^+ - \int_X f_n d\mu^-.$$
 
@@ -91,7 +95,7 @@ my friend serkan salik came up with a different proof during the exam.
 
 i present that here also:
 
-<div class = "subthm-box" type = "proof">
+<div class = "subthm-box" type = "proof" name = "serkan">
     define $\Phi(\text{ev}_{\frac{1}{n}}) = 1, \Phi(\text{ev}_0) = 0$ and extend this linearly over the span.
     
     <i>(note that here, $\text{ev}$ is evaluating on points in $[0,1]$ whereas earlier in the page, i was evaluating on $C_\R[0,1]$)</i>
@@ -99,15 +103,15 @@ i present that here also:
     clearly, $\Phi$ is bounded on this subspace so we can apply hahn-banach extension (different from the separation theorem):
 
     <div class = "thm-box" name = "hahn-banach extension">
-        given an $\R$-vector space $V$ and a minkowski gauge $p: V \to \R_{\geq 0}$, i.e. $$p(rv) = rp(v) \text{ for } r \in \R_{\geq 0} \quad \text{and} \quad p(v+w) \leq p(v) + p(w),$$
+        consider a normed $\R$-vector space $V$ and a minkowski gauge $p: V \to \R_{\geq 0}$, i.e. a map satisfying $$p(rv) = rp(v) \text{ for } r \in \R_{\geq 0} \quad \text{and} \quad p(v+w) \leq p(v) + p(w).$$
         if a linear functional $\phi:W \to \R$ is subordinate to $p$ on $W$, then there is an extension $\tilde\phi: V \to \R$ subordinate to $p$.
     </div>
 
-    if we apply this to $p(v) = ||v||$, we get some $\tilde{\Phi}$ over $V^*$. notably, $\Phi(\text{ev}_{\frac{1}{n}}) = 1 \not\to \Phi(\text{ev}\_{0}) = 0$.
+    if we apply this to $p(v) = ||v||$, we get some $\tilde{\Phi}$ over $V^*$. notably, $\tilde\Phi(\text{ev}_{\frac{1}{n}}) = 1 \not\to \tilde\Phi(\text{ev}\_{0}) = 0$.
     
-    but, if $\Phi = \text{ev}\_f$ for some $f \in C\_\R[0,1]$, then $f(\frac{1}{n}) \to f(0)$ since any $f$ is continuous.
+    but, if $\tilde\Phi = \text{ev}\_f$ for some $f \in C\_\R[0,1]$, then $f(\frac{1}{n}) \to f(0)$ since any $f$ is continuous.
 
     this is a contradiction.
 
-    hence, $\Phi \neq \text{ev}_f$ for any $f \in V$ so $\Phi \in V^{**} - V$.
+    hence, $\tilde\Phi \neq \text{ev}_f$ for any $f \in V$ so $\tilde\Phi \in V^{**} - V$.
 </div>

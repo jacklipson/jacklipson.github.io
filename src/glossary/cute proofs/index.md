@@ -3,4 +3,4 @@ layout: layouts/proofsdir.njk
 title: cute proofs
 ---
 
-i am often finding cute proofs which don't quite belong anywhere but i want to remember. here are some i decided to write up!
+i am often finding proofs which don't quite belong anywhere but still want to remember. here are some i got around to writing up :P

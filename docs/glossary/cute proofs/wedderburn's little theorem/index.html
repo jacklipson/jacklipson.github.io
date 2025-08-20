@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="/styles/tex.css">
+
+
+    <script src="/scripts/mathjax-config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <title>jack&#39;s site | wedderburn&#39;s little theorem</title>
+  </head>
+
+  <body>
+    <main>
+      
+    <p> <span style = "color: Tomato"> cute proofs </span> | <i>19 august 2025 - tuesday</i> | <span style = "color: SlateBlue"> wedderburn&#39;s little theorem </span></p>
+
+    <p><b>wedderburn's little theorem</b> says the following:</p>
+<div class = "thm-box" name = "wedderburn's little theorem">
+    every finite division ring is a field.
+</div>
+<p>for reference, here is the definition of a division ring:</p>
+<div class = "subthm-box" type = "def" name = "division ring">
+    a <u>division ring</u> is a nontrivial ring with multiplicaitive inverses for nonzero elements.
+</div>
+<p>observe a division ring has no zero divisors so is a domain.</p>
+<p><i>(the converse also holds in the finite case since left and right multiplication are obviously injective so (by finite) surjective. this gives inverses for nonzero elements.)</i></p>
+<p>notably, division rings differ from fields in that they may not be commutative (e.g. the quaternions). this theorem is significant then because it says that any finite division ring <i>is</i> commutative and therefore a field!</p>
+<div class = "subthm-box" type = "rmk">
+    wedderburn's little theorem has been proven in several ways by many people starting in the early 20th century.
+<p>i will use ernst witt's proof.</p>
+<p>a little jarringly, wikipedia says that ted kaczynski's first published paper was a short two-page proof of this fact....</p>
+</div>
+<p>witt's proof will require this little bit of group theory and number theory:</p>
+<div class = "thm-box" name = "class equation">
+    for a finite group $G$, pick conjugacy class representatives $x_1, \ldots, x_n$. it holds that: $$|G| = \sum_i [G: \zz(x_i)]$$ where $\zz(x_i)$ is the centralizer of $x_i$.
+<p>moreover, if we drop any $x_i$ that live in the center $\zz(G)$: $$|G| = |\zz(G)| + \sum_i [G: \zz(x_i)].$$</p>
+</div>
+<div class = "subthm-box" type = "proof" name = "class equation">
+    applying the orbit stabilizer theorem where the group is acting on itself via conjugation gives: $|G \cdot x_i| = |[G: \zz(x_i)]|$. each orbit is disjoint so we simply add these up for each $x_i$ to get $|G|$. 
+</div>
+<p>now the number theory part:</p>
+<div class = "subthm-box" type = "def" name = "cyclotomic polynomial">
+    the <u>$n$-th cyclotomic polynomial</u> is $$\Phi_n(x) = \prod_{1 \leq k \leq n, \; (k,n)= 1} (x-e^{2\pi i k/n}).$$
+<p>essentially, $\Phi_n$ is the product of $x$ minus each primitive $n$-th root of unity.</p>
+</div>
+<div class = "subthm-box" type = "lemma">
+    $x^n - 1$ is the product of $x$ minus each $n$-th root of unity. for each non-primitive root of unity, it must be a $m$-th root of unity with $m | n$. hence: $$x^n - 1 = \prod_{d | n} \prod_{1 \leq k \leq n, \; (k,n) = d} (x - e^{2\pi i \frac{k/d}{n/d}}) = \prod_{d | n} \Phi_{n/d}(x).$$
+<p>therefore, if $k | n$, then $$\frac{x^n - 1}{x^k - 1} = \frac{\prod_{d|n} \Phi_{n/d}(x)}{\prod_{e|k} \Phi_{k/e}(x)} = \Phi_n(x) \cdot \prod_{e | n, \; e \nmid k, \; e \neq n} \Phi_e(x).$$</p>
+<p>in other words, $\Phi_n(x)$ is a factor of the fraction of these polynomials as long as $k|n$.</p>
+</div>
+<p>now the proof!</p>
+<div class = "subthm-box" type = "proof" name = "witt">
+    say $D$ is our finite division ring. 
+<p>consider the canon map $\Z \to D$.</p>
+<p>since the image of $\Z$ is a commutative subring in $D$ (so without zero divisors), its image is an integral domain. hence, $0$ is prime in that image so will pull back to a prime kernel $p\Z$ (with $p \neq 0$ since $D$ is finite).</p>
+<p>the image of $\Z$ in $D$ is a copy of $\Z/p\Z$.</p>
+<p>note that:
+<ol>
+<li>the center $\zz(D)$ of $D$ is a finite-dimensional vector space over $\Z/p\Z$</li></p>
+<p><li>the center $\zz(D)$ of $D$ is commutative so a finite field. so both $D$ and the centralizer of any element $\zz(x)$ are finite-dimensional vector spaces over $\zz(D)$.</li>
+</ol></p>
+<p>say $|\zz(D)| = p^k$, $|D| = p^{kn}$ and $|\zz(x) = p^{k\kappa(x)}|$ for some positive natural number $\kappa(x)$ which divides $n$ (by Lagrange's theorem).</p>
+<p>observe the multiplicative group of $\zz(D), \zz(x), D$ will include every element besides $0$.</p>
+<p>the class equation now implies: $$p^{kn} - 1 = |D|^\times = |\zz(D)| + \sum_i |\zz(x_i)| = p^k - 1 + \sum \frac{p^{kn} - 1}{p^{k\kappa(x_i)} - 1},$$</p>
+<p>where of course each $x_i$ is a representative not in the center.</p>
+<p>since $\kappa(x_i) | n$, our lemma tells us that $\Phi_n(p^k)$ is a factor of both the left hand side and the summation on the right hand side. so $\Phi_n(p^k) | p^k - 1$.</p>
+<p>it follows that $|\Phi_n(p^k)| \leq p^k - 1$.</p>
+<p>if $n \geq 2$ then one of the $e^{2\pi i \tilde{j}/n} \neq 1$ in: $$|\Phi_n(p^k)| = \prod_{1 \leq j \leq n, \; (j,n) = 1} |p^k - e^{2\pi i j/n}|.$$</p>
+<p>because $p$ is prime so at least 2, the closest point on the unit circle to $p^k -1$ is $1$. therefore, we can lower bound again by $|p^k - 1|^{\phi(n)}$. and since $|p^k - 1| \geq 1$ because $p \geq 2$ again, we can <i>strictly</i> lower bound $\Phi_n(p^k)$ by $|p^k-1|$ – contradiction.</p>
+<p>ergo, $n = 1$!</p>
+<p>but that means that $\zz(D) = D$ so $D$ is commutative and thus a field.</p>
+</div>
+
+    </main>
+
+    
+  </body>
+
+  <footer>
+    
+    <div class = "nav"> 
+  <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
+</div>
+
+  </footer>
+</html>

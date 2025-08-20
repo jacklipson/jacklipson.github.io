@@ -1,6 +1,6 @@
 ---
 layout: layouts/proof.njk
-title: gelfand-mazur theorem
+title: complex gelfand-mazur theorem
 publish_date: "2025-08-18"
 ---
 
@@ -86,7 +86,7 @@ this next proposition will elucidate the spectrum a bit:
     so $\sigma(a) \neq \0$.
 </div>
 
-we are finally ready to prove our theorem when each non-zero element of $A$ has multiplicative inverses!
+we are finally ready to prove our theorem when $A$ is a division algebra!
 
 it's surprisingly easy from here:
 
@@ -97,3 +97,5 @@ it's surprisingly easy from here:
     
     and since $|\lambda_a| \mapsto ||a|| = |\lambda_a| ||1_A||$, this map is an isometry scaling by $||1_A||$.
 </div>
+
+it is possible to generalize this to <i>real</i> normed division algebras which i do <u><a href = "../real gelfand-mazur theorem">here<a></u>.

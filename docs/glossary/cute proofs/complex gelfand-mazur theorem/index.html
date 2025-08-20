@@ -14,13 +14,13 @@
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
-    <title>jack&#39;s site | gelfand-mazur theorem</title>
+    <title>jack&#39;s site | complex gelfand-mazur theorem</title>
   </head>
 
   <body>
     <main>
       
-    <p> <span style = "color: Tomato"> cute proofs </span> | <i>18 august 2025 - monday</i> | <span style = "color: SlateBlue"> gelfand-mazur theorem </span></p>
+    <p> <span style = "color: Tomato"> cute proofs </span> | <i>18 august 2025 - monday</i> | <span style = "color: SlateBlue"> complex gelfand-mazur theorem </span></p>
 
     <p><b>gelfand-mazur's theorem</b> says any unital banach algebra over $\C$ with multiplicative inverses (for nonzero elements) is isometrically isomorphic to $\C$.</p>
 <p>here is a refresher on banach algebras.</p>
@@ -73,13 +73,15 @@
 <p>it follows by liouville's theorem that this function is constant and, by the behavior at $\lambda \to \infty$ above, it is exactly $0_A$. but $0_A$ is not invertible.</p>
 <p>so $\sigma(a) \neq \0$.</p>
 </div>
-<p>we are finally ready to prove our theorem when each non-zero element of $A$ has multiplicative inverses!</p>
+<p>we are finally ready to prove our theorem when $A$ is a division algebra!</p>
 <p>it's surprisingly easy from here:</p>
 <div class = "subthm-box" type = "proof" name = "gelfand-mazur">
     pick $a \in A$. from our proposition, there is some $\lambda_a \in \sigma(a)$. so $a - \lambda_a 1_A$ is not invertible, but then $a - \lambda_a 1_A = 0$ since all non-zero elements of $A$ are invertible.
 <p>so $a = \lambda_a 1_A$. this choice is unique. so our map is obviously injective, surjective, and an algebra homomorphism.</p>
 <p>and since $|\lambda_a| \mapsto ||a|| = |\lambda_a| ||1_A||$, this map is an isometry scaling by $||1_A||$.</p>
 </div>
+<p>it is possible to generalize this to <i>real</i> normed division algebras which i do <u><a href = "../real gelfand-mazur theorem">here<a></u>.</p>
+
 
     </main>
 
