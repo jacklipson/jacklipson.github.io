@@ -16,3 +16,7 @@ i grew up in los angeles and newport beach, CA.
 right now, i am applying to math grad school.
 
 <p> <a href = "/assets/my cv.pdf" target="_blank"> my cv </a> &nbsp; | &nbsp; <a href = "https://www.linkedin.com/in/jack-lipson/" target="_blank"> my linkedin </a> </p>
+
+<div>
+    <p style = "text-align:center"> tiny lipson <br> <img src = "/assets/img/2010-07-03 14.57.37.jpg" alt = "little jack" style = "max-width: 50%; max-height: 50%"></p>
+</div>

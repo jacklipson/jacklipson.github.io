@@ -6,7 +6,7 @@
 
 {% block main %}
     <br>
-    <p>this page is an english translation of I. M. Gelfand's paper <a href = "/assets/proof notes/gelfand normierte ringe.pdf" target = "_blank"><u>"Normierte Ringe" Mat. Sb. 9</u> (1941)</a> by me, jack lipson.</p>
+    <p style = "text-indent: -.5em"> this page is an english translation of I. M. Gelfand's paper <a href = "/assets/proof notes/gelfand normierte ringe.pdf" target = "_blank"><u>"Normierte Ringe" Mat. Sb. 9</u> (1941)</a> by me, jack lipson.</p>
 
     <p><i>any horizontal line breaks on this page indicate page breaks in the manuscript i referenced above.</i></p>
 
@@ -51,7 +51,7 @@
 
     <p> When $A \in R'$, it holds that $A = A_x$, and therefore $$A(yz) = x \cdot yz = (xy)z = Ay \cdot z$$ for any $y$ and $z$ from $R$. We will show that when a linear operator $A \in Q$ has the property $A(yz) = Ay\cdot z$ (for any $y$ and $z$ from $R$), then $A \in R'$. Indeed, if $Ae = x$, then $$Ay = A(ey) = Ae \cdot y = xy$$ for any $y \in R$.</p>
 
-    <p> </p>
+    <p> It follows easily from this criterion that $R'$ is a closed subring of $Q$. Say some $A_n \in R'$ converge to $A \in Q$. Then $$A(x\cdot y) = \lim A_n(xy) = \lim (A_nx)y = Ax \cdot y,$$ from which, after the proof, it follows that $A \in R'$. Also, $R'$ is a complete space.</p>
 
 {% endblock %}
 
