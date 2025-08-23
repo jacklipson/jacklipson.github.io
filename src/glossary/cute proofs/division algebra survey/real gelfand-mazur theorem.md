@@ -37,9 +37,11 @@ now let's reexamine what i said at the start.
 back to the proof of the real version:
 
 <div class = "subthm-box" type = "background">
-    apparently, mazur proved this result first but refused to oblige his publisher and shorten the proof so it was stated without explanation.
+    apparently, mazur proved this result first but refused to oblige his publisher and shorten the proof so it was published sans any explanation.
 
-    soon after though, gelfand published a proof. i am referencing his original proof however it has been a struggle since the only version i can find is in <u><a href = "/assets/proof notes/gelfand normierte ringe.pdf" target = "_blank">german</a></u>!
+    soon after though, gelfand released a full proof. i used his version as my primary reference (despite it only appearing online in <u><a href = "/assets/proof notes/gelfand normierte ringe.pdf" target = "_blank">german</a></u>...).
+
+    <u><a href = "../gelfand normierte ringe eng-trans">here</a></u> is my sorry attempt at an english translation.
 </div>
 
 the proof requires a lot of groundwork which i give below.

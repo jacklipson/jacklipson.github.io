@@ -1,0 +1,60 @@
+h2 {
+    color: white;
+    text-align: center;
+    margin: .5vh;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin: .5vh;
+}
+
+p {
+    margin: .5vh;
+    text-indent: 2em;
+}
+
+li {
+    margin: .3vh;
+    margin-top: 0;
+}
+
+/* lower-greek unnumbered list */
+ol.lower-greek, ol.delta-prime {
+    counter-reset: list;
+    list-style: none;
+}
+
+ol.lower-greek > li::before {
+    content: "(" counter(list, lower-greek) ") ";
+    counter-increment: list;
+}
+
+/* one-time use for \delta' */
+
+ol.delta-prime > li::before{
+    content: "(δ')";
+}
+
+ol.delta-prime {
+  list-style: none;     /* remove default numbering */
+}
+
+ol.delta-prime > li {
+  position: relative;
+  text-align: center;   /* center the LaTeX equation */
+}
+
+ol.delta-prime > li::before {
+  content: "(δ′)";
+  position: absolute;
+  left: 0;              /* stays at the gutter */
+}
+
+.breaker {
+  width: 80%;          /* 80% of page width */
+  margin: .5em auto;    /* centers it horizontally */
+  border: none;        /* remove default */
+  border-top: 2px solid white; /* white line */
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="/styles/translation.css">
+
+
+    <script src="/scripts/mathjax-config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <title>jack&#39;s site | </title>
+  </head>
+
+  <body>
+    <main>
+      
+    <br>
+    <p>this page is an english translation of I. M. Gelfand's paper <a href = "/assets/proof notes/gelfand normierte ringe.pdf" target = "_blank"><u>"Normierte Ringe" Mat. Sb. 9</u> (1941)</a> by me, jack lipson.</p>
+
+    <p><i>any horizontal line breaks on this page indicate page breaks in the manuscript i referenced above.</i></p>
+
+    <br>
+
+    <h2> Normed Rings </h2>
+    <h3> I. Gelfand (Moscow)</h3>
+    <h3> &sect; 1. The Axiomatics</h3>
+
+    <p>The set $R$ of elements $x, y, \ldots$ is called a normed ring if: </p>
+
+    <ol class = "lower-greek">
+        <li> $R$ is a linear, normed, complete space in the Banach sense. </li>
+        <li> The multiplicaton operation defined on $R$ satisfies the ordinary algebraic properties:
+        \begin{align*}
+        x(\lambda y + \mu z) &= \lambda x y + \mu xz, \\
+        x(yz) &= (xy)z.
+        \end{align*} </li>
+        <li> There exists a unit in $R$, i.e. an element $e$ such that $ex = x$ for any element $x \in $, where $||e|| \neq 0$. </li>
+        <li> The multiplication operation is continuous with respect to each of these conditions: if $x_n \to x$, then $x_ny \to xy$, and if $y_n \to y$, then $xy_n \to xy$. 
+        </li>
+    </ol>
+
+    <p>In the following, we will consider the multiplication operation as commutative; although the results of &sect;1 do not depend on commutativity.</p>
+    <p>We will use the axiom (&delta;) in the following form:</p>
+
+    <ol class = "delta-prime">
+        <li class = "label"> <span style = "text-align: center" style = "display: inline-block"> $\displaystyle ||x \cdot y || \leq ||x|| \cdot ||y| \quad \text{and} \quad ||e|| = 1.$</span></li>
+    </ol>
+
+    <p> A priori it would appear that (&delta;') is an considerable strengthening of (&delta;); but we will show that indeed (&delta;') and (&delta;) are equivalent. Namely the following applies:</p>
+
+    <p> Proposition 1. <i>For each normed ring $R$, one can find an isomorphic and homomorphic ring $R$' satisfying (&delta;''). </i></p>
+
+    <p> Let $Q$ be the ring of all linear operators over $R$ (regarded as a linear space). For each element $x$, we can assign a linear operator $A_x \in Q$, defined as follows: $$A_xy = x \cdot y.$$</p>
+
+    <p> Clearly different elements map to different operators, the sum and product of elements map to the sum and product of operators, the element $e$ maps to the unit operator $E$.</p>
+
+    <p> Thus there exists a subring $R'$ in $Q$, isomorphic to $R$. We will find which property characterizes the linear operators $A \in R'$.</p>
+
+    <div class = "breaker"></div>
+
+    <p> When $A \in R'$, it holds that $A = A_x$, and therefore $$A(yz) = x \cdot yz = (xy)z = Ay \cdot z$$ for any $y$ and $z$ from $R$. We will show that when a linear operator $A \in Q$ has the property $A(yz) = Ay\cdot z$ (for any $y$ and $z$ from $R$), then $A \in R'$. Indeed, if $Ae = x$, then $$Ay = A(ey) = Ae \cdot y = xy$$ for any $y \in R$.</p>
+
+    <p> </p>
+
+
+    </main>
+
+    
+  </body>
+
+  <footer>
+    
+    <div class = "nav"> 
+  <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
+</div>
+
+  </footer>
+</html>
