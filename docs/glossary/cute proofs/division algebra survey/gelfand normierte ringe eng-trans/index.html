@@ -49,12 +49,12 @@
     <p>We will use the axiom (&delta;) in the following form:</p>
 
     <ol class = "delta-prime">
-        <li class = "label"> <span style = "text-align: center" style = "display: inline-block"> $\displaystyle ||x \cdot y || \leq ||x|| \cdot ||y| \quad \text{and} \quad ||e|| = 1.$</span></li>
+        <li class = "label"> <span style = "text-align: center" style = "display: inline-block"> $\displaystyle ||x \cdot y || \leq ||x|| \cdot ||y|| \quad \text{and} \quad ||e|| = 1.$</span></li>
     </ol>
 
     <p> A priori it would appear that (&delta;') is an considerable strengthening of (&delta;); but we will show that indeed (&delta;') and (&delta;) are equivalent. Namely the following applies:</p>
 
-    <p> Proposition 1. <i>For each normed ring $R$, one can find an isomorphic and homomorphic ring $R$' satisfying (&delta;''). </i></p>
+    <p> P r o p o s i t i o n 1. <i>For each normed ring $R$, one can find an isomorphic and homomorphic ring $R$' satisfying (&delta;''). </i></p>
 
     <p> Let $Q$ be the ring of all linear operators over $R$ (regarded as a linear space). For each element $x$, we can assign a linear operator $A_x \in Q$, defined as follows: $$A_xy = x \cdot y.$$</p>
 
@@ -66,8 +66,42 @@
 
     <p> When $A \in R'$, it holds that $A = A_x$, and therefore $$A(yz) = x \cdot yz = (xy)z = Ay \cdot z$$ for any $y$ and $z$ from $R$. We will show that when a linear operator $A \in Q$ has the property $A(yz) = Ay\cdot z$ (for any $y$ and $z$ from $R$), then $A \in R'$. Indeed, if $Ae = x$, then $$Ay = A(ey) = Ae \cdot y = xy$$ for any $y \in R$.</p>
 
-    <p> It follows easily from this criterion that $R'$ is a closed subring of $Q$. Say some $A_n \in R'$ converge to $A \in Q$. Then $$A(x\cdot y) = \lim A_n(xy) = \lim (A_nx)y = Ax \cdot y,$$ from which, after the proof, it follows that $A \in R'$. Also, $R'$ is a complete space.</p>
+    <p> It follows easily from this criterion that $R'$ is a closed subring of $Q$. Say some $A_n \in R'$ converge to $A \in Q$. Then $$A(x\cdot y) = \lim A_n(xy) = \lim (A_nx)y = Ax \cdot y,$$ from which, after the proof, it follows that $A \in R'$. Also, $R'$ is a complete space. Let $||e|| = a$. Then for all $A_x \in R'$ $$||A_x|| = \sup_{||y|| \leq 1} ||A_xy|| = \sup_{||y|| \leq 1} ||x \cdot y|| \geq \frac{1}{a} ||x \cdot e|| = \frac{1}{a}||x||.$$ This means that the map from $R'$ to $R$ is continuous. Since the spaces $R$ and $R'$ are complete, it follows from the continuity of the map from $R'$ to $R$ that, using a well-known theorem by Banach, the inverse map is continuous; so we get that $R$, $R'$ are homeomorphic. But as a linear operator the element $A \in R'$ clearly fulfills axiom (&delta;').</p>
 
+    <p> C o r o l l a r y 1. The product $xy$ is continuous with respect to both factors simultaneously: when $x_n \to x$ and $y_n \to y$, then $x_ny_n \to xy$.</p>
+
+    <p> C o r o l l a r y 2. In absolutely convergent series, one can arbitrarily rearrange the summand without altering the sum; such series can be multiplied (added) so that the resulting series converge to the product (the sum) of the original series.</p>
+
+    <h3> &sect; 2. Prelimary Facts about Ideals</h3>
+
+    <p> L e m m a 1. <i>Whenever $x \in R$ and $||e-x|| <1$, $x$ has an inverse element.</i></p>
+
+    <p> For proof we consider the series $$e + (e-x) + (e-x)^2 + \cdots$$ Because $||(e-x)^n|| \leq ||e-x||^n$, this series converges; let $y$ be its sum. Forming the product of $y$ and $x = e - (e-x)$ and using Corollorary 2 from Proposition 1, we get: $$yx = e + (e-x) + (e-x)^2 + \cdots - (e-x) - (e-x)^2 - \cdots = e.$$ It follows that $y = x\inv$.</p>
+
+    <p> Thus the unit has a neighborhood $U(e)$, consisting of elements which have inverse elements. It is easily checked that such neighborhoods exist for every element $x$ that has an inverse element. Let $xy = e$, and let $U(x)$ be such a neighborhood of $x$ so that $U(x)y \subset U(e)$; if $z$ is any element of $U(x)$, then $z \cdot y$ has an inverse element $w$,</p>
+
+    <div class = "breaker"></div>
+
+    <p> zyw = e, from which it follows that the element $z$ also has an inverse element. Consequently, the set $V$ of elements that have inverses is open in $R$.</p>
+
+    <p> L e m m a 2. <i>$x\inv$ is a continuous function of $x$ on $V$. In other words, when $x_n \in V$ converge to $x \in V$, then $$x_n\inv \to x\inv.$$</i></p>
+
+    <p> Let $x = e$; then the sequence $x_n\inv$ is bounded, since for $||x_n - e|| < \frac{1}{2}$ $$||x_n\inv|| = ||e + (e-x_n) + \cdots|| \leq 1 + \frac{1}{2} + \frac{1}{4} + \cdots = 2$$ holds.</p>
+
+    <p> Let $K$ = \sup ||x_n\inv||. Then it holds that $$||e = x_n\inv|| = ||x_n\inv(x_n - e)|| \leq K||x_n - e|| \to 0$$ and consequently $x_n\inv \to e$.</p>
+
+    <p> In the general case the sequence $x_nx\inv$ converges to $xx\inv = e$, and therefore it holds that $$(x_nx\inv)\inv = xx_n\inv \to e, \quad x_n\inv \to x\inv.$$</p>
+
+    <p> We call the set $I$ of elements $x \in R$ an i d e a l (or a nontrivial ideal), when </p>
+
+    <ol class = "degree">
+        <li> For $x \in I, y \in I$, it follows that $px+qy \in I$, where $p$ and $q$ are arbitrary elements of the ring.</li>
+        <li> $I \neq R$. </li>
+    </ol>
+
+    <p> Obviously $I$ can contain no elements $x$ from $V$, because otherwise it would contain any element $y \in R$: $$y = yx\inv \cdot x,$$ which would contradict Condition 2&deg;. In each ring the 0 element clearly constitutes an ideal; we will call it the zero ideal and designate it $(0)$.</p>
+
+    <p> L e m m a 3. <i> When the ring $R$</i></p>
 
     </main>
 

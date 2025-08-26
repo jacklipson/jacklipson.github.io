@@ -20,7 +20,7 @@ li {
     margin-top: 0;
 }
 
-/* lower-greek unnumbered list */
+/* lower-greek ordered list */
 ol.lower-greek, ol.delta-prime {
     counter-reset: list;
     list-style: none;
@@ -31,14 +31,10 @@ ol.lower-greek > li::before {
     counter-increment: list;
 }
 
-/* one-time use for \delta' */
+/* one-time ordered list for \delta' */
 
 ol.delta-prime > li::before{
     content: "(δ')";
-}
-
-ol.delta-prime {
-  list-style: none;     /* remove default numbering */
 }
 
 ol.delta-prime > li {
@@ -57,4 +53,16 @@ ol.delta-prime > li::before {
   margin: .5em auto;    /* centers it horizontally */
   border: none;        /* remove default */
   border-top: 2px solid white; /* white line */
+}
+
+/* degree ordered list */
+
+ol.degree {
+    counter-reset: list;
+    list-style: none;
+}
+
+ol.degree > li::before {
+    content: counter(list) "˚ . ";
+    counter-increment: list;
 }
