@@ -1,6 +1,9 @@
 window.MathJax = {
+  loader: {
+      load: ['[tex]/mathtools']
+    },
   tex: {
-    packages: { '[+]': ['ams'] },
+    packages: { '[+]': ['ams', 'mathtools', 'graphicx'] },
     macros: {
       Q: "{\\mathbb{Q}}",
       R: "{\\mathbb{R}}",
@@ -10,10 +13,17 @@ window.MathJax = {
       H: "{\\mathbb{H}}",
       F: "{\\mathbb{F}}",
       O: "{\\mathbb{O}}",
+      P: "{\\mathbb{P}}",
+      OO: "{\\mathcal{O}}",
+      mm: "{\\mathfrak{m}}",
+      pp: "{\\mathfrak{p}}",
       zz: "{\\mathfrak{z}}",
       norm: ["{\\lVert #1 \\rVert}", 1],  // one-argument macro
-      inv: "^{-1}",
-      0: "{\\varnothing}"
+      inv: "{^{-1}}",
+      ol: "\\overline",
+      0: "{\\varnothing}",
+      sur: "{\\;\\twoheadrightarrow\\;}",
+      inj: "{\\;\\hookrightarrow\\;}"
     },
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$','$$'], ['\\[','\\]']]
