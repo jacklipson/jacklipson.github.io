@@ -116,7 +116,7 @@ Now, here is a reminder on localization (simplified to just cover integral domai
 
         $S\inv C$ is integral over $S\inv A$ because if $x/s \in S\inv C$, $x$ is integral over $A$ so we know $x^n + \sum a_i x^i = 0$ for some $a_i \in A$, implying $(x/s)^n + \sum (a_i/s^{n-i}) (x/s)^i = 0$.
 
-        Conversely, if $b/s \in S\inv B$ is integral over $S\inv A$, then $(b/s)^n + \sum (a_i/s_i)(b/s)^{n-i} = 0. Multiplying by $st$ for $t = s_1 \cdots s_n$ shows $bt$ is integral over $A$ so $bt \in C$. But $t \in S$ so $b/s = bt/st \in S\inv C$.
+        Conversely, if $b/s \in S\inv B$ is integral over $S\inv A$, then $(b/s)^n + \sum (a_i/s_i)(b/s)^{n-i} = 0$. Multiplying by $st$ for $t = s_1 \cdots s_n$ shows $bt$ is integral over $A$ so $bt \in C$. But $t \in S$ so $b/s = bt/st \in S\inv C$.
     </div>
 
     Applying this lemma to fraction fields and primes shows $A_\pp$ is integrally closed as long as $A$ is.
