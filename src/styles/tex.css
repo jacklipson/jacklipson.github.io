@@ -50,3 +50,13 @@
     font-weight: bold;
     color: white;        /* match your box text color */
 }
+
+ol.parentheses {
+    counter-reset: list;
+    list-style: none;
+}
+
+ol.parentheses > li::before {
+    content: "(" counter(list) ") ";
+    counter-increment: list;
+}

@@ -17,13 +17,16 @@ window.MathJax = {
       OO: "{\\mathcal{O}}",
       mm: "{\\mathfrak{m}}",
       pp: "{\\mathfrak{p}}",
+      qq: "{\\mathfrak{q}}",
       zz: "{\\mathfrak{z}}",
       norm: ["{\\lVert #1 \\rVert}", 1],  // one-argument macro
       inv: "{^{-1}}",
       ol: "\\overline",
       0: "{\\varnothing}",
       sur: "{\\;\\twoheadrightarrow\\;}",
-      inj: "{\\;\\hookrightarrow\\;}"
+      inj: "{\\;\\hookrightarrow\\;}",
+      reflectbox: ["\\style{display:inline-block; transform:scaleX(-1)}{#1}", 1],
+      mapsfrom: "{\\;\\mathrel{\\reflectbox{\\mapsto}}\\;}"
     },
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$','$$'], ['\\[','\\]']]
