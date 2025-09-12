@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="/styles/tex.css">
+
+
+    <script src="/scripts/mathjax-config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <title>jack&#39;s site | math 254a - lec 03</title>
+  </head>
+
+  <body>
+    <main>
+      
+    <p> <span style = "color: Tomato"> math 254a </span> | <i>3 september 2025 - wednesday</i> | <span style = "color: SlateBlue"> lecture 03 </span> </p>
+
+    <p>Today we started talking about fractional ideals.</p>
+<p>Before that, though, a couple bits of convention:</p>
+<div class = "subthm-box" type = "convention">
+    We say that fields are <i>NOT</i> Dedekind domains (despite satisfying the conditions vacuously).
+<p>Just so we don't have to repeat this incessantly, &quot;prime ideals&quot; are now nonzero.</p>
+</div>
+<div class = "subthm-box" type = "def" name = "fractional ideal">
+    For a Dedekind domain $A$ with fraction field $K$, we say a <u>fractional ideal of $A$</u> is a nonzero finitely-generated $A$-submodule of $K$.
+</div>
+<p>Morally, the &quot;finitely-generated&quot; part of the definition means that &quot;denominators are unbounded.&quot; For instance:</p>
+<div class = "subthm-box" type = "non-ex">
+    If $A = \Z$ and $\aa = \Q \subset \Q$, then $\aa$ is clearly not finitely-generated as a $\Z$-module (i.e. an abelian subgroup) because it has infinitely many denominators.
+<p>Similarly, if $\aa = \bigcup_{n \geq 1} \frac{1}{p^n}\Z \subset \Q$, the same issue occurs.</p>
+</div>
+<p>But, fractional ideals are nice for the following reason:</p>
+<div class = "subthm-box" type = "rmk">
+    Any fractional ideal $\aa$ must be generated, as an $A$-module, by some $\frac{a_1}{s_1}, \ldots, \frac{a_n}{s_n}$. So if $s$ is the product $s_1 \cdots s_n$, then any element is a sum (for $b_i \in A$): $$\sum_1^n b_i\frac{a_i}{s_i} = \frac{\sum b_i a_i \Pi_{j \neq i}s_j}{s} \in s\inv \tilde{\aa}, \quad \text{where} \quad \tilde\aa = \langle \frac{a_is}{s_i} \rangle \lhd A.$$
+<p>We call $s$ the &quot;clearing denominator.&quot;</p>
+<p>Therefore, if $\aa, \bb$ are fractional ideals, then $\aa\bb \coloneq \{\sum_{i \in I \text{ finite}} a_ib_i\}$ is still a fractional ideal; in particular, if $\aa = s\inv \tilde\aa, \bb = t\inv \tilde \bb$, then $\aa\bb = (st)\inv \aa\bb$.</p>
+<p>From this, fractional ideals actually form a commutative monoid with identity $A$.</p>
+</div>
+<div class = "subthm-box" type = "ex">
+    If $A = \Z, K = \Q$, then $a \cdot \Z \longleftrightarrow a$ gives: $$\{\text{fractional ideals}\} \overset{\text{group}}{\cong} \Q^\times / \pm 1.$$
+<p>That any element $\pm \frac{m}{n}$ of $\Q^\times$ generates a fractional ideal $n\inv \cdot m\Z$ is clear.</p>
+<p>And by our discussion in the above remark, any fractional ideal is precisely $n \inv \cdot m\Z$ so we're done.</p>
+</div>
+<p>And in the local picture:</p>
+<div class = "subthm-box" type = "ex">
+    If $A$ is a DVR, then $\{\text{fractional ideals}\} \overset{\text{group}}{\cong} \Z$.
+<p>This follows from $\pi^n (1) \overset{\nu_\mm}\longleftrightarrow n$ where $\pi \in A$ is a uniformizer of the maximal ideal $\mm$.</p>
+</div>
+<div class = "subthm-box" type = "prop">
+    If $A$ is Dedekind domain, then $I_A = \{\text{fractional ideals of } A\}$ is an abelian group.
+</div>
+<div class = "subthm-box" type = "proof">
+    We've already shown the product is well-defined. Clearly, $A = 1\inv (1)$ is an identity and the operation is commutative (and associative). Thus the hard part is the existence of inverses.
+<p>This ended up being homework... $(A:\aa) = \{x \in K: x \aa \subseteq A\}$ ends up being $\aa\inv$.</p>
+</div>
+<div class = "subthm-box" type = "def" name = "principal">
+    A fractional ideal is <u>principal</u> if it is equal to $aA$ for some $a \in K^\times$.
+<p>In particular $P_A = \{\text{principal fractional ideals}\} \overset{\text{subgroup}}\subseteq I_A$.</p>
+</div>
+<p>Now we define something cool!</p>
+<div class = "subthm-box" type = "def" name = "ideal class group">
+    $\text{Cl}(A) \coloneq I_A/P_A$ is the <u>ideal class group</u> of $A$.
+</div>
+<p>Here is an immediate application of the ideal class group showing, in some sense, that it measures how far a Dedekind domain is from being a UFD:</p>
+<div class = "subthm-box" type = "ex">
+    Observe that if $\text{Cl}(A) = \{1\}$, then all fractional ideals, namely all ideals, are principal, so $A$ is a PID. But this implies $A$ is also a UFD.
+<p>What's interesting, though, is whenever $A$ is a Dedekind domain <i>and</i> a UFD, then $\text{Cl}(A) = \{1\}$ so all of these conditions are equivalent!</p>
+<p>To show this, we must prove all fractional ideals are principal, but since we are in a UFD, if we show all prime ideals are principal, then it follows for general ideals by taking a product.</p>
+<p>If we take some $a \neq 0$ in a prime $\pp$, by UFD, it holds that $a = p_1 \cdots p_n$ for irreducibles $p_i$. But $\pp \supset (a) = (p_1) \cdots (p_n)$ implies that $\pp \supset (p_i)$ for some $i$. And because $A$ is a Dedekind domain, $(p_i)$ is maximal so $(p_i) = \pp$ and we are done.</p>
+</div>
+<p>Here are three facts we will allegedly prove later on.</p>
+<div class = "subthm-box" type = "facts">
+    1. $\text{Cl}(\Z(-\sqrt{5})) \cong \Z/2\Z$.
+<p>2. $\text{Cl}(\text{ring of integers})$ is a finite abelian group.</p>
+<p>3. Every (possibly infinite) abelian group is isomorphic to $\text{Cl}(A)$ for some DD $A$.</p>
+</div>
+<p>Now we start moving closer to unique factorization for ideals in Dedekind domains.</p>
+<div class = "subthm-box" type = "rmk">
+    To do this, recall that the ideal class groups of DVRs are isomorphic to $\Z$. Hence, if $A$ is a DD, then for a nonzero prime $\pp$, we get the map $$\nu_\pp: I_A \to I_{A_\pp} \overset{\cong} \to \Z.$$
+<p>We can also define $\nu_\pp(a) = \nu_\pp(a \cdot A)$ for any $a \in K^\times$ because $K = \text{Frac} A = \text{Frac} A_\pp$.</p>
+</div>
+<p>Before proving unique factorization, we need a lemma:</p>
+<div class = "subthm-box" type = "lemma">
+    If $\aa \lhd A$ is nonzero, then there exist only finitely many prime ideals of $A$ containing $\aa$.
+</div>
+<div class = "subthm-box" type = "proof">
+    First, we show the descending chain condition is satisfied on ideals containing $\aa$.
+<p>Fix such a descending chain $I_1 \supset I_2 \supset \cdots \supset \aa$. If inverting ideals is order-preserving, then $I_1\inv \subset \cdots \subset \aa\inv$ would stabilize because $A$ is Noetherian and thus reinverting would finish. It suffices to show that if $I \subset J$, then $I\inv \supset J\inv$. But, if $x \in J\inv$, then $xJ \subseteq A$ and of course $xI\subseteq A$ since $I &lt; J$ so $x \in I\inv$ too and we're done.</p>
+<p>Next, suppose there were infinitely many distinct nonzero primes $\pp_1, \pp_2, \ldots \supset \aa$. Then $$\pp_1 \supset \pp_1 \cap \pp_2 \supset \cdots \overset{\text{stabilizes}}\implies \pp_{n+1} \supset \pp_1 \cap \cdots \cap \pp_n.$$</p>
+<p>If $\pp_{n+1} \not\supseteq \pp_i$ for any $i$, then there would be $x_i \in \pp_i - \pp_{n+1}$ for each $i$ such that $\Pi x_i \in \pp_1 \cdots \pp_n \subset \pp_1 \cap \cdots \cap \pp_n \subset \pp_{n+1}$ from which a contradiction can be easily arrived at. Therefore, $\pp_{n+1} \supset \pp_i$ for some $i$, but by $A$ being a Dedekind domain, $\pp_{n+1} = \pp_i$. This contradicts all of the primes being distinct.</p>
+</div>
+<div class = "subthm-box" type = "cor">
+    If $\aa$ is a fractional ideal, then $\nu_\pp(a) = 0$ for all but finitely many primes.
+</div>
+<div class = "subthm-box" type = "proof">
+    We reduce to the case where $\aa \lhd A$.
+<p>Recall that $\aa = a\inv \bb$ for some $\bb \lhd A$. If $a$ is a unit, $\aa \lhd A$.</p>
+<p>Otherwise, the lemma says that $(a)$ must be contained in finitely many primes $\pp_1, \ldots, \pp_n$.</p>
+<p>For any of the other primes $\qq \neq \pp_i$, $\bb_\qq = \aa_\qq$ so there is no difference when calculating $\nu_\pp$ and we might as well assume $\aa \lhd A$.</p>
+<p>If $\aa \lhd A$, then $\nu_\pp(\aa) \geq 0$ for all $\pp$. And $\nu_\pp(a) \geq 1$ happens if and only if $\aa A_\pp \subseteq \pp A_\pp$ if and only if $\aa \subseteq \pp$ but this also happens only for finitely many $\pp$.</p>
+</div>
+<p>We ran out of time, but here's why this matters:</p>
+<div class = "subthm-box" type = "upshot">
+    If $\aa$ is a fractional ideal, then $\Pi_{\pp} \pp^{\nu_\pp(\aa)}$ is a finite product so well-defined and in fact exactly equal to $\aa$.
+</div>
+
+    </main>
+
+    
+  </body>
+
+  <footer>
+    
+    
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<p>
+  
+    <a href="/glossary/class notes/math 254a/lec02" style = "color:#1CA406">
+      < - lec02 &nbsp;&nbsp;&nbsp;&nbsp;
+    </a>
+  
+  
+  
+    <a href="/glossary/class notes/math 254a/lec04" style = "color:#1CA406">
+      lec04 - >
+    </a>
+  
+</p>
+    <br>
+    <div class = "nav"> 
+  <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
+</div>
+
+  </footer>
+</html>

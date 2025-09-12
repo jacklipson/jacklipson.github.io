@@ -15,6 +15,8 @@ window.MathJax = {
       O: "{\\mathbb{O}}",
       P: "{\\mathbb{P}}",
       OO: "{\\mathcal{O}}",
+      aa: "{\\mathfrak{a}}",
+      bb: "{\\mathfrak{b}}",
       mm: "{\\mathfrak{m}}",
       pp: "{\\mathfrak{p}}",
       qq: "{\\mathfrak{q}}",
@@ -26,7 +28,8 @@ window.MathJax = {
       sur: "{\\;\\twoheadrightarrow\\;}",
       inj: "{\\;\\hookrightarrow\\;}",
       reflectbox: ["\\style{display:inline-block; transform:scaleX(-1)}{#1}", 1],
-      mapsfrom: "{\\;\\mathrel{\\reflectbox{\\mapsto}}\\;}"
+      mapsfrom: "{\\;\\mathrel{\\reflectbox{\\mapsto}}\\;}",
+      coloneq: "{\\;\\coloneqq\\;}" // coloneqq is identical, just old legacy command since coloneq breaks :/
     },
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$','$$'], ['\\[','\\]']]
