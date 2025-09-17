@@ -121,10 +121,9 @@ Now, a proposition:
     Therefore, $\dim_{A/\pp}B/\qq^e = e \dim_{A/\pp} (B/\qq) = ef$. So we win.
 </div>
 
-Now that we have a good handle on primes in $B$ sitting over primes in $A$, and we know $B$ is a DD, it would be nice to know how valuations $v = \nu_\pp$ relate to valuations $w = \nu_\qq$.
+Now that we have a good handle on primes in $B$ sitting over primes in $A$, and we know $B$ is a DD, it would be nice to know how valuations $\nu = \nu_\pp$ relate to valuations $w = \nu_\qq$.
 
-For this week's HW (though I also proved it in <u><a href = "../lec01">lecture 01</a></u>), we will use the fact: $$\\{\text{primes of $A$}\\} \longleftrightarrow \\{\text{discrete valuations $\nu$ on $K$ so $\nu \geq 0$ on $A$}\\}$$
-
+As assigned on this week's HW (though I also proved it in <u><a href = "../lec01">lecture 01</a></u>), we will use the fact: $$\\{\text{primes of $A$}\\} \longleftrightarrow \\{\text{discrete valuations $\nu$ on $K$ so $\nu \geq 0$ on $A$}\\}$$
 This motivates a definition:
 
 <div class = "subthm-box" type = "def" name = "extends with index e">
