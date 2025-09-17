@@ -29,6 +29,7 @@ window.MathJax = {
       Hom: "{\\text{Hom}}",
       Frac: "{\\text{Frac}\\;}",
       Tr: "{\\text{Tr}}",
+      im: "{\\text{im}\\;}",
       sur: "{\\;\\twoheadrightarrow\\;}",
       inj: "{\\;\\hookrightarrow\\;}",
       reflectbox: ["\\style{display:inline-block; transform:scaleX(-1)}{#1}", 1],
