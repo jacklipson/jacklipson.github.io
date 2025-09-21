@@ -51,6 +51,10 @@
     color: white;        /* match your box text color */
 }
 
+.subthm-box[type="warning"]::before {
+    content: "⚠ " attr(type)" ⚠";
+}
+
 ol.parentheses {
     counter-reset: list;
     list-style: none;

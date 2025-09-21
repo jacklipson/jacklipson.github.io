@@ -66,7 +66,7 @@ The rest of class discussed primes in $B$.
 
     <i>Note, in situations like this, we say $\qq | \pp$ "$\qq$ divides $\pp$" or "$\qq$ is over $\pp$."</i>
 
-    This happens if and only if $\pp B \subseteq \qq$ which happense if and only if $\pp \subseteq \qq$. 
+    This happens if and only if $\pp B \subseteq \qq$ which happens if and only if $\pp \subseteq \qq$. 
 
     Since $\pp \lhd A$, it's clear this implies $\pp \subseteq \qq \cap A$ (and since, $\pp$ is maximal) $\pp = \qq \cap A$. The reverse implication holds trivially.
 
