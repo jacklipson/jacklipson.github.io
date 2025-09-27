@@ -25,8 +25,11 @@ window.MathJax = {
       zz: "{\\mathfrak{z}}",
       norm: ["{\\lVert #1 \\rVert}", 1],  // one-argument macro
       inv: "{^{-1}}",
+      id: "{\\text{id}}",
       ol: "\\overline",
       0: "{\\varnothing}",
+      Aut: "{\\text{Aut}}",
+      Gal: "{\\text{Gal}}",
       Hom: "{\\text{Hom}}",
       Frac: "{\\text{Frac}\\;}",
       Tr: "{\\text{Tr}}",
