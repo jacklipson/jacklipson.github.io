@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="/styles/tex.css">
+
+
+    <script src="/scripts/mathjax-config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <title>jack&#39;s site | math 254a - lec 11</title>
+  </head>
+
+  <body>
+    <main>
+      
+    <p> <span style = "color: Tomato"> math 254a </span> | <i>22 september 2025 - monday</i> | <span style = "color: SlateBlue"> lecture 11 </span> </p>
+
+    <p>I wasn't here so this page is per stolen notes...</p>
+<p>We recall the setting from last time:</p>
+<div class = "subthm-box" type = "recall">
+    Fix a maximal ideal $\mm$ in a DVR $A$ and call the residue field $k = A / \mm$.
+<p>Then $f \in A[x]$, $\mod \mm$ becomes $\ol{f} = \prod_{i \in \mathcal{I}} \phi_i^{e_i} \in k[x]$ for irreducible $\phi_i$ each with a lift $g_i \in A[x]$.</p>
+<p>We showed that $B_f \coloneq A[x]/(f)$ are precisely $(\mm, g_i)$.</p>
+<p>If $f$ is irreducible in $A[x]$, then it's projection is irreducible in $k[x]$ as well.</p>
+<p>It turns out that if we take $L \coloneq k[x]/(f)$ the field extension of $K \coloneq \Frac A$, then $B_f$ is Noetherian and integral over $A$ in $L$ so $L = \Frac B_f$.</p>
+</div>
+<p>Today, we show when $\ol{f}$ is irreducible, $e = 1$ and $f = n$ (where this $f$ denotes the inertial degree) and that when $f$ is Eisenstein (which we define later), $e = n$ and $f = 1$.</p>
+<p>To start:</p>
+<div class = "subthm-box" type = "prop">
+    Suppose $f$, $\ol{f}$ are irreducible. Then:
+<p>1. $B_f$ is a DVR with maximal ideal $\mm_f = \mm B_f$.</p>
+<p>2. $B_f$ is the integral closure of $A$ in $L$.</p>
+<p>3. $e = 1, f = n$.</p>
+</div>
+<div class = "subthm-box" type = "proof">
+    1. Since $\ol{f}$ is irreducible in $k[x]$, our "recall" tells us that the maximal ideals of $B_f$ is exactly $(\mm, \ol{f})$. So this is the unique maximal. (Moreover, $B_f$ is an integral domain). But in $B_f$, $\ol{f} \equiv 0$ so $(\mm, \ol{f}) = \mm B_f = \mm_f$ is the maximal. But since $A$ is a DVR, $(\mm) = (\pi)$ for some $\pi \in A$ so $\mm B_f = \pi B_f$ is principal. $\mm$ is obviously nonzero also. So by definition, $B_f$ is a DVR with unique maximal ideal $\mm_f = \mm B_f$.
+<p>2. It's clear $L = \Frac B_f$. Since $B_f$ is a DVR, it is integrally closed in $L$.</p>
+<p>If $B$ is the integral closure of $A$ in $L$, then because $A \subset B_f$ and $B_f$ is integrally closed, $B \subset B_f$. But, $B_f$ integral over $A$ also means that $B_f \subset B$ so $B_f = B$.</p>
+<p>3. Since $B_f$ is a DVR it has exactly one prime, $\mm_f$. This sits over $\mm$ so $e_{\mm_f / \mm} = 1$. $n = \sum e_if_i = e_{\mm_f / \mm} f_{\mm_f / \mm} = f_{\mm_f / \mm}$ so we are done.</p>
+</div>
+<p>Now we give a rough converse to this:</p>
+<div class = "subthm-box" type = "setting">
+    If $\nn \subset B \subset L = K(\alpha)$ sits over $\mm \subset A \subset K$ where $\alpha \in B$ and $A, B$ are DVRs, then we can consider $\ell \coloneq B / \nn$ over $\kappa \coloneq A / \mm$.
+</div>
+<div class = "subthm-box" type = "prop">
+    Use the last remark's notation.
+<p>If $\ell = \kappa (\ol{\alpha})$ and $[\ell: \kappa] = n$, then $$B = B_f \coloneq A[x]/(f) \cong A[\alpha], \quad \text{under $x \mapsfrom \alpha$}$$  where $f \coloneq \text{irr}(\ol{\alpha, \kappa}) \in A[x]$ is the minimal monic polynomial of $\ol{\alpha}$ in $\kappa$.</p>
+</div>
+<div class = "subthm-box" type = "proof">
+    $$\deg \text{irr}(\ol{\alpha},\kappa) = [\ell:\kappa] = n = \deg f = \deg \ol{f} \implies \ol{f} = \text{irr}(\ol{\alpha}, \kappa).$$
+</div>
+<p>And a cute definition:</p>
+<div class = "subthm-box" type = "def" name = "Eisenstein">
+    $f = x^n + a_{n-1}x^{n-1} + \cdots + a_0 \in A[x]$ is <u>Eisenstein</u> if $\nu(a_{i \geq 1}) \geq 1$ and $\nu(a_0) = 1$ for the valuation $\nu$ on DVR $A$.
+<p>In other words, $a_0 \in \mm - \mm^2$ and $a_i \in \mm^{2}$.</p>
+</div>
+<p>It turns out that Eisenstein polynomials $f$ are irreducible in DVRs:</p>
+<div class = "subthm-box" type = "rmk">
+    Say $f(x) = (x^m + \sum b_ix^i)(x^k + \sum c_ix^i)$ for polynomials in $A[x]$. Then $a_0 = b_0c_0$ so $1 = \nu(a_0) = \nu(b_0) + \nu(c_0) \geq 0$ implying $\nu(b_0) = 1$ and $\nu(c_0) = 0$ without loss of generality. Since $b_m = 1$ (i.e. $\nu(b_m) = 0$), there is a least $j$ so $\nu(b_j) = 0$. Hence, $$\nu(a_j) = \nu(\sum_i b_i c_{j-i}) = \min_i (\nu(b_i) + \nu(c_{j-i})).$$ Because $b_{\lt j} \geq 1$ and $\nu(b_j) + \nu(c_0) = 0 + 0 = 0$, this righthandside is just 0. Hence, $\nu(a_j) = 0$ – contradiction.
+<p>So $f$ is actually irreducible.</p>
+</div>
+<p>Back to the setting we've been covering:</p>
+<div class = "subthm-box" type = "prop">
+    If $A$ is a DVR and $f$ is an Eistenstein polynomial in $A[x]$, then:
+<p>1. $B_f \coloneq A[x]/(f)$ is a DVR with maximal ideal $\mm_f$ generated by the image $\beta \coloneq x + (f)$ of $x$ with residue field $B_f / (\beta) = \kappa$.</p>
+<p>2. $B_f$ is the integral closure of $A$ in $L$.</p>
+<p>3. $e_{\mm_f / \mm} = n$ and $f_{\mm_f / \mm} = 1$.</p>
+</div>
+<div class = "subthm-box" type = "proof">
+    1. $\ol{f} = x^n \mod \mm$ as each $a_i$ has positive valuation. We know again from the "recall" that $(\mm, \beta)$ is the unique maximal ideal of $B_f$. So, if we show that $\mm \subset \beta B_f,$ we are done.
+<p>Notice $-a_0 = x(x^{n-1} + a_{n-1}x^{n-2} + \cdots + a_1)$ so $a_0 \in (x)$.</p>
+<p>But since $a_0$ is a uniformizer for $A$ by assumption, $(a_0) = \mm \subseteq (x)$ implying $(\mm, x) = (x)$. Thus, in the quotient $B_f$, $\mm_f = (\mm, \beta) = \beta B_f$.</p>
+<p>So $B_f / \mm_f = A[x]/ (f, x, \mm) \cong \kappa$.</p>
+<p>2. As in the first case from today's lecture, $B_f = B$.</p>
+<p>3. $B_f / \mm_f \cong \kappa$ implies $f_{\mm_f / \mm} = 1$ but $e_{\mm_f / \mm}f_{\mm_f / \mm} = n$ so $e_{\mm_f / \mm} = n$.</p>
+</div>
+
+    </main>
+
+    
+  </body>
+
+  <footer>
+    
+    
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<p>
+  
+    <a href="/glossary/class notes/math 254a/lec10" style = "color:#1CA406">
+      < - lec10 &nbsp;&nbsp;&nbsp;&nbsp;
+    </a>
+  
+  
+  
+    <a href="/glossary/class notes/math 254a/lec12" style = "color:#1CA406">
+      lec12 - >
+    </a>
+  
+</p>
+    <br>
+    <div class = "nav"> 
+  <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
+</div>
+
+  </footer>
+</html>

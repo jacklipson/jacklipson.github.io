@@ -19,6 +19,7 @@ window.MathJax = {
       bb: "{\\mathfrak{b}}",
       cc: "{\\mathfrak{c}}",
       mm: "{\\mathfrak{m}}",
+      nn: "{\\mathfrak{n}}",
       pp: "{\\mathfrak{p}}",
       qq: "{\\mathfrak{q}}",
       zz: "{\\mathfrak{z}}",

@@ -102,7 +102,7 @@ We denote $\ol{K} \supset L \supset K$ for an <u>algebraic closure</u> of $K$.
 We finished by sprinting through these facts:
 
 <div class = "subthm-box" type = "rmk">
-    There is a $K$-bilinear trace pairing $\Tr: K \times L \to K$ mapping $(x,y) \mapsto \Tr_{L/K}(xy)$.
+    There is a $K$-bilinear trace pairing $\Tr: L \times L \to K$ mapping $(x,y) \mapsto \Tr_{L/K}(xy)$.
 
     If $L/K$ is a separable, finite extension, then $\Tr$ is a <u>perfect pairing</u> in that it induces an isomorphism $L \cong L^\vee = \Hom_K(L, K)$ under the map $x \mapsto (y \mapsto \Tr_{L/K}(xy))$.
 </div >
