@@ -110,8 +110,8 @@ With this understanding of Galois extensions out of the way, we change topics a 
 <div class = "subthm-box" type = "rmk">
     For $\tau \in G$, $D_{\tau \qq} = \tau\inv D_\qq \tau$ because $$\sigma (\tau \qq) = \tau \qq \iff (\tau \inv \sigma \tau) \qq = \qq.$$
 
-    By orbit-stabilizer, $|G / D_\qq| = g_\pp$ so $G/D_\qq$ is in bijection with the primes above $\pp$ under $\ol\sigma \mapsto $\ol\sigma(\qq)$.
-
+    By orbit-stabilizer, $|G / D_\qq| = g_\pp$ so $G/D_\qq$ is in bijection with the primes above $\pp$ under $\ol\sigma \mapsto \ol\sigma(\qq)$.
+ 
     Since $|G| = e_\pp f_\pp g_\pp$, $|D_\qq| = e_\pp f_\pp$.
 </div>
 
