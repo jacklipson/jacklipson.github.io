@@ -101,7 +101,7 @@ Finally, we get to say the cool guy's name:
 <div class = "subthm-box" type = "def" name = "Frobenius element / conjugacy class">
     The image of $(x \mapsto x^{|\kappa_\pp|})$ in $D_\qq$, denoted $(\qq, L/K)$ or $\Frob_\qq$ is the <u>Frobenius element</u> or <substitution> of $\qq$.
 
-    $\Frob_\pp \coloneq \{\Frob_\qq: \qq | \pp} \subset G$ is the <u>Frobenius conjugacy class</u>.
+    $\Frob_\pp \coloneq \\{\Frob_\qq: \qq | \pp\\} \subset G$ is the <u>Frobenius conjugacy class</u>.
 </div>
 
 <div class = "subthm-box" type = "rmk">
