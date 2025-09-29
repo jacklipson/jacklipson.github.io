@@ -28,19 +28,17 @@ Because Galois theory gives a correspondence from field extensions to subgroups 
     
     But any automorphism fixing $\qq$ and $K$ will of course fix all of the elements fixed by the elements which fix $\qq$ and $K$, i.e. $D_\qq(L/K) \subset D_\qq(L/L^D)$ so these groups are equal.
 
-    In particular, since $\Gal(L/L^D) = D_\qq(L/K)$, there is no automorphism fixing $L^D$ (specifically $\qq^D$) which moves $\qq$ around. Thus, $\qq$ is the only prime above $\qq^D$.
+    In particular, since $\Gal(L/L^D) = D_\qq(L/K)$, there is no automorphism fixing $L^D$ (specifically $\qq^D$) which moves $\qq$ around. Thus, $\qq$ is the only prime above $\qq^D$. (Alternatively, by cardinality $efg = ef \implies g = 1$).
         
     So from the remark in the previous lecture, $$e_{\qq / \qq^D}f_{\qq / \qq^D} = e_{\qq / \pp}f_{\qq / \pp} \iff 1 = \frac{e_{\qq / \qq^D}}{e_{\qq / \pp}} \frac{f_{\qq / \qq^D}}{f_{\qq / \pp}} = e_{\qq^D / \pp} f_{\qq^D / \pp} \implies e_{\qq^D / \pp} = f_{\qq^D / \pp} = 1.$$
 
     In other words, $\kappa_{q^D} = \kappa_\pp$ and $\pp$ splits completely in $L^D$.
 
-    2. Similarly, $I_\qq(L/L^I) \subset I_\qq(L/K)$ is an equality by definition.
+    2. By similarly logic $I_\qq(L/L^I) = I_\qq(L/K) = \Gal(L/L^I)$ so via cardinality $e_{\qq/\qq^I} = e_{\qq / \pp} = e_{\qq / \qq^I} f_{\qq / \qq^I}$ (where this last equality follows because $g_{\qq / \qq^I} = 1$ since the only prime above $\qq^I$ is $\qq$) so $f_{\qq / \qq^I} = 1$.
 
-    So by the remark at the end of the last lecture $e_{\qq / \qq^I} = e_{\qq / \pp}$ implying $e_{\qq^I / \qq^D} = e_{\qq^D / \pp} = 1$.
+    Moreover, by the remark at the end of the last lecture $e_{\qq / \qq^I} = e_{\qq / \pp}$ implying $e_{\qq^I / \qq^D} = e_{\qq^D / \pp} = 1$.
 
-
-
-    And ..... somehow.... $f_{\qq / \qq^I} = 1$ so really $f = f_\pp = f_{\qq^I / \qq^D}$ is the only nontrivial inertial degree and $e = e_\pp = e_{\qq / \qq^D}$ is the only nontrivial ramification index.
+    So really $f = f_\pp = f_{\qq^I / \qq^D}$ is the only nontrivial inertial degree and $e = e_\pp = e_{\qq / \qq^D}$ is the only nontrivial ramification index.
 </div>
 
 <div class = "subthm-box" type = "upshot">

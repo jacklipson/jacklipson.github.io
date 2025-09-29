@@ -14,7 +14,7 @@ We recall the setting from last time:
 
     Then $f \in A[x]$, $\mod \mm$ becomes $\ol{f} = \prod_{i \in \mathcal{I}} \phi_i^{e_i} \in k[x]$ for irreducible $\phi_i$ each with a lift $g_i \in A[x]$.
 
-    We showed that $B_f \coloneq A[x]/(f)$ are precisely $(\mm, g_i)$.
+    We showed the maximals of $B_f \coloneq A[x]/(f)$ are precisely $(\mm, g_i)$.
 
     If $f$ is irreducible in $A[x]$, then it's projection is irreducible in $k[x]$ as well.
 
@@ -71,8 +71,8 @@ And a cute definition:
 
 It turns out that Eisenstein polynomials $f$ are irreducible in DVRs:
 
-<div class = "subthm-box" type = "rmk">
-    Say $f(x) = (x^m + \sum b_ix^i)(x^k + \sum c_ix^i)$ for polynomials in $A[x]$. Then $a_0 = b_0c_0$ so $1 = \nu(a_0) = \nu(b_0) + \nu(c_0) \geq 0$ implying $\nu(b_0) = 1$ and $\nu(c_0) = 0$ without loss of generality. Since $b_m = 1$ (i.e. $\nu(b_m) = 0$), there is a least $j$ so $\nu(b_j) = 0$. Hence, $$\nu(a_j) = \nu(\sum_i b_i c_{j-i}) = \min_i (\nu(b_i) + \nu(c_{j-i})).$$ Because $b_{\lt j} \geq 1$ and $\nu(b_j) + \nu(c_0) = 0 + 0 = 0$, this righthandside is just 0. Hence, $\nu(a_j) = 0$ – contradiction.
+<div class = "subthm-box" type = "rmk" name = "jack's proof">
+    Say $f(x) = (x^m + \sum b_ix^i)(x^k + \sum c_ix^i)$ for polynomials in $A[x]$. Then $a_0 = b_0c_0$ so $1 = \nu(a_0) = \nu(b_0) + \nu(c_0) \geq 0$ implying $\nu(b_0) = 1$ and $\nu(c_0) = 0$ without loss of generality. Since $b_m = 1$ (i.e. $\nu(b_m) = 0$), there is a least $j$ so $\nu(b_j) = 0$. Hence, $$\nu(a_j) = \nu(\sum_i b_i c_{j-i}) \geq \min_i (\nu(b_i) + \nu(c_{j-i})).$$ But because $b_{\lt j} \geq 1$ and $\nu(b_j) + \nu(c_0) = 0 + 0 = 0$, this is actually an equality where the righthandside is 0. Hence, $\nu(a_j) = 0$ – contradiction.
 
     So $f$ is actually irreducible.
 </div>
