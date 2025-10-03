@@ -23,7 +23,7 @@ window.MathJax = {
       pp: "{\\mathfrak{p}}",
       qq: "{\\mathfrak{q}}",
       zz: "{\\mathfrak{z}}",
-      norm: ["{\\lVert #1 \\rVert}", 1],  // one-argument macro
+      norm: ["{\\vert #1 \\vert}", 1],  // one-argument macro
       inv: "{^{-1}}",
       id: "{\\text{id}}",
       ol: "\\overline",
