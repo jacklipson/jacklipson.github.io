@@ -26,6 +26,8 @@ window.MathJax = {
       norm: ["{\\vert #1 \\vert}", 1],  // one-argument macro
       inv: "{^{-1}}",
       id: "{\\text{id}}",
+      vol: "{\\text{vol}}",
+      char: "{\\text{char}}",
       ol: "\\overline",
       0: "{\\varnothing}",
       Aut: "{\\text{Aut}}",
