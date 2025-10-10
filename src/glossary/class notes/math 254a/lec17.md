@@ -88,5 +88,5 @@ Now, Professor Shin's original attempt at a proof tried to use the fact that nor
 The actual proof was sketched out very quickly as follows:
 
 <div class = "subthm-box" type = "proof" name = "thm">
-    Put $\norm x \_L = \norm {N\_{L/K}(x)}^{1/n}$. We can apparently check that this is positive-definite and satisfies multiplicativity. And by Hensel's Lemma, it must also satisfy the triangle inequality.
+    Put $\norm x _L = \norm {N_{L/K}(x)}^{1/n}$. We can apparently check that this is positive-definite and satisfies multiplicativity. And by Hensel's Lemma, it must also satisfy the triangle inequality.
 </div>
