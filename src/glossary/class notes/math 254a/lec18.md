@@ -107,7 +107,7 @@ Some corollaries before we go:
 
     1. $\hat L_w / \hat K_\nu$ is also Galois.
 
-    2. $D_w = \{\sigma \in \Gal(L/K) : \sigma w = w\} \overset{\sim}\hookrightarrow \Aut(\hat L_w / \hat K_\nu)$ mapping $\sigma \to \hat \sigma$ is a canonical isomorphism (where $\hat \sigma$ acts term-by-term).
+    2. $D_w = \\{\sigma \in \Gal(L/K) : \sigma(\qq_w) = (\qq_w)\\} \overset{\sim}\hookrightarrow \Aut(\hat L_w / \hat K_\nu)$ mapping $\sigma \to \hat \sigma$ is a canonical isomorphism (where $\hat \sigma$ acts term-by-term).
 </div>
 
 <div class = "subthm-box" type = "proof">
