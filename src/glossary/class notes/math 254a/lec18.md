@@ -105,7 +105,7 @@ Some corollaries before we go:
 <div class = "subthm-box" type = "cor 3">
     Say $L/K$ is a finite Galois extension. Then:
 
-    1. $\hat L_w / \hat K_\nu$ is also Galois.
+    1. $\hat L_w / \hat K_\nu$ is also finite Galois.
 
     2. $D_w = \\{\sigma \in \Gal(L/K) : \sigma(\qq_w) = (\qq_w)\\} \overset{\sim}\hookrightarrow \Aut(\hat L_w / \hat K_\nu)$ mapping $\sigma \to \hat \sigma$ is a canonical isomorphism (where $\hat \sigma$ acts term-by-term).
 </div>
