@@ -9,6 +9,8 @@ a little glossary of my stuff.
 <br>
 <a href="/glossary/cute proofs"> cute proofs </a>
 <br>
+<a href="/glossary/ten"> ten </a>
+<br>
 <a href="/glossary/words"> words </a>
 <br>
 <a href="/glossary/about"> about me </a>

@@ -1449,7 +1449,7 @@ malum prohibitum - an act that is not inherently immoral but is prohibited by st
 
 decalogue - the Ten Commandments.
 
-eschatology - the part of theology concerned with death, judgment, and the final destiny of the soul and of humankind. 
+eschatology - the part of theology concerned with death, judgment, and the final destiny of the soul and of humankind.
 limpet - used in comparisons to refer to people and things that cling tightly.
 
 corpuscle - a minute body or cell in an organism, especially a red or white cell in the blood of vertebrates.
@@ -1991,7 +1991,7 @@ impious - not showing respect or reverence, especially for a god; (of a person o
 demesne - land attached to a manor and retained for the owner's own use; a region or domain; possession of real property in one's own right.
 
 zephyr - a soft gentle breeze.
- clotpole - idiot; dolt.
+clotpole - idiot; dolt.
 
 obsequies - funeral rites.
 
