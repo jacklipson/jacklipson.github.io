@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="/styles/tex.css">
+
+
+    <script src="/scripts/mathjax-config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <title>jack&#39;s site | math 254a - lec 20</title>
+  </head>
+
+  <body>
+    <main>
+      
+    <p> <span style = "color: Tomato"> math 254a </span> | <i>13 october 2025 - monday</i> | <span style = "color: SlateBlue"> lecture 20 </span> </p>
+
+    <p>Today we made everything perfect.</p>
+<div class = "subthm-box" type = "def" name = "perfect">
+    Fix a prime $p$.
+<p>$R$ (of characteristic $p$) is called <u>perfect</u> if $\Fr_p = \Frob_p$ ($x \mapsto x^p$) is an isomorphism (where $\Fr_p$ is a ring homomorphism because $R$ is of characteristic $p$).</p>
+<p>It follows that $x \mapsto x^{1/p}$ is well-defined.</p>
+</div>
+<p>Now some examples.</p>
+<div class = "subthm-box" type = "ex">
+    $\F_p \subseteq k \subset \ol{\F_p}$ is perfect.
+<p>$\F_p[[t]], \F_p((t))$ are <i>not</i> perfect. (Recall the former is formal power series and the latter is formal Laurent series).</p>
+<p>However, $\ol{\F_p((t))}$ <i>is</i> perfect.</p>
+</div>
+<p>Now the setting for today's problem:</p>
+<div class = "subthm-box" type = "setting">
+    Fix $p \in (\pi) = \mm \lhd A = CDVR \subseteq K = CDVF$ and $k \coloneq A/\mm$.
+<p>Assume $k$ has characteristic $p$ and is perfect.</p>
+<p>Our goal is to find a section of the projection $A \overset{\text{mod } \mm}\sur k$.</p>
+</div>
+<p>Here is an instance of what we are thinking:</p>
+<div class = "subthm-box" type = "ex">
+    Take $A = \Z_p \sur k = \F_p = \{0\} \cup \mu_{p-1} = \{0\} \cup \F_p^\times = \{0\} \cup \{1, \ldots, p-1\}$.
+<p><i>Note: this notation is per our homework where $\mu_n$ denoted the $n$-th roots of unity in the algebraic closure of whatever ring, i.e. $\Q_p$ or $\ol{\F_p}</i>.</p>
+<p>Thus, we can map $0 \mapsto 0$ and whichever $(p-1)$-th root in $\F_p$ to whatever it is in $\Z_p$ such that $\mod p \Z_p$, this just becomes what we expect.</p>
+</div>
+<p>Let's generalize this idea as follows.</p>
+<div class = "subthm-box" type = "prop" name = "Teichmüller lift">
+    There is a unique set-theoretic map $f: k \to A$ such that, for all $\lambda \in k$:
+<p>1. $f(\lambda^p) = f(\lambda)^p$.</p>
+<p>2. $a \in f(k)$ if and only if $a$ has a $p^n$-th root in $A$ for all $n \geq 1$.</p>
+<p>3. $f(\lambda \mu) = f(\lambda)f(\mu)$.</p>
+<p>4. $\char \; K = p$ implies $f$ is a ring homomorphism.</p>
+</div>
+<p>We write $[\lambda] \in A$ for $f(\lambda)$ for all $\lambda \in k$.</p>
+<div class = "subthm-box" type = "proof">
+    Take an arbitary (set) lift $g: k \to A$ such that $g(\lambda) \mod \pi = \lambda$ for $\lambda \in k$.
+<p>Put $f(\lambda) \coloneq \lim g(\lambda^{1/p^n})^{p^n}$.</p>
+<p>We will show:</p>
+<p>i. This sequence is Cauchy.</p>
+<p>ii. $f$ is independent of choice of $g$.</p>
+<p>iii. $f(\lambda^p) = f(\lambda)^p$.</p>
+<p>These last two points show the uniqueness of $f$.</p>
+<p>First, we give a lemma:</p>
+<p><div class = "subthm-box" type = "lemma">
+Observe $a \equiv b \mod \pi^r$ implies $a^p \equiv b^p \mod \pi^{r+1}$ for $r \geq 1$.</p>
+<p>This follows from $$(a-b)^p = a^p - b^p + \overbrace{p}^{\text{ div by }\pi}\overbrace{(a-b)}^{\text{div by } \pi^r}(\cdots) \equiv 0 \mod \pi^{r+1}.$$
+</div></p>
+<p><div class = "subthm-box" type = "proof" name = "i">
+$g(\lambda^{1/p^n}) \mod \pi = (\lambda^{1/p^n}) = (\lambda^{1/p^{n+1}})^p \equiv g(\lambda^{1/p^{n+1}})^p \mod \pi$.</p>
+<p>Applying the lemma, $$g(\lambda^{1/p^n})^{p^k} \equiv g(\lambda^{1/p^{n+1}})^{p^{k+1}} \mod \pi^{k+1}$$</p>
+<p>If we set $k = n$, then, clearly this is Cauchy.
+</div></p>
+<p><div class = "subthm-box" type = "proof" name = "ii">
+If $g, g'$ are lifts then $g(\lambda^{1/p^n}) \equiv  g'(\lambda^{1/p^n}) \mod \pi$. By the lemma, $g(\lambda^{1/p^n}) \equiv g'(\lambda^{1/p^n})^{p^n} \mod \pi^{n+1}$. So they converge to the same thing.
+</div></p>
+<p>Now we prove the proposition:</p>
+<p><div class = "subthm-box" type = "proof" name = "1 / iii">
+$f(\lambda^p) = \lim g(\lambda^{p^{n-1}})^{p^n} = \lim (g(\lambda^{1/p^{n-1}})^{p^{n-1}})^p = f(\lambda)^p$.
+</div></p>
+<p><div class = "subthm-box" type = "proof" name = "2">
+$\implies):$ If $a \in f(k)$, then $a = f(\lambda) \overset{iii}= f(\lambda^{1/p^n})^{p^n}$ for some $\lambda \in k$ and all $n \in \Z_{\geq 1}$.</p>
+<p>$\impliedby):$ If $a = (a_n)^{p^n}$ for $n \in \Z_{\geq 1}$. Applying the lemma to $f(\ol{a_n}) \equiv a_n \mod \pi$ gives $$f(\ol{a_n^{p^n}}) = f(\ol{a_n})^{p^n} \equiv a_n^{p^n} \mod \pi^{n+1} = a \mod \pi^{n+1} \implies $f(\lim \ol{a_n}^{p^n}) = a.$$
+</div></p>
+<p><div class = "subthm-box" type = "proof" name = "3">
+$f(\lambda^{1/p^n}\mu^{1/p^n}) = \lambda^{1/p^n}\mu^{1/p^n} = f(\lambda^{1/p^n})f(\mu^{1/p^n}) \mod \pi$. Taking the $p^n$-th power and applying the lemma gives $f(\lambda^{1/p^n}\mu^{1/p^n})^{p^n} = f(\lambda^{1/p^n})^{p^n}f(\mu^{1/p^n})^{p^n} \mod \pi^{n+1}$. By iii and $n \to \infty, $f(\lambda \mu) = f(\lambda) f(\mu)$.
+</div></p>
+<p><div class = "subthm-box" type = "proof" name = "4">
+Suppose $\char ; K = p$.</p>
+<p>$f(\lambda^{1/p^n} + \mu^{1/p^n}) = f(\lambda^{1/p^n}) + f(\mu^{1/p^n}) \mod \pi$ so taking the $p^n$-th power and applying the lemma again gives $$f(\lambda^{1/p^n} + \mu^{1/p^n})^{p^n} = \overbrace{(f(\lambda^{1/p^n}) + f(\mu^{1/p^n}))^{p^n}}^{\in A \subseteq K} = f(\lambda^{1/p^n})^{p^n} + f(\mu^{1/p^n})^{p^n} \mod \pi^{n+1} = f(\lambda) + f(\mu) \mod \pi^{n+1}.$$</p>
+<p>Taking $n \to \infty$ finishes $f(\lambda + \mu) = f(\lambda) + f(\mu)$. We already showed $f(\lambda \mu) = f(\lambda) f(\mu)$ so $f$ is a ring homomorphism.
+</div></p>
+</div>
+<p>Now that is over with, we get a corollary.</p>
+<div class = "subthm-box" type = "cor">
+    1. If $A \overset{\text{set}}= \{\sum_{n \geq 0} [a_n] \pi^n : a_n \in k\}$ where each element can be written uniquely as such a sum.
+<p>2. If $\char \; K = p$, then $A \cong k[[t]]$ as a $k$-algebra via $\sum [a_n] \pi^n \mapsto \sum a_n t^n$.</p>
+</div>
+<div class = "subthm-box" type = "proof">
+    Such a sum clearly defines an element of $A$ since it is a CDVR.
+<p>1. If $a \in A$, then $a_0 \equiv  a \mod \pi$, $a_1 \equiv \frac{a-a_0}{\pi} \mod \pi$, $a_2 \equiv \frac{a - a_0 - a_1\pi}{\pi^2} \mod \pi$, and so on shows uniqueness.</p>
+<p>2. We need a $k$-algebra structure on $A$, which we do via the lift. Now, extending the lift and modding by $\pi$ to $k[[t]]$ finishes.</p>
+</div>
+
+    </main>
+
+    
+  </body>
+
+  <footer>
+    
+    
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<p>
+  
+    <a href="/glossary/class notes/math 254a/lec19" style = "color:#1CA406">
+      < - lec19 &nbsp;&nbsp;&nbsp;&nbsp;
+    </a>
+  
+  
+  
+    <a href="/glossary/class notes/math 254a/lec21" style = "color:#1CA406">
+      lec21 - >
+    </a>
+  
+</p>
+    <br>
+    <div class = "nav"> 
+  <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
+</div>
+
+  </footer>
+</html>

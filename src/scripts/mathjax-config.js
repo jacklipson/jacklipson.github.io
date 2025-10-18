@@ -35,6 +35,7 @@ window.MathJax = {
       Hom: "{\\text{Hom}}",
       Frac: "{\\text{Frac}\\;}",
       Frob: "{\\text{Frob}}",
+      Fr: "{\\text{Fr}}",
       Tr: "{\\text{Tr}}",
       im: "{\\text{im}\\;}",
       sur: "{\\;\\twoheadrightarrow\\;}",
