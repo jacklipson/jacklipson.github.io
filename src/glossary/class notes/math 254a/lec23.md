@@ -5,7 +5,7 @@ class: math 254a
 lec_date: "2025-10-20"
 ---
 
-Today, we covered the different and discriminant.
+Today, we covered commutative algebra and lattices.
 
 <div class = "subthm-box" type = "goal">
     In particular, we want:
@@ -74,7 +74,7 @@ Back to our usual setup:
 
     In particular, if $M$ is a finite-length $A$-moduule, then $JH(M) = \\{A/ \pp_1, \ldots, A/ \pp_n\\}$ for $\pp_i$ not necessarily distinct.
 
-    We define $$\chi_A(M) = \prod_1^n \pp_i.$$
+    We define the ideal $$\chi_A(M) = \prod_1^n \pp_i.$$
 </div>
 
 <div class = "subthm-box" type = "lemma">

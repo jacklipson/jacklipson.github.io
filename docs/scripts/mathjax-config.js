@@ -18,6 +18,7 @@ window.MathJax = {
       aa: "{\\mathfrak{a}}",
       bb: "{\\mathfrak{b}}",
       cc: "{\\mathfrak{c}}",
+      dd: "{\\mathfrak{d}}",
       mm: "{\\mathfrak{m}}",
       nn: "{\\mathfrak{n}}",
       pp: "{\\mathfrak{p}}",
@@ -25,6 +26,7 @@ window.MathJax = {
       zz: "{\\mathfrak{z}}",
       norm: ["{\\vert #1 \\vert}", 1],  // one-argument macro
       inv: "{^{-1}}",
+      Wedge: "{\\bigwedge}",
       id: "{\\text{id}}",
       vol: "{\\text{vol}}",
       char: "{\\text{char}}",

@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: ten
 ---
 
-here are some lists whose descriptors define exactly ten items (e.g. a subset of the bill of rights is forbidden).
+here are some definable lists with exactly ten items.
 
 <b> ten smallest natural numbers </b>
 1. zero
