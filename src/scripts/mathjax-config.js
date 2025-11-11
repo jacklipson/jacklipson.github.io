@@ -24,6 +24,7 @@ window.MathJax = {
       nn: "{\\mathfrak{n}}",
       pp: "{\\mathfrak{p}}",
       qq: "{\\mathfrak{q}}",
+      rr: "{\\mathfrak{r}}",
       zz: "{\\mathfrak{z}}",
       norm: ["{\\vert #1 \\vert}", 1],  // one-argument macro
       inv: "{^{-1}}",

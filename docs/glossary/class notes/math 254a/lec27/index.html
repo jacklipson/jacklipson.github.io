@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="/styles/tex.css">
+
+
+    <script src="/scripts/mathjax-config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <title>jack&#39;s site | math 254a - lec 27</title>
+  </head>
+
+  <body>
+    <main>
+      
+    <p> <span style = "color: Tomato"> math 254a </span> | <i>29 october 2025 - wednesday</i> | <span style = "color: SlateBlue"> lecture 27 </span> </p>
+
+    <p>Today, we continued our discussion of unramified extensions.</p>
+<p>Consider the following setting:</p>
+<div class = "subthm-box" type = "setting">
+    Take $A' \subseteq K'$ a finite unramified extension over $A = CDVR \subseteq K = \Frac A = CDVF$.
+<p>Say $A, A'$ have residue fields $k, k'$.</p>
+<p>Consider an arbitrary finite extension $K'' \supseteq A'' \sur k''$ over $K$, e.g. the CDVF of an algebraic extension of $K$.</p>
+</div>
+<div class = "subthm-box" type = "prop">
+    1. There are bijections $$\Hom_{k-alg}(k',k'') \underset{(ii)}{\overset{\sim}\longleftarrow} \Hom_{A-alg}(A',A'') \underset{(i)}{\overset{\sim}\longrightarrow} \Hom_{K-alg}(K', K'').$$
+<p>2. There is an equivalence of categories: $$(\text{finite unramified extensions of }K) \overset\sim\longrightarrow (\text{finite separable extensions of }k), \quad K' \mapsto k'$$</p>
+<p>3. $[K': K] = [k': k]$.</p>
+<p>4. $K'/K$ is Galois if and only if $k'/k$ is Galois and actually $\Gal (K'/K) \cong \Gal (k' / k)$.</p>
+</div>
+<div class = "subthm-box" type = "ex">
+    Consider $A = \Z_p, K = \Q_p, k = \F_p$.
+<p>finite unramified extensions of $\Q_p$ are in correspondence with finite separable extensions of $\F_p$ via $K' \mapsto k'$ and $\Frac W(k') \mapsfrom k'$.</p>
+</div>
+<div class = "subthm-box" type = "proof">
+    1. (i). Injectivity is clear as $A' \subseteq K'$. Surjectivity follows is for any $f: K' \inj K''$ (recalling that ring homs between fields are injective), $f(A') \subseteq A''$. But this holds since $f$ preserves volume (K'/K is finite).
+<p>(ii). From [S] I.6, we can write $k' = k(\ol \alpha)$ and $\ol f = \text{irr}(\ol \alpha, k) \in k[x]$.</p>
+<p>Picking $\alpha \in A'$ which projects onto $\ol \alpha$, then $A[x] \ni f = \text{irr}(\alpha, K) \mapsto \ol f$.</p>
+<p>Put $A' = A[\alpha] = A[x] / (f)$ so $$\Hom_{A-alg}(A',A'') = \{\beta \in A'': f(\beta) = 0\} \overset{\text{Hensel, $\ol f$ sep.}}\longleftrightarrow \{\ol \beta \in k'': \ol f (\ol \beta) = 0\} = \Hom_{k-alg}(k[x]/(\ol f), k'') = \Hom_{k-alg}(k(\ol \alpha), k'') = \Hom_{k-alg}(k', k'').$$</p>
+<p>2. Part 1. implies that this fully faithful, so we need only show this is essentially surjective.</p>
+<p>That is, given $k'/k$ finite separable, can we find $K'/K$ finite unramified with residue field $k'$.</p>
+<p>This is doable by [S] I.6 again, i.e. $k' = k(\ol \alpha)$, take $\ol f = \text{irr}(\ol \alpha, k)$, lift to $f$, and $K' = K[x]/(f)$.</p>
+<p>3. This follows from definition.</p>
+<p>4. $[K': K] \geq |\text{Aut}(K'/K)| = |\text{Aut}(k'/k)| \leq [k':k] = [K': K]$ where equality holds on one side if and only if it holds on other if and only if both extensions are Galois.</p>
+</div>
+<p>Carrying on:</p>
+<div class ="subthm-box" type = "lemma">
+    Consider $L - L' - K$ where $L-K$ is finite Galois.
+<p>We've proven already that $L'/K$ is unramified if and only if $I(L/K)$ fixes $L'$ element-wise.</p>
+<p>We show $L'/K$ is Galois.</p>
+</div>
+<div class = "subthm-box" type = "proof">
+    The following diagram obiously commutes:
+    \begin{align*}
+        &I(L/K)& \hspace{-30px}\longrightarrow \quad &I(L'/K)& \\\\
+        &\quad \downarrow& &
+        \quad\downarrow& \\\\
+        &\Gal(L/K)& \hspace{-30px} \longrightarrow \quad &\Gal(L'/K)&
+    \end{align*}
+</div>
+<div class = "subthm-box" type = "def" name = "unramified extension">
+    The possibly infinite algebraic extension $L/K$ for $K$ a CDVF is <u>unramified</u> if:
+<p>1. the residue field extension $\ell /k$ is separable.</p>
+<p>2. The ramification index is 1 if and only if a unit of $K$ is a unit of $L$.</p>
+<p>$L/K$ is <u>totally ramified</u> is $\ell / k$ is purely inseparable.</p>
+</div>
+<p>Note the previous proposition generalizes to infinite unramfieid extensions, i.e. $$(\text{unramified ext. of }K) \overset{\sim}\longleftrightarrow (\text{separable ext. of }k)$$</p>
+<div class = "subthm-box" type = "cor">
+    Consider $L', L''$ unramified extensions of a CDVF $K$.
+<p>Then $L = L'L''$ is unramified.</p>
+</div>
+<div class = "subthm-box" type = "proof">
+    Take the Galois closure $\ol L$ of $L$. $L',L''$ are fixed by $I(\ol L / K)$ so $L$ is fixed by $I(\ol L / K)$ so $L$ is unramified over $K$.
+</div>
+<p>The consequence of this corollary being that if $L/K$ is separable, then there exists a unique unramified $L - L^{unram} - K$.</p>
+<p>The maximum unramified extension is the composite of all finite unramified extensions.</p>
+<div class = "subthm-box" type = "rmk">
+    It follows by the proposition that:
+<p>$L - L^{unram} - K$ induces $\ell \overset{\text{purely insep.}}- \ell^{sep} \overset{\text{sep.}}- k$.</p>
+<p>In particular, the residue field of $L^{unram}$ is $\ell^sep$ so $L/L^{unram}$ is totally ramified.</p>
+</div>
+<div class = "subthm-box" type = "ex">
+    Consider $\ol Q_p - \Q_p^{unram} - \Q_p$. Then $\Gal(\Q_p^{unram} / \Q_p) \cong \Gal(\ol \F_p, \F_p)$.
+</div>
+
+    </main>
+
+    
+  </body>
+
+  <footer>
+    
+    
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<p>
+  
+    <a href="/glossary/class notes/math 254a/lec26" style = "color:#1CA406">
+      < - lec26 &nbsp;&nbsp;&nbsp;&nbsp;
+    </a>
+  
+  
+  
+    <a href="/glossary/class notes/math 254a/lec28" style = "color:#1CA406">
+      lec28 - >
+    </a>
+  
+</p>
+    <br>
+    <div class = "nav"> 
+  <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
+</div>
+
+  </footer>
+</html>
