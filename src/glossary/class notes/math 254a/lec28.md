@@ -1,8 +1,8 @@
 ---
 layout: layouts/classnote.njk
-title: math 254a - lec 27
+title: math 254a - lec 28
 class: math 254a
-lec_date: "2025-10-29"
+lec_date: "2025-10-31"
 ---
 
 Today we compute the different.
