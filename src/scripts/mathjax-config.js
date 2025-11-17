@@ -36,6 +36,7 @@ window.MathJax = {
       ol: "\\overline",
       0: "{\\varnothing}",
       Aut: "{\\text{Aut}}",
+      Cl: "{\\text{Cl}}",
       Gal: "{\\text{Gal}}",
       Hom: "{\\text{Hom}}",
       Frac: "{\\text{Frac}\\;}",
