@@ -91,7 +91,7 @@ Before that, however:
 Recall $\aa \lhd \bb \implies N(\bb) \leq N(\aa)$.
 
 <div class = "subthm-box" type = "proof">
-    From the last proposition, $$\Cl(K) \inj \{\aa \lhd \OO_K: N(\aa) \leq M(K)\},$$ where $M = \left(\frac{2^{r_2}}{\pi^{r_2}}\right) |d_K|^{1/2}$ depends <i>only</i> on $K$.
+    From the last proposition, $$\Cl(K) \inj \{\aa \lhd \OO_K: N(\aa) \leq M(K)\},$$ where $M = \left(\frac{2}{\pi}\right)^{r_2} |d_K|^{1/2}$ depends <i>only</i> on $K$.
 
     Pick $c \in \Cl(K)$ and pick some $[\aa] = c$ so $N(\aa)$ is minimal.
 

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="/styles/tex.css">
+
+
+    <script src="/scripts/mathjax-config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <title>jack&#39;s site | math 254a - lec 32</title>
+  </head>
+
+  <body>
+    <main>
+      
+    <p> <span style = "color: Tomato"> math 254a </span> | <i>10 november 2025 - monday</i> | <span style = "color: SlateBlue"> lecture 32 </span> </p>
+
+    <p>Today we bound the discrimant and calculate some ideal class groups.</p>
+<div class = "subthm-box" type = "rmk">
+    Actually, the bound $M(K) = (\frac{2}\pi)^{r_2}$ from last time can be improved to $M(K)^+ = \frac{n^!}{n^n}(\frac{4}\pi)^{r_2}$.
+</div>
+<p>On a more concrete note,</p>
+<div class = "subthm-box" type = "recall">
+    Consider quadratic fields ($n = 2$) $\OO_K \subset K = \Q(\sqrt{D})$ for $D$ squarefree.
+<p>We know $\OO_K = \begin{cases} \Z \oplus \Z\sqrt{D} &amp; D \equiv 2,3 \mod 4, \\ \Z \oplus \Z \frac{1 + \sqrt{D}}2 &amp; D \equiv 1 \mod 4.\end{cases}$ and $d_K = \begin{cases} 4D, \\ D.\end{cases}$</p>
+<p><div class = "subthm-box" type = "rmk">
+$K$ is <u>real</u> if $D &gt; 0$.</p>
+<p>In this case, $r_1 = 2, r_2 = 0$ and $M(K)^+ = \frac{1}{2} &lt; M(K) = 1$.</p>
+<p>If $|d_K| &lt; 16$ ($D = 2,3,5,13$). $\{N(\aa) &lt; 2 = 16^{1/2} \cdot \frac12\} \sur \Cl(K)$.</p>
+<p>Observing that $N(\aa) = [\OO_K : \aa] &lt; 2$ so has only one element $\OO_K$. So $\Cl(K) = \{0\}$ is trivial.
+</div></p>
+<p><div class = "subthm-box" type = "rmk">
+$K$ is <u>imaginary</u> if $D &gt; 0$.</p>
+<p>In this case, $r_1 = 0, r_2 = 1$ so $M(K)^+ = \frac{1}{2} \cdot \frac{4}\pi = \frac2\pi$.</p>
+<p>If $|d_K| &lt; \pi^2 = 9.86$, i.e. if $D = -1, -2, -3, -7$, then $\Cl(K)$ is similarly trivial.
+</div></p>
+</div>
+<p>A little history lesson:</p>
+<div class = "thm-box" name = "Baker-Heegner-Stark (1950s-60s)">
+    If $D < 0$, $\Cl(\Q(\sqrt{D}))$ is trivial if and only if $D \in \{-1, -2, -3, -7, -11, -19, -43, -67, -163\}$.
+<p>It is open question for real quadratic fields, but a conjecure that $\Cl(K)$ is trivial for infinitely many such fields.</p>
+</div>
+<div class = "subthm-box" type = "def" name = "arithmetic statistics">
+    Cohen-Lenstra heuristics study how ideal class groups vary over families (e.g. all real quadratic fields) of infinitely many $K$.
+</div>
+<p>Here are some such examples of <u>arithmetic statistics</u>.</p>
+<div class = "subthm-box" type = "ex">
+    If $K = \Q(\sqrt{-5})$, one can show $\Cl(K) = \Z/2\Z$.
+<p>If $K = \Q(\sqrt{-23})$, begin with $\{\aa: N(\aa) \leq \overbrace{|d_K|^{1/2} \cdot M(K)^+}^{3 &lt; \sqrt{23} \cdot \frac{2}\pi}\} \sur \Cl(K)$.</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+
+  <footer>
+    
+    
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+<p>
+  
+    <a href="/glossary/class notes/math 254a/lec31" style = "color:#1CA406">
+      < - lec31 &nbsp;&nbsp;&nbsp;&nbsp;
+    </a>
+  
+  
+  
+</p>
+    <br>
+    <div class = "nav"> 
+  <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
+</div>
+
+  </footer>
+</html>

@@ -9,10 +9,11 @@ here are some notes i wrote during class.
 <s><a href="/glossary/class notes/math 206"> math 206 </a></s><br>
 <s><a href="/glossary/class notes/math 222a"> math 222a </a></s><br>
 <s><a href="/glossary/class notes/math 241"> math 241 </a></s><br>
-<a href="/glossary/class notes/math 254a"> math 254a </a>
+<a href="/glossary/class notes/math 254a"> math 254a </a> <a href = "/assets/class notes/math 254a paper.pdf" target="_blank"> (and my final paper) </a>
+
 
 **fall 2024**<br>
-<a href = "/assets/class notes/math 242 paper.pdf" target="_blank"> math 242 (my best final paper) </a>
+<a href = "/assets/class notes/math 242 paper.pdf" target="_blank"> math 242 final paper </a>
 
 **fall 2023**<br>
 <a href="/assets/class notes/phys 7b.pdf" target="_blank"> physics 7b </a><br>
