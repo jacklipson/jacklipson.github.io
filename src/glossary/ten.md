@@ -5,6 +5,8 @@ title: ten
 
 here are some definable lists with exactly ten items.
 
+last updated: october, 2025.
+
 <b> ten smallest natural numbers </b>
 1. zero
 2. one

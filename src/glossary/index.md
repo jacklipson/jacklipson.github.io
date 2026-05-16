@@ -13,4 +13,6 @@ a little glossary of my stuff.
 <br>
 <a href="/glossary/words"> words </a>
 <br>
+<a href="/glossary/movie quotes"> movie quotes </a>
+<br>
 <a href="/glossary/about"> about me </a>

@@ -5,11 +5,11 @@ title: about
 
 <div class="colorwave">hello, i am jack lipson.</div>
 
-i am a senior at uc berkeley studying math and physics.
+i graduated from uc berkeley in math with honors (dept + univ) in spring 2026.
 
-i am interested in noncommutative geometry and Langlands program.
+i am interested in low-dimensional topology.
 
-i love proofs that use one area of math to solve seemingly unrelated problems (e.g. Dirichlet's theorem).
+i love cute roundabout proofs – like using K3,3 non-planar for the Jordan Curve theorem.
 
 i grew up in los angeles and newport beach, CA. 
 
