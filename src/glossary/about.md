@@ -7,13 +7,13 @@ title: about
 
 i graduated from uc berkeley in math with honors (dept + univ) in spring 2026.
 
-i am interested in low-dimensional topology.
+i am interested in differential topology and geometry.
 
 i love cute roundabout proofs – like using K3,3 non-planar for the Jordan Curve theorem.
 
 i grew up in los angeles and newport beach, CA. 
 
-right now, i am applying to math grad school.
+right now, i am applying to math grad school and learning french + russian + chinese.
 
 <p> <a href = "/assets/my cv.pdf" target="_blank"> my cv </a> &nbsp; | &nbsp; <a href = "https://www.linkedin.com/in/jack-lipson/" target="_blank"> my linkedin </a> </p>
 
