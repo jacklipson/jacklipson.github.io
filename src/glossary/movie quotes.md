@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: ten
+title: movie quotes
 ---
 
 here are some movie quotes (sans sources) i like to repeat.
