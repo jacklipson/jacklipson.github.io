@@ -14,7 +14,7 @@ last updated: may 15, 2025.
 5. i’ve got some abc type information for you lady
 6. you've gone right out of your tree my son
 7. he's got a girl i've got a cat fine by me
-8. i’m lonely i’m not alone
+8. i’m not lonely i’m alone
 9. you just rent your kid i bought him
 10. who told you to buy a brownstone??
 11. i’m the king around here you just live here
