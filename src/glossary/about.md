@@ -5,7 +5,7 @@ title: about
 
 <div class="colorwave">hello, i am jack lipson.</div>
 
-i graduated from uc berkeley in math with honors (dept + univ) in spring 2026.
+i graduated from uc berkeley in math with honors in spring 2026.
 
 i am interested in differential topology and geometry.
 
@@ -13,9 +13,9 @@ i love cute roundabout proofs – like using K3,3 non-planar for the Jordan Curv
 
 i grew up in los angeles and newport beach, CA. 
 
-right now, i am applying to math grad school and learning french + russian + chinese.
+right now, i am applying to math grad school and learning french + russian + chinese. i am also doing a math reu at uc berkeley.
 
-<p> <a href = "/assets/my cv.pdf" target="_blank"> my cv </a> &nbsp; | &nbsp; <a href = "https://www.linkedin.com/in/jack-lipson/" target="_blank"> my linkedin </a> </p>
+<p> <a href = "/assets/my cv.pdf" target="_blank"> my cv <span style="color: aqua;">[pdf]</span></a> &nbsp; | &nbsp; <a href = "https://www.linkedin.com/in/jack-lipson/" target="_blank"> my linkedin </a> </p>
 
 <div style = "margin: -1em">
     <p style = "text-align:center"><img src = "/assets/img/2010-07-03 14.57.37.jpg" alt = "little jack" style = "max-width: 50%; max-height: 50%"></p>

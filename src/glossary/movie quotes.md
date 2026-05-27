@@ -3,9 +3,9 @@ layout: layouts/page.njk
 title: movie quotes
 ---
 
-here are some movie quotes (sans sources) i like to repeat.
+here are some movie quotes (sans sources) i often reference.
 
-last updated: may 15, 2025.
+last updated: may 26, 2025.
 
 1. wanna kiss me ducky?
 2. samba sugarloaf jungle piranha
@@ -27,18 +27,30 @@ last updated: may 15, 2025.
     rr: the bellagio, the mirage, and the mgm grand.<br> 
     rt: hey those are tb's casinos.<br> 
     rr: is that right?<br> 
-    do: that's right.<br> 
-    rt: what do you guys have against tb?!<br> 
-    rr: question is what do you have against him.<br> 
-    rt: he torpedoed my casino, muscled me out. now he's gonna blow it up next week to make way for some gauuudy monstrosity. don't think I don't know what you're doing.<br> 
-    rr: what are we doing, reuben?<br> 
-    reuben: if you're gonna steal from tv, you'd better ** *know*. this sort of thing used to be civilized – you'd hit a guy, he'd whack you, DONE. but with benedict... at the end of this, he'd *better* not know you're involved, not know your names or think you're dead, because he'll kill ya, and *then he'll go to work on ya.*<br> 
-    do: that's why we're going to have to be very careful. very precise.<br> 
-    rr: well-funded.<br> 
-    rt: yeah. you gotta be nuts too. and you're gonna need a crew as *nuts* as you are! . . . so who've you got in mind?<br> 
-15. rt: remember that scene in miller's crossing where turturro begs for his life – "look into your heart!" - i cry every time.
+    do: that's right.<br>
+15. remember that scene in miller's crossing where turturro begs for his life – "look into your heart!" - i cry every time.
 16. please! don't touch the contestants.
 17. pugnacious scout, fear not! you shall keep your standing in the harem
 18. youre at the grosvenor, name's roundtree, like smarties, like shaft
 19. and you've got your head – all the way up it!
 20. it's christmas theo it's the time of miracles
+21. he'd *better* not know you're involved, not know your names or think you're dead, because he'll kill ya, and *then he'll go to work on ya.*<br> 
+22. what's your damage?
+23. you gotta be nuts too. and you're gonna need a crew as *nuts* as you are!
+24. they stole it from me carmine, they took it! that was today! today!
+25. and when we do meet old man, it's you i want to see, not the police.
+26. you know what the fellow said – in italy, for thirty years under the borgias, they had warfare, terror, murder and bloodshed, but they produced michelangelo, leonardo da vinci and the renaissance. in switzerland, they had brotherly love, they had five hundred years of democracy and peace – and what did that produce? the cuckoo clock. so long holly.
+27. i've been in jail eight times. <br>
+    don't congratulate yourself on my time. <br>
+    oh! ten times? how's twelve times? i can't impress you!
+28. tommy lee jones: what are you doing? <br>
+    newman: i'm thinking. <br>
+    tommy lee jones: well, think me up a cup of coffee and a chocolate doughnut with some of those little sprinkles on top, will you, as long as you're thinking.
+29. i am Shiva, the god of death.
+30. what i want from each and every one of you is a hard-target search of every gas station, residence, warehouse, farmhouse, henhouse, outhouse and doghouse.
+31. you're so f***ed. here let me get a picture while I'm at it.
+32. but quite frankly your attitude appals me, it's not what you're saying. it's all this stuff you're not saying. insinnuendos.
+33. are you so f***ing blind that you don't even see what I am?
+34. why are you swearing, i'm not swearinggg.
+35. i'm sweating in here. roasting. boiling. baking. sweltering. it's like a sauna. furnace. you can fry an egg on my stomach. oh who wouldn't lap this up? it's ridiculous. tremendous. fantastic. fan-dabby-dozy-tastic.
+36. you've got very nice eyes, dee. never noticed them before. they real?
