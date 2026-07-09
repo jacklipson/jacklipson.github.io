@@ -18,9 +18,15 @@ here are some notes and projects i wrote during and outside of class.
 <a href="/glossary/class notes/math 254a"> math 254a notes </a><br>
 <a href = "/assets/class notes/math 254a paper.pdf" target="_blank"> math 254a paper – Atiyah's classification of bundles on an elliptic curve </a>
 
+**spring 2025**<br>
+<a href = "/assets/class notes/math 202b.pdf" target="_blank"> math 202b notes </a><br>
+<a href = "/assets/class notes/math 277.pdf" target="_blank"> math 277 notes </a>
 
 **fall 2024**<br>
-<a href = "/assets/class notes/math 242 paper.pdf" target="_blank"> math 242 final paper </a>
+<a href = "/assets/class notes/math 215a.pdf" target="_blank"> math 215a notes </a><br>
+<a href = "/assets/class notes/math 242.pdf" target="_blank"> math 242 notes </a><br>
+<a href = "/assets/class notes/math 242 paper.pdf" target="_blank"> math 242 final paper </a><br>
+<a href = "/assets/class notes/math 261a.pdf" target="_blank"> math 261a notes </a>
 
 **fall 2023**<br>
 <a href="/assets/class notes/phys 7b.pdf" target="_blank"> physics 7b notes </a><br>

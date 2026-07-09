@@ -5,7 +5,7 @@ title: books
 
 my 2026 resolution was to read a book every two weeks. it seems despite making my progress public, online humiliation from a lack of reading has **not** been a successful motivitor...
 
-last updated: may 15, 2026.
+last updated: june 8, 2026.
 
 **read since 6 november 2023 (chronological order)**
 
@@ -51,6 +51,9 @@ last updated: may 15, 2026.
 40. Portrait of the artist as a young dog (Thomas) - 1/9/25 5:33 PM
 41. The Maltese falcon - 1/14/25 around 11 pm
 42. The sea, the sea -1/30/26 8:08:40 PM PST Zoe’s couch
+43. the dubliners - 6/6/26 8:08 pm
+44. Eight O’Clock in the Morning (1963) - 6/9/26 1:42 pm
+45. blues people (amiri baraka) - 6/9/26 11:34 PM
 
 **favorite poems**
 
@@ -78,6 +81,7 @@ last updated: may 15, 2026.
 22. The Book of Scottish Song/Jock o' Hazeldean
 23. jabberwocky by lewis carroll
 24. a cottony fate.
+25. Because You Asked about the Line Between Prose and Poetry by nemerov
 
 **russian poems**
 
@@ -86,6 +90,7 @@ last updated: may 15, 2026.
 3. Ночь, улица, фонарь, аптека / Алекcандр Блок
 4. Не покидай меня, весна / Юлий Ким
 5. Умом Россию не понять / Федор Тютчев
+6. Не выходи из комнаты / Иосиф Александрович Бродский
 
 русская поговорка: щи да каша - пища наша
 
@@ -247,6 +252,18 @@ last updated: may 15, 2026.
 155. the spy and the traitor
 156. what you have heard is true
 157. Albions Seed
+158. civilwarland in bad decline
+159. Life of Samuel Johnson
+160. ball four jim bouton
+161. the place of tides
+162. a scanner darkly
+163. The Radicalism of the American Revolution
+164. this boys life
+165. vanishing new york
+166. The Woman Warrior
+167. The Midwich Cuckoos
+168. G. by john berger
+
 
 **art books**
 

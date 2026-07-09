@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: movie quotes
 ---
 
-here are some movie quotes (sans sources) i often reference.
+here are some movie quotes (sans sources) i like (to reference).
 
 last updated: may 26, 2025.
 
@@ -48,9 +48,16 @@ last updated: may 26, 2025.
     tommy lee jones: well, think me up a cup of coffee and a chocolate doughnut with some of those little sprinkles on top, will you, as long as you're thinking.
 29. i am Shiva, the god of death.
 30. what i want from each and every one of you is a hard-target search of every gas station, residence, warehouse, farmhouse, henhouse, outhouse and doghouse.
-31. you're so f***ed. here let me get a picture while I'm at it.
-32. but quite frankly your attitude appals me, it's not what you're saying. it's all this stuff you're not saying. insinnuendos.
-33. are you so f***ing blind that you don't even see what I am?
-34. why are you swearing, i'm not swearinggg.
-35. i'm sweating in here. roasting. boiling. baking. sweltering. it's like a sauna. furnace. you can fry an egg on my stomach. oh who wouldn't lap this up? it's ridiculous. tremendous. fantastic. fan-dabby-dozy-tastic.
-36. you've got very nice eyes, dee. never noticed them before. they real?
+31. but quite frankly your attitude appals me, it's not what you're saying. it's all this stuff you're not saying. insinnuendos.
+32. are you so f***ing blind that you don't even see what I am?
+33. why are you swearing, i'm not swearinggg.
+34. i'm sweating in here. roasting. boiling. baking. sweltering. it's like a sauna. furnace. you can fry an egg on my stomach. oh who wouldn't lap this up? it's ridiculous. tremendous. fantastic. fan-dabby-dozy-tastic.
+35. you've got very nice eyes, dee. never noticed them before. they real?
+36. heyyy, watch the leather, man.
+37. you hung the moon for me
+38. fly away fly away little bird before you get broke
+39. just in time or born in the vestry?
+40. goddamned hypocrite squares!
+41. let's throw it out on the stoop and see if the cat licks it up
+42. is it as bad as that? <br>
+    as good as that.
