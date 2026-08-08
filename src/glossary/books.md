@@ -54,6 +54,27 @@ last updated: june 8, 2026.
 43. the dubliners - 6/6/26 8:08 pm
 44. Eight O’Clock in the Morning (1963) - 6/9/26 1:42 pm
 45. blues people (amiri baraka) - 6/9/26 11:34 PM
+46. the five-forty-eight (cheever) - 7/12/26 10:39 AM
+47. a modest proposal (swift) - 7/16/26 1:46 PM
+48. A Non-Euclidean View of California as a Cold Place to Be - 7/30/26 12:41 AM
+
+**priority read list**
+1. letters to a young poet
+2. wise blood
+3. all the pretty horses 
+4. anything by baudrillard..
+5. who will run the frog hospital
+6. catching the big fish
+7. cassino 44 
+8. Lonesome Dove
+9. richard wright black boy
+10. aesops fables
+11. a hundred years of solitude
+12. night people
+13. the fawn magda szabo
+14. the gallic wars
+15. oblomov
+16. the souls of china, the party's interests come first, machiavellianism the prince
 
 **favorite poems**
 
@@ -263,6 +284,24 @@ last updated: june 8, 2026.
 166. The Woman Warrior
 167. The Midwich Cuckoos
 168. G. by john berger
+169. charlotte brontë jane eyre
+170. the sluts dennis cooper
+171. kathy acker’s Hannibal Lecter, My Father
+172. The Bombed Happiness (1942) - j f hendry
+173. A Field Guide to American Houses
+174. pitch dark renata adler
+175. Hudson's A Crystal World
+176. Aldous Huxley’s Island
+177. The Dispossessed
+178. Austin Tappan Wright, Islandia
+179. The Shape of Utopia
+180. Мы
+181. yi ching
+182. 道德經 - 老子
+183. Tropic of Cancer
+184. The Brass Check
+185. The Travels of Jaimie McPheeters
+
 
 
 **art books**
