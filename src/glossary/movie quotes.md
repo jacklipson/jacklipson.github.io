@@ -5,7 +5,7 @@ title: movie quotes
 
 here are some movie quotes (sans sources) i like (to reference).
 
-last updated: may 26, 2025.
+last updated: may 26, 2026.
 
 1. wanna kiss me ducky?
 2. samba sugarloaf jungle piranha

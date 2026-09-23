@@ -7,7 +7,7 @@ a little glossary of my stuff.
 
 <a href="/glossary/class notes"> class notes </a>
 <br>
-<a href="/glossary/cute proofs"> cute proofs </a>
+<a href="/glossary/wip"> works in progress </a>
 <br>
 <a href="/glossary/ten"> ten </a>
 <br>

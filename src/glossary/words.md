@@ -5,11 +5,9 @@ title: words
 
 here is a list of words i either did not know or wanted to remember starting 03/21/2023.
 
-last updated: may 15, 2026.
+last updated: september 23, 2026.
 
 <br>
-
-words i don’t know starting 3/21/23
 
 portentous - done in a pompously or overly solemn manner so as to impress.
 
@@ -255,6 +253,8 @@ abate - (of something perceived as hostile, threatening, or negative) become les
 
 miasma(tic) - (having the nature of) a highly unpleasant or unhealthy smell or vapor.
 
+vapid - offering nothing that is stimulating or challenging.
+
 comity - (usually of politics) courtesy and considerate behavior toward others.
 
 bombastic - high-sounding but with little meaning; inflated.
@@ -355,7 +355,7 @@ escarpment - a long, steep slope, especially one at the edge of a plateau or sep
 
 plaintive - sounding sad and mournful.
 
-conceit - an artistic effect or device; a fanciful notion.
+conceit - an artistic effect or device; a fanciful notion; an elaborate metaphor.
 
 millet - a fast-growing cereal plant that is widely grown in warm countries and regions with poor soils. The numerous small seeds are used to make flour or alcoholic drinks.
 
@@ -1259,7 +1259,7 @@ chancery - a court of equity.
 
 epistolary - (of a literary work) in the form of letters.
 
-vestry - a meeting of parishioners, originally in a vestry, for the conduct of parochial business.
+vestry - a room or building attached to a church, used as an office and for changing into vestments; a meeting of parishioners for the conduct of parochial business.
 
 true-blue - unwavering in one's commitment; extremely loyal.
 
@@ -1347,7 +1347,9 @@ paradigm - a typical example or pattern of something; a model.
 
 inter alia - among other things.
 
-sot - drink habitually.
+sot - drink habitually; a habitual drunkard.
+
+sottish - of a drunkard.
 
 folie à deux - a rare disorder characterized by sharing a delusion among two or more people in a close relationship.
 
@@ -2008,6 +2010,8 @@ carl - a peasant or man of low birth.
 lout - an uncouth and aggressive man or boy.
 
 gyve - a fetter or shackle.
+
+fetter - a chain or manacle used to restrain a prisoner, typically placed around the ankles;  a restraint or check on someone's freedom to do something, typically one considered unfair or overly restrictive.
 
 clement - (of weather) mild; (of a person or a person's actions) merciful.
 
@@ -3440,3 +3444,463 @@ by the by - incidentally.
 explication de texte - a French formalist method of literary analysis that allows for limited reader response, similar to close reading in the English-speaking literary tradition.
 
 out on your ear - to be forced to leave a job or place, especially because you have done something wrong.
+
+bone orchard - cemetery. 
+
+in the pink - in very good health.
+
+weltanschauung - a particular philosophy or view of life.
+
+incunable - another term for incunabulum; an early printed book, especially one printed before 1501.
+
+punctilious - showing great attention to detail or correct behavior.
+
+paleoconservatism - a strain of conservatism in the United States that stresses American nationalism, Christian ethics, traditionalist conservatism, localism and non-interventionism.
+
+abattoir - a slaughterhouse.
+
+abattre - to fell.
+
+whipsaw -  subject to two difficult situations or opposing pressures at the same time; compel to do something; involving or characterized by rapid fluctuation in the prices of stocks or shares.
+
+sanctimonious - making a show of being morally superior to other people.
+
+ampelopsis - a genus of climbing shrubs, in the grape family Vitaceae.
+
+satisfice - accept an available option as satisfactory.
+
+belfry - the part of a bell tower or steeple in which bells are housed.
+
+requiescat in pace - rest in peace.
+
+plus ça change, plus c'est la même chose - the more things change, the more they stay the same.
+
+moratorium - a temporary prohibition of an activity.
+
+sedition - conduct or speech inciting people to rebel against the authority of a state or monarch.
+
+folderol - trivial or nonsensical fuss; a showy but useless item.
+
+salvage title - a form of vehicle title branding, which notes that the vehicle has been damaged and/or deemed a total loss by an insurance company that paid a claim on it.
+
+avant-goût - foretaste.
+
+disaronno - a type of amaretto—an amber-colored liqueur with a characteristic almond taste, although it does not actually contain almonds.
+
+revery - daydream.
+
+go to the dogs - to decline or deteriorate.
+
+cocotte - a small heatproof dish in which individual portions of food can be cooked and served; a Dutch oven.
+
+award/yield the palm to - to acknowledge the superiority of; admit to defeat by.
+
+parole d’honneur - word of honor; you have my word! upon my word! cross my heart!
+
+deoc an doruis - stirrup cup, farewell/parting drink, "one for the door.”
+
+equipoise - balance of forces or interests.
+
+put your head in the sack - old Irish slang for marriage.
+
+epistemology - the theory of knowledge, especially with regard to its methods, validity, and scope; the investigation of what distinguishes justified belief from opinion.
+
+execrate - feel or express great loathing for; curse; swear.
+
+consign - deliver (something) to a person's custody, typically in order for it to be sold.
+
+eclogues -  also called the Bucolics, is the first of the three major works of the Latin poet Virgil.
+
+loutish - uncouth and aggressive. 
+
+smahan - Irish slang for a taste, a drop, or a small amount of liquor.
+
+barmbracks - a kind of soft, spicy bread containing dried fruit, originating in Ireland where it is traditionally eaten at Halloween.
+
+saturnine - (of a person or their manner) slow and gloomy; dark in coloring and moody or mysterious.
+
+ivory manners - a highly polished, elegant, and refined set of social behaviors.
+
+buttonhole - a slit made in a garment to receive a button for fastening; attract the attention of and detain (someone) in conversation, typically against his or her will; make slits for receiving buttons in (a garment).
+
+banger - informal British english slang for a sausage.
+
+anhedonia - inability to feel pleasure in activities that are usually considered to be pleasurable.
+
+born in the vestry - born out of wedlock.
+
+special pigeon - a person's specific responsibility, business, or area of expertise.
+
+eidetic - relating to or denoting mental images having unusual vividness and detail, as if actually visible.
+
+what the sam hill - what the hell.
+
+magniloquent - using high-flown or bombastic language.
+
+indite - write; compose.
+
+tesselate - decorate or cover (a surface) with a pattern of repeated shapes, especially polygons.
+
+valse - a waltz; to waltz (used especially in the titles of pieces of music).
+
+the living end - the most extreme form of something or the final and most impactful development in a series of events — whether favorable or unfavorable.
+
+insouciant - showing a casual lack of concern; indifferent.
+
+yellow journalism - the use of eye-catching headlines and sensationalized exaggerations for increased sales; the yellow press are American newspapers which do so.
+
+hyperonyme hyponyme - mot génerique mot spécifique.  shellac - a resin secreted by the female lac bug on trees in the forests of India and Thailand.
+
+lycanthrope - (in folk tales) a person able to transform into a wolf; a werewolf.
+
+etonian - a past or present member of Eton College.
+
+run to earth - to hunt down; to find by search.
+
+hangdog - (of an expression on a face) unhappy or ashamed, especially because of feeling guilty.
+
+by the short hairs - to have someone in a difficult situation in which he or she is without alternatives and can be controlled.
+
+Marquis of Queensbury rules - a set of generally accepted rules governing the sport of boxing.
+
+referent - the thing that a word or phrase denotes or stands for.
+
+litany - a series of petitions for use in church services or processions, usually recited by the clergy and responded to in a recurring formula by the people; a tedious recital or repetitive series.
+
+intervallic - pertains to the specific spacing, gaps, or relationships between individual points or events.
+
+aberrant - not conforming to an accepted or usual standard.
+
+countrapuntal - of or in counterpoint.
+
+to trail one’s coat - to incite an argument.
+
+circumlocution - the use of many words where fewer would do, especially in a deliberate attempt to be vague or evasive.
+
+dysgenic - exerting a detrimental effect on later generations through the inheritance of undesirable characteristics.
+
+buchhandlung - bookshop.
+
+pax vobiscum - peace be with you.
+
+res judicata - a matter judged.
+
+tremolo - a wavering effect in a musical tone, produced either by rapid reiteration of a note, by rapid repeated slight variation in the pitch of a note, or by sounding two notes of slightly different pitches to produce prominent overtones.
+
+specious - superficially plausible, but actually wrong; misleading in appearance, especially misleadingly attractive.
+
+concomitant - naturally accompanying or associated.
+
+demagogue - a political leader who seeks support by appealing to the desires and prejudices of ordinary people rather than by using rational argument.
+
+arwhoolie - a traditional African American work song.
+
+stave - a vertical wooden post or plank in a building or other structure; a verse or stanza of a poem.
+
+calabash - an evergreen tropical American tree which bears fruit in the form of large woody gourds; a water container, tobacco pipe, or other object made from the dried shell of a calabash or a similar gourd.
+
+vodun - voodoo.
+
+dirgelike - (of music) having the slow, mournful character of a dirge.
+
+hermetic - insulated or protected from outside influences; relating to an ancient occult tradition encompassing alchemy, astrology, and theosophy.
+
+distaff - a stick or spindle onto which wool or flax is wound for spinning; of or concerning women. 
+
+parvenu - a person of obscure origin who has gained wealth, influence, or celebrity.
+
+inculcation - instill (an attitude, idea, or habit) by persistent instruction.
+
+catatonia - a state of immobility and stupor; unusual movement and behavior arising from a serious mental health condition (typically schizophrenia). It may involve repetitive or purposeless overactivity, or catalepsy, resistance to passive movement, and negativism.
+
+rhapsody - an effusively enthusiastic or ecstatic expression of feeling.
+
+vertiginous - causing, or relating to, a dizzying sensation of spinning or whirling.
+
+ofay - a white person (usually disparagingly).
+
+get off the dime - to start doing or dealing with something, after a period of time when nothing has been happening.
+
+dead hung theatre - systems where the rigging points such as pipes (called "battens") are fixed to the ceiling or wall either in individual lines or combined into a grid. Because they cannot be moved, they are "dead".
+
+soda jerk - a person—typically a young man—operating the soda fountain in a restaurant, preparing and serving soda drinks and ice cream sodas.
+
+buck your ideas up - to start working or doing something in a more positive way and with more effort.
+
+festoon - garland, chain, lei, swathe, swag, wreath, chaplet, loop; decorate, adorn, ornament, trim, dress up, array, deck (out), hang, loop, thread, cover, drape, swathe, garland, wreathe, bedeck, beribbon, bespangle; informal do up, do out, get up, tart up, trick out.
+
+hectography - a printing process that involves transfer of an original, prepared with special inks, to a pan of gelatin or a gelatin pad pulled tight on a metal frame.
+
+limbus - the border or margin of a structure, especially the junction of the cornea and sclera in the eye.
+
+annualized run rate - a financial metric that estimates a company's yearly revenue or expenses by extrapolating current, short-term data (such as a single month or quarter) over a full 12-month period.
+
+port authority - a governmental or quasi-governmental public authority for a special-purpose district usually formed by a legislative body (or bodies) to operate ports and other transportation infrastructure.
+
+prost - German word for cheers.
+
+gustavino tile - a thin-tile vault system introduced to the United States in 1885 by Spanish architect and builder Rafael Guastavino (1842–1908).
+
+forcado - a member of a group of men that performs the pega de cara or pega de caras ("face catch"), the final event in a typical Portuguese bullfight.
+
+torero - a bullfighter.
+
+chef d'œuvre - a piece of work that has been given much critical praise, especially one considered the greatest work of a person's career.
+
+non capisco - i do not understand.
+
+soviet partisans - members of resistance movements that fought a guerrilla war against Axis forces during World War II in the Soviet Union, the previously Soviet-occupied territories of interwar Poland in 1941–45 and eastern Finland.
+
+starving artist in a garret - a classic trope, referring to a bohemian writer or painter who suffers financial hardship in a cramped, top-floor attic.
+
+garret - a top-floor or attic room, especially a small dismal one (traditionally inhabited by an artist).
+
+aporia - an irresolvable internal contradiction or logical disjunction in a text, argument, or theory; the expression of doubt.
+
+oeuvre - a work of art, music, or literature.
+
+mishegaas - madness; senseless behavior or activity.
+
+самизда́т - literally self-publishing house; the clandestine copying and distribution of literature banned by the state, especially formerly in the communist countries of eastern Europe.
+
+sui generis - of its own kind.
+
+palpate - examine (a part of the body) by touch, especially for medical purposes.
+
+aphasia - inability (or impaired ability) to understand or produce speech, as a result of brain disease or damage.
+
+aphonia - loss of ability to speak on account of disease of or damage to the larynx or mouth.
+
+fractionate - divide into fractions or components; separate (a mixture) by fractional distillation.
+
+encephalopathy - a disease in which the functioning of the brain is affected by some agent or condition (such as viral infection or toxins in the blood).
+
+meeskite - an ugly person.
+
+chickenhawk - slang used in American and British gay culture to denote older males who prefer younger males for partners, who may less often be called "chickens.”
+
+kaddish - a hymn praising God that is recited during Jewish prayer services which is chanted as part of the mourning rituals in Judaism in all prayer services, as well as at funerals (other than at the gravesite) and memorials; for 11 Hebrew months after the death of a parent; and in some communities for 30 days after the death of a spouse, sibling, or child.
+
+ayurvedic - relating to Ayurveda, the traditional Hindu system of medicine.
+
+skookum weld - an incredibly strong, reliable, and stout joint.
+
+ectomorph - a person with a lean and delicate body build.
+
+himmel und erde - heaven and earth; a traditional German dish of mashed potato with stewed apples. It is frequently served with sliced blood sausage.
+
+buff - a yellowish-beige color; a stout dull yellow leather with a velvety surface.
+
+in the buff - naked.
+
+sumptuary - relating to or denoting laws that limit private expenditure on food and personal items.
+
+gugelhupf - a cake traditionally baked in a distinctive ring mould, similar to Bundt cake, but leavened with baker's yeast, especially popular as a traditional cake in Central Europe. 
+
+skulduggery - underhanded or unscrupulous behavior; trickery.
+
+peloothered - (rare, informal) Drunk, thoroughly intoxicated, coined by Irish novelist and poet James Joyce. Possibly from Hiberno-English as a humorous dialectal corruption of blootered or polluted.
+
+valise - a small traveling bag or suitcase.
+
+bostoon - Irish slang for a foolish person.
+
+omadhaun - Irish slang for fool or simpleton; someone out of their senses.
+
+bumptious - self-assertive or proud to an irritating degree.
+
+fighting dog and devil - an intensely fierce, relentless, and aggressive physical or verbal confrontation.
+
+outgeneral - get the better of by superior strategy or tactics.
+
+transept - (in a cross-shaped church) either of the two parts forming the arms of the cross shape, projecting at right angles from the nave
+
+cheval glass - a tall mirror fitted at its middle to an upright frame so that it can be tilted.
+
+cheval-de-frise - a portable obstacle, consisting of a wooden frame covered with spikes or barbed wire, used by the military to close off a passage or block enemy advancement; shards of glass or spikes set into masonry along the top of a wall.
+
+quincunx - an arrangement of five units with four forming the corners of a square and the fifth at the centre of the square, a pattern corresponding to the five-spot on dice, playing cards, or dominoes.
+
+surplice - a loose white linen vestment varying from hip-length to calf-length, worn over a cassock by clergy, acolytes, and choristers at Christian church services.
+
+a loose white linen vestment varying from hip-length to calf-length, worn over a cassock by clergy, acolytes, and choristers at Christian church services.
+
+balustrade - a railing supported by balusters, especially an ornamental parapet on a balcony, bridge, or terrace.
+
+palaver - unnecessarily elaborate or complex procedure; talk unproductively and at length; lengthy and unproductive discussion.
+
+mirthless - (of a smile or laugh) lacking real amusement and typically expressing irony.
+
+guttapercha - An inelastic natural latex, produced from the sap of several tropical trees of the genera Palaquium and Payena.
+
+tumid - (especially of a part of the body) swollen; (especially of language or literary style) pompous or bombastic.
+
+invidious - (of an action or situation) likely to arouse or incur resentment or anger in others; unfairly discriminating; unjust.
+
+beannachd leibh - Gaelic for goodbye.
+
+astrakhan - the dark curly fleece of young karakul lambs from central Asia.
+
+minster - a large or important church, typically one of cathedral status in the north of England that was built as part of a monastery.
+
+blancmange - a sweet opaque gelatinous dessert made with cornstarch and milk.
+
+lacuna - an unfilled space or interval; a gap;  a missing portion in a book or manuscript; a cavity or depression, especially in bone.
+
+heliotrope - a plant of the borage family, cultivated for its fragrant purple or blue flowers which are used in perfume; a light purple color.
+
+ardour - enthusiasm or passion.
+
+hemiplegia - paralysis of one side of the body.
+
+salutary - health-giving; (especially with reference to something unwelcome or unpleasant) producing good effects; beneficial.
+
+gunwale (gunnel) - the upper edge of the side of a boat or ship.
+
+rubber heels - dated UK slang for police officers tasked with investigating corruption within the police force.
+
+abutment - a structure built to support the lateral pressure of an arch or span, e.g. at the ends of a bridge.
+
+ordure - junk.
+
+goodly - considerable in size or quantity; attractive, excellent, or admirable.
+
+disinter - dig up (something that has been buried, especially a corpse); discover (something that is well hidden).
+
+disinterment - that which has been disinterred.
+
+piscis primum a capite foetet - the fish rots from the head.
+
+boulange - the craft of baking.
+
+codicil - an addition or supplement that explains, modifies, or revokes a will or part of one.
+
+raiment - clothing.
+
+farrow - a litter of pigs; (of a sow) give birth to (piglets).
+
+vintner - a wine merchant.
+
+repine - feel or express discontent; fret.
+
+papist - a Roman Catholic.
+
+ragout - a highly seasoned dish of meat cut into small pieces and stewed with vegetables.
+
+fricasee - a dish of stewed or fried pieces of meat served in a thick white sauce.
+
+cavalcade - a formal procession of people walking, on horseback, or riding in vehicles.
+
+margin call - a demand by a broker that an investor deposit further cash or securities to cover possible losses.
+
+osti de criss de calisse de tabarnak - string of “intense” Quebec profanities.
+
+wesh frérot ça va - what’s up bro.
+
+finissage - finishing.
+
+rumspringa - from Pennsylvania German rumschpringe 'to run around; to gad; to be wild’; a rite of passage during adolescence, used in some Amish communities beginning at age 16.
+
+klieg light - a powerful electric lamp used in filming.
+
+über alles - above all.
+
+festschrift - a collection of writings published in honor of a scholar.
+
+cazador - hunter.
+
+cazadora - huntress; bomber jacket.
+
+(d)jinn - supernatural beings in ancient Arabian religion and Islam. Like humans, they are accountable for their deeds and can be either believers (Mu'minun) or unbelievers (kuffar), depending on whether they accept God's guidance.
+
+tabula rasa - blank slate.
+
+godhead - God; divine nature.
+
+communitas -  an unstructured state in which all members of a community are equal allowing them to share a common experience, usually through a rite of passage. Communitas is characteristic of people experiencing liminality together. This term is used to distinguish the modality of social relationship from an area of common living.
+
+plumbline - a line with a plumb attached to it, used for finding the depth of water or determining the vertical on an upright surface.
+
+enantiodroma - the tendency of things to change into their opposites, especially as a supposed governing principle of natural cycles and of psychological development, a principle introduced in the West by psychiatrist Carl Jung.
+
+reculer pour mieux sauter - to draw back in order to make a better jump; to make a strategic withdrawal.
+
+ineluctable - unable to be resisted or avoided; inescapable.
+
+usà puyew usu wapiw - a Swampy Cree phrase meaning “he goes backward, looks forward" about a porcupine.
+
+yawn - (of an opening or space) be very large and wide.
+
+draw - sometimes known as a re-entrant in orienteering, is a terrain feature formed by two parallel ridges or spurs with low ground in between them. The long area of downward sloping low ground itself is the draw, and it is defined by the spurs surrounding it; (of a ship) require (a specified depth of water) to float in; have (a certain draft).
+
+roustabout - an unskilled or casual laborer; a circus laborer; a deckhand; a laborer on an oil rig.
+
+bosun - short for boatswain.
+
+tryst - a private romantic rendezvous between lovers; keep a private, romantic rendezvous.
+
+cultivar - a plant variety that has been produced in cultivation by selective breeding.
+
+boreal - of the north or northern regions.
+
+ape - imitate the behavior or manner of (someone or something), especially in an absurd or unthinking way.
+
+frigidity - (derogatory) sexual unresponsiveness or lack of interest in sex (typically used of a woman).
+
+marquee - a canopy projecting over the entrance to a theater, hotel, or other building;  leading; preeminent. (from marquise).
+
+weir - a low dam built across a river to raise the level of water upstream or regulate its flow; an enclosure of stakes set in a stream as a trap for fish.
+
+последнее китайское предупреждение - China’s final warning, a Russian ironic idiom originating from the Soviet Union that refers to a warning that carries no real consequences.
+
+charismatic megafauna - animal species that are large—relative to the category that they represent—with symbolic value or widespread popular appeal.
+
+talk a blue streak - to talk rapidly and without stopping.
+
+sophistry - the use of fallacious arguments, especially with the intention of deceiving.
+
+impresario - a person who organizes and often finances concerts, plays, or operas.
+
+gresham’s law - a monetary principle stating that "bad money drives out good".
+
+mansard roof - a multi-sided gambrel-style hip roof characterised by two slopes on each of its sides, with the lower slope at a steeper angle than the upper, and often punctured by dormer windows.
+ 
+raconteur - a person who tells anecdotes in a skillful and amusing way.
+
+(syrup of) ipecac - a drug that was once widely used as an expectorant (in low doses) and a rapid-acting emetic (in higher doses).
+
+admixture - a mixture.
+
+arrant - complete, utter.
+
+profession de foi - French for profession of faith.
+
+importunate - persistent, especially to the point of annoyance or intrusion.
+
+denizen -  an inhabitant or occupant of a particular place.
+
+fitch - old-fashioned term for polecat.
+
+cheesecake photograph - a pin-up or glamour photograph of an attractive, scantily clad woman.
+
+paperhanger - a con man who passes bad cheques or counterfeit paper money; a forger, a con artist.
+
+comme il faut - proper; as it should be; as is necessary.
+
+wangle - manage to obtain (something) by persuading or cleverly manipulating someone.
+
+theodicy - a theological construct that attempts to vindicate God in response to the problem of evil, which appears inconsistent with the existence of an omnipotent and omnibenevolent God.
+
+we’ll trade fours - the alternation by the soloists who each take four bars of music.
+
+hacking a dart - smoking a cigarette in Canadian slang.
+
+es muss sein - it must be.
+
+десять лет без права переписки - ten years of no correspondence.
+
+alea iacta est - the die is cast.
+
+ingénue - an innocent or unsophisticated young woman, especially in a play or film.
+
+line of country - one's area of specialization or interest.

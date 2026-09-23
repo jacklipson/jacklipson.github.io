@@ -5,7 +5,7 @@ title: books
 
 my 2026 resolution was to read a book every two weeks. it seems despite making my progress public, online humiliation from a lack of reading has **not** been a successful motivitor...
 
-last updated: june 8, 2026.
+last updated: sep 23, 2026.
 
 **read since 6 november 2023 (chronological order)**
 
@@ -57,12 +57,15 @@ last updated: june 8, 2026.
 46. the five-forty-eight (cheever) - 7/12/26 10:39 AM
 47. a modest proposal (swift) - 7/16/26 1:46 PM
 48. A Non-Euclidean View of California as a Cold Place to Be - 7/30/26 12:41 AM
+49. the enormous radio (cheever) - 8/14/26 2:29 AM
+50. notes from the underground - 8/23/26 12:47 AM
+51. among the thugs (bill buford) - 8/29/26 11:10 PM
 
 **priority read list**
 1. letters to a young poet
 2. wise blood
 3. all the pretty horses 
-4. anything by baudrillard..
+4. anything by baudrillard...
 5. who will run the frog hospital
 6. catching the big fish
 7. cassino 44 
@@ -75,6 +78,13 @@ last updated: june 8, 2026.
 14. the gallic wars
 15. oblomov
 16. the souls of china, the party's interests come first, machiavellianism the prince
+17. light years
+18. malina bachmann
+19. the savage detectives
+20. antonio moresco the beginnings
+21. antunes the splendor of portugal
+22. austerlitz sebald
+23. faulkner absalom absalom
 
 **favorite poems**
 
@@ -103,6 +113,8 @@ last updated: june 8, 2026.
 23. jabberwocky by lewis carroll
 24. a cottony fate.
 25. Because You Asked about the Line Between Prose and Poetry by nemerov
+26. ozymandias
+27. L'albatros (baudelaire)
 
 **russian poems**
 
@@ -154,7 +166,7 @@ last updated: june 8, 2026.
 35. screwtape letters
 36. showdown at gucci gulch
 37. naked lunch
-38. no sense of place
+38. meyrowitz no sense of place
 39. palimpsest gore vidal
 40. The Monk
 41. debt the first 5000 years
@@ -301,7 +313,26 @@ last updated: june 8, 2026.
 183. Tropic of Cancer
 184. The Brass Check
 185. The Travels of Jaimie McPheeters
-
+186. winter notes on summer impressions
+187. the intimate city: walking new york
+188. beyond good and evil
+189. theory of the avant-garde
+190. A Wizard of Earthsea
+191. fleurs du mal poetry baudelaire
+192. portrait of a lady 1936
+193. the idiot batuman
+194. mating norman rush
+195. The Four-Chambered Heart
+196. clarice lispector the hour of the star
+197. Cantar de mio Cid
+198. Les Chants de Maldoror
+199. heat bill buford
+200. my secret war
+201. to hate like this is to be happy forever
+202. gender trouble
+203. the invisible man ralph ellison
+204. outer dark
+205. Le Pont de la rivière Kwaï
 
 
 **art books**

@@ -28,7 +28,11 @@ here are some notes and projects i wrote during and outside of class.
 <a href = "/assets/class notes/math 242 paper.pdf" target="_blank"> math 242 final paper </a><br>
 <a href = "/assets/class notes/math 261a.pdf" target="_blank"> math 261a notes </a>
 
+**summer 2024**<br>
+<a href = "/assets/class notes/atiyah-macdonald.pdf" target="_blank"> atiyah-macdonald reading course notes (miraculously somehow longer than the book itself)</a><br>
+
 **fall 2023**<br>
 <a href="/assets/class notes/phys 7b.pdf" target="_blank"> physics 7b notes </a><br>
 <a href="/assets/class notes/phys 105.pdf" target="_blank"> physics 105 (very incomplete) </a><br>
-<a href="/assets/class notes/math 113.pdf" target="_blank"> math 113 </a>
+<a href="/assets/class notes/math 113.pdf" target="_blank"> math 113 </a><br>
+<a href="/assets/class notes/math h185 recap.pdf" target="_blank"> math h185 recap </a>
