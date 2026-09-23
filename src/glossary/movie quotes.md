@@ -5,7 +5,7 @@ title: movie quotes
 
 here are some movie quotes (sans sources) i like (to reference).
 
-last updated: may 26, 2026.
+last updated: september 23, 2026.
 
 1. wanna kiss me ducky?
 2. samba sugarloaf jungle piranha
@@ -55,9 +55,18 @@ last updated: may 26, 2026.
 35. you've got very nice eyes, dee. never noticed them before. they real?
 36. heyyy, watch the leather, man.
 37. you hung the moon for me
-38. fly away fly away little bird before you get broke
-39. just in time or born in the vestry?
-40. goddamned hypocrite squares!
-41. let's throw it out on the stoop and see if the cat licks it up
-42. is it as bad as that? <br>
-    as good as that.
+38. for me, the sun rises and sets with her man (only rivaled by for me the action is the juice)
+39. fly away fly away little bird before you get broke
+40. just in time or born in the vestry?
+41. goddamned hypocrite squares!
+42. let's throw it out on the stoop and see if the cat licks it up
+43. is it as bad as that? <br>
+    as good as that.'
+44. schmuck, open the door will ya?
+45. millions of years of evolution, right? right?!
+46. i guess i was born lonely
+47. mary! (as said by jimmy stewart)
+48. i'm not much on rear window ethics
+49. if this guy owned a funeral parlor, no one would die! this turkey is totally braindead!
+50. you're only allowed three great women in your lifetime, they come along like the great fighters, every ten years.
+51. well next time i do something, notice it!
