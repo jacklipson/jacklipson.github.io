@@ -23,14 +23,14 @@ right now, i am applying to math grad school and learning french + russian + chi
         justify-content: center;
         gap: .45em;
     ">
-        <div style="width: 42%; aspect-ratio: 1 / 1; text-align: center; color: white;">
+        <div style="width: 25%; aspect-ratio: 1 / 1; text-align: center; color: white;">
             <img src="/assets/img/2010-07-03 14.57.37.jpg"
                  alt="little blah"
                  style="width: 100%; height: 100%; object-fit: cover;">
             <div>smaller jack</div>
         </div>
 
-        <div style="width: 42%; aspect-ratio: 1 / 1; text-align: center; color: white;">
+        <div style="width: 25%; aspect-ratio: 1 / 1; text-align: center; color: white;">
             <img src="/assets/img/portrait.png"
                  alt="second image"
                  style="width: 100%; height: 100%; object-fit: cover;">
