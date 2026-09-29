@@ -3,4 +3,4 @@ layout: layouts/homepage.njk
 title: homepage
 ---
 
-welcome to my (jack's) site :)
+click ↑ to enter jack's site!

@@ -70,3 +70,5 @@ last updated: september 23, 2026.
 49. if this guy owned a funeral parlor, no one would die! this turkey is totally braindead!
 50. you're only allowed three great women in your lifetime, they come along like the great fighters, every ten years.
 51. well next time i do something, notice it!
+52. make a hole make it wide! (james earl jones)
+53. massive massive quantities and a glass of water sweetheart my socks are on fire!
