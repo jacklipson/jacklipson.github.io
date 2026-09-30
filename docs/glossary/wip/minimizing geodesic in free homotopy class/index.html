@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="/styles/tex.css">
+
+
+    <script src="/scripts/mathjax-config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <title>jack&#39;s site | minimizing geodesic in free homotopy class</title>
+  </head>
+
+  <body>
+    <main>
+      
+    <p> <span style = "color: Tomato"> works in progress </span> | <i>29 september 2026 - tuesday</i> | <span style = "color: SlateBlue"> minimizing geodesic in free homotopy class </span></p>
+
+    <p>This was a non-HW exercise from my Riemannian Geometry class taught by John Lott in Spring 2026. The following question arose in the proof of Synge's theorem.</p>
+<div class = "subthm-box" type = "problem">
+    The free (as in ignoring basepoint) homotopy class of loops on a compact Riemannian manifold $(M,g)$ contains a geodesic representative that is minimizing among the class.
+</div>
+<div class = "subthm-box" type = "proof">    
+    It's not immediate that a sequence of freely homotopic continuous loops with decreasing length will have some convergent subsequence nor that this is a geodesic. It thus helps to look at a subfamily of curves.
+<p><div class = "subthm-box" type = "finding length-minimizing loop">
+We first reduce to looking at nicer curves.</p>
+<p>Recall that, for $\gamma \in C^1([0,1], M)$, $$\int_a^b \sqrt{g(\dot\gamma, \dot\gamma)} = \lim_{\delta \to 0^+}\sup_{\max_i \Delta t_i &lt; \delta} \sum_{i = 1}^n d_g(\gamma(t_{i-1}), \gamma(t_i)).$$</p>
+<p>Step 1. Since $C^0$ curves may have infinite length per the righthandside definition, we apply a helpful bound.</p>
+<p>Fix some $\gamma$ in the free homotopy class. By Whitney's Approximation theorem, we can assume $\gamma$ is smooth (and in the same class) and thus take its length $\tilde{L} = L(\gamma)$ using the Riemannian metric on $M$ which is finite by compactness and continuity of $\dot\gamma$.</p>
+<p>Step 2. We can always consider arc-length reparametrizations of curves (and thus keeping the free homotopy class) by taking $$\tilde \sigma(t) = \sigma (\tau (t)) \qquad \tau(t) = \inf \{u: L(\sigma_{[0,u]}) \geq L(\sigma)t\}.$$</p>
+<p>Note $L(\sigma|_{[0,\tau(t)]}) \geq L(\sigma)t &gt; L(\sigma|_{[0, u]})$ where the first inequality is always true and the second holds for $u &lt; \tau(t)$ so taking $u \uparrow \tau(t)$ and the continuity of $u \mapsto L(\sigma|_{[0, u]})$ imply $L(\tilde \sigma|_{[0, t]}) = L(\sigma)t$. Thus, for $0 \leq s &lt; t \leq 1$, the additivity of length gives: $$L(\tilde \sigma|_{[s,t]}) = L(\sigma|_{[0,\tau(t)]}) - L(\sigma|_{[0, \tau(s)]}) = L(\sigma)(t-s).$$</p>
+<p>In particular $d_g(\tilde \sigma(s), \tilde \sigma(t)) \leq L(\tilde\sigma|_{[s,t]}) \leq L(\tilde \sigma) d_{S^1}(s,t) \leq \tilde Ld_{S^1}(s,t)$.</p>
+<p>Step 3. So it suffices to define the following subfamily (using the partition-definition of length): $$\FF = \left\{\sigma \in C(S^1, M): [\sigma] = [\gamma], \; L(\sigma) \leq \tilde{L}, \text{ and } d_g(\sigma(s), \sigma(t)) \leq \tilde{L} d_{S^1}(s,t) \right\}.$$</p>
+<p>We will conclude $\FF$ is compact via a corollary to Arzelá-Ascoli (see: <u><a href="/assets/class notes/tool notes.pdf"> these notes</a></u>):</p>
+<p><div class = "thm-box" name = "Arzelá-Ascoli">
+A subset of $\FF \subseteq C(X,M) \subseteq B(X,M)$, for a compact topological space $X$ and complete metric space $(M,d)$, is compact if and only if it is equicontinuous, closed, and bounded.
+</div></p>
+<p>Note $M$ is a complete metric space (with respect to $d_g$ via Hopf-Rinow) because it is compact.</p>
+<p>(i). $\FF$ is equicontinuous because $d_g(\sigma(s), \sigma(t)) \leq \tilde{L}d_{S^1}(s,t)$ for any $\sigma \in \FF$ by definition.</p>
+<p>(ii). $\FF$ is bounded because $M$ is compact so, using the supremum norm, $d_\infty(\sigma, \eta) \leq \text{diam} ; M &lt; \infty$.</p>
+<p>(iii). We show $\FF$ is closed. Say $(\sigma_n) \subseteq \FF$ with $\sigma_n \to \sigma$ a continuous map under the supremum norm.</p>
+<p>Since $d_\infty(\sigma_n, \sigma) &lt; \text{inj} \;(M) &lt;\infty$ for large enough $n$, $\sigma_n(t)$ and $\sigma(t)$ can be joined by a unique short geodesic which altogether provides a homotopy $[\sigma] = [\sigma_n] = [\gamma]$.</p>
+<p>For $n$ large enough, $d_\infty(\sigma, \sigma_n) &lt; \epsilon$ so $$d_g(\sigma(s), \sigma(t)) \leq d_g(\sigma(s), \sigma_n(s)) + d_g(\sigma(t), \sigma_n(t)) + d_g(\sigma_n(s), \sigma_n(t)) \leq 2 \epsilon + \tilde Ld_{S^1}(s,t).$$</p>
+<p>Taking $\epsilon \to 0$, $d_g(\sigma(s), \sigma(t)) \leq \tilde L d_{S^1}(s,t)$.</p>
+<p>It thus follows from the definition of length via partitions that $L(\sigma) \leq L(\sigma_n) \leq \tilde L$ for large enough $n$. So $\sigma \in \FF$ and $\FF$ is closed.</p>
+<p>Hence $\FF$ is compact so the length functional (which is lower-semicontinuous) attains a minimum at some $\gamma$.</p>
+<p>Per our reductions, $\gamma$ is a length-minimizer for the free homotopy class.
+</div></p>
+<p>We replace $\gamma$ with its arc-length parametrization as in Step 2 above.</p>
+<p><div class = "subthm box" type = "our minimizer is a geodesic">
+If $L(\gamma) = 0$, the constant path is a geodesic so we consider $L(\gamma) &gt; 0$.</p>
+<p>Suppose $\gamma$ is not locally length-minimizing. So there are $s&lt;t$ close enough that $$d_g(\gamma(s), \gamma(t)) &lt; L(\gamma|_{[s,t]}) = L(\gamma)d_{S^1}(s,t).$$</p>
+<p>$M$ is complete so there is a minimizing geodesic $\alpha:[s,t] \to M$ from $\gamma(s) \to \gamma(t)$ with $L(\alpha) = d_g(\gamma(s), \gamma(t))$.</p>
+<p>If we choose $s,t$ close enough, then we can replace $\gamma|_{[s,t]}$ with $\alpha$ so this new loop is freely homotopic to $\gamma$ but of strictly shorter length. Reparametrizing or taking $\alpha$ to be unit-speed, this lives in $\FF$ so $\gamma$ is no longer minmizing - contradiction.</p>
+<p>A locally length-minimizing curve is a geodesic so we are done.
+</div></p>
+</div>
+<p>Alternatively, Professor Lott suggested replacing $\FF \subseteq C^0(S^1, M)$ with $W^{1,2}$ loops of uniformly bounded energy (rather than length) and use the fact $W^{1,2}(S^1) \inj C^0(S^1)$ is compact because $S^1$ is one-dimensional.</p>
+
+
+    </main>
+
+    
+  </body>
+
+  <footer>
+    
+    <div class = "nav"> 
+  <p> <a href = "..">go up one</a> &nbsp; <- - -> &nbsp; <a href = "/"> go back to home </a> </p>
+</div>
+
+  </footer>
+</html>

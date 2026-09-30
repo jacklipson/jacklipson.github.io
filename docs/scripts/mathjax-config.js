@@ -16,6 +16,7 @@ window.MathJax = {
       P: "{\\mathbb{P}}",
       OO: "{\\mathcal{O}}",
       D: "{\\mathfrak{D}}",
+      FF: "{\\mathcal{F}}",
       aa: "{\\mathfrak{a}}",
       bb: "{\\mathfrak{b}}",
       cc: "{\\mathfrak{c}}",

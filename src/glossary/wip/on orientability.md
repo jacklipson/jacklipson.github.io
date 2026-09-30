@@ -1,0 +1,71 @@
+---
+layout: layouts/proof.njk
+title: on orientability
+publish_date: "2026-09-30"
+---
+
+We discuss why different versions of orientability are equivalent.
+
+Here are the definitions we'll examine.
+
+<div class = "subthm-box" type = "definitions">
+    1. A differentiable manifold $M$ is <u>orientable</u> if it admits an oriented atlas, i.e. an atlas for which the Jacobian determinant of all transition functions is positive.
+
+    2. A differentiable manifold $M$ is <u>orientable</u> if there exists a volume form, i.e. a nonvanishing section of $\Wedge^n T^*M$.
+
+    3. A <u>local orientation</u> of a topological manifold $M$ at some $p \in M$ is a choice of generator for $$H_n(M, M- \\{p\\}) \overset{\text{excision}}= H_n(B, B - \\{0\\}) = H_{n-1}(B - \\{0\\}) \overset{\text{homotopy equiv.}}= H_{n-1}(S^{n-1}) = \Z$$
+
+    where $B$ is a coordinate ball around $p$ based at the origin and the third step follows from the long exact relative homology sequence: $$\cdots \to H_n(B) = 0 \overset{j_\*}\to H_n(B, B-\\{0\\}) \overset{\partial_n}\to H_{n-1}(B-\\{0\\}) \overset{i_\*}\to H_{n-1}(B) = 0 \to \cdots$$
+
+    $M$ is <u>orientable</u> if it admits an oriented atlas, i.e. an atlas for which all transition functions fix the generators of $H_n(M, M - \\{p\\};\Z)$.
+
+    4. A differentiable closed, connected manifold is <u>orientable</u> if $H_n(M;\Z) = \Z$.
+</div>
+
+We assume all manifolds are connected and differentiable below.
+
+<div class = "subthm-box" type = "1 = 2">    
+    $1 \implies 2):$ Consider $\omega_\alpha = \phi_\alpha^*(dx^1 \wedge \cdots \wedge dx^n)$ for each chart $\phi_\alpha: U_\alpha \sur \R^n$. Since $\phi_\alpha$ is a diffeomorphism, $\omega_\alpha$ is nowhere vanishing on $U$.
+    
+    Take a locally finite parition of unity $\chi_\alpha$ with respect to this chart cover and set $\omega = \sum_\alpha \chi_\alpha \omega_\alpha$. Fix $p \in M$; say $\chi_{\alpha_1}, \ldots \chi_{\alpha_k}$ are the only such functions with support at $p$.
+
+    We check $\omega$ is nonvanishing.
+
+    If $\partial_j^{\alpha_1} = \phi_{\alpha_1}^*\partial_j$ is a coordinate frame on $\cap_{i=1}^k U_{\alpha_i}$ with respect to coords on $U_{\alpha_1}$, then (using our positive Jacobian determiant),
+    
+    $$\omega_{\alpha_i}(\partial_1^{\alpha_1}, \ldots, \partial_n^{\alpha_1})(p) = (dx^J)(d\phi_{\alpha_i} \circ d(\phi_{\alpha_1}\inv) \partial_1, \ldots, d\phi_{\alpha_i} \circ d(\phi_{\alpha_1}\inv) \partial_n)(p) = \det(d(\phi_{\alpha_i} \circ \phi_{\alpha_1}\inv)) \cdot 1 > 0.$$
+    
+    Hence, $\omega_p(\partial_1^{\alpha_1}, \ldots, \partial_n^{\alpha_1})$ is a positive sum.
+    
+    $2 \implies 1):$ Suppose $\omega$ is a volume form.
+
+    By $\dim_\R\Wedge^n T_pM = 1$ and the fact $\phi_\alpha$ is a diffeomorphism, $\omega\_\alpha \coloneq \phi_\alpha^* \omega = f\_{\alpha} \omega|\_{U\_\alpha}$ for some smooth $f_\alpha: U_\alpha \to \R$ also nonnonvanishing.
+
+    As in $(1 \implies 2)$, $f_\alpha\omega = \det (d(\phi_\alpha \circ \phi_\beta\inv))\omega_\beta = \det (d(\phi_\alpha \circ \phi_\beta\inv)) f_\beta \omega$ on the appropriate restriction. Because $\omega$ is nonvanishing, $$\frac{f_\alpha}{f_\beta} = \det (d(\phi_\alpha \circ \phi_\beta\inv)).$$
+
+    Forcing each chart small enough to be itself connected and have connected pairwise intersections (see the start of $1 = 3$), we can redefine:
+    $$\tilde\phi_\alpha = \begin{cases}
+        \phi_\alpha & f_\alpha > 0, \\\\
+        R \circ \phi_\alpha & f_\alpha < 0.
+    \end{cases}$$
+    
+    where $R(x^1, \ldots, x^n) = (-x^1, x^2, \ldots, x^n)$. So we get an oriented atlas.
+</div>
+
+<div class = "subthm-box" type = "1 = 3">
+    Recall from Riemannian geometry that small enough geodesic balls give a strongly convex cover. <u><a href="/assets/class notes/tool notes.pdf"> These notes</a></u> imply the intersection of convev balls in $\R^n$ is still a ball.
+
+    Thus, we may use $B = U_\alpha \cap U_\beta$ for such charts. It suffices to see when $(\phi\_\alpha \circ \phi\_\beta\inv)\_*$ fixes $H_{n-1}(S^{n-1})$.
+
+    Say $f$ is $\phi_\alpha \circ \phi_\beta\inv$ shifted and scaled so it's a diffeomorphism of $\R^n$ fixing $0$. In particular, $df_0$ is invertible so it lives in one of the two path-connected components of $GL_n(\R)$ implying the existence of a path $A_t$ from $df_0$ to either $\pm I_n$ in either component.
+
+    $H(x,t) = A_t(f(tx)/t)$ shows $f$ is homotopic to $A_1(df_0) = \pm 1_n$ with $H(x,t)\inv(0) = \{0\} \times I$ since $A_t, f(tx)/t, \text{ and } df_0$ are invertible for all $t$.
+
+    In particular $f_*$ preserves the spheroid's degree if and only if $\det df_0 > 0$.
+</div>
+
+For this last part, we also suppose $M$ is closed.
+
+<div class = "subthm-box" type = "3 = 4">
+    Simplex nonsense; see: Fomenko-Fuchs chapter 17. 
+</div>
