@@ -173,16 +173,29 @@ document.querySelectorAll('[data-mode="vocab"]').forEach(button => {
             }
         };
 
-        // Enter checks the answer
+        // Enter checks the answer; a second Enter reveals it if wrong
+        let answeredWrong = false;
+
         input.addEventListener("keydown", event => {
             if (event.key === "Enter") {
-            event.preventDefault();
+                event.preventDefault();
 
-            if (skip.textContent === "Next") {
-                skip.click();
-            } else {
-                check.click();
-            }
+                if (skip.textContent === "Next") {
+                    skip.click();
+                } else if (answeredWrong) {
+                    skip.click();
+                } else {
+                    const correct =
+                        input.value.trim().toLowerCase() ===
+                        question.answer.toLowerCase();
+
+                    if (correct) {
+                        check.click();
+                    } else {
+                        check.click();
+                        answeredWrong = true;
+                    }
+                }
             }
         });
 
