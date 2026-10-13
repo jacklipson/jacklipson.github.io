@@ -3,10 +3,17 @@ const units = JSON.parse(
 );
 
 document.querySelectorAll('[data-mode="vocab"]').forEach(button => {
-  button.addEventListener("click", () => {
+    button.addEventListener("click", () => {
     const unit = units.find(u => u.id === Number(button.dataset.unit));
     const container = document.getElementById(`practice-${unit.id}`);
 
+    // Toggle the practice area
+    if (container.style.display !== "none" && container.childElementCount > 0) {
+        container.replaceChildren();
+        return;
+    }
+
+    container.style.display = "block";
     container.replaceChildren();
 
     // Shuffle the vocabulary into a random order
@@ -190,16 +197,24 @@ document.querySelectorAll('[data-mode="vocab"]').forEach(button => {
     }
 
     document.querySelectorAll('[data-mode="grammar"]').forEach(button => {
-    button.addEventListener("click", () => {
+        button.addEventListener("click", () => {
         const unit = units.find(u => u.id === Number(button.dataset.unit));
         const container = document.getElementById(`practice-${unit.id}`);
 
+        // Toggle the practice area
+        if (container.style.display !== "none" && container.childElementCount > 0) {
+            container.replaceChildren();
+            return;
+        }
+
+        container.style.display = "block";
+
         const message = document.createElement("p");
         message.className = "definition";
-        message.textContent = "no grammar here yet.";
+        message.textContent = "No grammar here yet.";
 
         container.replaceChildren(message);
-    });
+        });
     });
 
     nextQuestion();
