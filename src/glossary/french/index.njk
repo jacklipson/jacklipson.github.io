@@ -3,12 +3,12 @@ layout: layouts/french-index.njk
 title: french
 ---
 
-  <p> to practice french
+  <p> a place to practice french – taken from "Chez Nous" (2020)
 
   <div class="unit-grid">
     {% for unit in units %}
       <div class="unit">
-        <p> unit {{ unit.id }}
+        <p> chapitre {{ unit.id }}
         <button data-unit="{{ unit.id }}" data-mode="vocab">vocab</button>
         <button data-unit="{{ unit.id }}" data-mode="grammar">grammar</button>
         <button data-unit="{{ unit.id }}" data-mode="both">both</button></p>
