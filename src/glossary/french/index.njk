@@ -1,0 +1,24 @@
+---
+layout: layouts/french-index.njk
+title: french
+---
+
+  <p> to practice french
+
+  <div class="unit-grid">
+    {% for unit in units %}
+      <div class="unit">
+        <p> unit {{ unit.id }}
+        <button data-unit="{{ unit.id }}" data-mode="vocab">vocab</button>
+        <button data-unit="{{ unit.id }}" data-mode="grammar">grammar</button>
+        <button data-unit="{{ unit.id }}" data-mode="both">both</button></p>
+      </div>
+
+      <div class="practice-area" id="practice-{{ unit.id }}"></div>
+    </div>
+    {% endfor %}
+  </div>
+
+<script id="french-data" type="application/json">
+    {{ units | dump | safe }}
+</script>
