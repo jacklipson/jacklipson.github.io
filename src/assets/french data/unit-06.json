@@ -600,40 +600,84 @@
     ],
     "grammar": [
     {
+        "type": "multiple",
         "definition": "to choose (with conjugation)",
-        "answer": "choisir (choisis / choisis / choisit / choisissons / choisissez / choisissent)"
+        "rows" : [
+            {"prompt": "je", "answer": "choisis"},
+            {"prompt": "tu", "answer": "choisis"},
+            {"prompt": "il", "answer": "choisit"},
+            {"prompt": "nous", "answer": "choisissons"},
+            {"prompt": "vous", "answer": "choisissez"},
+            {"prompt": "ils", "answer": "choisissent"}
+        ]
     },
     {
-        "definition": "to talk a walk (with conj.)",
-        "answer": "se promener (je me promène / nous nous promenons / ils se promènent.)"
+        "type": "multiple",
+        "definition": "to talk a walk (with conjugations)",
+        "rows" : [
+            {"prompt": "je", "answer": "me promène"},
+            {"prompt": "nous", "answer": "nous promenons"},
+            {"prompt": "ils", "answer": "se promènent"}
+        ]
     },
     {
+        "type": "single",
         "definition": "to have a feeling that",
+        "prompt": "i have a feeling that",
         "answer": "avoir l'impression que"
     },
     {
+        "type": "single",
         "definition": "the weather was good/bad",
+        "prompt": "the weather was good/bad",
         "answer": "il faisait beau/mauvais"
     },
     {
+        "type": "single",
         "definition": "it was sunny",
+        "prompt": "it was sunny",
         "answer": "il y avait du soleil"
     },
     {
-        "definition": "to own (w/ conj.)",
-        "answer": "posséder (je possède / tu possèdes / il possède / nous possédons / vous possédez / ils possèdent)"
+        "type": "multiple",
+        "definition": "to own (with conjugations)",
+        "rows" : [
+            {"prompt": "je", "answer": "possède"},
+            {"prompt": "tu", "answer": "possèdes"},
+            {"prompt": "il", "answer": "possède"},
+            {"prompt": "nous", "answer": "possedons"},
+            {"prompt": "vous", "answer": "possédez"},
+            {"prompt": "ils", "answer": "possèdent"}
+        ]
     },
     {
-        "definition": "the car? she is parking it / the apartment? she will not buy it / the neighbors? she did not see them",
-        "answer": "la voiture? elle la gare / l'appartement? elle ne va pas l'acheter / les voisins? elle ne les a pas vus"
+        "type" : "multiple",
+        "definition": "les pronoms compléments d'object direct",
+        "rows" : [
+            {"prompt": "the car? she is parking it", "answer": "la voiture? elle la gare"},
+            {"prompt": "the apartment? she will not buy it", "answer": "l'appartement? elle ne va pas l'acheter"},
+            {"prompt": "the neighbors? she did not see them", "answer": "les voisins? elle ne les a pas vus"}
+        ]
     },
     {
-        "definition": "i am speaking to her / she will give him it / we called them up / show him / don't show it (m) to him",
-        "answer": "je lui parle / elle va le lui donner / nous leur avons téléphoné / montre-lui / ne le lui montre pas"
+        "type" : "multiple",
+        "definition": "les pronoms compléments d'object indirect",
+        "rows" : [
+            {"prompt": "i am speaking to her", "answer": "je lui parle"},
+            {"prompt": "she will give him it", "answer": "elle va le lui donner"},
+            {"prompt": "we called them up", "answer": "nous leur avons téléphoné"},
+            {"prompt": "show him", "answer": "montre-lui"},
+            {"prompt": "don't show it (m) to him", "answer": "ne le lui montre pas"}
+        ]
     },
     {
-        "definition": "l'imparfait - shall we take a walk / it was 1 in the morning / they were hungry",
-        "answer": "si on faisait une promenade / il était une heure du matin / ils avaient faim"
+        "type": "multiple",
+        "definition": "l'imparfait",
+        "rows" : [
+            {"prompt": "shall we take a walk", "answer": "si on faisait une promenade"},
+            {"prompt": "it was 1 in the morning", "answer": "il était une heure du matin"},
+            {"prompt": "they were hungry", "answer": "ils avaient faim"}
+        ]
     }
     ]
 }

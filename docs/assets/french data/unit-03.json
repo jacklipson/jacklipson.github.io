@@ -769,7 +769,7 @@
 
     "grammar": [
     {
-        "type": "conjugation",
+        "type": "multiple",
         "definition": "-re conjugation (e.g. attendre)",
         "rows": [
         { "prompt": "je", "answer": "attends" },
@@ -782,7 +782,7 @@
     },
 
     {
-        "type": "conjugation",
+        "type": "multiple",
         "definition": "verbes conjugués comme préférer",
         "rows": [
         { "prompt": "je", "answer": "préfère" },
@@ -795,7 +795,7 @@
     },
 
     {
-        "type": "conjugation",
+        "type": "multiple",
         "definition": "to follow (with conjugation)",
         "rows": [
         { "prompt": "infinitive", "answer": "suivre" },
@@ -808,7 +808,7 @@
         ]
     },
     {
-        "type": "conjugation",
+        "type": "multiple",
         "definition": "to read (with conjugation + passé composé)",
         "rows": [
         { "prompt": "infinitive", "answer": "lire" },
@@ -822,7 +822,7 @@
         ]
     },
     {
-        "type": "conjugation",
+        "type": "multiple",
         "definition": "must, to have/supposed to / to owe (with conjugations)",
         "rows": [
         { "prompt": "infinitive", "answer": "devoir" },
@@ -835,7 +835,7 @@
         ]
     },
     {
-        "type": "conjugation",
+        "type": "multiple",
         "definition": "can / to be able to (with conjugations)",
         "rows": [
         { "prompt": "infinitive", "answer": "pouvoir" },
@@ -848,7 +848,7 @@
         ]
     },
     {
-        "type": "conjugation",
+        "type": "multiple",
         "definition": "to want (with conjugations)",
         "rows": [
         { "prompt": "infinitive", "answer": "vouloir" },

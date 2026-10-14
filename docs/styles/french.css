@@ -126,6 +126,10 @@
   text-align: left;
 }
 
+.grammar-row .answer-label {
+  letter-spacing: normal;
+}
+
 .grammar-row input {
   justify-self: start;
   max-width: none;
@@ -142,6 +146,7 @@
 .grammar-header .definition {
   grid-column: 2;
   grid-row: 1;
+  letter-spacing: 0.05em;
 }
 
 .grammar-header .check-buttons {

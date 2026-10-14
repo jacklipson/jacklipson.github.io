@@ -726,159 +726,396 @@
         "answer": "serée"
     }
     ],
-    "grammar": [    {
+    "grammar": [
+    {
+        "type": "multiple",
         "definition": "to wash up (with conjugations)",
-        "answer": "se laver (je me lave / tu te laves / il se lave / nous nous lavons / vous vous lavez / ils se lavent)"
+        "rows": [
+        {"prompt": "infinitive", "answer": "se laver"},
+        { "prompt": "je", "answer": "me lave" },
+        { "prompt": "tu", "answer": "te laves" },
+        { "prompt": "il", "answer": "se lave" },
+        { "prompt": "nous", "answer": "nous lavons" },
+        { "prompt": "vous", "answer": "vous lavez" },
+        { "prompt": "ils", "answer": "se lavent" }
+        ]
     },
     {
+        "type": "multiple",
+        "definition": "time phrases",
+        "rows": [
+        { "prompt": "it is one o'clock", "answer": "il est une heure" },
+        { "prompt": "eight o'clock", "answer": "il est huit heures" },
+        { "prompt": "00:30/half-past", "answer": "il est et demi/e" },
+        { "prompt": "quarter after", "answer": "il est et quart" },
+        { "prompt": "quarter 'til", "answer": "il est moins le quart" },
+        { "prompt": "in the morning", "answer": "il est du matin" },
+        { "prompt": "in the afternoon", "answer": "il est de l'après-midi" },
+        { "prompt": "in the evening", "answer": "il est du soir" }
+        ]
+    },
+    {
+        "type": "multiple",
         "definition": "l'imperatif + les pronoms réfléchis + affirmative/negative (e.g. se laver)",
-        "answer": "lave-toi / lavons-nous / lavez-vous / ne te lave pas"
+        "rows": [
+        { "prompt": "wash yourself", "answer": "lave-toi" },
+        { "prompt": "let's wash ourselves", "answer": "lavons-nous" },
+        { "prompt": "do not wash yourself", "answer": "ne te lave pas" }
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to dry off, wipe off (with conjugations)",
-        "answer": "s'essuyer (je m'essuie / tu t'essuies / il s'essuie / nous nous essuyons / vous vous essuyez / ils s'essuient)"
+        "rows": [
+        {"prompt": "infinitive", "answer": "s'essuyer"},
+        { "prompt": "je", "answer": "m'essuie" },
+        { "prompt": "tu", "answer": "t'essuies" },
+        { "prompt": "il", "answer": "s'essuie" },
+        { "prompt": "nous", "answer": "nous essuyons" },
+        { "prompt": "vous", "answer": "vous essuyez" },
+        { "prompt": "ils", "answer": "s'essuient" }
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to get up (with conjugations)",
-        "answer": "se lever (je me lève / tu te lèves / il se lève / nous nous levons / vous vous levez / ils se lèvent)"
+        "rows": [
+        {"prompt": "infinitive", "answer": "se lever"},
+        { "prompt": "je", "answer": "me lève" },
+        { "prompt": "tu", "answer": "te lèves" },
+        { "prompt": "il", "answer": "se lève" },
+        { "prompt": "nous", "answer": "nous levons" },
+        { "prompt": "vous", "answer": "vous levez" },
+        { "prompt": "ils", "answer": "se lèvent" }
+        ]
     },
     {
-        "definition": "(adverb) too / a lot / enough / a little / doesn't (e.g. il travaille)",
-        "answer": "il travaille trop / beaucoup / assez / un peu / ne travaille pas"
+        "type": "multiple",
+        "definition": "quantities (adverbs) for 'il travaille'",
+        "rows" : [
+            {"prompt": "too", "answer": "il travaille trop"},
+            {"prompt": "a lot", "answer": "il travaille beaucoup"},
+            {"prompt": "enough", "answer": "il travaille assez"},
+            {"prompt": "a little", "answer": "il travaille un peu"},
+            {"prompt": "doesn't", "answer": "il ne travaille pas"}
+        ]
     },
     {
-        "definition": "(quantities) too / a lot / enough / a little / doesn't (e.g. avoir)",
-        "answer": "il a trop de/d' .. / beaucoup de/d' .. / assez de/d'.. / un peu de/d' .. / n'a pas de/d' .."
+        "type": "multiple",
+        "definition": "quantities (adj) for 'il a'",
+        "rows": [
+            {"prompt": "too", "answer": "il a trop de/d' .."},
+            {"prompt": "a lot", "answer": "il a beaucoup de/d' .."},
+            {"prompt": "enough", "answer": "il a assez de/d'.."},
+            {"prompt": "a little", "answer": "il a un peu de/d' .."},
+            {"prompt": "doesn't have", "answer": "il n'a pas de/d' .."}
+        ]
     },
     {
+        "type": "single",
         "definition": "once/# a day/week",
+        "prompt": "une/# ? par ?/?",
         "answer": "une/# fois par jour/semaine"
     },
     {
+        "type": "single",
         "definition": "to have trouble (+ infinitive)",
+        "prompt": "to have trouble (+ infinitive)",
         "answer": "avoir du mal à (+ infinitf)"
     },
     {
+        "type": "single",
         "definition": "to be in the process of (+ infinitive)",
+        "prompt": "to be in the process of (+ infinitive)",
         "answer": "être en train de (+ infinitf)"
     },
- {
+    {
+        "type": "multiple",
         "definition": "to sleep (with conjugations)",
-        "answer": "dormir (je dors / tu dors / il dort / nous dormons / vous dormez / ils dorment)"
+        "rows": [
+        {"prompt": "infinitive", "answer": "dormir"},
+        { "prompt": "je", "answer": "dors" },
+        { "prompt": "tu", "answer": "dors" },
+        { "prompt": "il", "answer": "dort" },
+        { "prompt": "nous", "answer": "dormons" },
+        { "prompt": "vous", "answer": "dormez" },
+        { "prompt": "ils", "answer": "dorment" }
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to fall asleep (with conjugations)",
-        "answer": "s'endormir (je m'endors / tu t'endors / il s'endort / nous nous endormons / vous vous endormez / ils s'endorment)"
+        "rows": [
+        {"prompt": "infinitive", "answer": "s'endormir"},
+        {"prompt": "je", "answer": "m'endors"},
+        {"prompt": "tu", "answer": "t'endors"},
+        {"prompt": "il", "answer": "s'endort"},
+        {"prompt": "nous", "answer": "nous endormons"},
+        {"prompt": "vous", "answer": "vous endormez"},
+        {"prompt": "ils", "answer": "s'endorment"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to fall asleep again (with conjugations)",
-        "answer": "se rendormir (je me rendors / tu te rendors / il se rendort / nous nous rendormons / vous vous rendormez / ils se rendorment)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "se rendormir"},
+            {"prompt": "je", "answer": "me rendors"},
+            {"prompt": "tu", "answer": "te rendors"},
+            {"prompt": "il", "answer": "se rendort"},
+            {"prompt": "nous", "answer": "nous rendormons"},
+            {"prompt": "vous", "answer": "vous rendormez"},
+            {"prompt": "ils", "answer": "se rendorment"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to lie to (with conjugations)",
-        "answer": "mentir à (je mens / tu mens / il ment / nous mentons / vous mentez / ils mentent)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "mentir à"},
+            {"prompt": "je", "answer": "mens"},
+            {"prompt": "tu", "answer": "mens"},
+            {"prompt": "il", "answer": "ment"},
+            {"prompt": "nous", "answer": "mentons"},
+            {"prompt": "vous", "answer": "mentez"},
+            {"prompt": "ils", "answer": "mentent"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to leave (with / from / for) (with conjugations)",
-        "answer": "partir avec / de / pour (je pars / tu pars / il part / nous partons / vous partez / ils partent)"
+        "rows": [
+            {"prompt": "infinitive + with / from / for", "answer": "partir avec / de / pour"},
+            {"prompt": "je", "answer": "pars"},
+            {"prompt": "tu", "answer": "pars"},
+            {"prompt": "il", "answer": "part"},
+            {"prompt": "nous", "answer": "partons"},
+            {"prompt": "vous", "answer": "partez"},
+            {"prompt": "ils", "answer": "partent"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to go out with / to leave (with conjugation)",
-        "answer": "sortir avec / de / (je sors / tu sors / il sort / nous sortons / vous sortez / ils sortent)"
+        "rows": [
+            {"prompt": "infitive + with / from", "answer": "sortir avec / de"},
+            {"prompt": "je", "answer": "sors"},
+            {"prompt": "tu", "answer": "sors"},
+            {"prompt": "il", "answer": "sort"},
+            {"prompt": "nous", "answer": "sortons"},
+            {"prompt": "vous", "answer": "sortez"},
+            {"prompt": "ils", "answer": "sortent"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to serve (with conjugations)",
-        "answer": "servir (je sers / tu sers / il sert / nous servons / vous servez / ils servent)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "servir"},
+            {"prompt": "je", "answer": "sers"},
+            {"prompt": "tu", "answer": "sers"},
+            {"prompt": "il", "answer": "sert"},
+            {"prompt": "nous", "answer": "servons"},
+            {"prompt": "vous", "answer": "servez"},
+            {"prompt": "ils", "answer": "servent"}
+        ]
     },
     {
+        "type": "single",
         "definition": "to be ten minutes / an hour late",
+        "prompt": "to be ten minutes / an hour late",
         "answer": "avoir dix minutes / une heure de retard"
     },
     {
+        "type": "single",
         "definition": "to be / arrive on time",
+        "prompt": "to be / arrive on time",
         "answer": "être / arriver à l'heure"
     },
     {
+        "type": "single",
         "definition": "to be early / late",
+        "prompt": "to be early / late",
         "answer": "être en avance / en retard"
     },
     {
-        "definition": "it is one o'clock / eight o'clock / 00:30/half-past /quarter after / quarter 'til / in the morning / in the afternoon / in the evening",
-        "answer": "il est une heure / huit heures / et demi/e / et quart / moins le quart / du matin / de l'après-midi / du soir"
-    },
-    {
+        "type": "multiple",
         "definition": "to run, to rush",
-        "answer": "courir (je cours / tu cours / il court / nous courons / vous courez / ils courent)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "courir"},
+            {"prompt": "je", "answer": "cours"},
+            {"prompt": "tu", "answer": "cours"},
+            {"prompt": "il", "answer": "court"},
+            {"prompt": "nous", "answer": "courons"},
+            {"prompt": "vous", "answer": "courez"},
+            {"prompt": "ils", "answer": "courent"}
+        ]
     },
     {
-        "definition": "as + adj/adverb + as ... (e.g. you play as well as him) (adj. agrees with first noun)",
-        "answer": "aussi + adj/adverb + que ... (e.g. tu joues aussi bien que lui)"
+        "type": "multiple",
+        "definition": "as + adj/adverb + as ... (adj. agrees with first noun)",
+        "rows" : [
+            {"prompt": "as adj/adverb + as", "answer": "aussi + adj/adverb + que"},
+            {"prompt": "you play as well as him", "answer": "tu joues aussi bien que lui"}
+        ]
     },
     {
-        "definition": "the best (adverb) (e.g. you sing the best of all the singers in the world)",
-        "answer": "le mieux (e.g. tu chantes le mieux de toutes les chanteuses du monde)"
+        "type": "multiple",
+        "definition": "the best (adverb)",
+        "rows" : [
+            {"prompt": "the best (adverb)", "answer": "le mieux"},
+            {"prompt": "you sing the best of all the singers in the world", "answer": "tu chantes le mieux de toutes les chanteuses du monde"}
+        ]
     },
     {
-        "definition": "better than (e.g. you sing better than we do)",
-        "answer": "mieux que (e.g. tu chantes mieux que nous)"
+        "type": "multiple",
+        "definition": "better than",
+        "rows" : [
+            {"prompt": "better than", "answer": "mieux que"},
+            {"prompt": "you sing better than we do", "answer": "tu chantes mieux que nous"}
+        ]
     },
     {
-        "definition": "as many ... as (e.g. i have as many friends as you)",
-        "answer": "autant de ... que (e.g. j'ai autant d'amis que toi/vous)"
+        "type": "multiple",
+        "definition": "as many ... as",
+        "rows" : [
+            {"prompt": "as many ... as", "answer": "autant de ... que"},
+            {"prompt": "i have as many friends as you", "answer": "j'ai autant d'amis que toi/vous"}
+        ]
     },
     {
-        "definition": "less ... than (e.g. he goes out less often than I do)",
-        "answer": "moins (de) ... que (e.g. il sort moins souvent que moi)"
+        "type": "multiple",
+        "definition": "less ... than",
+        "rows" : [
+            {"prompt": "less ... than", "answer": "moins (de) ... que"},
+            {"prompt": "he goes out less often than I do", "answer": "il sort moins souvent que moi"}
+        ]
     },
     {
-        "definition": "more ... than (e.g. she has more work than we do)",
-        "answer": "plus (de) ... que (e.g. elle a plus de travail que nous)"
+        "type": "multiple",
+        "definition": "more ... than",
+        "rows" : [
+            {"prompt": "more ... than", "answer": "plus (de) ... que"},
+            {"prompt": "she has more work than we do", "answer": "elle a plus de travail que nous"}
+        ]
     },
     {
-        "definition": "to want (+ something, + to do something, e.g. to want a cup of coffee/to do something)",
-        "answer": "avoir envie de (+ nom, + infinitif, e.g. avoir envie d'un café/de faire quelque chose)"
+        "type": "multiple",
+        "definition": "to want",
+        "rows" : [
+            {"prompt": "to want (+ something, + to do something", "answer": "avoir envie de (+ nom, + infinitif)"},
+            {"prompt": "to want a cup of coffee/to do something)", "answer": "avoir envie d'un café/de faire quelque chose)"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to try on, to try (with conjugations)",
-        "answer": "essayer (j'essaie / tu essaies / il essaie / nous essayons / vous essayez / ils essaient)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "essayer"},
+            {"prompt": "je", "answer": "j'essaie"},
+            {"prompt": "tu", "answer": "essaies"},
+            {"prompt": "il", "answer": "essaie"},
+            {"prompt": "nous", "answer": "essayons"},
+            {"prompt": "vous", "answer": "essayez"},
+            {"prompt": "ils", "answer": "essaient"}
+        ]
     },
     {
+        "type": "single",
         "definition": "to do something nice for oneself",
+        "prompt": "to do something nice for oneself",
         "answer": "se faire un petit plaisir"
     },
     {
+        "type": "multiple",
         "definition": "to put on, to wear (with conjugations)",
-        "answer": "mettre (je mets / tu mets / il met / nous mettons / vous mettesz / ils metent)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "mettre"},
+            {"prompt": "je", "answer": "mets"},
+            {"prompt": "tu", "answer": "mets"},
+            {"prompt": "il", "answer": "met"},
+            {"prompt": "nous", "answer": "mettons"},
+            {"prompt": "vous", "answer": "mettez"},
+            {"prompt": "ils", "answer": "mettent"}
+        ]
     },
     {
+        "type": "single",
         "definition": "put your bag in your room!",
+        "prompt": "put your bag in your room!",
         "answer": "mets ton sac dans ta chambre!"
     },
     {
+        "type": "single",
         "definition": "can you set the table?",
+        "prompt": "can you set the table?",
         "answer": "tu peux mettre la table?"
     },
     {
+        "type": "single",
         "definition": "it takes us an hour to arrive at the office.",
+        "prompt": "it takes us an hour to arrive at the office.",
         "answer": "on met une heure pour arriver au bureau."
     },
     {
-        "definition": "this/that/these/those (m/mv/f/pl)",
-        "answer": "ce/cet/cette/ces"
+        "type": "multiple",
+        "definition": "this/that/these/those",
+        "rows": [
+            {"prompt": "this/that (m)", "answer": "ce"},
+            {"prompt": "this/that (mv)", "answer": "cet"},
+            {"prompt": "this/that (f)", "answer": "cette"},
+            {"prompt": "these/those (pl)", "answer": "ces"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "stressed pronouns",
-        "answer": "moi, toi, lui, elle, soi, nous, vous, eux, elles"
+        "rows": [
+            {"prompt": "me", "answer": "moi"},
+            {"prompt": "you (sing/inf)", "answer": "toi"},
+            {"prompt": "him", "answer": "lui"},
+            {"prompt": "her", "answer": "elle"},
+            {"prompt": "oneself", "answer": "soi"},
+            {"prompt": "us", "answer": "nous"},
+            {"prompt": "you (pl)", "answer": "vous"},
+            {"prompt": "them (m)", "answer": "eux"},
+            {"prompt": "them (f)", "answer": "elles"}
+        ]
     },
     {
-        "definition": "comparative form of bon/ne (e.g. the dress is better than the skirt)",
-        "answer": "meilleur/e (e.g. la robe est meilleure que la jupe)"
+        "type": "multiple",
+        "definition": "comparative form of bon/ne",
+        "rows": [
+            {"prompt": "comparative form of bon/ne", "answer": "meilleur/e"},
+            {"prompt": "the dress is better than the skirt", "answer": "la robe est meilleure que la jupe"}
+        ]
     },
     {
-        "definition": "for superlatives, use le/la/es with plus/moins/meilleur(e) (e.g. the pink skirt is the least/most expensive/the best)",
-        "answer": "la jupe rose est la moins/plus chère/la meilleure"
+        "type": "multiple",
+        "definition": "for superlatives, use le/la/es with plus/moins/meilleur(e)",
+        "rows": [
+            {"prompt": "the pink skirt is the least expensive", "answer": "la jupe rose est la moins chère"},
+            {"prompt": "the pink skirt is the most expensive", "answer": "la jupe rose est la plus chère"},
+            {"prompt": "the pink skirt is the best", "answer": "la jupe rose est la meilleure"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "l'impératif (for -er AND -ir/-oir/-re AND verbes pronominaux) avec negatif e.g. regarder/dormir/se laver\n\n- regarde (no s!! for -er tu)! regardons! regardez / ne regarde (no s!! for -er tu) pas etc ...\n- dors! dormons! dormez! / ne dors pas! etc...\n- lave-toi! lavons-nous! lavez-vous! ne te lève pas!",
-        "answer": "regarde"}]
+        "rows": [
+            {"prompt": "you (sing/inf) look (no s!! for -er tu)!", "answer": "regarde!"},
+            {"prompt": "let's look!", "answer": "regardons!"},
+            {"prompt": "you (pl) look!", "answer": "regardez!"},
+            {"prompt": "don't look (no s!! for -er tu)!", "answer": "ne regarde pas!"},
+            {"prompt": "you (sing/inf) sleep! (has s!!)", "answer": "dors!"},
+            {"prompt": "let's sleep!", "answer": "dormons!"},
+            {"prompt": "you (pl) sleep!", "answer": "dormez!"},
+            {"prompt": "don't sleep! (has s!!)", "answer": "ne dors pas!"},
+            {"prompt": "you (sing/inf) wash yourself!", "answer": "lave-toi!"},
+            {"prompt": "let's wash ourselves!", "answer": "lavons-nous!"},
+            {"prompt": "you (pl) wash yourselves!", "answer": "lavez-vous!"},
+            {"prompt": "don't wash yourself (sing/inf)!", "answer": "ne te lave pas!"}
+        ]
+    }
+    ]
 }

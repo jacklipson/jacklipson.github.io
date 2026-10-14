@@ -664,56 +664,170 @@
     ],
     "grammar": [
     {
-        "definition": "to drink (i drink / you drink / he drinks / we drink / you all drink / they drink)",
-        "answer": "boire (je bois / tu bois / il boit / nous buvons / vous buvez / ils boivent)"
+        "type": "multiple",
+        "definition": "to drink",
+        "rows": [
+            {"prompt": "infinitive", "answer": "boire"},
+            {"prompt": "je", "answer": "bois"},
+            {"prompt": "tu", "answer": "bois"},
+            {"prompt": "il", "answer": "boit"},
+            {"prompt": "nous", "answer": "buvons"},
+            {"prompt": "vous", "answer": "buvez"},
+            {"prompt": "ils", "answer": "boivent"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to have (to eat or drink) (with conjugations)",
-        "answer": "prendre (je prends / tu prends / il prend / nous prenons / vous prenez / ils prennent)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "prendre"},
+            {"prompt": "je", "answer": "prends"},
+            {"prompt": "tu", "answer": "prends"},
+            {"prompt": "il", "answer": "prend"},
+            {"prompt": "nous", "answer": "prenons"},
+            {"prompt": "vous", "answer": "prenez"},
+            {"prompt": "ils", "answer": "prennent"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to buy (with conjugations)",
-        "answer": "acheter (j'achète / tu achètes / il achète / nous achetons / vous achetez / ils achètent)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "acheter"},
+            {"prompt": "je", "answer": "achète"},
+            {"prompt": "tu", "answer": "achètes"},
+            {"prompt": "il", "answer": "achète"},
+            {"prompt": "nous", "answer": "achetons"},
+            {"prompt": "vous", "answer": "achetez"},
+            {"prompt": "ils", "answer": "achètent"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to call (with conjugations)",
-        "answer": "appeler (j'appelle / tu appelles / il appelle / nous appelons / vous appelez / ils appellent)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "appeler"},
+            {"prompt": "je", "answer": "appelle"},
+            {"prompt": "tu", "answer": "appelles"},
+            {"prompt": "il", "answer": "appelle"},
+            {"prompt": "nous", "answer": "appelons"},
+            {"prompt": "vous", "answer": "appelez"},
+            {"prompt": "ils", "answer": "appellent"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "to throw (away) (with conjugations)",
-        "answer": "jeter (je jette / tu jettes / il jette / nous jetons / vous jetez / ils jettent)"
+        "rows": [
+            {"prompt": "infinitive", "answer": "jeter"},
+            {"prompt": "je", "answer": "jette"},
+            {"prompt": "tu", "answer": "jettes"},
+            {"prompt": "il", "answer": "jette"},
+            {"prompt": "nous", "answer": "jetons"},
+            {"prompt": "vous", "answer": "jetez"},
+            {"prompt": "ils", "answer": "jettent"}
+        ]
     },
     {
-        "definition": "to need (we need four eggs)",
-        "answer": "il faut (il faut quatre œufs)"
+        "type": "single",
+        "definition": "to need",
+        "prompt": "we need four eggs",
+        "answer": "il faut quatre œufs"
     },
     {
-        "definition": "le passé composé exceptions - avoir / boire / courir / devoir / être / faire / mettre / ouvrir / pouvoir / prendre / vouloir",
-        "answer": "eu / bu / couru / dû / été / fait / mis / ouvert / pu / pris / voulu"
+        "type": "multiple",
+        "definition": "le passé composé exceptions",
+        "rows" : [
+            {"prompt": "avoir", "answer": "eu"},
+            {"prompt": "boire", "answer": "bu"},
+            {"prompt": "courir", "answer": "couru"},
+            {"prompt": "devoir", "answer": "dû"},
+            {"prompt": "être", "answer": "été"},
+            {"prompt": "faire", "answer": "fait"},
+            {"prompt": "mettre", "answer": "mis"},
+            {"prompt": "ouvrir", "answer": "ouvert"},
+            {"prompt": "pouvoir", "answer": "pu"},
+            {"prompt": "prendre", "answer": "pris"},
+            {"prompt": "vouloir", "answer": "voulu"}
+        ]
     },
     {
-        "definition": "le passé composé for -er / -ir / -re (e.g. acheter / servir / attendre)",
-        "answer": "acheté / servi / attendu"
+        "type": "multiple",
+        "definition": "le passé composé for -er / -ir / -re",
+        "rows" : [
+            {"prompt": "acheter", "answer": "acheté"},
+            {"prompt": "servir", "answer": "servi"},
+            {"prompt": "attendre", "answer": "attendu"}
+        ]
     },
     {
-        "definition": "le passé composé w/ adverbs and au negatif (e.g. he didn't pay the bill / they drank a lot)",
-        "answer": "il n'a pas payé l'addition / ils ont beaucoup bu"
+        "type": "multiple",
+        "definition": "le passé composé w/ adverbs and au negatif",
+        "rows" : [
+            {"prompt": "he didn't pay the bill", "answer": "il n'a pas payé l'addition"},
+            {"prompt": "they drank a lot", "answer": "ils ont beaucoup bu"}
+        ]
     },
     {
-        "definition": "le passé composé exceptions for être with form (this is conjugated for speaker, ALWAYS add e for female and s for plural)\ne.g. i arrived / he did not die / those girls did not leave\nto arrive / to go, come in / to go, come back / to come / to return / to go back / to go up / to go down, to get off / to stay / to fall / to leave / to go out / to go / to go, come by / to be born / to die / to become (DR MRS VANDERTRAMPP)",
-        "answer": "je suis arrivé(e) / il n'est pas mort / ces filles ne sont pas parties\n\n\narriver (arrivé) / entrer (entré) / rentrer (rentré) / venir (venu) / revenir (revenu) / retourner (retourné) / monter (monté) / descendre (descendu) / tomber (tombé) / partir (parti) / sortir (sorti) / aller (allé) / passer (passé) / naître (né) / mourir (mort) / devenir (devenu)"
+        "type": "multiple",
+        "definition": "le passé composé exceptions for être with form (this is conjugated for speaker, ALWAYS add e for female and s for plural) (DR MRS VANDERTRAMPP)",
+        "rows" : [
+            {"prompt": "i arrived" , "answer": "je suis arrivé(e)"},
+            {"prompt": "he did not die", "answer": "il n'est pas mort"},
+            {"prompt": "those girls did not leave", "answer": "ces filles ne sont pas parties"},
+            {"prompt": "to arrive", "answer": "arriver (arrivé)"},
+            {"prompt": "to go, come in", "answer": "entrer (entré)"},
+            {"prompt": "to go, come back", "answer": "rentrer (rentré)"},
+            {"prompt": "to come", "answer": "venir (venu)"},
+            {"prompt": "to return", "answer": "revenir (revenu)"},
+            {"prompt": "to go back", "answer": "retourner (retourné)"},
+            {"prompt": "to go up", "answer": "monter (monté)"},
+            {"prompt": "to go down, to get off", "answer": "descendre (descendu)"},
+            {"prompt": "to stay", "answer": "rester (resté)"},
+            {"prompt": "to fall", "answer": "tomber (tombé)"},
+            {"prompt": "to leave", "answer": "partir (parti)"},
+            {"prompt": "to go out", "answer": "sortir (sorti)"},
+            {"prompt": "to go", "answer": "aller (allé)"},
+            {"prompt": "to go, come by", "answer": "passer (passé)"},
+            {"prompt": "to be born", "answer": "naître (né)"},
+            {"prompt": "to die", "answer": "mourir (mort)"},
+            {"prompt": "to become", "answer": "devenir (devenu)"}
+        ]
     },
     {
-        "definition": "le passé composé for verbes réfléchis uses être - e.g. he fell asleep / they went to bed / i washed myself / she washed her hair / she did not wash herself",
-        "answer": "il s'est endormi / ils se sont couchés / je me suis lavé(e) / elle s'est lavé (NOT lavée) les cheveux / elle ne s'est pas lavée"
+        "type": "multiple",
+        "definition": "le passé composé for verbes réfléchis using être",
+        "rows" : [
+            {"prompt": "he fell asleep", "answer": "il s'est endormi"},
+            {"prompt": "they went to bed", "answer": "ils se sont couchés"},
+            {"prompt": "i washed myself", "answer": "je me suis lavé(e)"},
+            {"prompt": "she washed her hair", "answer": "elle s'est lavé (NOT lavée) les cheveux"},
+            {"prompt": "she did not wash herself", "answer": "elle ne s'est pas lavée"}
+        ]
     },
     {
-        "definition": "utiliser le pronom \"en\"\nyou need a lot (of it) / i drank a glass (of it) / we'll take three (of them) / there is some / i didn't eat it / i don’t eat it / i am not going to buy it",
-        "answer": "il en faut beaucoup / j'en ai bu un verre / nous allons en prendre trois / il y en a / je n'en ai pas mangé / je n’en pas mange / je ne vais pas en acheter"
+        "type": "multiple",
+        "definition": "utiliser le pronom 'en'",
+        "rows" : [
+            {"prompt": "you need a lot (of it)", "answer": "il en faut beaucoup"},
+            {"prompt": "i drank a glass (of it)", "answer": "j'en ai bu un verre"},
+            {"prompt": "we'll take three (of them)", "answer": "nous allons en prendre trois"},
+            {"prompt": "there is some", "answer": "il y en a"},
+            {"prompt": "i didn't eat it", "answer": "je n'en ai pas mangé"},
+            {"prompt": "i don’t eat it", "answer": "je n’en pas mange"},
+            {"prompt": "i am not going to buy it", "answer": "je ne vais pas en acheter"}
+        ]
     },
     {
+        "type": "multiple",
         "definition": "first / next / after / then / finally",
-        "answer": "d'abord / ensuite / après / puis / enfin"
+        "rows" : [
+            {"prompt": "first", "answer": "d'abord"},
+            {"prompt": "next", "answer": "ensuite"},
+            {"prompt": "after", "answer": "après"},
+            {"prompt": "then", "answer": "puis"},
+            {"prompt": "finally", "answer": "enfin"}
+        ]
     }
     ]
 }

@@ -264,7 +264,7 @@ function renderGrammar(unit, container) {
 
     const question = grammar[questionIndex];
     const title = createElement("p", "definition", question.definition || "");
-    const answers = question.type === "conjugation" ? question.rows : [question];
+    const answers = question.type === "multiple" ? question.rows : [question];
 
     if (!Array.isArray(answers) || answers.length === 0) {
       container.replaceChildren(
