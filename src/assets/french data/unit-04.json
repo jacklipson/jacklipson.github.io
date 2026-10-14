@@ -1,0 +1,884 @@
+{
+    "id": 4,
+    "vocab": [
+    {
+        "definition": "the daily routine",
+        "answer": "la routine de la journée"
+    },
+    {
+        "definition": "to begin",
+        "answer": "commencer"
+    },
+    {
+        "definition": "to wash up (with conjugations)",
+        "answer": "se laver (je me lave / tu te laves / il se lave / nous nous lavons / vous vous lavez / ils se lavent)"
+    },
+    {
+        "definition": "to brush one's hair, teeth",
+        "answer": "se brosser les cheveux (m), les dents (f)"
+    },
+    {
+        "definition": "to fix one's hair",
+        "answer": "se coiffer"
+    },
+    {
+        "definition": "to go to bed",
+        "answer": "se coucher"
+    },
+    {
+        "definition": "to hurry",
+        "answer": "se dépêcher"
+    },
+    {
+        "definition": "to undress",
+        "answer": "se déshabiller"
+    },
+    {
+        "definition": "to shower",
+        "answer": "se doucher"
+    },
+    {
+        "definition": "to dry off, wipe off (with conjugations)",
+        "answer": "s'essuyer (je m'essuie / tu t'essuies / il s'essuie / nous nous essuyons / vous vous essuyez / ils s'essuient)"
+    },
+    {
+        "definition": "to be up (awake), to be standing up",
+        "answer": "être debout"
+    },
+    {
+        "definition": "to get dressed",
+        "answer": "s'habiller"
+    },
+    {
+        "definition": "face",
+        "answer": "la figure"
+    },
+    {
+        "definition": "hands",
+        "answer": "les mains (f)"
+    },
+    {
+        "definition": "hair",
+        "answer": "les cheveux (m)"
+    },
+    {
+        "definition": "to get up (with conjugations)",
+        "answer": "se lever (je me lève / tu te lèves / il se lève / nous nous levons / vous vous levez / ils se lèvent)"
+    },
+    {
+        "definition": "to put on makeup",
+        "answer": "se maquiller"
+    },
+    {
+        "definition": "to take a bath / a shower",
+        "answer": "prendre un bain / une douche"
+    },
+    {
+        "definition": "to shave",
+        "answer": "se raser"
+    },
+    {
+        "definition": "to return home",
+        "answer": "rentrer"
+    },
+    {
+        "definition": "to rest, relax",
+        "answer": "se reposer"
+    },
+    {
+        "definition": "to wake up",
+        "answer": "se réveiller"
+    },
+    {
+        "definition": "toiletries",
+        "answer": "les articles de toilette"
+    },
+    {
+        "definition": "toothbrush / hairbrush",
+        "answer": "une brosse à dents / à cheveux"
+    },
+    {
+        "definition": "toothpaste",
+        "answer": "du dentifrice"
+    },
+    {
+        "definition": "wash mitt",
+        "answer": "un gant de toilette"
+    },
+    {
+        "definition": "makeup",
+        "answer": "du maquillage"
+    },
+    {
+        "definition": "comb",
+        "answer": "un peigne"
+    },
+    {
+        "definition": "razor",
+        "answer": "un rasoir"
+    },
+    {
+        "definition": "soap",
+        "answer": "un savon"
+    },
+    {
+        "definition": "towel",
+        "answer": "une serviette de toilette"
+    },
+    {
+        "definition": "shampoo",
+        "answer": "du shampoing"
+    },
+    {
+        "definition": "(adverb) too / a lot / enough / a little / doesn't (e.g. il travaille)",
+        "answer": "il travaille trop / beaucoup / assez / un peu / ne travaille pas"
+    },
+    {
+        "definition": "(quantities) too / a lot / enough / a little / doesn't (e.g. avoir)",
+        "answer": "il a trop de/d' .. / beaucoup de/d' .. / assez de/d'.. / un peu de/d' .. / n'a pas de/d' .."
+    },
+    {
+        "definition": "frequency",
+        "answer": "la fréquence"
+    },
+    {
+        "definition": "every (m/f)",
+        "answer": "tous/toutes les"
+    },
+    {
+        "definition": "always",
+        "answer": "toujours"
+    },
+    {
+        "definition": "often",
+        "answer": "souvent"
+    },
+    {
+        "definition": "sometimes",
+        "answer": "quelquefois"
+    },
+    {
+        "definition": "rarely",
+        "answer": "rarement"
+    },
+    {
+        "definition": "never",
+        "answer": "ne ... jamais"
+    },
+    {
+        "definition": "once/# a day/week",
+        "answer": "une/# fois par jour/semaine"
+    },
+    {
+        "definition": "even",
+        "answer": "même"
+    },
+    {
+        "definition": "to go to sleep (child's expression)",
+        "answer": "faire dodo"
+    },
+    {
+        "definition": "slang for un job / un travail",
+        "answer": "un boulot"
+    },
+    {
+        "definition": "the daily grind",
+        "answer": "métro, boulot, dodo"
+    },
+    {
+        "definition": "next door",
+        "answer": "à cote"
+    },
+    {
+        "definition": "apartment",
+        "answer": "un appartement"
+    },
+    {
+        "definition": "to have trouble (+ infinitive)",
+        "answer": "avoir du mal à (+ infinitf)"
+    },
+    {
+        "definition": "bedroom",
+        "answer": "une chambre"
+    },
+    {
+        "definition": "already",
+        "answer": "déjà"
+    },
+    {
+        "definition": "again",
+        "answer": "de nouveau"
+    },
+    {
+        "definition": "slowly, gently, softly",
+        "answer": "doucement"
+    },
+    {
+        "definition": "above, upstairs",
+        "answer": "en haut"
+    },
+    {
+        "definition": "to be in the process of (+ infinitive)",
+        "answer": "être en train de (+ infinitf)"
+    },
+    {
+        "definition": "day (focusing on duration)",
+        "answer": "une journée"
+    },
+    {
+        "definition": "bathroom sink",
+        "answer": "un lavabo"
+    },
+    {
+        "definition": "at night",
+        "answer": "la nuit"
+    },
+    {
+        "definition": "breakfast",
+        "answer": "le petit-déjeuner"
+    },
+    {
+        "definition": "early",
+        "answer": "tôt"
+    },
+    {
+        "definition": "late",
+        "answer": "tard"
+    },
+    {
+        "definition": "to sleep (with conjugations)",
+        "answer": "dormir (je dors / tu dors / il dort / nous dormons / vous dormez / ils dorment)"
+    },
+    {
+        "definition": "to fall asleep (with conjugations)",
+        "answer": "s'endormir (je m'endors / tu t'endors / il s'endort / nous nous endormons / vous vous endormez / ils s'endorment)"
+    },
+    {
+        "definition": "to fall asleep again (with conjugations)",
+        "answer": "se rendormir (je me rendors / tu te rendors / il se rendort / nous nous rendormons / vous vous rendormez / ils se rendorment)"
+    },
+    {
+        "definition": "to lie to (with conjugations)",
+        "answer": "mentir à (je mens / tu mens / il ment / nous mentons / vous mentez / ils mentent)"
+    },
+    {
+        "definition": "to leave (with / from / for) (with conjugations)",
+        "answer": "partir avec / de / pour (je pars / tu pars / il part / nous partons / vous partez / ils partent)"
+    },
+    {
+        "definition": "to go out with / to leave (with conjugation)",
+        "answer": "sortir avec / de / (je sors / tu sors / il sort / nous sortons / vous sortez / ils sortent)"
+    },
+    {
+        "definition": "to serve (with conjugations)",
+        "answer": "servir (je sers / tu sers / il sert / nous servons / vous servez / ils servent)"
+    },
+    {
+        "definition": "time",
+        "answer": "l'heure (f)"
+    },
+    {
+        "definition": "watch",
+        "answer": "une montre"
+    },
+    {
+        "definition": "alarm",
+        "answer": "un réveil"
+    },
+    {
+        "definition": "to be ten minutes / an hour late",
+        "answer": "avoir dix minutes / une heure de retard"
+    },
+    {
+        "definition": "to be / arrive on time",
+        "answer": "être / arriver à l'heure"
+    },
+    {
+        "definition": "to be early / late",
+        "answer": "être en avance / en retard"
+    },
+    {
+        "definition": "do you have the time? / what time is it?",
+        "answer": "vous avez l'heure? / quelle huere est-il?"
+    },
+    {
+        "definition": "during, for",
+        "answer": "pendant"
+    },
+    {
+        "definition": "until (three o'clock)",
+        "answer": "jusqu'à (trois heures)"
+    },
+    {
+        "definition": "another (twenty minutes)",
+        "answer": "encore (vingt minutes)"
+    },
+    {
+        "definition": "between",
+        "answer": "entre"
+    },
+    {
+        "definition": "around, toward",
+        "answer": "vers"
+    },
+    {
+        "definition": "noon",
+        "answer": "midi"
+    },
+    {
+        "definition": "at midnight",
+        "answer": "à minuit"
+    },
+    {
+        "definition": "to continue",
+        "answer": "continuer"
+    },
+    {
+        "definition": "to run, to rush",
+        "answer": "courir (je cours / tu cours / il court / nous courons / vous courez / ils courent)"
+    },
+    {
+        "definition": "to last",
+        "answer": "durer"
+    },
+    {
+        "definition": "to enter",
+        "answer": "entrer"
+    },
+    {
+        "definition": "to give a (classroom) lecture",
+        "answer": "faire un cours"
+    },
+    {
+        "definition": "to leave (my room)",
+        "answer": "quitter (ma chambre)"
+    },
+    {
+        "definition": "to ring, to sound",
+        "answer": "sonner"
+    },
+    {
+        "definition": "to find a good place",
+        "answer": "trouver (une bonne place)"
+    },
+    {
+        "definition": "the best (adverb) (e.g. you sing the best of all the singers in the world)",
+        "answer": "le mieux (e.g. tu chantes le mieux de toutes les chanteuses du monde)"
+    },
+    {
+        "definition": "better than (e.g. you sing better than we do)",
+        "answer": "mieux que (e.g. tu chantes mieux que nous)"
+    },
+    {
+        "definition": "as many ... as (e.g. i have as many friends as you)",
+        "answer": "autant de ... que (e.g. j'ai autant d'amis que toi/vous)"
+    },
+    {
+        "definition": "less ... than (e.g. he goes out less often than I do)",
+        "answer": "moins (de) ... que (e.g. il sort moins souvent que moi)"
+    },
+    {
+        "definition": "more ... than (e.g. she has more work than we do)",
+        "answer": "plus (de) ... que (e.g. elle a plus de travail que nous)"
+    },
+    {
+        "definition": "colors",
+        "answer": "les couleurs (f)"
+    },
+    {
+        "definition": "black (m/f)",
+        "answer": "noir/e"
+    },
+    {
+        "definition": "grey (m/f)",
+        "answer": "gris/e"
+    },
+    {
+        "definition": "white (m/f)",
+        "answer": "blanc/he"
+    },
+    {
+        "definition": "beige (m/f)",
+        "answer": "beige"
+    },
+    {
+        "definition": "brown (m/f)",
+        "answer": "marron"
+    },
+    {
+        "definition": "green (m/f)",
+        "answer": "vert/e"
+    },
+    {
+        "definition": "blue (m/f)",
+        "answer": "bleu/e"
+    },
+    {
+        "definition": "purple (m/f)",
+        "answer": "violet/te"
+    },
+    {
+        "definition": "pink (m/f)",
+        "answer": "rose"
+    },
+    {
+        "definition": "red (m/f)",
+        "answer": "rouge"
+    },
+    {
+        "definition": "orange (m/f)",
+        "answer": "orange"
+    },
+    {
+        "definition": "yellow (m/f)",
+        "answer": "jaune"
+    },
+    {
+        "definition": "clothing",
+        "answer": "les vêtements (m)"
+    },
+    {
+        "definition": "ski jacket",
+        "answer": "un anorak"
+    },
+    {
+        "definition": "wait-length casual jacket",
+        "answer": "un blouson"
+    },
+    {
+        "definition": "socks",
+        "answer": "des chaussettes (f)"
+    },
+    {
+        "definition": "man's (cotton) shirt",
+        "answer": "une chemise (en coton)"
+    },
+    {
+        "definition": "woman's blouse",
+        "answer": "un chemisier"
+    },
+    {
+        "definition": "man's suit",
+        "answer": "un costume"
+    },
+    {
+        "definition": "tie",
+        "answer": "une cravate"
+    },
+    {
+        "definition": "cardigan sweater",
+        "answer": "un gilet"
+    },
+    {
+        "definition": "raincoat",
+        "answer": "un imper(méable)"
+    },
+    {
+        "definition": "jeans",
+        "answer": "un jean"
+    },
+    {
+        "definition": "a (mini-)skirt",
+        "answer": "une (mini-)jupe"
+    },
+    {
+        "definition": "swimswuit",
+        "answer": "un maillot (de bain)"
+    },
+    {
+        "definition": "coat",
+        "answer": "un manteau"
+    },
+    {
+        "definition": "slacks",
+        "answer": "un pantolon"
+    },
+    {
+        "definition": "polo shirt",
+        "answer": "un polo"
+    },
+    {
+        "definition": "pullover sweater",
+        "answer": "un pull(-over)"
+    },
+    {
+        "definition": "(silk) dress",
+        "answer": "une robe (en soie)"
+    },
+    {
+        "definition": "shorts",
+        "answer": "un short"
+    },
+    {
+        "definition": "sweatshirt, sweats",
+        "answer": "un sweat"
+    },
+    {
+        "definition": "woman's (pant)suit",
+        "answer": "un tailleur (pantalon)"
+    },
+    {
+        "definition": "t-shirt",
+        "answer": "un teeshirt"
+    },
+    {
+        "definition": "jacket, suit coat",
+        "answer": "une veste"
+    },
+    {
+        "definition": "the shoes",
+        "answer": "les chaussures (f)"
+    },
+    {
+        "definition": "accessories",
+        "answer": "les accessoires (m)"
+    },
+    {
+        "definition": "sports shoes",
+        "answer": "des baskets (f)"
+    },
+    {
+        "definition": "knit (wool) cap",
+        "answer": "un bonnet (de laine)"
+    },
+    {
+        "definition": "boots",
+        "answer": "des bottes (f)"
+    },
+    {
+        "definition": "baseball cap",
+        "answer": "une casquette"
+    },
+    {
+        "definition": "hat",
+        "answer": "un chapeau"
+    },
+    {
+        "definition": "high-heeled shoes",
+        "answer": "des chaussures (f) à talons"
+    },
+    {
+        "definition": "scarf, muffler",
+        "answer": "une écharpe"
+    },
+    {
+        "definition": "silk scarf",
+        "answer": "un foulard"
+    },
+    {
+        "definition": "gloves",
+        "answer": "des gants (m)"
+    },
+    {
+        "definition": "loafers",
+        "answer": "des mocassins (m)"
+    },
+    {
+        "definition": "pair of shoes",
+        "answer": "une paire de chaussures (f)"
+    },
+    {
+        "definition": "umbrella",
+        "answer": "un parapluie"
+    },
+    {
+        "definition": "(leather) purse",
+        "answer": "un sac (en cuir)"
+    },
+    {
+        "definition": "sandals",
+        "answer": "des sandales (f)"
+    },
+    {
+        "definition": "(department) store",
+        "answer": "un (grand) magasin"
+    },
+    {
+        "definition": "to want (+ something, + to do something, e.g. to want a cup of coffee/to do something)",
+        "answer": "avoir envie de (+ nom, + infinitif, e.g. avoir envie d'un café/de faire quelque chose)"
+    },
+    {
+        "definition": "to be right",
+        "answer": "avoir raison"
+    },
+    {
+        "definition": "outfit",
+        "answer": "un ensemble"
+    },
+    {
+        "definition": "to try on, to try (with conjugations)",
+        "answer": "essayer (j'essaie / tu essaies / il essaie / nous essayons / vous essayez / ils essaient)"
+    },
+    {
+        "definition": "to window shop",
+        "answer": "faire du lèche-vitrine"
+    },
+    {
+        "definition": "to do something nice for oneself",
+        "answer": "se faire un petit plaisir"
+    },
+    {
+        "definition": "pleasure",
+        "answer": "un plaisir"
+    },
+    {
+        "definition": "(well-)dressed",
+        "answer": "(bien) habillé/e"
+    },
+    {
+        "definition": "instead, rather",
+        "answer": "plutôt"
+    },
+    {
+        "definition": "to wear",
+        "answer": "porter"
+    },
+    {
+        "definition": "twice-yearly sales",
+        "answer": "les soldes (m)"
+    },
+    {
+        "definition": "display window",
+        "answer": "la vitrine"
+    },
+    {
+        "definition": "evening party",
+        "answer": "une soirée"
+    },
+    {
+        "definition": "to put on, to wear (with conjugations)",
+        "answer": "mettre (je mets / tu mets / il met / nous mettons / vous mettesz / ils metent)"
+    },
+    {
+        "definition": "in fact",
+        "answer": "en fait"
+    },
+    {
+        "definition": "in general",
+        "answer": "en général"
+    },
+    {
+        "definition": "first of all",
+        "answer": "d'abord"
+    },
+    {
+        "definition": "bed",
+        "answer": "un lit"
+    },
+    {
+        "definition": "so (as in therefore)",
+        "answer": "donc"
+    },
+    {
+        "definition": "comparative form of bon/ne (e.g. the dress is better than the skirt)",
+        "answer": "meilleur/e (e.g. la robe est meilleure que la jupe)"
+    },
+    {
+        "definition": "for superlatives, use le/la/es with plus/moins/meilleur(e) (e.g. the pink skirt is the least/most expensive/the best)",
+        "answer": "la jupe rose est la moins/plus chère/la meilleure"
+    },
+    {
+        "definition": "in fashion",
+        "answer": "à la mode"
+    },
+    {
+        "definition": "inexpensive",
+        "answer": "bon marché"
+    },
+    {
+        "definition": "expensive",
+        "answer": "cher/chère"
+    },
+    {
+        "definition": "stylish",
+        "answer": "chic"
+    },
+    {
+        "definition": "comfortable",
+        "answer": "confortable"
+    },
+    {
+        "definition": "short",
+        "answer": "court/e"
+    },
+    {
+        "definition": "casual, relaxed",
+        "answer": "décontracté/e"
+    },
+    {
+        "definition": "old-fashioned, out of date",
+        "answer": "démodé/e"
+    },
+    {
+        "definition": "big, large, roomy",
+        "answer": "large"
+    },
+    {
+        "definition": "long",
+        "answer": "long/ue"
+    },
+    {
+        "definition": "same",
+        "answer": "(le/la/les) même/s"
+    },
+    {
+        "definition": "fitted, tight",
+        "answer": "serée"
+    }
+    ],
+    "grammar": [    {
+        "definition": "to wash up (with conjugations)",
+        "answer": "se laver (je me lave / tu te laves / il se lave / nous nous lavons / vous vous lavez / ils se lavent)"
+    },
+    {
+        "definition": "l'imperatif + les pronoms réfléchis + affirmative/negative (e.g. se laver)",
+        "answer": "lave-toi / lavons-nous / lavez-vous / ne te lave pas"
+    },
+    {
+        "definition": "to dry off, wipe off (with conjugations)",
+        "answer": "s'essuyer (je m'essuie / tu t'essuies / il s'essuie / nous nous essuyons / vous vous essuyez / ils s'essuient)"
+    },
+    {
+        "definition": "to get up (with conjugations)",
+        "answer": "se lever (je me lève / tu te lèves / il se lève / nous nous levons / vous vous levez / ils se lèvent)"
+    },
+    {
+        "definition": "(adverb) too / a lot / enough / a little / doesn't (e.g. il travaille)",
+        "answer": "il travaille trop / beaucoup / assez / un peu / ne travaille pas"
+    },
+    {
+        "definition": "(quantities) too / a lot / enough / a little / doesn't (e.g. avoir)",
+        "answer": "il a trop de/d' .. / beaucoup de/d' .. / assez de/d'.. / un peu de/d' .. / n'a pas de/d' .."
+    },
+    {
+        "definition": "once/# a day/week",
+        "answer": "une/# fois par jour/semaine"
+    },
+    {
+        "definition": "to have trouble (+ infinitive)",
+        "answer": "avoir du mal à (+ infinitf)"
+    },
+    {
+        "definition": "to be in the process of (+ infinitive)",
+        "answer": "être en train de (+ infinitf)"
+    },
+ {
+        "definition": "to sleep (with conjugations)",
+        "answer": "dormir (je dors / tu dors / il dort / nous dormons / vous dormez / ils dorment)"
+    },
+    {
+        "definition": "to fall asleep (with conjugations)",
+        "answer": "s'endormir (je m'endors / tu t'endors / il s'endort / nous nous endormons / vous vous endormez / ils s'endorment)"
+    },
+    {
+        "definition": "to fall asleep again (with conjugations)",
+        "answer": "se rendormir (je me rendors / tu te rendors / il se rendort / nous nous rendormons / vous vous rendormez / ils se rendorment)"
+    },
+    {
+        "definition": "to lie to (with conjugations)",
+        "answer": "mentir à (je mens / tu mens / il ment / nous mentons / vous mentez / ils mentent)"
+    },
+    {
+        "definition": "to leave (with / from / for) (with conjugations)",
+        "answer": "partir avec / de / pour (je pars / tu pars / il part / nous partons / vous partez / ils partent)"
+    },
+    {
+        "definition": "to go out with / to leave (with conjugation)",
+        "answer": "sortir avec / de / (je sors / tu sors / il sort / nous sortons / vous sortez / ils sortent)"
+    },
+    {
+        "definition": "to serve (with conjugations)",
+        "answer": "servir (je sers / tu sers / il sert / nous servons / vous servez / ils servent)"
+    },
+    {
+        "definition": "to be ten minutes / an hour late",
+        "answer": "avoir dix minutes / une heure de retard"
+    },
+    {
+        "definition": "to be / arrive on time",
+        "answer": "être / arriver à l'heure"
+    },
+    {
+        "definition": "to be early / late",
+        "answer": "être en avance / en retard"
+    },
+    {
+        "definition": "it is one o'clock / eight o'clock / 00:30/half-past /quarter after / quarter 'til / in the morning / in the afternoon / in the evening",
+        "answer": "il est une heure / huit heures / et demi/e / et quart / moins le quart / du matin / de l'après-midi / du soir"
+    },
+    {
+        "definition": "to run, to rush",
+        "answer": "courir (je cours / tu cours / il court / nous courons / vous courez / ils courent)"
+    },
+    {
+        "definition": "as + adj/adverb + as ... (e.g. you play as well as him) (adj. agrees with first noun)",
+        "answer": "aussi + adj/adverb + que ... (e.g. tu joues aussi bien que lui)"
+    },
+    {
+        "definition": "the best (adverb) (e.g. you sing the best of all the singers in the world)",
+        "answer": "le mieux (e.g. tu chantes le mieux de toutes les chanteuses du monde)"
+    },
+    {
+        "definition": "better than (e.g. you sing better than we do)",
+        "answer": "mieux que (e.g. tu chantes mieux que nous)"
+    },
+    {
+        "definition": "as many ... as (e.g. i have as many friends as you)",
+        "answer": "autant de ... que (e.g. j'ai autant d'amis que toi/vous)"
+    },
+    {
+        "definition": "less ... than (e.g. he goes out less often than I do)",
+        "answer": "moins (de) ... que (e.g. il sort moins souvent que moi)"
+    },
+    {
+        "definition": "more ... than (e.g. she has more work than we do)",
+        "answer": "plus (de) ... que (e.g. elle a plus de travail que nous)"
+    },
+    {
+        "definition": "to want (+ something, + to do something, e.g. to want a cup of coffee/to do something)",
+        "answer": "avoir envie de (+ nom, + infinitif, e.g. avoir envie d'un café/de faire quelque chose)"
+    },
+    {
+        "definition": "to try on, to try (with conjugations)",
+        "answer": "essayer (j'essaie / tu essaies / il essaie / nous essayons / vous essayez / ils essaient)"
+    },
+    {
+        "definition": "to do something nice for oneself",
+        "answer": "se faire un petit plaisir"
+    },
+    {
+        "definition": "to put on, to wear (with conjugations)",
+        "answer": "mettre (je mets / tu mets / il met / nous mettons / vous mettesz / ils metent)"
+    },
+    {
+        "definition": "put your bag in your room!",
+        "answer": "mets ton sac dans ta chambre!"
+    },
+    {
+        "definition": "can you set the table?",
+        "answer": "tu peux mettre la table?"
+    },
+    {
+        "definition": "it takes us an hour to arrive at the office.",
+        "answer": "on met une heure pour arriver au bureau."
+    },
+    {
+        "definition": "this/that/these/those (m/mv/f/pl)",
+        "answer": "ce/cet/cette/ces"
+    },
+    {
+        "definition": "stressed pronouns",
+        "answer": "moi, toi, lui, elle, soi, nous, vous, eux, elles"
+    },
+    {
+        "definition": "comparative form of bon/ne (e.g. the dress is better than the skirt)",
+        "answer": "meilleur/e (e.g. la robe est meilleure que la jupe)"
+    },
+    {
+        "definition": "for superlatives, use le/la/es with plus/moins/meilleur(e) (e.g. the pink skirt is the least/most expensive/the best)",
+        "answer": "la jupe rose est la moins/plus chère/la meilleure"
+    },
+    {
+        "definition": "l'impératif (for -er AND -ir/-oir/-re AND verbes pronominaux) avec negatif e.g. regarder/dormir/se laver\n\n- regarde (no s!! for -er tu)! regardons! regardez / ne regarde (no s!! for -er tu) pas etc ...\n- dors! dormons! dormez! / ne dors pas! etc...\n- lave-toi! lavons-nous! lavez-vous! ne te lève pas!",
+        "answer": "regarde"}]
+}

@@ -1,0 +1,719 @@
+{
+    "id": 5,
+    "vocab": [
+    {
+        "definition": "cold drinks",
+        "answer": "des boissons (f) rafraîchissantes"
+    },
+    {
+        "definition": "lemonade",
+        "answer": "un citron pressé"
+    },
+    {
+        "definition": "cola",
+        "answer": "un coca"
+    },
+    {
+        "definition": "mineral water (non-carbonated / carbonated) (cold)",
+        "answer": "de l'eau (f) minérale (plate / gazeuse) (froide)"
+    },
+    {
+        "definition": "(fruit) juice",
+        "answer": "un jus (de fruits)"
+    },
+    {
+        "definition": "lemon-lime soft drink",
+        "answer": "une limonade"
+    },
+    {
+        "definition": "type of orange soda",
+        "answer": "un Orangina"
+    },
+    {
+        "definition": "iced tea",
+        "answer": "un thé glacé"
+    },
+    {
+        "definition": "hot drinks",
+        "answer": "des boissons (f) chaudes"
+    },
+    {
+        "definition": "coffee (with cream)",
+        "answer": "un café (crème)"
+    },
+    {
+        "definition": "hot chocolate",
+        "answer": "un chocolat chaud"
+    },
+    {
+        "definition": "tea (with lemon, milk, plain)",
+        "answer": "un thé (au citron, au lait, nature)"
+    },
+    {
+        "definition": "alcoholic drinks",
+        "answer": "des boissons (f) alcoolisées"
+    },
+    {
+        "definition": "beer",
+        "answer": "une bière"
+    },
+    {
+        "definition": "glass of (red, white, rosé) wine",
+        "answer": "un verre de vin (rouge, blanc, rosé)"
+    },
+    {
+        "definition": "food",
+        "answer": "des aliments (m)"
+    },
+    {
+        "definition": "coffee with one or more small desserts",
+        "answer": "un café gourmand"
+    },
+    {
+        "definition": "snack",
+        "answer": "un casse-croûte"
+    },
+    {
+        "definition": "grilled ham-and-cheese sandwich with egg on top",
+        "answer": "un croque-madame"
+    },
+    {
+        "definition": "grilled ham-and-cheese sandwich",
+        "answer": "un croque-monsieur"
+    },
+    {
+        "definition": "french fries",
+        "answer": "des frites (f)"
+    },
+    {
+        "definition": "(two scoops of) ice cream (with whipped cream)",
+        "answer": "une glace (à deux boules / avec de la crème chantilly)"
+    },
+    {
+        "definition": "pizza",
+        "answer": "une pizza"
+    },
+    {
+        "definition": "(mixed / green) salad",
+        "answer": "une salade (composée / verte)"
+    },
+    {
+        "definition": "(ham, cheese) sandwich",
+        "answer": "un sandwich (au jambon, au fromage)"
+    },
+    {
+        "definition": "without ice cubes",
+        "answer": "sans glaçons (m)"
+    },
+    {
+        "definition": "sugar",
+        "answer": "du sucre"
+    },
+    {
+        "definition": "to learn",
+        "answer": "apprendre"
+    },
+    {
+        "definition": "to be hungry",
+        "answer": "avoir faim"
+    },
+    {
+        "definition": "to be thirsty",
+        "answer": "avoir soif"
+    },
+    {
+        "definition": "to drink (i drink / you drink / he drinks / we drink / you all drink / they drink)",
+        "answer": "boire (je bois / tu bois / il boit / nous buvons / vous buvez / ils boivent)"
+    },
+    {
+        "definition": "to order",
+        "answer": "commander"
+    },
+    {
+        "definition": "to understand",
+        "answer": "comprendre"
+    },
+    {
+        "definition": "to eliminate",
+        "answer": "éliminer"
+    },
+    {
+        "definition": "to be on a diet",
+        "answer": "être au régime"
+    },
+    {
+        "definition": "to have (to eat or drink) (with conjugations)",
+        "answer": "prendre (je prends / tu prends / il prend / nous prenons / vous prenez / ils prennent)"
+    },
+    {
+        "definition": "to have a treat, to really enjoy something",
+        "answer": "se régaler"
+    },
+    {
+        "definition": "I would like",
+        "answer": "je voudrais"
+    },
+    {
+        "definition": "meals",
+        "answer": "les repas (m)"
+    },
+    {
+        "definition": "breakfast",
+        "answer": "le petit-déjeuner"
+    },
+    {
+        "definition": "lunch",
+        "answer": "le déjeuner"
+    },
+    {
+        "definition": "afternoon snack",
+        "answer": "le goûter"
+    },
+    {
+        "definition": "dinner",
+        "answer": "le dîner"
+    },
+    {
+        "definition": "supper",
+        "answer": "le souper"
+    },
+    {
+        "definition": "bacon",
+        "answer": "du bacon"
+    },
+    {
+        "definition": "butter",
+        "answer": "du beurre"
+    },
+    {
+        "definition": "coffee with milk",
+        "answer": "un café au lait"
+    },
+    {
+        "definition": "cereal",
+        "answer": "des céréales (f)"
+    },
+    {
+        "definition": "jam",
+        "answer": "de la confiture"
+    },
+    {
+        "definition": "croissant",
+        "answer": "un croissant"
+    },
+    {
+        "definition": "(fried) egg",
+        "answer": "un oeuf (sur le plat / au plat)"
+    },
+    {
+        "definition": "bread",
+        "answer": "du pain"
+    },
+    {
+        "definition": "croisant-like pastry filled with chocolate",
+        "answer": "un pain au chocolat"
+    },
+    {
+        "definition": "slice of bread with butter and/or jam",
+        "answer": "une tartine"
+    },
+    {
+        "definition": "slice of toast",
+        "answer": "une tranche de pain grillé"
+    },
+    {
+        "definition": "appetizer or starter",
+        "answer": "une entrée"
+    },
+    {
+        "definition": "(main) dish",
+        "answer": "un plat (principal)"
+    },
+    {
+        "definition": "dessert",
+        "answer": "un dessert"
+    },
+    {
+        "definition": "cookie",
+        "answer": "un biscuit"
+    },
+    {
+        "definition": "dried (black, red) beans",
+        "answer": "des haricots (noirs, rouge) (m)"
+    },
+    {
+        "definition": "green beans",
+        "answer": "des haricots (m) verts"
+    },
+    {
+        "definition": "vegetable",
+        "answer": "un légume"
+    },
+    {
+        "definition": "potato",
+        "answer": "une pomme de terre"
+    },
+    {
+        "definition": "chicken",
+        "answer": "du poulet"
+    },
+    {
+        "definition": "(brown) rice",
+        "answer": "du riz (complet)"
+    },
+    {
+        "definition": "soup",
+        "answer": "de la soupe"
+    },
+    {
+        "definition": "(apple) pie",
+        "answer": "une tarte (aux pommes)"
+    },
+    {
+        "definition": "yogurt",
+        "answer": "un yaourt"
+    },
+    {
+        "definition": "fruits",
+        "answer": "des fruits (m)"
+    },
+    {
+        "definition": "banana",
+        "answer": "une banane"
+    },
+    {
+        "definition": "orange",
+        "answer": "une orange"
+    },
+    {
+        "definition": "pear",
+        "answer": "une poire"
+    },
+    {
+        "definition": "apple",
+        "answer": "une pomme"
+    },
+    {
+        "definition": "grapes",
+        "answer": "du raisin"
+    },
+    {
+        "definition": "spices",
+        "answer": "des épices (f)"
+    },
+    {
+        "definition": "salt and pepper",
+        "answer": "du sel et du poivre"
+    },
+    {
+        "definition": "on the table",
+        "answer": "sur la table"
+    },
+    {
+        "definition": "plate",
+        "answer": "une assiette"
+    },
+    {
+        "definition": "a bowl / a scoop",
+        "answer": "un bol / une boule"
+    },
+    {
+        "definition": "bottle",
+        "answer": "une bouteille"
+    },
+    {
+        "definition": "carafe",
+        "answer": "une carafe"
+    },
+    {
+        "definition": "cup",
+        "answer": "une tasse"
+    },
+    {
+        "definition": "cooking",
+        "answer": "la cuisine"
+    },
+    {
+        "definition": "copious",
+        "answer": "copieux/-euse"
+    },
+    {
+        "definition": "grilled",
+        "answer": "grillé/e"
+    },
+    {
+        "definition": "vegan",
+        "answer": "végétalien/ne"
+    },
+    {
+        "definition": "vegetarian",
+        "answer": "végétarien/ne"
+    },
+    {
+        "definition": "to buy (with conjugations)",
+        "answer": "acheter (j'achète / tu achètes / il achète / nous achetons / vous achetez / ils achètent)"
+    },
+    {
+        "definition": "to call (with conjugations)",
+        "answer": "appeler (j'appelle / tu appelles / il appelle / nous appelons / vous appelez / ils appellent)"
+    },
+    {
+        "definition": "to spell",
+        "answer": "épeler"
+    },
+    {
+        "definition": "to do the dishes",
+        "answer": "faire la vaisselle"
+    },
+    {
+        "definition": "to throw (away) (with conjugations)",
+        "answer": "jeter (je jette / tu jettes / il jette / nous jetons / vous jetez / ils jettent)"
+    },
+    {
+        "definition": "to raise",
+        "answer": "lever"
+    },
+    {
+        "definition": "aisles or sections",
+        "answer": "les rayons"
+    },
+    {
+        "definition": "supermarket",
+        "answer": "le supermaché"
+    },
+    {
+        "definition": "bakery / pastry aisle",
+        "answer": "le rayon boulangerie-pâtisserie"
+    },
+    {
+        "definition": "long, thin loaf",
+        "answer": "une baguette"
+    },
+    {
+        "definition": "cake",
+        "answer": "un gâteau"
+    },
+    {
+        "definition": "round / sliced loaf of bread",
+        "answer": "un pain de campagne / de mie"
+    },
+    {
+        "definition": "pastry",
+        "answer": "une pâtisserie"
+    },
+    {
+        "definition": "small tart",
+        "answer": "une tartelette"
+    },
+    {
+        "definition": "meat counter",
+        "answer": "le rayon boucherie"
+    },
+    {
+        "definition": "ground beef",
+        "answer": "du bifteck haché"
+    },
+    {
+        "definition": "lamb chop",
+        "answer": "une côtelette d'agneau (m)"
+    },
+    {
+        "definition": "roast beef",
+        "answer": "du rosbif"
+    },
+    {
+        "definition": "meat",
+        "answer": "de la viande"
+    },
+    {
+        "definition": "dairy section",
+        "answer": "le rayon crèmerie"
+    },
+    {
+        "definition": "deli counter",
+        "answer": "le rayon charcuterie"
+    },
+    {
+        "definition": "pâté",
+        "answer": "du pâté"
+    },
+    {
+        "definition": "prepared dishes",
+        "answer": "des plats (m) préparés"
+    },
+    {
+        "definition": "(pork) roast",
+        "answer": "un rôti (de porc)"
+    },
+    {
+        "definition": "sausage link",
+        "answer": "une saucisse"
+    },
+    {
+        "definition": "produce aisle",
+        "answer": "le rayon fruits et légumes"
+    },
+    {
+        "definition": "pineapple",
+        "answer": "un ananas"
+    },
+    {
+        "definition": "cherry",
+        "answer": "une cerise"
+    },
+    {
+        "definition": "strawberry",
+        "answer": "une fraise"
+    },
+    {
+        "definition": "melon",
+        "answer": "un melon"
+    },
+    {
+        "definition": "peach",
+        "answer": "une pêche"
+    },
+    {
+        "definition": "garlic",
+        "answer": "de l'ail (m)"
+    },
+    {
+        "definition": "eggplant",
+        "answer": "une aubergine"
+    },
+    {
+        "definition": "carrot",
+        "answer": "une carotte"
+    },
+    {
+        "definition": "mushroom",
+        "answer": "un champignon"
+    },
+    {
+        "definition": "cucumber",
+        "answer": "un concombre"
+    },
+    {
+        "definition": "zucchini",
+        "answer": "une courgette"
+    },
+    {
+        "definition": "spinach",
+        "answer": "des épinards (m)"
+    },
+    {
+        "definition": "onion",
+        "answer": "un oignon"
+    },
+    {
+        "definition": "peas",
+        "answer": "des petits pois (m)"
+    },
+    {
+        "definition": "(green / red) bell pepper",
+        "answer": "un poivron (vert / rouge)"
+    },
+    {
+        "definition": "tomato",
+        "answer": "une tomate"
+    },
+    {
+        "definition": "fish counter",
+        "answer": "le rayon poissonnerie"
+    },
+    {
+        "definition": "shrimp",
+        "answer": "une crevette"
+    },
+    {
+        "definition": "salmon",
+        "answer": "du saumon"
+    },
+    {
+        "definition": "tuna",
+        "answer": "du thon"
+    },
+    {
+        "definition": "frozen foods aisle",
+        "answer": "le rayon surgelés (m)"
+    },
+    {
+        "definition": "condiments",
+        "answer": "des condiments (m)"
+    },
+    {
+        "definition": "oil",
+        "answer": "de l'huile (f)"
+    },
+    {
+        "definition": "(grainy) mustard",
+        "answer": "de la moutarde (à l'ancienne)"
+    },
+    {
+        "definition": "vinegar",
+        "answer": "du vinaigre"
+    },
+    {
+        "definition": "quantities",
+        "answer": "des quantités (f)"
+    },
+    {
+        "definition": "raw vegetables",
+        "answer": "des crudités (f)"
+    },
+    {
+        "definition": "box of cereal / can of sardines",
+        "answer": "une boîte de céréales / sardines (f)"
+    },
+    {
+        "definition": "dozen of",
+        "answer": "une douzaine de"
+    },
+    {
+        "definition": "(half) kilo of",
+        "answer": "un (demi-)kilo de"
+    },
+    {
+        "definition": "liter of",
+        "answer": "un litre de"
+    },
+    {
+        "definition": "piece of",
+        "answer": "un morceau de"
+    },
+    {
+        "definition": "package of",
+        "answer": "un paquet de"
+    },
+    {
+        "definition": "jar of",
+        "answer": "un pot de"
+    },
+    {
+        "definition": "slice of",
+        "answer": "une tranche de"
+    },
+    {
+        "definition": "narrative",
+        "answer": "un récit"
+    },
+    {
+        "definition": "to need (some)",
+        "answer": "avoir besoin de"
+    },
+    {
+        "definition": "to need (we need four eggs)",
+        "answer": "il faut (il faut quatre œufs)"
+    },
+    {
+        "definition": "organic / organic tomato",
+        "answer": "biologique / une tomate bio"
+    },
+    {
+        "definition": "cash register",
+        "answer": "la caisse"
+    },
+    {
+        "definition": "dear",
+        "answer": "chéri/e"
+    },
+    {
+        "definition": "",
+        "answer": ""
+    },
+    {
+        "definition": "crepe",
+        "answer": "une crêpe"
+    },
+    {
+        "definition": "delicious",
+        "answer": "délicieux/-euse"
+    },
+    {
+        "definition": "(the day before) yesterday",
+        "answer": "(avant-)hier"
+    },
+    {
+        "definition": "last Saturday",
+        "answer": "samedi dernier"
+    },
+    {
+        "definition": "last year",
+        "answer": "l'année dernière"
+    },
+    {
+        "definition": "a long time ago",
+        "answer": "il y a longtemps"
+    },
+    {
+        "definition": "two days ago",
+        "answer": "il y a deux jours"
+    },
+    {
+        "definition": "that day",
+        "answer": "ce jour-là"
+    },
+    {
+        "definition": "at that moment",
+        "answer": "à ce moment-là"
+    },
+    {
+        "definition": "first / next / after / then / finally",
+        "answer": "d'abord / ensuite / après / puis / enfin"
+    }
+    ],
+    "grammar": [
+    {
+        "definition": "to drink (i drink / you drink / he drinks / we drink / you all drink / they drink)",
+        "answer": "boire (je bois / tu bois / il boit / nous buvons / vous buvez / ils boivent)"
+    },
+    {
+        "definition": "to have (to eat or drink) (with conjugations)",
+        "answer": "prendre (je prends / tu prends / il prend / nous prenons / vous prenez / ils prennent)"
+    },
+    {
+        "definition": "to buy (with conjugations)",
+        "answer": "acheter (j'achète / tu achètes / il achète / nous achetons / vous achetez / ils achètent)"
+    },
+    {
+        "definition": "to call (with conjugations)",
+        "answer": "appeler (j'appelle / tu appelles / il appelle / nous appelons / vous appelez / ils appellent)"
+    },
+    {
+        "definition": "to throw (away) (with conjugations)",
+        "answer": "jeter (je jette / tu jettes / il jette / nous jetons / vous jetez / ils jettent)"
+    },
+    {
+        "definition": "to need (we need four eggs)",
+        "answer": "il faut (il faut quatre œufs)"
+    },
+    {
+        "definition": "le passé composé exceptions - avoir / boire / courir / devoir / être / faire / mettre / ouvrir / pouvoir / prendre / vouloir",
+        "answer": "eu / bu / couru / dû / été / fait / mis / ouvert / pu / pris / voulu"
+    },
+    {
+        "definition": "le passé composé for -er / -ir / -re (e.g. acheter / servir / attendre)",
+        "answer": "acheté / servi / attendu"
+    },
+    {
+        "definition": "le passé composé w/ adverbs and au negatif (e.g. he didn't pay the bill / they drank a lot)",
+        "answer": "il n'a pas payé l'addition / ils ont beaucoup bu"
+    },
+    {
+        "definition": "le passé composé exceptions for être with form (this is conjugated for speaker, ALWAYS add e for female and s for plural)\ne.g. i arrived / he did not die / those girls did not leave\nto arrive / to go, come in / to go, come back / to come / to return / to go back / to go up / to go down, to get off / to stay / to fall / to leave / to go out / to go / to go, come by / to be born / to die / to become (DR MRS VANDERTRAMPP)",
+        "answer": "je suis arrivé(e) / il n'est pas mort / ces filles ne sont pas parties\n\n\narriver (arrivé) / entrer (entré) / rentrer (rentré) / venir (venu) / revenir (revenu) / retourner (retourné) / monter (monté) / descendre (descendu) / tomber (tombé) / partir (parti) / sortir (sorti) / aller (allé) / passer (passé) / naître (né) / mourir (mort) / devenir (devenu)"
+    },
+    {
+        "definition": "le passé composé for verbes réfléchis uses être - e.g. he fell asleep / they went to bed / i washed myself / she washed her hair / she did not wash herself",
+        "answer": "il s'est endormi / ils se sont couchés / je me suis lavé(e) / elle s'est lavé (NOT lavée) les cheveux / elle ne s'est pas lavée"
+    },
+    {
+        "definition": "utiliser le pronom \"en\"\nyou need a lot (of it) / i drank a glass (of it) / we'll take three (of them) / there is some / i didn't eat it / i don’t eat it / i am not going to buy it",
+        "answer": "il en faut beaucoup / j'en ai bu un verre / nous allons en prendre trois / il y en a / je n'en ai pas mangé / je n’en pas mange / je ne vais pas en acheter"
+    },
+    {
+        "definition": "first / next / after / then / finally",
+        "answer": "d'abord / ensuite / après / puis / enfin"
+    }
+    ]
+}

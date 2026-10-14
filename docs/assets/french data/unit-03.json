@@ -1,0 +1,876 @@
+{
+    "id": 3,
+    "vocab": [
+    {
+        "definition": "at the university",
+        "answer": "à l'université (f) / à la fac(ulté)"
+    },
+    {
+        "definition": "lecture hall",
+        "answer": "un amphitéâtre (amphi)"
+    },
+    {
+        "definition": "student organizations",
+        "answer": "des associations (f) étudiantes"
+    },
+    {
+        "definition": "university library",
+        "answer": "la bibliothèque universitaire"
+    },
+    {
+        "definition": "administrative offices",
+        "answer": "des bureaux (m) administratifs"
+    },
+    {
+        "definition": "registrar's office",
+        "answer": "le bureau des inscriptions (f)"
+    },
+    {
+        "definition": "professor's office",
+        "answer": "le bureau du professeur"
+    },
+    {
+        "definition": "cafeteria",
+        "answer": "une cafétéria"
+    },
+    {
+        "definition": "computer center",
+        "answer": "un centre informatique"
+    },
+    {
+        "definition": "sports complex",
+        "answer": "le centre sportif"
+    },
+    {
+        "definition": "(law) school",
+        "answer": "la faculté (de droit)"
+    },
+    {
+        "definition": "health center",
+        "answer": "une infirmerie"
+    },
+    {
+        "definition": "enrollment, registration",
+        "answer": "les inscriptions (f)"
+    },
+    {
+        "definition": "(chemistry) lab",
+        "answer": "un labo(ratoire) (de chimie)"
+    },
+    {
+        "definition": "shuttle, bus",
+        "answer": "une navette"
+    },
+    {
+        "definition": "main building",
+        "answer": "le pavillon (principal)"
+    },
+    {
+        "definition": "permit",
+        "answer": "un permis"
+    },
+    {
+        "definition": "campus map",
+        "answer": "un plan du campus"
+    },
+    {
+        "definition": "residence hall",
+        "answer": "une résidence"
+    },
+    {
+        "definition": "dining hall",
+        "answer": "un restaurant universitaire"
+    },
+    {
+        "definition": "subway station",
+        "answer": "une station de métro"
+    },
+    {
+        "definition": "sports field",
+        "answer": "un terrain de sport"
+    },
+    {
+        "definition": "next to, beside",
+        "answer": "à côté de"
+    },
+    {
+        "definition": "to the right of",
+        "answer": "à droite de"
+    },
+    {
+        "definition": "to the left of",
+        "answer": "à gauche de"
+    },
+    {
+        "definition": "in, inside",
+        "answer": "dans"
+    },
+    {
+        "definition": "behind",
+        "answer": "derrière"
+    },
+    {
+        "definition": "in front of",
+        "answer": "devant"
+    },
+    {
+        "definition": "(just) across from",
+        "answer": "(juste) en face de"
+    },
+    {
+        "definition": "between",
+        "answer": "entre"
+    },
+    {
+        "definition": "far from",
+        "answer": "loin de"
+    },
+    {
+        "definition": "(very) close to, near",
+        "answer": "(tout) près de"
+    },
+    {
+        "definition": "beautiful, handsome (m/mv/f)",
+        "answer": "beau/bel/belle (beaux/bel/belles)"
+    },
+    {
+        "definition": "good (m/f)",
+        "answer": "bon/ne (bons/bonnes)"
+    },
+    {
+        "definition": "last (m/f)",
+        "answer": "dernier/dernière"
+    },
+    {
+        "definition": "tall (m/f)",
+        "answer": "grand/e (grands/grandes)"
+    },
+    {
+        "definition": "big, fat (m/f)",
+        "answer": "gros/se (gros/grosses)"
+    },
+    {
+        "definition": "young (m/f)",
+        "answer": "jeune (jeunes)"
+    },
+    {
+        "definition": "pretty (m/f)",
+        "answer": "joli/e (jolis/jolies)"
+    },
+    {
+        "definition": "bad (m/f)",
+        "answer": "mauvais/e (mauvais/mauvaises)"
+    },
+    {
+        "definition": "new (m/mv/f)",
+        "answer": "nouveau/nouvel/nouvelle (nouveaux/nouvelles)"
+    },
+    {
+        "definition": "small, short (m/f)",
+        "answer": "petit/e (petits/petites)"
+    },
+    {
+        "definition": "first (m/f)",
+        "answer": "premier/première"
+    },
+    {
+        "definition": "old (m/mv/f)",
+        "answer": "vieux/vieil/vieille (vieux/vieilles)"
+    },
+    {
+        "definition": "to wait for",
+        "answer": "attendre"
+    },
+    {
+        "definition": "to go down / to get off / to go downtown",
+        "answer": "descendre + _ / de / en ville"
+    },
+    {
+        "definition": "to hear",
+        "answer": "entendre"
+    },
+    {
+        "definition": "to lose",
+        "answer": "perdre"
+    },
+    {
+        "definition": "to give back / to give a visit to",
+        "answer": "rendre à / visite à"
+    },
+    {
+        "definition": "to answer / in",
+        "answer": "répondre à / en"
+    },
+    {
+        "definition": "to sell",
+        "answer": "vendre"
+    },
+    {
+        "definition": "to describe",
+        "answer": "décrire"
+    },
+    {
+        "definition": "to express",
+        "answer": "exprimer"
+    },
+    {
+        "definition": "the preferences",
+        "answer": "les préférences (f)"
+    },
+    {
+        "definition": "to adore",
+        "answer": "adorer"
+    },
+    {
+        "definition": "to like, to love (a lot / fairly well)",
+        "answer": "aimer (beaucoup / bien)"
+    },
+    {
+        "definition": "to detest, to hate",
+        "answer": "détester"
+    },
+    {
+        "definition": "to prefer",
+        "answer": "préférer"
+    },
+    {
+        "definition": "to repeat",
+        "answer": "répéter"
+    },
+    {
+        "definition": "to suggest",
+        "answer": "suggérer"
+    },
+    {
+        "definition": "courses",
+        "answer": "des cours (m)"
+    },
+    {
+        "definition": "humanities",
+        "answer": "les lettres (f)"
+    },
+    {
+        "definition": "history",
+        "answer": "l'histoire (f)"
+    },
+    {
+        "definition": "foreign language (French, German)",
+        "answer": "une langue étrangère (le français, l'allemand)"
+    },
+    {
+        "definition": "literature",
+        "answer": "la littérature"
+    },
+    {
+        "definition": "philosophy",
+        "answer": "la philosophie"
+    },
+    {
+        "definition": "social sciences",
+        "answer": "les sciences humaines (f)"
+    },
+    {
+        "definition": "anthropology",
+        "answer": "l'anthropologie (f)"
+    },
+    {
+        "definition": "psychology",
+        "answer": "la psychologie"
+    },
+    {
+        "definition": "political science",
+        "answer": "les sciences politiques (f)"
+    },
+    {
+        "definition": "sociology",
+        "answer": "la sociologie"
+    },
+    {
+        "definition": "natural sciences",
+        "answer": "les sciences naturelles (f)"
+    },
+    {
+        "definition": "biology",
+        "answer": "la biologie"
+    },
+    {
+        "definition": "botany",
+        "answer": "la botanique"
+    },
+    {
+        "definition": "physiology",
+        "answer": "la physiologie"
+    },
+    {
+        "definition": "zoology",
+        "answer": "la zoologie"
+    },
+    {
+        "definition": "physical sciences",
+        "answer": "les sciences physiques (f)"
+    },
+    {
+        "definition": "astronomy",
+        "answer": "l'astronomie (f)"
+    },
+    {
+        "definition": "chemistry",
+        "answer": "la chimie"
+    },
+    {
+        "definition": "physics",
+        "answer": "la physique"
+    },
+    {
+        "definition": "economics",
+        "answer": "les sciences économiques (f)"
+    },
+    {
+        "definition": "accounting",
+        "answer": "la comptabilité"
+    },
+    {
+        "definition": "performing arts",
+        "answer": "les arts (m) du spectacle"
+    },
+    {
+        "definition": "theater",
+        "answer": "le théâtre"
+    },
+    {
+        "definition": "dance",
+        "answer": "la danse"
+    },
+    {
+        "definition": "film",
+        "answer": "le ciné(ma)"
+    },
+    {
+        "definition": "fine arts",
+        "answer": "les beaux-arts (m)"
+    },
+    {
+        "definition": "design",
+        "answer": "le dessin"
+    },
+    {
+        "definition": "music",
+        "answer": "la musique"
+    },
+    {
+        "definition": "painting",
+        "answer": "la peinture"
+    },
+    {
+        "definition": "sculpture",
+        "answer": "la sculpture"
+    },
+    {
+        "definition": "photography",
+        "answer": "la photographie"
+    },
+    {
+        "definition": "law",
+        "answer": "le droit"
+    },
+    {
+        "definition": "engineering",
+        "answer": "le génie"
+    },
+    {
+        "definition": "computer science",
+        "answer": "l'informatique"
+    },
+    {
+        "definition": "jouranlism",
+        "answer": "le journalisme"
+    },
+    {
+        "definition": "mathematics",
+        "answer": "les mathématiques (f)"
+    },
+    {
+        "definition": "medicine",
+        "answer": "le médecine"
+    },
+    {
+        "definition": "educational studies",
+        "answer": "les sciences (f) de l'education (f)"
+    },
+    {
+        "definition": "management",
+        "answer": "la gestion"
+    },
+    {
+        "definition": "after",
+        "answer": "après"
+    },
+    {
+        "definition": "here",
+        "answer": "ici"
+    },
+    {
+        "definition": "to meet someone",
+        "answer": "retrouver quelqu'un"
+    },
+    {
+        "definition": "to be located",
+        "answer": "se trouver"
+    },
+    {
+        "definition": "car",
+        "answer": "une voiture"
+    },
+    {
+        "definition": "studies",
+        "answer": "des études (f)"
+    },
+    {
+        "definition": "high school diploma",
+        "answer": "un bac(calauréat)"
+    },
+    {
+        "definition": "a degree (in ...)",
+        "answer": "un diplôme (en ...)"
+    },
+    {
+        "definition": "to study/major in",
+        "answer": "étudier"
+    },
+    {
+        "definition": "master's degree",
+        "answer": "un master"
+    },
+    {
+        "definition": "(to have a) grade",
+        "answer": "(avoir) une note"
+    },
+    {
+        "definition": "to do a degree (in ...)",
+        "answer": "préparer un diplôme (en ...)"
+    },
+    {
+        "definition": "semester",
+        "answer": "un semestre"
+    },
+    {
+        "definition": "major",
+        "answer": "une spécialisation"
+    },
+    {
+        "definition": "to take a course",
+        "answer": "suivre un cours"
+    },
+    {
+        "definition": "trimester, quarter",
+        "answer": "un trimestre"
+    },
+    {
+        "definition": "assignments, homework",
+        "answer": "des devoirs (m)"
+    },
+    {
+        "definition": "essay",
+        "answer": "un essai"
+    },
+    {
+        "definition": "exam",
+        "answer": "un examen"
+    },
+    {
+        "definition": "to take an exam",
+        "answer": "passer un examen"
+    },
+    {
+        "definition": "to pass an exam",
+        "answer": "réussir un examen"
+    },
+    {
+        "definition": "oral presentation",
+        "answer": "un exposé"
+    },
+    {
+        "definition": "project",
+        "answer": "un projet"
+    },
+    {
+        "definition": "novel",
+        "answer": "un roman"
+    },
+    {
+        "definition": "to follow (with conjugation)",
+        "answer": "suivre (je suis / tu suis / il suit / nous suivons / vous suivez / ils suivent)"
+    },
+    {
+        "definition": "to attend a class",
+        "answer": "assister à un cours"
+    },
+    {
+        "definition": "to read (with conjugation + passé composé)",
+        "answer": "lire (je lis / tu lis / il lit / nous lisons / vous lisez / ils lisent / lu)"
+    },
+    {
+        "definition": "difficult",
+        "answer": "difficile"
+    },
+    {
+        "definition": "boring, tedious (m/f)",
+        "answer": "ennuyeux/-euse"
+    },
+    {
+        "definition": "easy",
+        "answer": "facile"
+    },
+    {
+        "definition": "final (m/f)",
+        "answer": "un/e final/e"
+    },
+    {
+        "definition": "interesting",
+        "answer": "intéressant/e"
+    },
+    {
+        "definition": "mediocre",
+        "answer": "médiocre"
+    },
+    {
+        "definition": "required",
+        "answer": "obligatoire"
+    },
+    {
+        "definition": "probably",
+        "answer": "sans doute"
+    },
+    {
+        "definition": "where people work",
+        "answer": "où on travaille"
+    },
+    {
+        "definition": "office",
+        "answer": "un bureau"
+    },
+    {
+        "definition": "private hospital",
+        "answer": "une clinique"
+    },
+    {
+        "definition": "public hospital",
+        "answer": "un hôpital"
+    },
+    {
+        "definition": "jobs",
+        "answer": "des métiers (m)"
+    },
+    {
+        "definition": "professions",
+        "answer": "des professions (f)"
+    },
+    {
+        "definition": "actor / actress",
+        "answer": "un acteur / une actrice"
+    },
+    {
+        "definition": "architect (m/f)",
+        "answer": "un/e architecte"
+    },
+    {
+        "definition": "artist (m/f)",
+        "answer": "un/e artiste"
+    },
+    {
+        "definition": "assistant (m/f)",
+        "answer": "un/e assistant/e"
+    },
+    {
+        "definition": "social worker (m/f)",
+        "answer": "un/e assistant/e social/e"
+    },
+    {
+        "definition": "lawyer (m/f)",
+        "answer": "un/e avocat/e"
+    },
+    {
+        "definition": "singer (m/f)",
+        "answer": "un chanteur / une chanteuse"
+    },
+    {
+        "definition": "accountant (m/f)",
+        "answer": "un/e comptable"
+    },
+    {
+        "definition": "dentist (m/f)",
+        "answer": "un/e dentiste"
+    },
+    {
+        "definition": "director (m/f)",
+        "answer": "un directeur / une directrice"
+    },
+    {
+        "definition": "doctor (m/f)",
+        "answer": "un/e docteur/e"
+    },
+    {
+        "definition": "writer (m/f)",
+        "answer": "un/e écrivain/e"
+    },
+    {
+        "definition": "government worker (m/f)",
+        "answer": "un/e fonctionnaire"
+    },
+    {
+        "definition": "businessman/businesswoman",
+        "answer": "un homme / une femme d'affaires"
+    },
+    {
+        "definition": "nurse (m/f)",
+        "answer": "un infirmier / une infirmière"
+    },
+    {
+        "definition": "programmer (m/f)",
+        "answer": "un/e informaticien/ne"
+    },
+    {
+        "definition": "engineer (m/f)",
+        "answer": "un/e ingénieur/e"
+    },
+    {
+        "definition": "journalist (m/f)",
+        "answer": "un/e journaliste"
+    },
+    {
+        "definition": "physician (m/f)",
+        "answer": "un/e médecin"
+    },
+    {
+        "definition": "musician (m/f)",
+        "answer": "un/e musicien/ne"
+    },
+    {
+        "definition": "pharmacist (m/f)",
+        "answer": "un/e pharmacien/ne"
+    },
+    {
+        "definition": "police officer (m/f)",
+        "answer": "un policier / une policière"
+    },
+    {
+        "definition": "firefighter (m/f)",
+        "answer": "un pompier / une pompière"
+    },
+    {
+        "definition": "professor (m/f)",
+        "answer": "un/e professeur/e"
+    },
+    {
+        "definition": "server (m/f)",
+        "answer": "un serveur / une serveuse"
+    },
+    {
+        "definition": "sales clerk (m/f)",
+        "answer": "un vendeur / une vendeuse"
+    },
+    {
+        "definition": "money",
+        "answer": "l'argent (m)"
+    },
+    {
+        "definition": "independent",
+        "answer": "autonome"
+    },
+    {
+        "definition": "career",
+        "answer": "une carrière"
+    },
+    {
+        "definition": "to be talented (in)",
+        "answer": "être doué/e (pour)"
+    },
+    {
+        "definition": "people",
+        "answer": "les gens (m)"
+    },
+    {
+        "definition": "outdoors",
+        "answer": "en plein air"
+    },
+    {
+        "definition": "prestige",
+        "answer": "le prestige"
+    },
+    {
+        "definition": "public",
+        "answer": "le public"
+    },
+    {
+        "definition": "responsibility",
+        "answer": "la responsabilité"
+    },
+    {
+        "definition": "salary",
+        "answer": "un salaire"
+    },
+    {
+        "definition": "the service sector",
+        "answer": "les services (m)"
+    },
+    {
+        "definition": "work",
+        "answer": "le travail"
+    },
+    {
+        "definition": "to help people",
+        "answer": "aider les gens"
+    },
+    {
+        "definition": "to earn (money)",
+        "answer": "gagner (de l'argent)"
+    },
+    {
+        "definition": "to be interested in",
+        "answer": "s'intéresser à"
+    },
+    {
+        "definition": "to travel",
+        "answer": "voyager"
+    },
+    {
+        "definition": "must, to have/supposed to / to owe (with conjugations)",
+        "answer": "devoir (je dois / tu dois / il doit / nous devons / vous devez / ils doivent)"
+    },
+    {
+        "definition": "can / to be able to (with conjugations)",
+        "answer": "pouvoir (je peux / tu peux / il peut / nous pouvons / vous pouvez / ils peuvent)"
+    },
+    {
+        "definition": "to want (with conjugations)",
+        "answer": "vouloir (je veux / tu veux / il veut / nous voulons / vous voulez / ils veulent)"
+    },
+    {
+        "definition": "ok",
+        "answer": "je veux bien"
+    },
+    {
+        "definition": "what do you mean? (form / inf)",
+        "answer": "qu'est-ce que vous voulez / tu veux dire?"
+    },
+    {
+        "definition": "what does that mean?",
+        "answer": "qu'est-ce que ça veut dire?"
+    },
+    {
+        "definition": "c'est/ce sont + a proper noun OR an article/adj + noun\nêtre + an unmodified (i.e. no article/adj) noun OR an adj.",
+        "answer": "c'est vs. il est"
+    },
+    {
+        "definition": "des + plural noun is..?",
+        "answer": "de + plural noun"
+    }
+    ],
+
+    "grammar": [
+    {
+        "type": "conjugation",
+        "definition": "-re conjugation (e.g. attendre)",
+        "rows": [
+        { "prompt": "je", "answer": "attends" },
+        { "prompt": "tu", "answer": "attends" },
+        { "prompt": "il", "answer": "attend" },
+        { "prompt": "nous", "answer": "attendons" },
+        { "prompt": "vous", "answer": "attendez" },
+        { "prompt": "ils", "answer": "attendent" }
+        ]
+    },
+
+    {
+        "type": "conjugation",
+        "definition": "verbes conjugués comme préférer",
+        "rows": [
+        { "prompt": "je", "answer": "préfère" },
+        { "prompt": "tu", "answer": "préfères" },
+        { "prompt": "il", "answer": "préfère" },
+        { "prompt": "nous", "answer": "préférons" },
+        { "prompt": "vous", "answer": "préférez" },
+        { "prompt": "ils", "answer": "préfèrent" }
+        ]
+    },
+
+    {
+        "type": "conjugation",
+        "definition": "to follow (with conjugation)",
+        "rows": [
+        { "prompt": "infinitive", "answer": "suivre" },
+        { "prompt": "je", "answer": "suis" },
+        { "prompt": "tu", "answer": "suis" },
+        { "prompt": "il", "answer": "suit" },
+        { "prompt": "nous", "answer": "suivons" },
+        { "prompt": "vous", "answer": "suivez" },
+        { "prompt": "ils", "answer": "suivent" }
+        ]
+    },
+    {
+        "type": "conjugation",
+        "definition": "to read (with conjugation + passé composé)",
+        "rows": [
+        { "prompt": "infinitive", "answer": "lire" },
+        { "prompt": "je", "answer": "lis" },
+        { "prompt": "tu", "answer": "lis" },
+        { "prompt": "il", "answer": "lit" },
+        { "prompt": "nous", "answer": "lisons" },
+        { "prompt": "vous", "answer": "lisez" },
+        { "prompt": "ils", "answer": "lisent" },
+        { "prompt": "passé composé", "answer": "lu" }
+        ]
+    },
+    {
+        "type": "conjugation",
+        "definition": "must, to have/supposed to / to owe (with conjugations)",
+        "rows": [
+        { "prompt": "infinitive", "answer": "devoir" },
+        { "prompt": "je", "answer": "dois" },
+        { "prompt": "tu", "answer": "dois" },
+        { "prompt": "il", "answer": "doit" },
+        { "prompt": "nous", "answer": "devons" },
+        { "prompt": "vous", "answer": "devez" },
+        { "prompt": "ils", "answer": "doivent" }
+        ]
+    },
+    {
+        "type": "conjugation",
+        "definition": "can / to be able to (with conjugations)",
+        "rows": [
+        { "prompt": "infinitive", "answer": "pouvoir" },
+        { "prompt": "je", "answer": "peux" },
+        { "prompt": "tu", "answer": "peux" },
+        { "prompt": "il", "answer": "peut" },
+        { "prompt": "nous", "answer": "pouvons" },
+        { "prompt": "vous", "answer": "pouvez" },
+        { "prompt": "ils", "answer": "peuvent" }
+        ]
+    },
+    {
+        "type": "conjugation",
+        "definition": "to want (with conjugations)",
+        "rows": [
+        { "prompt": "infinitive", "answer": "vouloir" },
+        { "prompt": "je", "answer": "veux" },
+        { "prompt": "tu", "answer": "veux" },
+        { "prompt": "il", "answer": "veut" },
+        { "prompt": "nous", "answer": "voulons" },
+        { "prompt": "vous", "answer": "voulez" },
+        { "prompt": "ils", "answer": "veulent" }
+        ]
+    },
+    {
+        "type": "single",
+        "definition": "c'est/ce sont + a proper noun OR an article/adj + noun\nêtre + an unmodified (i.e. no article/adj) noun OR an adj.",
+        "prompt": "answer",
+        "answer": "c'est vs. il est"
+    },
+    {
+        "type": "single",
+        "definition": "des + plural noun is..?",
+        "prompt": "answer",
+        "answer": "de + plural noun"
+    }
+    ]
+}
