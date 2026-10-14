@@ -2,243 +2,280 @@ const units = JSON.parse(
   document.getElementById("french-data").textContent
 );
 
-// Vocab handler
+const CLOSE_ANSWER_THRESHOLD = 0.7;
+const MIN_INPUT_WIDTH = 16;
 
-document.querySelectorAll('[data-mode="vocab"]').forEach(button => {
-    button.addEventListener("click", () => {
-        const unit = units.find(u => u.id === Number(button.dataset.unit));
-        const container = document.getElementById(`practice-${unit.id}`);
+function normalizeAnswer(answer) {
+  return answer
+    .replace(/\([^)]*\)/g, "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/['’`]/g, "'")
+    .replace(/[‐-‒–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-        // Toggle the practice area
-        if (container.dataset.open === "true") {
-            container.replaceChildren();
-            container.style.display = "none";
-            container.dataset.open = "false";
-            return;
-        }
+function getSimilarityTargets(answer) {
+  const cleanedAnswer = normalizeAnswer(answer);
 
-        container.style.display = "block";
-        container.dataset.open = "true";
-        container.replaceChildren();
+  return [...new Set([
+    cleanedAnswer,
+    ...cleanedAnswer.split("/").map(part => part.trim()),
+  ])].filter(Boolean);
+}
 
-        // Shuffle the vocabulary into a random order
-        const shuffledVocab = [...unit.vocab];
+function levenshteinDistance(first, second) {
+  let previousRow = Array.from(
+    { length: second.length + 1 },
+    (_, index) => index
+  );
 
-        for (let i = shuffledVocab.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffledVocab[i], shuffledVocab[j]] = [
-            shuffledVocab[j],
-            shuffledVocab[i]
-        ];
-        }
+  for (let row = 1; row <= first.length; row++) {
+    const currentRow = [row];
 
-        let index = 0;
-        let wordsLeft = shuffledVocab.length;
+    for (let column = 1; column <= second.length; column++) {
+      const substitutionCost =
+        first[row - 1] === second[column - 1] ? 0 : 1;
 
-        // Words left counter
-        const counter = document.createElement("p");
-        counter.className = "words-left";
+      currentRow[column] = Math.min(
+        previousRow[column] + 1,
+        currentRow[column - 1] + 1,
+        previousRow[column - 1] + substitutionCost
+      );
+    }
+
+    previousRow = currentRow;
+  }
+
+  return previousRow[second.length];
+}
+
+function calculateSimilarity(first, second) {
+  const maxLength = Math.max(first.length, second.length);
+
+  return maxLength === 0
+    ? 1
+    : 1 - levenshteinDistance(first, second) / maxLength;
+}
+
+function containsAllAnswerWords(userAnswer, answerPart) {
+  const userWords = new Set(userAnswer.split(" "));
+  const answerWords = answerPart.split(" ");
+
+  return answerWords.every(word => userWords.has(word));
+}
+
+function setInputWidth(input, length = input.value.length) {
+  input.style.width = `${Math.max(MIN_INPUT_WIDTH, length + 1)}ch`;
+}
+
+function createElement(tagName, className, text) {
+  const element = document.createElement(tagName);
+
+  if (className) element.className = className;
+  if (text !== undefined) element.textContent = text;
+
+  return element;
+}
+
+function shuffle(items) {
+  const shuffled = [...items];
+
+  for (let index = shuffled.length - 1; index > 0; index--) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [
+      shuffled[randomIndex],
+      shuffled[index],
+    ];
+  }
+
+  return shuffled;
+}
+
+function togglePractice(button, renderPractice) {
+  const unitId = Number(button.dataset.unit);
+  const unit = units.find(({ id }) => id === unitId);
+  const container = document.getElementById(`practice-${unitId}`);
+
+  if (container.dataset.open === "true") {
+    container.replaceChildren();
+    container.style.display = "none";
+    container.dataset.open = "false";
+    return;
+  }
+
+  container.style.display = "block";
+  container.dataset.open = "true";
+  renderPractice(unit, container);
+}
+
+function renderVocabulary(unit, container) {
+  const vocabulary = shuffle(unit.vocab);
+
+  if (vocabulary.length === 0) {
+    container.replaceChildren(
+      createElement("p", "definition", "no vocabulary here yet.")
+    );
+    return;
+  }
+
+  let questionIndex = 0;
+  let wordsLeft = vocabulary.length;
+  const counter = createElement("p", "words-left", `words left: ${wordsLeft}`);
+
+  function renderNextQuestion() {
+    questionIndex %= vocabulary.length;
+
+    const question = vocabulary[questionIndex];
+    const row = createElement("div", "question-row");
+    const feedback = createElement("span", "feedback");
+
+    const englishColumn = createElement("div", "answer-column");
+    englishColumn.append(
+      createElement("span", "answer-label", "english"),
+      createElement("span", "definition", question.definition)
+    );
+
+    const frenchColumn = createElement("div", "answer-column");
+    const input = document.createElement("input");
+    input.placeholder = "french";
+    setInputWidth(input, MIN_INPUT_WIDTH - 1);
+    input.addEventListener("input", () => setInputWidth(input));
+    frenchColumn.append(
+      createElement("span", "answer-label", "french"),
+      input
+    );
+
+    const buttonsColumn = createElement("div", "answer-column");
+    const spacer = createElement("span", "answer-label", "\u00a0");
+    spacer.style.visibility = "hidden";
+
+    const buttonsRow = createElement("div", "check-buttons");
+    const hintButton = createElement("button", "unit-button", "hint");
+    const nextButton = createElement("button", "unit-button", "skip");
+    const checkButton = createElement("button", "unit-button", "check");
+
+    buttonsRow.append(hintButton, nextButton, checkButton);
+    buttonsColumn.append(spacer, buttonsRow);
+
+    let answeredWrong = false;
+
+    function showAnswer() {
+      input.value = question.answer;
+      input.readOnly = true;
+      setInputWidth(input, question.answer.length);
+      checkButton.style.display = "none";
+      hintButton.style.display = "none";
+      nextButton.textContent = "Next";
+    }
+
+    function advanceQuestion() {
+      questionIndex++;
+      renderNextQuestion();
+    }
+
+    function showCloseFeedback() {
+      feedback.textContent = "close!";
+      feedback.classList.add("close");
+      showAnswer();
+    }
+
+    function checkAnswer() {
+      // Correctness requires an exact match with the entire answer.
+      if (input.value === question.answer) {
+        wordsLeft = Math.max(0, wordsLeft - 1);
         counter.textContent = `words left: ${wordsLeft}`;
+        advanceQuestion();
+        return { correct: true, close: false };
+      }
 
-        function nextQuestion() {
-        // Loop back to the beginning when all words have been shown
-        if (index >= unit.vocab.length) {
-            index = 0;
-        }
+      // Slash-separated parts are comparison targets for closeness only.
+      const userAnswer = normalizeAnswer(input.value);
+        const similarity = Math.max(
+        ...getSimilarityTargets(question.answer).map(answer => {
+            if (containsAllAnswerWords(userAnswer, answer)) return 1;
+            return calculateSimilarity(userAnswer, answer);
+        })
+        );
 
-        const question = shuffledVocab[index];
+      if (similarity >= CLOSE_ANSWER_THRESHOLD) {
+        showCloseFeedback();
+        return { correct: false, close: true };
+      }
 
-        const row = document.createElement("div");
-        row.className = "question-row";
+      feedback.textContent = "✗";
+      feedback.classList.remove("close");
+      return { correct: false, close: false };
+    }
 
-        // English definition
-        const english = document.createElement("div");
-        english.className = "answer-column";
+    hintButton.onclick = () => {
+      const revealedLength = input.value.length;
 
-        const englishLabel = document.createElement("span");
-        englishLabel.className = "answer-label";
-        englishLabel.textContent = "english";
+      if (revealedLength < question.answer.length) {
+        input.value = question.answer.slice(0, revealedLength + 1);
+        setInputWidth(input);
+      }
 
-        const definition = document.createElement("span");
-        definition.className = "definition";
-        definition.textContent = question.definition;
+      if (input.value.length >= question.answer.length) showAnswer();
+      input.focus();
+    };
 
-        english.append(englishLabel, definition);
+    nextButton.onclick = () => {
+      if (nextButton.textContent === "Next") {
+        advanceQuestion();
+      } else {
+        showAnswer();
+      }
+    };
 
-        // French answer
-        const french = document.createElement("div");
-        french.className = "answer-column";
+    checkButton.onclick = checkAnswer;
 
-        const frenchLabel = document.createElement("span");
-        frenchLabel.className = "answer-label";
-        frenchLabel.textContent = "french";
+    input.addEventListener("keydown", event => {
+      if (event.key !== "Enter") return;
 
-        const input = document.createElement("input");
-        input.placeholder = "french";
-        input.style.width = "16ch";
+      event.preventDefault();
 
-        input.addEventListener("input", () => {
-            input.style.width = `${Math.max(16, input.value.length + 1)}ch`;
-        });
+      if (
+        !input.value.trim() ||
+        nextButton.textContent === "Next" ||
+        answeredWrong
+      ) {
+        nextButton.click();
+        return;
+      }
 
-        french.append(frenchLabel, input);
-
-        // Buttons column
-        const checkColumn = document.createElement("div");
-        checkColumn.className = "answer-column";
-
-        const spacer = document.createElement("span");
-        spacer.className = "answer-label";
-        spacer.textContent = "\u00a0";
-        spacer.style.visibility = "hidden";
-
-        const buttonsRow = document.createElement("div");
-        buttonsRow.className = "check-buttons";
-
-        const check = document.createElement("button");
-        check.className = "unit-button";
-        check.textContent = "check";
-
-        const hint = document.createElement("button");
-        hint.className = "unit-button";
-        hint.textContent = "hint";
-
-        const skip = document.createElement("button");
-        skip.className = "unit-button";
-        skip.textContent = "skip";
-
-        buttonsRow.append(hint, skip, check);
-        checkColumn.append(spacer, buttonsRow);
-
-        const feedback = document.createElement("span");
-
-        // Switch to Next after revealing the answer
-        function showAnswer() {
-            input.value = question.answer;
-            input.readOnly = true;
-
-            // Resize the textbox to fit the answer
-            input.style.width = `${Math.max(16, question.answer.length + 1)}ch`;
-
-            check.style.display = "none";
-            hint.style.display = "none";
-
-            skip.textContent = "Next";
-            }
-
-        // Reveal one additional letter with each Hint click
-        hint.onclick = () => {
-            const answer = question.answer;
-            const currentLength = input.value.length;
-
-            if (currentLength < answer.length) {
-                input.value = answer.slice(0, currentLength + 1);
-
-                // Resize the textbox to fit the revealed text
-                input.style.width = `${Math.max(16, input.value.length + 1)}ch`;
-            }
-
-            // If the whole answer is revealed, show only Next
-            if (input.value.length >= answer.length) {
-                showAnswer();
-            }
-
-            input.focus();
-            };
-
-        // Skip reveals the answer; Next advances without changing the count
-        skip.onclick = () => {
-            if (skip.textContent === "Next") {
-            index++;
-            nextQuestion();
-            return;
-            }
-
-            showAnswer();
-        };
-
-        // Check answer and automatically advance when correct
-        check.onclick = () => {
-            if (
-            input.value.trim().toLowerCase() ===
-            question.answer.toLowerCase()
-            ) {
-            wordsLeft = Math.max(0, wordsLeft - 1);
-            counter.textContent = `Words left: ${wordsLeft}`;
-
-            index++;
-            nextQuestion();
-            } else {
-            feedback.textContent = "✗";
-            }
-        };
-
-        // Enter checks the answer; a second Enter reveals it if wrong
-        let answeredWrong = false;
-
-        input.addEventListener("keydown", event => {
-            if (event.key === "Enter") {
-                event.preventDefault();
-
-                if (skip.textContent === "Next") {
-                    skip.click();
-                } else if (answeredWrong) {
-                    skip.click();
-                } else {
-                    const correct =
-                        input.value.trim().toLowerCase() ===
-                        question.answer.toLowerCase();
-
-                    if (correct) {
-                        check.click();
-                    } else {
-                        check.click();
-                        answeredWrong = true;
-                    }
-                }
-            }
-        });
-
-        row.append(english, french, checkColumn, feedback);
-        container.replaceChildren(counter, row);
-
-        // Focus the textbox for every new question
-        input.focus();
-        }
-
-        if (!unit.vocab.length) {
-            const message = document.createElement("p");
-            message.className = "definition";
-            message.textContent = "no vocabulary here yet.";
-            container.replaceChildren(message);
-            return;
-        }
-
-        nextQuestion();
+      const result = checkAnswer();
+      if (!result.correct && !result.close) answeredWrong = true;
     });
-});
 
-// Grammar handler
+    row.append(englishColumn, frenchColumn, buttonsColumn, feedback);
+    container.replaceChildren(counter, row);
+    input.focus();
+  }
 
-document.querySelectorAll('[data-mode="grammar"]').forEach(button => {
-    button.addEventListener("click", () => {
-        const unit = units.find(u => u.id === Number(button.dataset.unit));
-        const container = document.getElementById(`practice-${unit.id}`);
+  renderNextQuestion();
+}
 
-        if (container.dataset.open === "true") {
-            container.replaceChildren();
-            container.style.display = "none";
-            container.dataset.open = "false";
-            return;
-        }
+function renderGrammar(unit, container) {
+  container.replaceChildren(
+    createElement("p", "definition", "No grammar here yet.")
+  );
+}
 
-        container.style.display = "block";
-        container.dataset.open = "true";
+document
+  .querySelectorAll('[data-mode="vocab"]')
+  .forEach(button =>
+    button.addEventListener("click", () =>
+      togglePractice(button, renderVocabulary)
+    )
+  );
 
-        const message = document.createElement("p");
-        message.className = "definition";
-        message.textContent = "No grammar here yet.";
-
-        container.replaceChildren(message);
-    });
-});
+document
+  .querySelectorAll('[data-mode="grammar"]')
+  .forEach(button =>
+    button.addEventListener("click", () =>
+      togglePractice(button, renderGrammar)
+    )
+  );

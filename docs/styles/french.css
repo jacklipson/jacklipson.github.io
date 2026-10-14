@@ -61,6 +61,12 @@
   margin-right: 0.75rem;
 }
 
+.question-row > span {
+  white-space: nowrap;
+  align-self: center;
+  margin-top: 1.5rem;
+}
+
 /* English and French columns */
 .answer-column {
   display: flex;
@@ -104,4 +110,10 @@
   justify-content: center;
   gap: 1.5rem;
   white-space: nowrap;
+}
+
+/* "Close!" feedback*/
+.feedback.close {
+  font-style: italic;
+  color: turquoise;
 }
