@@ -134,6 +134,9 @@
   justify-self: start;
   max-width: none;
   box-sizing: content-box;
+  display: inline-block;
+  visibility: visible;
+  appearance: auto;
 }
 
 .grammar-header {

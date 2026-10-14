@@ -294,7 +294,7 @@ function renderGrammar(unit, container) {
     rowStates.forEach(state => {
       const row = createElement("div", "question-row grammar-row");
       const prompt = createElement("span", "answer-label", state.item.prompt || "");
-      const input = createAnswerInput("answer");
+      const input = createAnswerInput("french");
       const feedback = createElement("span", "feedback");
 
       state.input = input;
