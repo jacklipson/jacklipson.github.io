@@ -108,10 +108,7 @@ function togglePractice(button, renderPractice) {
   const unitKey = button.dataset.unit;
   const mode = button.dataset.mode;
 
-  const unit =
-    unitKey === "misc"
-      ? units.find(({ isMisc }) => isMisc)
-      : units.find(({ id }) => String(id) === unitKey);
+  const unit = units.find(({ id }) => String(id) === unitKey);
 
   const container = document.getElementById(`practice-${unitKey}`);
 
