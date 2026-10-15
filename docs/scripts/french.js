@@ -105,10 +105,17 @@ function shuffle(items) {
 }
 
 function togglePractice(button, renderPractice) {
-  const unitId = Number(button.dataset.unit);
+  const unitKey = button.dataset.unit;
   const mode = button.dataset.mode;
-  const unit = units.find(({ id }) => id === unitId);
-  const container = document.getElementById(`practice-${unitId}`);
+
+  const unit =
+    unitKey === "misc"
+      ? units.find(({ isMisc }) => isMisc)
+      : units.find(({ id }) => String(id) === unitKey);
+
+  const container = document.getElementById(`practice-${unitKey}`);
+
+  if (!unit || !container) return;
 
   if (container.dataset.open === "true" && container.dataset.mode === mode) {
     container.replaceChildren();

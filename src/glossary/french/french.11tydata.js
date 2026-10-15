@@ -6,8 +6,11 @@ module.exports = function () {
 
   const files = fs
     .readdirSync(directory)
-    .filter((file) => /^unit-\d+\.json$/.test(file))
+    .filter((file) => /^unit-\d+\.json$/.test(file) || file === "misc.json")
     .sort((a, b) => {
+      if (a === "misc.json") return 1;
+      if (b === "misc.json") return -1;
+
       const idA = Number(a.match(/\d+/)[0]);
       const idB = Number(b.match(/\d+/)[0]);
       return idA - idB;
@@ -15,7 +18,9 @@ module.exports = function () {
 
   const units = files.map((file) => {
     const filePath = path.join(directory, file);
-    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+    const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+    return file === "misc.json" ? { ...data, isMisc: true } : data;
   });
 
   return { units };

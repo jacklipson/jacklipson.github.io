@@ -8,7 +8,8 @@ title: french
   <div class="unit-grid">
     {% for unit in units %}
       <div class="unit">
-        <p> chapitre {{ unit.id }}
+        <p>
+        {% if unit.isMisc %}my misc &nbsp;{% else %}chapitre {{ unit.id }}{% endif %}
         <button data-unit="{{ unit.id }}" data-mode="vocab">vocab</button>
         <button data-unit="{{ unit.id }}" data-mode="grammar">grammar</button>
         <button data-unit="{{ unit.id }}" data-mode="both">both</button></p>

@@ -1,0 +1,172 @@
+{
+    "id": "misc",
+    "vocab": [
+    {
+        "definition": "to bother",
+        "answer": "déranger"
+    },
+    {
+        "definition": "a stone's throw away",
+        "answer": "à deux pas de"
+    },
+    {
+        "definition": "even, perhaps even",
+        "answer": "voire"
+    },
+    {
+        "definition": "like, in the image of",
+        "answer": "à l’image de"
+    },
+    {
+        "definition": "in the back",
+        "answer": "à l’arrière"
+    },
+    {
+        "definition": "all the same, nevertheless",
+        "answer": "tout de même"
+    },
+    {
+        "definition": "during, at the time of",
+        "answer": "lors de"
+    },
+    {
+        "definition": "at risk of",
+        "answer": "au risque de"
+    },
+    {
+        "definition": "to ruin, to spoil",
+        "answer": "gâcher"
+    },
+    {
+        "definition": "sometimes",
+        "answer": "parfois"
+    },
+    {
+        "definition": "in short",
+        "answer": "en bref"
+    },
+    {
+        "definition": "the seat, the base",
+        "answer": "le siège"
+    },
+    {
+        "definition": "to flee, run away",
+        "answer": "fuir"
+    },
+    {
+        "definition": "a line",
+        "answer": "une ligne"
+    },
+    {
+        "definition": "online",
+        "answer": "en ligne"
+    },
+    {
+        "definition": "my girl(friend)",
+        "answer": "ma gow"
+    },
+    {
+        "definition": "a guy, a dude",
+        "answer": "un gars"
+    },
+    {
+        "definition": "on my mother's head (I swear)",
+        "answer": "sur la tête de ma mère"
+    },
+    {
+        "definition": "a guy, a dude",
+        "answer": "un mec"
+    },
+    {
+        "definition": "to meet, to encounter",
+        "answer": "rencontrer"
+    },
+    {
+        "definition": "which goes to show that",
+        "answer": "comme quoi"
+    },
+    {
+        "definition": "doss around",
+        "answer": "traîner"
+    },
+    {
+        "definition": "huh? what?",
+        "answer": "hein?"
+    },
+    {
+        "definition": "it's insane, unbelievable",
+        "answer": "une dinguerie"
+    },
+    {
+        "definition": "wow, you don't say",
+        "answer": "dis donc"
+    },
+    {
+        "definition": "like (interjection)",
+        "answer": "avoir hâte"
+    },
+    {
+        "definition": "dad / mom / folks",
+        "answer": "un darron / une darronne / les darons"
+    },
+    {
+        "definition": "work, job (slang)",
+        "answer": "le taf"
+    },
+    {
+        "definition": "a guy, a dude",
+        "answer": "un boug"
+    },
+    {
+        "definition": "you know, like (slang)",
+        "answer": "quoi"
+    },
+    {
+        "definition": "basically (slang)",
+        "answer": "en gros"
+    },
+    {
+        "definition": "constantly, over and over",
+        "answer": "en boucle"
+    },
+    {
+        "definition": "and yet, even though, but still",
+        "answer": "pourtant"
+    },
+    {
+        "definition": "what's up bro, you good? (slang)",
+        "answer": "wesh frérot ça va"
+    },
+    {
+        "definition": "strong Quebecois swears",
+        "answer": "osti de criss de calisse de tabarnak"
+    },
+    {
+        "definition": "please no, for God's sake no",
+        "answer": "pitié non"
+    },
+    {
+        "definition": "to be on one's knees",
+        "answer": "être à genoux"
+    },
+    {
+        "definition": "to die, to croak (with conjugations)",
+        "answer": "crever (je crève / tu crèves / il crève / nous crevons / vous crevez / ils crèvent)"
+    }
+    ],
+    "grammar": [
+    {
+        "type": "multiple",
+        "definition": "to die, to croak (with conjugations)",
+        "rows" : [
+            {"prompt": "infitive", "answer": "crever"},
+            {"prompt": "je", "answer": "crève"},
+            {"prompt": "tu", "answer": "crèves"},
+            {"prompt": "il", "answer": "crève"},
+            {"prompt": "nous", "answer": "crevons"},
+            {"prompt": "vous", "answer": "crevez"},
+            {"prompt": "ils", "answer": "crèvent"}
+        ]
+    }
+    ]
+}
