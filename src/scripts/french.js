@@ -330,8 +330,8 @@ function renderGrammar(unit, container) {
     }
 
     function checkRow(state) {
-      const expected = normalizeAnswer(state.item.answer || "");
-      const actual = normalizeAnswer(state.input.value);
+      const expected = state.item.answer || "";
+      const actual = state.input.value;
       state.feedback.classList.remove("close");
 
       if (actual && actual === expected) {
@@ -375,8 +375,8 @@ function renderGrammar(unit, container) {
       rowStates.filter(state => !state.resolved).forEach(checkRow);
       lastCheckedAnswers = rowStates.map(state => state.input.value);
 
-      if (rowStates.every(state => state.resolved)) {
-        advanceQuestion(rowStates.every(state => state.correct));
+      if (rowStates.every(state => state.resolved && state.correct)) {
+        advanceQuestion(true);
       }
     }
 

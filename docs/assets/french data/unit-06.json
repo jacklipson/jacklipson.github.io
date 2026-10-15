@@ -645,7 +645,7 @@
             {"prompt": "je", "answer": "possède"},
             {"prompt": "tu", "answer": "possèdes"},
             {"prompt": "il", "answer": "possède"},
-            {"prompt": "nous", "answer": "possedons"},
+            {"prompt": "nous", "answer": "possédons"},
             {"prompt": "vous", "answer": "possédez"},
             {"prompt": "ils", "answer": "possèdent"}
         ]
