@@ -1,0 +1,48 @@
+---
+layout: layouts/russian-index.njk
+title: russian
+---
+
+<p>a place to practice russian – taken from "Live from Russia! Volume 1" (2008).</p>
+
+<div class="unit-grid">
+  {% for unit in units %}
+    <div class="unit">
+      <p>
+        {% if unit.isMisc %}my misc{% else %}урок {{ unit.id }}&nbsp;&nbsp;&thinsp;{% endif %}
+        <button data-unit="{{ unit.id }}" data-mode="vocab">vocab</button>
+        <button data-unit="{{ unit.id }}" data-mode="grammar">grammar</button>
+        <button data-unit="{{ unit.id }}" data-mode="both">both</button>
+      </p>
+
+      <div class="practice-area" id="practice-{{ unit.id }}"></div>
+    </div>
+  {% endfor %}
+
+  <div class="unit">
+    <p>
+      poems &nbsp;&nbsp;&thinsp;
+      <button id="poems-toggle" type="button">study</button>
+    </p>
+    <ol id="poems-list" hidden>
+      {% for poem in poems %}
+        <li>
+          <p>
+            <a href="#poem-display" class="poem-title" data-poem="{{ loop.index0 }}">
+              {{ poem.shortTitle }}
+            </a>
+          </p>
+        </li>
+      {% endfor %}
+    </ol>
+    <div id="poem-display"></div>
+  </div>
+</div>
+
+<script id="russian-data" type="application/json">
+  {{ units | dump | safe }}
+</script>
+
+<script id="poems-data" type="application/json">
+  {{ poems | dump | safe }}
+</script>

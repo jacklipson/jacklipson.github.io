@@ -1,0 +1,18 @@
+{
+    "id": "misc",
+    "vocab": [
+    {
+        "definition": "blank",
+        "answer": "blank"
+    }
+    ],
+    "grammar": [
+    {
+        "type": "blank",
+        "definition": "blank",
+        "rows" : [
+            {"prompt": "blank", "answer": "blank"}
+        ]
+    }
+    ]
+}

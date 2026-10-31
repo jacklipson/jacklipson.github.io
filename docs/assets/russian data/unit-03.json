@@ -1,0 +1,601 @@
+{
+    "id": 3,
+    "vocab": [
+    {
+        "definition": "August",
+        "answer": "август"
+    },
+    {
+        "definition": "American (male)",
+        "answer": "американец"
+    },
+    {
+        "definition": "American (female)",
+        "answer": "американка"
+    },
+    {
+        "definition": "English (male)",
+        "answer": "англичанин"
+    },
+    {
+        "definition": "English (female)",
+        "answer": "англичанка"
+    },
+    {
+        "definition": "April",
+        "answer": "апрель"
+    },
+    {
+        "definition": "brothers",
+        "answer": "братья"
+    },
+    {
+        "definition": "pants",
+        "answer": "брюки"
+    },
+    {
+        "definition": "in the spring",
+        "answer": "весной"
+    },
+    {
+        "definition": "vodka",
+        "answer": "водка"
+    },
+    {
+        "definition": "group",
+        "answer": "группа"
+    },
+    {
+        "definition": "December",
+        "answer": "декабрь"
+    },
+    {
+        "definition": "children",
+        "answer": "дети"
+    },
+    {
+        "definition": "friends",
+        "answer": "друзья"
+    },
+    {
+        "definition": "animal",
+        "answer": "животное"
+    },
+    {
+        "definition": "breakfast",
+        "answer": "завтрак"
+    },
+    {
+        "definition": "building",
+        "answer": "здание"
+    },
+    {
+        "definition": "in the winter",
+        "answer": "зимой"
+    },
+    {
+        "definition": "zoo",
+        "answer": "зоопарк"
+    },
+    {
+        "definition": "Spaniard (male)",
+        "answer": "испАнец"
+    },
+    {
+        "definition": "Spaniard (female)",
+        "answer": "испанка"
+    },
+    {
+        "definition": "July",
+        "answer": "июль"
+    },
+    {
+        "definition": "June",
+        "answer": "июнь"
+    },
+    {
+        "definition": "cash register",
+        "answer": "касса"
+    },
+    {
+        "definition": "cashier (male)",
+        "answer": "кассир"
+    },
+    {
+        "definition": "cafeteria",
+        "answer": "кафетерий"
+    },
+    {
+        "definition": "suit",
+        "answer": "костюм"
+    },
+    {
+        "definition": "coffee",
+        "answer": "кофе"
+    },
+    {
+        "definition": "woman's top",
+        "answer": "кофта"
+    },
+    {
+        "definition": "sneakers",
+        "answer": "кроссовки"
+    },
+    {
+        "definition": "college course",
+        "answer": "курс"
+    },
+    {
+        "definition": "laboratory",
+        "answer": "лаборатория"
+    },
+    {
+        "definition": "people",
+        "answer": "люди"
+    },
+    {
+        "definition": "May",
+        "answer": "май"
+    },
+    {
+        "definition": "t-shirt",
+        "answer": "майка"
+    },
+    {
+        "definition": "March",
+        "answer": "март"
+    },
+    {
+        "definition": "police station, police",
+        "answer": "милиция"
+    },
+    {
+        "definition": "style, fashion",
+        "answer": "мода"
+    },
+    {
+        "definition": "bridge",
+        "answer": "мост"
+    },
+    {
+        "definition": "German (male)",
+        "answer": "немец"
+    },
+    {
+        "definition": "German (female)",
+        "answer": "немка"
+    },
+    {
+        "definition": "November",
+        "answer": "ноябрь"
+    },
+    {
+        "definition": "lunch",
+        "answer": "обед"
+    },
+    {
+        "definition": "dormitory",
+        "answer": "общежитие"
+    },
+    {
+        "definition": "clothing",
+        "answer": "одежда"
+    },
+    {
+        "definition": "October",
+        "answer": "октябрь"
+    },
+    {
+        "definition": "in the autumn",
+        "answer": "осенью"
+    },
+    {
+        "definition": "mistake",
+        "answer": "ошибка"
+    },
+    {
+        "definition": "dress",
+        "answer": "платье"
+    },
+    {
+        "definition": "raincoat",
+        "answer": "плащ"
+    },
+    {
+        "definition": "child",
+        "answer": "ребёнок"
+    },
+    {
+        "definition": "shirt",
+        "answer": "рубашка"
+    },
+    {
+        "definition": "Russian (male)",
+        "answer": "русский"
+    },
+    {
+        "definition": "Russian (female)",
+        "answer": "русская"
+    },
+    {
+        "definition": "salad",
+        "answer": "салат"
+    },
+    {
+        "definition": "September",
+        "answer": "сентябрь"
+    },
+    {
+        "definition": "chair",
+        "answer": "стул"
+    },
+    {
+        "definition": "shoes",
+        "answer": "туфли"
+    },
+    {
+        "definition": "supper",
+        "answer": "ужин"
+    },
+    {
+        "definition": "February",
+        "answer": "февраль"
+    },
+    {
+        "definition": "movie",
+        "answer": "фильм"
+    },
+    {
+        "definition": "t-shirt, sweatshirt, jersey",
+        "answer": "футболка"
+    },
+    {
+        "definition": "color",
+        "answer": "цвет"
+    },
+    {
+        "definition": "circus",
+        "answer": "цирк"
+    },
+    {
+        "definition": "person",
+        "answer": "человек"
+    },
+    {
+        "definition": "scarf",
+        "answer": "шарф"
+    },
+    {
+        "definition": "shorts",
+        "answer": "шорты"
+    },
+    {
+        "definition": "exam",
+        "answer": "экзамен"
+    },
+    {
+        "definition": "skirt",
+        "answer": "юбка"
+    },
+    {
+        "definition": "language",
+        "answer": "язык"
+    },
+    {
+        "definition": "January",
+        "answer": "январь"
+    },
+    {
+        "definition": "which; what kind of...",
+        "answer": "какой"
+    },
+    {
+        "definition": "American",
+        "answer": "американский"
+    },
+    {
+        "definition": "English",
+        "answer": "английский"
+    },
+    {
+        "definition": "white",
+        "answer": "белый"
+    },
+    {
+        "definition": "big",
+        "answer": "большой"
+    },
+    {
+        "definition": "happy, cheerful",
+        "answer": "весёлый"
+    },
+    {
+        "definition": "tasty, delicious",
+        "answer": "вкусный"
+    },
+    {
+        "definition": "tall",
+        "answer": "высОкий"
+    },
+    {
+        "definition": "light blue",
+        "answer": "голубой"
+    },
+    {
+        "definition": "long",
+        "answer": "длинный"
+    },
+    {
+        "definition": "yellow",
+        "answer": "жёлтый"
+    },
+    {
+        "definition": "green",
+        "answer": "зелёный"
+    },
+    {
+        "definition": "interesting",
+        "answer": "интересный"
+    },
+    {
+        "definition": "Spanish",
+        "answer": "испанский"
+    },
+    {
+        "definition": "brown",
+        "answer": "коричневый"
+    },
+    {
+        "definition": "short",
+        "answer": "короткий"
+    },
+    {
+        "definition": "beautiful",
+        "answer": "красивый"
+    },
+    {
+        "definition": "red",
+        "answer": "красный"
+    },
+    {
+        "definition": "favorite",
+        "answer": "любимый"
+    },
+    {
+        "definition": "small",
+        "answer": "маленький"
+    },
+    {
+        "definition": "stylish",
+        "answer": "модный"
+    },
+    {
+        "definition": "young",
+        "answer": "молодой"
+    },
+    {
+        "definition": "new",
+        "answer": "новый"
+    },
+    {
+        "definition": "orange",
+        "answer": "оранжевый"
+    },
+    {
+        "definition": "excellent",
+        "answer": "отличный"
+    },
+    {
+        "definition": "bad",
+        "answer": "плохой"
+    },
+    {
+        "definition": "popular",
+        "answer": "популярный"
+    },
+    {
+        "definition": "most",
+        "answer": "самый"
+    },
+    {
+        "definition": "gray",
+        "answer": "серый"
+    },
+    {
+        "definition": "nice, good looking",
+        "answer": "симпатичный"
+    },
+    {
+        "definition": "blue",
+        "answer": "синий"
+    },
+    {
+        "definition": "funny",
+        "answer": "смешной"
+    },
+    {
+        "definition": "old",
+        "answer": "старый"
+    },
+    {
+        "definition": "good",
+        "answer": "хороший"
+    },
+    {
+        "definition": "black",
+        "answer": "чёрный"
+    },
+    {
+        "definition": "call",
+        "answer": "звонить"
+    },
+    {
+        "definition": "to want (w/ conj.)",
+        "answer": "хотЕть (хочУ / хОчешь / хОчет / хотИм / хотИте / хотЯт)"
+    },
+    {
+        "definition": "how",
+        "answer": "как"
+    },
+    {
+        "definition": "when",
+        "answer": "когда"
+    },
+    {
+        "definition": "all right",
+        "answer": "ладно"
+    },
+    {
+        "definition": "on the contrary",
+        "answer": "наоборОт"
+    },
+    {
+        "definition": "nothing, never mind, don’t mention it, doesn’t matter",
+        "answer": "ничегО"
+    },
+    {
+        "definition": "OK",
+        "answer": "нормально"
+    },
+    {
+        "definition": "terrible",
+        "answer": "ужасно"
+    },
+    {
+        "definition": "already",
+        "answer": "уже"
+    },
+    {
+        "definition": "eleven",
+        "answer": "одиннадцать"
+    },
+    {
+        "definition": "twelve",
+        "answer": "двенадцать"
+    },
+    {
+        "definition": "thirteen",
+        "answer": "тринадцать"
+    },
+    {
+        "definition": "fourteen",
+        "answer": "четырнадцать"
+    },
+    {
+        "definition": "fifteen",
+        "answer": "пятнадцать"
+    },
+    {
+        "definition": "sixteen",
+        "answer": "шестнадцать"
+    },
+    {
+        "definition": "seventeen",
+        "answer": "семнадцать"
+    },
+    {
+        "definition": "eighteen",
+        "answer": "восемнадцать"
+    },
+    {
+        "definition": "nineteen",
+        "answer": "девятнадцать"
+    },
+    {
+        "definition": "twenty",
+        "answer": "двадцать"
+    },
+    {
+        "definition": "but",
+        "answer": "но"
+    },
+    {
+        "definition": "in style, fashionable",
+        "answer": "в моде"
+    },
+    {
+        "definition": "this year",
+        "answer": "в этом году"
+    },
+    {
+        "definition": "terrific",
+        "answer": "здорово (здаровый = healthy, sound, etc.)"
+    },
+    {
+        "definition": "wait a minute, just a minute",
+        "answer": "минуточку"
+    },
+    {
+        "definition": "out of style",
+        "answer": "не в моде"
+    },
+    {
+        "definition": "that's impossible",
+        "answer": "не может быть"
+    },
+    {
+        "definition": "Oh! Ouch!",
+        "answer": "ой"
+    },
+    {
+        "definition": "it's a shame",
+        "answer": "Очень жаль"
+    },
+    {
+        "definition": "bye",
+        "answer": "пока"
+    },
+    {
+        "definition": "true; really",
+        "answer": "правда"
+    },
+    {
+        "definition": "hi",
+        "answer": "привет"
+    },
+    {
+        "definition": "German",
+        "answer": "немецкий"
+    },
+    {
+        "definition": "serious",
+        "answer": "серьёзный"
+    },
+    {
+        "definition": "contemporary",
+        "answer": "современный"
+    },
+    {
+        "definition": "strange",
+        "answer": "странный"
+    },
+    {
+        "definition": "energetic",
+        "answer": "энергичный"
+    },
+    {
+        "definition": "Japanese",
+        "answer": "японский"
+    },
+    {
+        "definition": "French",
+        "answer": "французский"
+    }
+    ],
+
+    "grammar": [
+    {
+        "type": "multiple",
+        "definition": "blank",
+        "rows": [
+        { "prompt": "blank", "answer": "blank" }
+        ]
+    },
+    {
+        "type": "single",
+        "definition": "blank",
+        "prompt": "blank",
+        "answer": "blank"
+    }
+    ]
+}

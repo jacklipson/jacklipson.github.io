@@ -60,6 +60,8 @@ last updated: sep 23, 2026.
 49. the enormous radio (cheever) - 8/14/26 2:29 AM
 50. notes from the underground - 8/23/26 12:47 AM
 51. among the thugs (bill buford) - 8/29/26 11:10 PM
+52. butcher's crossing - 10/16/26 6:56 AM
+53. 孔乙己 - 鲁迅 - 10/30/26 10:54 PM
 
 **priority read list**
 1. letters to a young poet
@@ -85,6 +87,8 @@ last updated: sep 23, 2026.
 21. antunes the splendor of portugal
 22. austerlitz sebald
 23. faulkner absalom absalom
+24. house of mirth
+25. madame bovary
 
 **favorite poems**
 
@@ -115,6 +119,8 @@ last updated: sep 23, 2026.
 25. Because You Asked about the Line Between Prose and Poetry by nemerov
 26. ozymandias
 27. L'albatros (baudelaire)
+28. Batter my heart, three-person'd God
+29. Je t'adore à l'égal de la voûte nocturne
 
 **russian poems**
 
@@ -334,6 +340,9 @@ last updated: sep 23, 2026.
 204. outer dark
 205. Le Pont de la rivière Kwaï
 206. The Drowned and the Saved
+207. middlemarch george eliot
+208. Diary of a Man in Despair
+209. the biggest game in town
 
 
 

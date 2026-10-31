@@ -1,0 +1,215 @@
+/* Buttons */
+.unit button,
+.unit-button {
+  all: unset;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0.15rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid transparent;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.unit button:hover,
+.unit-button:hover {
+  border-color: white;
+}
+
+.unit button:focus-visible,
+.unit-button:focus-visible {
+  outline: 1px solid white;
+  outline-offset: 2px;
+}
+
+/* Question layout */
+.question-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  color: white;
+}
+
+.question-row .answer-column:first-child {
+  margin-right: 0.75rem;
+}
+
+.question-row > span {
+  align-self: center;
+  margin-top: 1.5rem;
+  white-space: nowrap;
+}
+
+.answer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.answer-label {
+  height: 1em;
+  opacity: 1;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+}
+
+.answer-column:first-child .answer-label {
+  transform: translateY(-6px);
+}
+
+.question-row input {
+  box-sizing: border-box;
+  width: 16ch;
+  max-width: 100%;
+  padding: 0.4rem;
+}
+
+.definition {
+  color: white;
+  font: inherit;
+}
+
+.check-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  white-space: nowrap;
+}
+
+.feedback.close {
+  color: turquoise;
+  font-style: italic;
+}
+
+/* Grammar exercise */
+.grammar-rows {
+  display: grid;
+  grid-template-columns: max-content var(--answer-width) max-content;
+  grid-template-columns: 1.5em max-content var(--answer-width);
+  column-gap: 1.5rem;
+  row-gap: 0.65rem;
+  width: max-content;
+  max-width: 100%;
+  margin-inline: auto;
+  transform: translateX(-1.5rem);
+}
+
+.grammar-row {
+  display: contents;
+}
+
+.grammar-row > .feedback {
+  grid-column: 1;
+  width: 1.5em;
+  margin-top: 0;
+  text-align: right;
+}
+
+.grammar-row > .answer-label {
+  grid-column: 2;
+  margin-top: 0;
+}
+
+.grammar-row > input {
+  grid-column: 3;
+}
+
+.grammar-row .answer-label,
+.grammar-row input {
+  text-align: left;
+}
+
+.grammar-row .answer-label {
+  letter-spacing: normal;
+}
+
+.grammar-row input {
+  justify-self: start;
+  max-width: none;
+  box-sizing: content-box;
+  display: inline-block;
+  visibility: visible;
+  appearance: auto;
+}
+
+.grammar-header {
+  display: grid;
+  grid-template-columns: 1fr auto auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.grammar-header .definition {
+  grid-column: 2;
+  grid-row: 1;
+  letter-spacing: 0.05em;
+}
+
+.grammar-header .check-buttons {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: start;
+  margin-left: 1rem;
+}
+
+/* Poem Styling */
+
+.poem-heading {
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  color: #efd363;
+}
+
+.poem-display {
+  text-align: center;
+  white-space: pre-line;
+  line-height: 2;
+}
+
+.poem-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.poem-heading-row button {
+  flex-shrink: 0;
+  color: #BB86FC;
+}
+
+.poem-heading-row button.active {
+  border-color: #BB86FC;
+}
+
+.poem-english {
+  text-align: center;
+  font-style: italic;
+  color: #999;
+  line-height: 2;
+}
+
+.poem-stanza-space {
+  height: 1.5rem;
+}
+
+#poems-list [data-poem] {
+  margin-left: .25rem;
+}
+
+.poem-translator {
+  display: block;
+  margin-top: 1rem;
+  font-style: normal;
+  color: #999;
+}

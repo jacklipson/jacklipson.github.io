@@ -1,0 +1,445 @@
+{
+    "id": 5,
+    "vocab": [
+    {
+        "definition": "first name, patronymic, last name",
+        "answer": "Имя, Отчество, фамИлия"
+    },
+    {
+        "definition": "algebra",
+        "answer": "Алгебра"
+    },
+    {
+        "definition": "grandmother",
+        "answer": "бАбушка"
+    },
+    {
+        "definition": "basketball",
+        "answer": "баскетбОл"
+    },
+    {
+        "definition": "baseball",
+        "answer": "бейсбОл"
+    },
+    {
+        "definition": "student I.D.",
+        "answer": "студЕнческий билЕт"
+    },
+    {
+        "definition": "biology",
+        "answer": "биолОгия"
+    },
+    {
+        "definition": "brother",
+        "answer": "брат"
+    },
+    {
+        "definition": "bike",
+        "answer": "велосипЕд"
+    },
+    {
+        "definition": "video",
+        "answer": "вИдео"
+    },
+    {
+        "definition": "wine",
+        "answer": "винО"
+    },
+    {
+        "definition": "geometry",
+        "answer": "геомЕтрия"
+    },
+    {
+        "definition": "grammar",
+        "answer": "граммАтика"
+    },
+    {
+        "definition": "grandfather",
+        "answer": "дЕдушка"
+    },
+    {
+        "definition": "village, country",
+        "answer": "дерЕвня"
+    },
+    {
+        "definition": "director",
+        "answer": "дирЕктор"
+    },
+    {
+        "definition": "floppy disk",
+        "answer": "дискЕтка"
+    },
+    {
+        "definition": "doctor",
+        "answer": "дОктор"
+    },
+    {
+        "definition": "fool (m / f)",
+        "answer": "дурАк / дУра"
+    },
+    {
+        "definition": "woman",
+        "answer": "жЕнщина"
+    },
+    {
+        "definition": "life (f)",
+        "answer": "жизнь (f)"
+    },
+    {
+        "definition": "swindler, thief",
+        "answer": "жУлик"
+    },
+    {
+        "definition": "phone call, bell",
+        "answer": "звонОк"
+    },
+    {
+        "definition": "friend, acquaintance",
+        "answer": "знакОмый"
+    },
+    {
+        "definition": "idiot (m/f)",
+        "answer": "идиОт / идиОтка"
+    },
+    {
+        "definition": "history",
+        "answer": "истОрия"
+    },
+    {
+        "definition": "cabinet",
+        "answer": "кабинЕт"
+    },
+    {
+        "definition": "ketchup",
+        "answer": "кЕтчуп"
+    },
+    {
+        "definition": "film, cinema",
+        "answer": "кинО (indecl.)"
+    },
+    {
+        "definition": "(piece of) candy",
+        "answer": "конфЕта"
+    },
+    {
+        "definition": "lemon",
+        "answer": "лимОн"
+    },
+    {
+        "definition": "linguistics",
+        "answer": "лингвИстика"
+    },
+    {
+        "definition": "literature",
+        "answer": "литератУра"
+    },
+    {
+        "definition": "mayonnaise",
+        "answer": "майонЕз"
+    },
+    {
+        "definition": "boy",
+        "answer": "мАльчик"
+    },
+    {
+        "definition": "mathematics",
+        "answer": "матемАтика"
+    },
+    {
+        "definition": "sea",
+        "answer": "мОре"
+    },
+    {
+        "definition": "ice cream",
+        "answer": "морОженое"
+    },
+    {
+        "definition": "man",
+        "answer": "мужчИна"
+    },
+    {
+        "definition": "trash",
+        "answer": "мУсор"
+    },
+    {
+        "definition": "beer",
+        "answer": "пИво"
+    },
+    {
+        "definition": "player",
+        "answer": "плЕер"
+    },
+    {
+        "definition": "subject (in school)",
+        "answer": "предмЕт"
+    },
+    {
+        "definition": "nature",
+        "answer": "прирОда"
+    },
+    {
+        "definition": "friend",
+        "answer": "приЯтель"
+    },
+    {
+        "definition": "play",
+        "answer": "пьЕса"
+    },
+    {
+        "definition": "conversation",
+        "answer": "разговОр"
+    },
+    {
+        "definition": "drawing",
+        "answer": "рисовАние"
+    },
+    {
+        "definition": "novel",
+        "answer": "ромАн"
+    },
+    {
+        "definition": "sister",
+        "answer": "сестрА"
+    },
+    {
+        "definition": "skateboard",
+        "answer": "скейтбОрд"
+    },
+    {
+        "definition": "neighbor (m / f / pl)",
+        "answer": "сосЕд / сосЕдка / сосЕди"
+    },
+    {
+        "definition": "statistics",
+        "answer": "статИстика"
+    },
+    {
+        "definition": "poems",
+        "answer": "стихИ"
+    },
+    {
+        "definition": "capital",
+        "answer": "столИца"
+    },
+    {
+        "definition": "text",
+        "answer": "текст"
+    },
+    {
+        "definition": "tennis",
+        "answer": "тЕннис"
+    },
+    {
+        "definition": "toaster",
+        "answer": "тОстер"
+    },
+    {
+        "definition": "exercise",
+        "answer": "упражнЕние"
+    },
+    {
+        "definition": "department",
+        "answer": "факультЕт"
+    },
+    {
+        "definition": "physics",
+        "answer": "фИзика"
+    },
+    {
+        "definition": "physical education",
+        "answer": "физкультУра"
+    },
+    {
+        "definition": "photo album",
+        "answer": "фотоальбОм"
+    },
+    {
+        "definition": "rude, obnoxious person",
+        "answer": "хам"
+    },
+    {
+        "definition": "chemistry",
+        "answer": "хИмия"
+    },
+    {
+        "definition": "owners, landlords, hosts (m / f/ pl)",
+        "answer": "хозЯин / хозЯйка / хозЯева"
+    },
+    {
+        "definition": "hooligan (m / f)",
+        "answer": "хулигАн / хулигАнка"
+    },
+    {
+        "definition": "driver",
+        "answer": "щофёр"
+    },
+    {
+        "definition": "economics",
+        "answer": "эконОмика"
+    },
+    {
+        "definition": "language",
+        "answer": "язЫк"
+    },
+    {
+        "definition": "other, different",
+        "answer": "другОй"
+    },
+    {
+        "definition": "busy",
+        "answer": "зАнят(ы)"
+    },
+    {
+        "definition": "Italian",
+        "answer": "итальЯнский"
+    },
+    {
+        "definition": "Chinese",
+        "answer": "китАйский"
+    },
+    {
+        "definition": "Mexican",
+        "answer": "мексикАнский"
+    },
+    {
+        "definition": "glad",
+        "answer": "рад(ы)"
+    },
+    {
+        "definition": "happy",
+        "answer": "счАстлив(ы)"
+    },
+    {
+        "definition": "phone",
+        "answer": "телефОнный"
+    },
+    {
+        "definition": "fruit",
+        "answer": "фруктОвый"
+    },
+    {
+        "definition": "foreign",
+        "answer": "чужОй"
+    },
+    {
+        "definition": "suddenly",
+        "answer": "вдруг"
+    },
+    {
+        "definition": "simply",
+        "answer": "прОсто"
+    },
+    {
+        "definition": "at once",
+        "answer": "срАзу"
+    },
+    {
+        "definition": "now",
+        "answer": "тепЕрь"
+    },
+    {
+        "definition": "then",
+        "answer": "тогдА"
+    },
+    {
+        "definition": "also",
+        "answer": "тОже"
+    },
+    {
+        "definition": "to see",
+        "answer": "вИдеть (вИде-)"
+    },
+    {
+        "definition": "to return",
+        "answer": "возвращАться (возвращАй-сь for я/вы and -ся for ты/он/мы/они )"
+    },
+    {
+        "definition": "(it) means",
+        "answer": "знАчит"
+    },
+    {
+        "definition": "to love (w/ conj.)",
+        "answer": "любИть (люблю / любишь / любит / любим / любите / любят) (люби-)"
+    },
+    {
+        "definition": "to be able (to) (with conjugation)",
+        "answer": "мочь / я могУ / ты мОжешь /\nон мОжет / мы мОжем / вы мОжете /\nони мОгут / мо́г(лА/лО/лИ)"
+    },
+    {
+        "definition": "to translate (w/ conj.)",
+        "answer": "переводИть (перевожу / переводишь / переводит / переводим / переводите / переводят) (переводи-)"
+    },
+    {
+        "definition": "to write",
+        "answer": "писАть (писа-)"
+    },
+    {
+        "definition": "to imagine",
+        "answer": "представлЯть (представлЯй-)"
+    },
+    {
+        "definition": "to ask, beg",
+        "answer": "просИть (проси-)"
+    },
+    {
+        "definition": "to be jealous (w/ conj.)",
+        "answer": "ревновАть (ревную / ревнуешь / ревнует / ревнуем / ревнуете / ревнуют) (ревновА-)"
+    },
+    {
+        "definition": "to rent",
+        "answer": "сдавАть (сдавАй-)"
+    },
+    {
+        "definition": "to be angry",
+        "answer": "сердИться (серди-)"
+    },
+    {
+        "definition": "to sit",
+        "answer": "сидЕть (сидЕ-)"
+    },
+    {
+        "definition": "to hear (w/ conj.)",
+        "answer": "слЫшать (слышу / слышишь / слышит / слышим / слышите / слышат) (слыша-)"
+    },
+    {
+        "definition": "to laugh",
+        "answer": "смеЯться (смеЯ-)"
+    },
+    {
+        "definition": "to watch, look at (w/ conj.)",
+        "answer": "смотрЕть / смотрю / смотришь / смотрит / смотрим / смотрите / смотрят (смотре-)"
+    },
+    {
+        "definition": "to photograph",
+        "answer": "фотографИровать (фотографИрова-)"
+    },
+    {
+        "definition": "to kiss",
+        "answer": "целовАть (целовА-)"
+    },
+    {
+        "definition": "just a minute!",
+        "answer": "мИнуточку!"
+    },
+    {
+        "definition": "maybe",
+        "answer": "мОжет быть"
+    }
+    ],
+
+    "grammar": [
+    {
+        "type": "multiple",
+        "definition": "blank",
+        "rows": [
+        { "prompt": "blank", "answer": "blank" }
+        ]
+    },
+    {
+        "type": "single",
+        "definition": "blank",
+        "prompt": "blank",
+        "answer": "blank"
+    }
+    ]
+}

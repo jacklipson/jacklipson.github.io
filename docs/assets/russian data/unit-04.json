@@ -1,0 +1,465 @@
+{
+    "id": 4,
+    "vocab": [
+    {
+        "definition": "attack",
+        "answer": "атАка"
+    },
+    {
+        "definition": "poster",
+        "answer": "афИша"
+    },
+    {
+        "definition": "ballet",
+        "answer": "балЕт"
+    },
+    {
+        "definition": "ballerina",
+        "answer": "балерИна"
+    },
+    {
+        "definition": "drum",
+        "answer": "барабАн"
+    },
+    {
+        "definition": "business",
+        "answer": "бИзнес"
+    },
+    {
+        "definition": "ticket",
+        "answer": "билЕт"
+    },
+    {
+        "definition": "blue grass",
+        "answer": "блю грас"
+    },
+    {
+        "definition": "evening",
+        "answer": "вЕчер"
+    },
+    {
+        "definition": "cello",
+        "answer": "виолончЕль"
+    },
+    {
+        "definition": "east",
+        "answer": "востОк"
+    },
+    {
+        "definition": "exhibit",
+        "answer": "вЫставка"
+    },
+    {
+        "definition": "geography",
+        "answer": "геогрАфия"
+    },
+    {
+        "definition": "guitarist",
+        "answer": "гитарИст"
+    },
+    {
+        "definition": "young woman, girl",
+        "answer": "дЕвушка"
+    },
+    {
+        "definition": "affair, matter, business",
+        "answer": "дЕло"
+    },
+    {
+        "definition": "money (pl. only)",
+        "answer": "дЕньги (pl. only)"
+    },
+    {
+        "definition": "jazz",
+        "answer": "джаз"
+    },
+    {
+        "definition": "dance club",
+        "answer": "дискотЕка"
+    },
+    {
+        "definition": "DJ",
+        "answer": "диджей"
+    },
+    {
+        "definition": "housewife",
+        "answer": "домохозЯйка"
+    },
+    {
+        "definition": "drama",
+        "answer": "дрАма"
+    },
+    {
+        "definition": "factory",
+        "answer": "завОд"
+    },
+    {
+        "definition": "west",
+        "answer": "зАпад"
+    },
+    {
+        "definition": "country music",
+        "answer": "кАнтри"
+    },
+    {
+        "definition": "capitalist",
+        "answer": "капиталИст"
+    },
+    {
+        "definition": "clarinet",
+        "answer": "кларнЕт"
+    },
+    {
+        "definition": "grade (1st, 2nd, 3rd)",
+        "answer": "класс"
+    },
+    {
+        "definition": "classical music",
+        "answer": "клАссика"
+    },
+    {
+        "definition": "club",
+        "answer": "клуб"
+    },
+    {
+        "definition": "comedy",
+        "answer": "комЕдия"
+    },
+    {
+        "definition": "concert",
+        "answer": "концЕрт"
+    },
+    {
+        "definition": "culture",
+        "answer": "культУра"
+    },
+    {
+        "definition": "year in college; course",
+        "answer": "курс"
+    },
+    {
+        "definition": "cuisine",
+        "answer": "кУхня"
+    },
+    {
+        "definition": "lecture",
+        "answer": "лЕкция"
+    },
+    {
+        "definition": "seat, place",
+        "answer": "мЕсто"
+    },
+    {
+        "definition": "police officer",
+        "answer": "милиционЕр"
+    },
+    {
+        "definition": "music",
+        "answer": "мУзыка"
+    },
+    {
+        "definition": "clothing",
+        "answer": "одЕжда"
+    },
+    {
+        "definition": "opera",
+        "answer": "Опера"
+    },
+    {
+        "definition": "grade (A,B,C)",
+        "answer": "отмЕтка"
+    },
+    {
+        "definition": "orchestra",
+        "answer": "партЕр"
+    },
+    {
+        "definition": "tv show",
+        "answer": "передАча"
+    },
+    {
+        "definition": "gift, present",
+        "answer": "подАрок"
+    },
+    {
+        "definition": "politics (sing. only)",
+        "answer": "полИтика (sing. only)"
+    },
+    {
+        "definition": "pop music",
+        "answer": "поп-мУзыка"
+    },
+    {
+        "definition": "problem",
+        "answer": "проблЕма"
+    },
+    {
+        "definition": "program",
+        "answer": "прогрАмма"
+    },
+    {
+        "definition": "area, neighborhood",
+        "answer": "райОн"
+    },
+    {
+        "definition": "rock",
+        "answer": "рок"
+    },
+    {
+        "definition": "rock group",
+        "answer": "рок грУппа"
+    },
+    {
+        "definition": "(grand) piano",
+        "answer": "роЯль"
+    },
+    {
+        "definition": "rap",
+        "answer": "рэп"
+    },
+    {
+        "definition": "row",
+        "answer": "ряд"
+    },
+    {
+        "definition": "saxophone",
+        "answer": "саксофОн"
+    },
+    {
+        "definition": "north",
+        "answer": "сЕвер"
+    },
+    {
+        "definition": "violin",
+        "answer": "скрИпка"
+    },
+    {
+        "definition": "meeting",
+        "answer": "собрАние"
+    },
+    {
+        "definition": "soloist",
+        "answer": "солИст"
+    },
+    {
+        "definition": "spectacle",
+        "answer": "спектАкль"
+    },
+    {
+        "definition": "article",
+        "answer": "статьЯ"
+    },
+    {
+        "definition": "country",
+        "answer": "странА"
+    },
+    {
+        "definition": "transportation",
+        "answer": "трАнспорт"
+    },
+    {
+        "definition": "trombone",
+        "answer": "тромбОн"
+    },
+    {
+        "definition": "tulip",
+        "answer": "тюльпАн"
+    },
+    {
+        "definition": "football",
+        "answer": "футбОл"
+    },
+    {
+        "definition": "flute",
+        "answer": "флЕйта"
+    },
+    {
+        "definition": "ф",
+        "answer": "ф"
+    },
+    {
+        "definition": "flowers (pl.)",
+        "answer": "цветЫ (pl.)"
+    },
+    {
+        "definition": "floor",
+        "answer": "этАж"
+    },
+    {
+        "definition": "south",
+        "answer": "юг"
+    },
+    {
+        "definition": "important",
+        "answer": "вАжный"
+    },
+    {
+        "definition": "veterinary",
+        "answer": "ветеринАрный"
+    },
+    {
+        "definition": "expensive",
+        "answer": "дорогОй"
+    },
+    {
+        "definition": "hungry",
+        "answer": "голОдный"
+    },
+    {
+        "definition": "classical",
+        "answer": "классИческий"
+    },
+    {
+        "definition": "musical",
+        "answer": "музыкАльный"
+    },
+    {
+        "definition": "not large",
+        "answer": "небольшОй"
+    },
+    {
+        "definition": "professional",
+        "answer": "профессионАльный"
+    },
+    {
+        "definition": "ruby",
+        "answer": "рубИновый"
+    },
+    {
+        "definition": "fresh",
+        "answer": "свЕжий"
+    },
+    {
+        "definition": "environmental",
+        "answer": "экологИческий"
+    },
+    {
+        "definition": "together",
+        "answer": "вмЕсте"
+    },
+    {
+        "definition": "attentively",
+        "answer": "внимАтельно"
+    },
+    {
+        "definition": "for a long time",
+        "answer": "давнО"
+    },
+    {
+        "definition": "still; yet",
+        "answer": "ещё"
+    },
+    {
+        "definition": "again",
+        "answer": "опЯть"
+    },
+    {
+        "definition": "simply, only",
+        "answer": "прОсто"
+    },
+    {
+        "definition": "already",
+        "answer": "ужЕ"
+    },
+    {
+        "definition": "1 - 20 (w/ m/f/n for 1-2 and pl for 1)",
+        "answer": "одИн, однА, однО, однИ / два, две / три / четЫре / пять / шесть / семь / вОсемь / дЕвять / дЕсять / одИннадцать / двенАдцать / тринАдцать / четЫрнадцать / пятнАдцать / шестнАдцать / семнАдцать / восемнАдцать / девятнАдцать / двАдцать"
+    },
+    {
+        "definition": "first - tenth (w/ m/f/n)",
+        "answer": "пЕрвый, пЕрвая, пЕрвое / вторОй, вторАя, вторОе / трЕтий, трЕтья, трЕтье / четвёртый, четвёртая, четвёртое / пЯтый, пЯтая, пЯтое / шестОй, шестАя, шестОе / седьмОй, седьмАя, седьмОе / восьмОй, восьмАя, восьмОе / девЯтый, девЯтая, девЯтое / десЯтый, десЯтая, десЯтое"
+    },
+    {
+        "definition": "to be (w/ conjugations)",
+        "answer": "быть (был, былA, бЫло, бЫли)"
+    },
+    {
+        "definition": "-жа- stem verbs (ж/ш/щ/ч-а) 2nd conjugation (e.g. лежАть)",
+        "answer": "лежУ / лежИшь / лежИт / лежИм / лежИте / лежАт (лежАл(а/о/и))"
+    },
+    {
+        "definition": "-ова (ева)- stem verbs 1st conjugation (e.g. рисовАть + танцевАть)",
+        "answer": "рисУю / рисУешь / рисУет / рисУем / рисУете / рисУют\n\nтанцУю / танцУешь / танцУет / танцУем / танцУете / танцУют / (рисовАл(а/о/и) танцевАл(а/о/и))"
+    },
+    {
+        "definition": "to worry, be nervous (w/ conj.)",
+        "answer": "волновАться (волнуюсь / волнуешься / волнуется / волнуемся / волнуетесь / волнуются)"
+    },
+    {
+        "definition": "to play on something (a musical instrument)",
+        "answer": "игрАть на чём (игрАй-)"
+    },
+    {
+        "definition": "to lie",
+        "answer": "лежАть (лежА-)"
+    },
+    {
+        "definition": "to be silent",
+        "answer": "молчАть (молчА-)"
+    },
+    {
+        "definition": "to begin (w/ conj.)",
+        "answer": "начинАть (начинАй-) (начинаю / начинаешь / начинает / начинаем / начинаете / начинают)"
+    },
+    {
+        "definition": "to remember",
+        "answer": "пОмнить (пОмни-)"
+    },
+    {
+        "definition": "to be jealous (w/ conj.)",
+        "answer": "ревновАть (ревновА-) (ревную / ревнуешь / ревнует / ревнуем / ревнуете / ревнуют)"
+    },
+    {
+        "definition": "to draw",
+        "answer": "рисовАть (рисовА-)"
+    },
+    {
+        "definition": "to listen (w/ conj.)",
+        "answer": "слУшать (слУшай-) / (слушаю / слушаешь / слушает / слушаем / слушаете / слушают)"
+    },
+    {
+        "definition": "to stand",
+        "answer": "стоЯть (стоЯ-)"
+    },
+    {
+        "definition": "to dance",
+        "answer": "танцевАть (танцевА-)"
+    },
+    {
+        "definition": "wow!",
+        "answer": "вот Это да!"
+    },
+    {
+        "definition": "of course",
+        "answer": "конЕчно"
+    },
+    {
+        "definition": "not yet",
+        "answer": "покА нет"
+    },
+    {
+        "definition": "why",
+        "answer": "почемУ"
+    },
+    {
+        "definition": "how much/many",
+        "answer": "скОлько"
+    }
+    ],
+
+    "grammar": [
+    {
+        "type": "multiple",
+        "definition": "blank",
+        "rows": [
+        { "prompt": "blank", "answer": "blank" }
+        ]
+    },
+    {
+        "type": "single",
+        "definition": "blank",
+        "prompt": "blank",
+        "answer": "blank"
+    }
+    ]
+}
