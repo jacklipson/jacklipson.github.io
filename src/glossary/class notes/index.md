@@ -6,7 +6,7 @@ title: notes
 here are some notes and projects i wrote during and outside of class.
 
 **ongoing**<br>
-<a href = "/assets/class notes/tool notes.pdf" target = "_blank"> tool notes (with an terrific lack of citations)</a><br>
+<a href = "/assets/class notes/tool notes.pdf" target = "_blank"> tool notes (with a terrific lack of citations)</a><br>
 
 
 **spring 2026**<br>
