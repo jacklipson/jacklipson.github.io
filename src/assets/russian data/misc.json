@@ -2,9 +2,15 @@
     "id": "misc",
     "vocab": [
     {
-        "definition": "blank",
-        "answer": "blank"
+        "definition": "cabbage soup and porridge are our food",
+        "answer": "щи да каша - пища наша"
+    },
+    {
+        "definition": "adage",
+        "answer": "поговорка"
     }
+
+    
     ],
     "grammar": [
     {

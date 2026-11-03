@@ -110,7 +110,7 @@ last updated: sep 23, 2026.
 16. from “The Desk” marina tsvetayeva
 17. musee de beaux arts
 18. The Ballad of the Harp-Weaver
-19. christmas tree bella akhmadulina *(cross-listed)*
+19. christmas tree bella akhmadulina
 20. Ode on a Grecian Urn
 21. The Winners kipling
 22. The Book of Scottish Song/Jock o' Hazeldean
@@ -121,17 +121,6 @@ last updated: sep 23, 2026.
 27. L'albatros (baudelaire)
 28. Batter my heart, three-person'd God
 29. Je t'adore à l'égal de la voûte nocturne
-
-**russian poems**
-
-1. Ёлка в больничном коридоре / Белла Ахмадулина *(cross-listed)*
-2. Ешь ананасы, рябчиков жуй / Владимир Маяковский
-3. Ночь, улица, фонарь, аптека / Алекcандр Блок
-4. Не покидай меня, весна / Юлий Ким
-5. Умом Россию не понять / Федор Тютчев
-6. Не выходи из комнаты / Иосиф Александрович Бродский
-
-русская поговорка: щи да каша - пища наша
 
 **to read (in no particular order despite what numbering may suggest)**
 
@@ -343,6 +332,7 @@ last updated: sep 23, 2026.
 207. middlemarch george eliot
 208. Diary of a Man in Despair
 209. the biggest game in town
+210. abc of reading ezra pound
 
 
 
