@@ -1,0 +1,685 @@
+{
+    "id": 0,
+    "vocab": [
+    {
+        "definition": "avant garde",
+        "answer": "авангАрд"
+    },
+    {
+        "definition": "Australia",
+        "answer": "австрАлия"
+    },
+    {
+        "definition": "bus",
+        "answer": "автОбус"
+    },
+    {
+        "definition": "address",
+        "answer": "Адрес"
+    },
+    {
+        "definition": "Asia",
+        "answer": "Азия"
+    },
+    {
+        "definition": "mountain climbing",
+        "answer": "альпинИзм"
+    },
+    {
+        "definition": "America",
+        "answer": "амЕрика"
+    },
+    {
+        "definition": "apparatus",
+        "answer": "аппарАт"
+    },
+    {
+        "definition": "Arkhangelsk",
+        "answer": "архАнгельск"
+    },
+    {
+        "definition": "Astrakhan",
+        "answer": "Астрахань"
+    },
+    {
+        "definition": "Africa",
+        "answer": "Африка"
+    },
+    {
+        "definition": "airport",
+        "answer": "аеропОрт"
+    },
+    {
+        "definition": "luggage",
+        "answer": "багАж"
+    },
+    {
+        "definition": "badminton",
+        "answer": "бадминтОн"
+    },
+    {
+        "definition": "banana",
+        "answer": "банАн"
+    },
+    {
+        "definition": "bank",
+        "answer": "банк"
+    },
+    {
+        "definition": "bar",
+        "answer": "бар"
+    },
+    {
+        "definition": "basketball",
+        "answer": "баскетбОл"
+    },
+    {
+        "definition": "baseball",
+        "answer": "бейсбОл"
+    },
+    {
+        "definition": "ticket",
+        "answer": "билЕт"
+    },
+    {
+        "definition": "boxing",
+        "answer": "бокс"
+    },
+    {
+        "definition": "vase",
+        "answer": "вАза"
+    },
+    {
+        "definition": "Vladivostok",
+        "answer": "владивостОк"
+    },
+    {
+        "definition": "here (is)",
+        "answer": "вот"
+    },
+    {
+        "definition": "hamburger",
+        "answer": "гАмбургер"
+    },
+    {
+        "definition": "garage",
+        "answer": "гарАж"
+    },
+    {
+        "definition": "gymnastics",
+        "answer": "гимнАстика"
+    },
+    {
+        "definition": "eye",
+        "answer": "граз"
+    },
+    {
+        "definition": "head",
+        "answer": "головА"
+    },
+    {
+        "definition": "golf",
+        "answer": "гольФ"
+    },
+    {
+        "definition": "city, town",
+        "answer": "гОрод"
+    },
+    {
+        "definition": "hotel",
+        "answer": "гостИница"
+    },
+    {
+        "definition": "yes",
+        "answer": "да"
+    },
+    {
+        "definition": "nine",
+        "answer": "дЕвять"
+    },
+    {
+        "definition": "dessert",
+        "answer": "десЕрт"
+    },
+    {
+        "definition": "ten",
+        "answer": "дЕсять"
+    },
+    {
+        "definition": "day",
+        "answer": "день"
+    },
+    {
+        "definition": "house",
+        "answer": "дом"
+    },
+    {
+        "definition": "blackboard",
+        "answer": "доскА"
+    },
+    {
+        "definition": "friend",
+        "answer": "друг"
+    },
+    {
+        "definition": "Europe",
+        "answer": "еврОпа"
+    },
+    {
+        "definition": "magazine",
+        "answer": "журнАл"
+    },
+    {
+        "definition": "here",
+        "answer": "здесь"
+    },
+    {
+        "definition": "hello",
+        "answer": "здрАвстуй(те)"
+    },
+    {
+        "definition": "institute",
+        "answer": "инститУт"
+    },
+    {
+        "definition": "Spain",
+        "answer": "испАния"
+    },
+    {
+        "definition": "July",
+        "answer": "иЮль"
+    },
+    {
+        "definition": "June",
+        "answer": "иЮнь"
+    },
+    {
+        "definition": "caravan",
+        "answer": "каравАн"
+    },
+    {
+        "definition": "pencil",
+        "answer": "карандАш"
+    },
+    {
+        "definition": "map",
+        "answer": "кАрта"
+    },
+    {
+        "definition": "catastrophe",
+        "answer": "катастрОфа"
+    },
+    {
+        "definition": "cafe",
+        "answer": "кафЕ"
+    },
+    {
+        "definition": "apartment",
+        "answer": "квартИра"
+    },
+    {
+        "definition": "movie theater",
+        "answer": "кинотеАтр"
+    },
+    {
+        "definition": "room",
+        "answer": "кОмната"
+    },
+    {
+        "definition": "outer space",
+        "answer": "кОсмос"
+    },
+    {
+        "definition": "Kostroma",
+        "answer": "костромА"
+    },
+    {
+        "definition": "costume",
+        "answer": "костЮм"
+    },
+    {
+        "definition": "cat (male)",
+        "answer": "кот"
+    },
+    {
+        "definition": "cat (female)",
+        "answer": "кОшка"
+    },
+    {
+        "definition": "lamp",
+        "answer": "лАмпа"
+    },
+    {
+        "definition": "lion",
+        "answer": "лев"
+    },
+    {
+        "definition": "onion",
+        "answer": "лук"
+    },
+    {
+        "definition": "manhole",
+        "answer": "люк"
+    },
+    {
+        "definition": "Magadan",
+        "answer": "магадАн"
+    },
+    {
+        "definition": "store",
+        "answer": "магазИн"
+    },
+    {
+        "definition": "May",
+        "answer": "май"
+    },
+    {
+        "definition": "mother",
+        "answer": "мАма"
+    },
+    {
+        "definition": "month",
+        "answer": "мЕсяц"
+    },
+    {
+        "definition": "subway",
+        "answer": "метрО"
+    },
+    {
+        "definition": "my",
+        "answer": "мой"
+    },
+    {
+        "definition": "milk",
+        "answer": "молокО"
+    },
+    {
+        "definition": "Moscow",
+        "answer": "москвА"
+    },
+    {
+        "definition": "bridge",
+        "answer": "мост"
+    },
+    {
+        "definition": "museum",
+        "answer": "музЕй"
+    },
+    {
+        "definition": "Murmansk",
+        "answer": "мУрманск"
+    },
+    {
+        "definition": "mayor",
+        "answer": "мэр"
+    },
+    {
+        "definition": "no",
+        "answer": "нет"
+    },
+    {
+        "definition": "Novosibirsk",
+        "answer": "новосибИрск"
+    },
+    {
+        "definition": "nose",
+        "answer": "нос"
+    },
+    {
+        "definition": "November",
+        "answer": "ноЯбрь"
+    },
+    {
+        "definition": "New York",
+        "answer": "ньюь-йОрк"
+    },
+    {
+        "definition": "window",
+        "answer": "окнО"
+    },
+    {
+        "definition": "Oryol",
+        "answer": "орёл"
+    },
+    {
+        "definition": "father",
+        "answer": "пАпа"
+    },
+    {
+        "definition": "paradox",
+        "answer": "парадОкс"
+    },
+    {
+        "definition": "park",
+        "answer": "парк"
+    },
+    {
+        "definition": "pizza",
+        "answer": "пИцца"
+    },
+    {
+        "definition": "raincoat",
+        "answer": "плащ"
+    },
+    {
+        "definition": "bad",
+        "answer": "плОхо"
+    },
+    {
+        "definition": "shelf",
+        "answer": "пОлка"
+    },
+    {
+        "definition": "polka",
+        "answer": "пОлька"
+    },
+    {
+        "definition": "rugby",
+        "answer": "рЕгби"
+    },
+    {
+        "definition": "restaurant",
+        "answer": "ресторАн"
+    },
+    {
+        "definition": "Russia",
+        "answer": "россИя"
+    },
+    {
+        "definition": "mouth",
+        "answer": "рот"
+    },
+    {
+        "definition": "kind, sort, or type; gender class of a noun",
+        "answer": "род"
+    },
+    {
+        "definition": "pen",
+        "answer": "рУчка"
+    },
+    {
+        "definition": "fish",
+        "answer": "рЫба"
+    },
+    {
+        "definition": "backpack",
+        "answer": "рюкзАк"
+    },
+    {
+        "definition": "Ryazan",
+        "answer": "рязАнь"
+    },
+    {
+        "definition": "salad; lettuce",
+        "answer": "салАт"
+    },
+    {
+        "definition": "sugar",
+        "answer": "сАхар"
+    },
+    {
+        "definition": "surfing",
+        "answer": "сёрфинг"
+    },
+    {
+        "definition": "Sydney",
+        "answer": "сИдней"
+    },
+    {
+        "definition": "word",
+        "answer": "слОво"
+    },
+    {
+        "definition": "dictionary",
+        "answer": "словАрь"
+    },
+    {
+        "definition": "elephant",
+        "answer": "слон"
+    },
+    {
+        "definition": "dog",
+        "answer": "собАка"
+    },
+    {
+        "definition": "stadium",
+        "answer": "стадиОн"
+    },
+    {
+        "definition": "table",
+        "answer": "стол"
+    },
+    {
+        "definition": "chair",
+        "answer": "стул"
+    },
+    {
+        "definition": "sport",
+        "answer": "спорт"
+    },
+    {
+        "definition": "purse, bag",
+        "answer": "сУмка"
+    },
+    {
+        "definition": "soup",
+        "answer": "суп"
+    },
+    {
+        "definition": "son",
+        "answer": "сын"
+    },
+    {
+        "definition": "cheese",
+        "answer": "сыр"
+    },
+    {
+        "definition": "taxi",
+        "answer": "таксИ"
+    },
+    {
+        "definition": "theater",
+        "answer": "теАтр"
+    },
+    {
+        "definition": "telephone",
+        "answer": "телефОн"
+    },
+    {
+        "definition": "tennis",
+        "answer": "тЕннис"
+    },
+    {
+        "definition": "aunt",
+        "answer": "тётя"
+    },
+    {
+        "definition": "cake",
+        "answer": "торт"
+    },
+    {
+        "definition": "Tula",
+        "answer": "тУла"
+    },
+    {
+        "definition": "Tunis",
+        "answer": "тунИс"
+    },
+    {
+        "definition": "tourism",
+        "answer": "турИзм"
+    },
+    {
+        "definition": "Turkey",
+        "answer": "тУрция"
+    },
+    {
+        "definition": "here",
+        "answer": "тут"
+    },
+    {
+        "definition": "corner",
+        "answer": "Угол"
+    },
+    {
+        "definition": "coal",
+        "answer": "Уголь"
+    },
+    {
+        "definition": "university",
+        "answer": "университЕт"
+    },
+    {
+        "definition": "ear",
+        "answer": "Ухо"
+    },
+    {
+        "definition": "photography",
+        "answer": "фотогрАфия"
+    },
+    {
+        "definition": "football",
+        "answer": "футбОл"
+    },
+    {
+        "definition": "bread",
+        "answer": "хлеб"
+    },
+    {
+        "definition": "hockey",
+        "answer": "хоккЕй"
+    },
+    {
+        "definition": "good",
+        "answer": "хорошО"
+    },
+    {
+        "definition": "tea",
+        "answer": "чай"
+    },
+    {
+        "definition": "suitcase",
+        "answer": "чемодАн"
+    },
+    {
+        "definition": "cheeseburger",
+        "answer": "чИзбургер"
+    },
+    {
+        "definition": "what",
+        "answer": "что"
+    },
+    {
+        "definition": "chess",
+        "answer": "шАхматы"
+    },
+    {
+        "definition": "closet",
+        "answer": "шкаф"
+    },
+    {
+        "definition": "era",
+        "answer": "Эра"
+    },
+        {
+        "definition": "this (is)",
+        "answer": "Это"
+    },
+    {
+        "definition": "humor",
+        "answer": "Юмор"
+    },
+    {
+        "definition": "Yalta",
+        "answer": "Ялта"
+    },
+    {
+        "definition": "Yaroslavl",
+        "answer": "ярослАвль"
+    }
+    ],
+
+    "grammar": [
+    {
+        "type": "multiple",
+        "definition": "noun gender",
+        "rows": [
+        { "prompt": "-ø (consonant), e.g. брат (brother)", "answer": "m" },
+        { "prompt": "-й, e.g. чай (tea)", "answer": "m" },
+        { "prompt": "-тель, e.g. хитель (inhabitant)", "answer": "m" },
+        { "prompt": "-а, e.g. сестра (sister)", "answer": "f" },
+        { "prompt": "-я, e.g. неделя (week)", "answer": "f" },
+        { "prompt": "-ия, e.g. Россия (Russia)", "answer": "f" },
+        { "prompt": "-ость, e.g. новость (piece of news)", "answer": "f" },
+        { "prompt": "-о, e.g. лицо (face)", "answer": "n" },
+        { "prompt": "-е, e.g. море (sea)", "answer": "n" },
+        { "prompt": "-ие, e.g. здание (building)", "answer": "n" },
+        { "prompt": "-мя, e.g. имя (name)", "answer": "n" },
+        { "prompt": "-ь, e.g. день (day)", "answer": "m" },
+        { "prompt": "-ь, e.g. ночь (night)", "answer": "f" }
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "soft consonants (from hard)",
+        "rows": [
+        { "prompt": "а", "answer": "я" },
+        { "prompt": "о", "answer": "ё" },
+        { "prompt": "у", "answer": "ю" },
+        { "prompt": "э", "answer": "е" },
+        { "prompt": "ы", "answer": "и" }
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "hard consonants (from soft)",
+        "rows": [
+        { "prompt": "я", "answer": "а" },
+        { "prompt": "ё", "answer": "о" },
+        { "prompt": "ю", "answer": "у" },
+        { "prompt": "е", "answer": "э" },
+        { "prompt": "и", "answer": "ы" }
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "nominative case plurals",
+        "rows": [
+        { "prompt": "-ø (consonant), e.g. брат (brother)", "answer": "браты" },
+        { "prompt": "-г,к,х.ж.ч,ш,щ (consonant), e.g. рок (fate, rock music)", "answer": "рОки" },
+        { "prompt": "-й, e.g. музей (museum)", "answer": "музеи" },
+        { "prompt": "-ь, e.g. словАрь (dictionary)", "answer": "словари" },
+        { "prompt": "-я, e.g. недЕля (week)", "answer": "недЕли" },
+        { "prompt": "-ь, e.g. ночь (night)", "answer": "нОчи" },
+        { "prompt": "-г,к,х.ж.ч,ш,щ + а, e.g. собака (dog)", "answer": "собаки" },
+        { "prompt": "-а, e.g. гостИница (hotel)", "answer": "гостИницы"},
+        { "prompt": "-o, e.g. окно (window)", "answer": "окна" },
+        { "prompt": "-е, e.g. море (sea)", "answer": "моря" }
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "special plurals (nominative)",
+        "rows": [
+        { "prompt": "брат", "answer": "братьЯ" },
+        { "prompt": "день", "answer": "дни" },
+        { "prompt": "дом", "answer": "домА" },
+        { "prompt": "гОрод", "answer": "городА" },
+        { "prompt": "глаз (eye)", "answer": "глазА" },
+        { "prompt": "пАспорт", "answer": "паспортА"},
+        { "prompt": "учИтель", "answer": "учителЯ" },
+        { "prompt": "свет (color)", "answer": "светА" },
+        { "prompt": "светОк (flower)", "answer": "светЫ" },
+        { "prompt": "друг", "answer": "друзьЯ" },
+        { "prompt": "стул", "answer": "стУлья" },
+        { "prompt": "дЕрево (tree)", "answer": "дерЕвья" },
+        { "prompt": "сын (son)", "answer": "сыновьЯ" },
+        { "prompt": "человЕк (person)", "answer": "лЮди" },
+        { "prompt": "ребёнок (child)", "answer": "дЕти" },
+        { "prompt": "котёнок (kitten)", "answer": "котЯта" },
+        { "prompt": "щенОк (puppy)", "answer": "щенЯта" },
+        { "prompt": "сестрА (sister)", "answer": "сёстры" }
+        ]
+    }
+    ]
+}

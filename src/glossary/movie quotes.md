@@ -61,7 +61,7 @@ last updated: september 23, 2026.
 41. goddamned hypocrite squares!
 42. let's throw it out on the stoop and see if the cat licks it up
 43. is it as bad as that? <br>
-    as good as that.'
+    as good as that.
 44. schmuck, open the door will ya?
 45. millions of years of evolution, right? right?!
 46. i guess i was born lonely

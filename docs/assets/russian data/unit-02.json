@@ -1,0 +1,821 @@
+{
+    "id": 2,
+    "vocab": [
+    {
+        "definition": "orange",
+        "answer": "апельсИн"
+    },
+    {
+        "definition": "sandwich",
+        "answer": "бутербрОд"
+    },
+    {
+        "definition": "bathroom",
+        "answer": "бАнная"
+    },
+    {
+        "definition": "fork",
+        "answer": "вИлка"
+    },
+    {
+        "definition": "living room",
+        "answer": "гостИная"
+    },
+    {
+        "definition": "guest",
+        "answer": "гость"
+    },
+    {
+        "definition": "dacha (cottage)",
+        "answer": "дАча"
+    },
+    {
+        "definition": "sofa",
+        "answer": "дивАн"
+    },
+    {
+        "definition": "daughter",
+        "answer": "дОчка"
+    },
+    {
+        "definition": "toy",
+        "answer": "игрУшка"
+    },
+    {
+        "definition": "calculator",
+        "answer": "калькулЯтор"
+    },
+    {
+        "definition": "clinic",
+        "answer": "клИника"
+    },
+    {
+        "definition": "key",
+        "answer": "ключ"
+    },
+    {
+        "definition": "sausage",
+        "answer": "колбасА"
+    },
+    {
+        "definition": "college",
+        "answer": "коллЕдж"
+    },
+    {
+        "definition": "armchair",
+        "answer": "крЕсло"
+    },
+    {
+        "definition": "photocopier",
+        "answer": "ксЕрокс"
+    },
+    {
+        "definition": "kitchen",
+        "answer": "кУхня"
+    },
+    {
+        "definition": "spoon",
+        "answer": "лОжка"
+    },
+    {
+        "definition": "butter",
+        "answer": "мАсло"
+    },
+    {
+        "definition": "monitor screen",
+        "answer": "монитОр"
+    },
+    {
+        "definition": "trash, garbage",
+        "answer": "мУсор"
+    },
+    {
+        "definition": "knife",
+        "answer": "нож"
+    },
+    {
+        "definition": "lunch",
+        "answer": "обЕд"
+    },
+    {
+        "definition": "office",
+        "answer": "Офис"
+    },
+    {
+        "definition": "stove",
+        "answer": "плитА"
+    },
+    {
+        "definition": "entrance",
+        "answer": "подъЕзд"
+    },
+    {
+        "definition": "shelf",
+        "answer": "пОлка"
+    },
+    {
+        "definition": "tomato",
+        "answer": "помидОр"
+    },
+    {
+        "definition": "printer",
+        "answer": "прИнтер"
+    },
+    {
+        "definition": "professor",
+        "answer": "профЕссор"
+    },
+    {
+        "definition": "work",
+        "answer": "рабОта"
+    },
+    {
+        "definition": "radio",
+        "answer": "рАдио"
+    },
+    {
+        "definition": "sink",
+        "answer": "рАковина"
+    },
+    {
+        "definition": "parents (pl.)",
+        "answer": "родИтели"
+    },
+    {
+        "definition": "scanner",
+        "answer": "скАнер"
+    },
+    {
+        "definition": "salt",
+        "answer": "соль"
+    },
+    {
+        "definition": "neighbor (male)",
+        "answer": "сосЕд"
+    },
+    {
+        "definition": "neighbor (female)",
+        "answer": "сосЕдка"
+    },
+    {
+        "definition": "bedroom",
+        "answer": "спАльня"
+    },
+    {
+        "definition": "dining room",
+        "answer": "столОвая"
+    },
+    {
+        "definition": "plate",
+        "answer": "тарЕлка"
+    },
+    {
+        "definition": "television set",
+        "answer": "телевИзор"
+    },
+    {
+        "definition": "fax",
+        "answer": "факс"
+    },
+    {
+        "definition": "photograph",
+        "answer": "фотогрАфия"
+    },
+    {
+        "definition": "refrigerator",
+        "answer": "холодИльник"
+    },
+    {
+        "definition": "teakettle",
+        "answer": "чАйник"
+    },
+    {
+        "definition": "cup",
+        "answer": "чАшка"
+    },
+    {
+        "definition": "closet, wardrobe",
+        "answer": "шкаф"
+    },
+    {
+        "definition": "state",
+        "answer": "штат"
+    },
+    {
+        "definition": "Baltimore",
+        "answer": "балтимОр"
+    },
+    {
+        "definition": "Berlin",
+        "answer": "берлИн"
+    },
+    {
+        "definition": "Boston",
+        "answer": "бОстон"
+    },
+    {
+        "definition": "Washington",
+        "answer": "вашингтОн"
+    },
+    {
+        "definition": "Detroit",
+        "answer": "детрОйт"
+    },
+    {
+        "definition": "Kiev",
+        "answer": "кИев"
+    },
+    {
+        "definition": "London",
+        "answer": "лОндон"
+    },
+    {
+        "definition": "Los Angeles",
+        "answer": "лос-Анжелес"
+    },
+    {
+        "definition": "Madrid",
+        "answer": "мадрИд"
+    },
+    {
+        "definition": "Maryland",
+        "answer": "мЭдисон"
+    },
+    {
+        "definition": "Odessa",
+        "answer": "одЕсса"
+    },
+    {
+        "definition": "Pavlovsk (city in russia)",
+        "answer": "пАвловск"
+    },
+    {
+        "definition": "Pushkin (city in russia)",
+        "answer": "пУшкин"
+    },
+    {
+        "definition": "Paris",
+        "answer": "парИж"
+    },
+    {
+        "definition": "Saratov (city in russia)",
+        "answer": "сарАтов"
+    },
+    {
+        "definition": "Tashkent (capital of Uzbekistan)",
+        "answer": "ташкЕнт"
+    },
+    {
+        "definition": "Tokyo",
+        "answer": "тОкио"
+    },
+    {
+        "definition": "to speak",
+        "answer": "говорИть (говорИ-)"
+    },
+    {
+        "definition": "to walk",
+        "answer": "гулЯть (гулЯй-)"
+    },
+    {
+        "definition": "to do",
+        "answer": "дУмать (дУмай-)"
+    },
+    {
+        "definition": "to live",
+        "answer": "жить (жив-)"
+    },
+    {
+        "definition": "to have breakfast",
+        "answer": "зАвтракать (зАвтракай-)"
+    },
+    {
+        "definition": "to know",
+        "answer": "знать (знАй-)"
+    },
+    {
+        "definition": "to have lunch",
+        "answer": "обЕдать (обЕдай-)"
+    },
+    {
+        "definition": "to be late",
+        "answer": "опАздывать (пюАздывай-)"
+    },
+    {
+        "definition": "to answer",
+        "answer": "отвечАть (отвечАй-)"
+    },
+    {
+        "definition": "to rest",
+        "answer": "отдыхАть (отдыхАй-)"
+    },
+    {
+        "definition": "to understand",
+        "answer": "понимАть (пнимАй-)"
+    },
+    {
+        "definition": "to work",
+        "answer": "рабОтать (рабОтай-)"
+    },
+    {
+        "definition": "to ask",
+        "answer": "спрАшивать (спрАшивай-)"
+    },
+    {
+        "definition": "to have dinner",
+        "answer": "Ужинать (Ужинай-)"
+    },
+    {
+        "definition": "to read",
+        "answer": "читАть (читАй-)"
+    },
+    {
+        "definition": "fast",
+        "answer": "бЫстро"
+    },
+    {
+        "definition": "in the evening",
+        "answer": "вЕчером"
+    },
+    {
+        "definition": "tasty",
+        "answer": "вкУсно"
+    },
+    {
+        "definition": "always",
+        "answer": "весгдА"
+    },
+    {
+        "definition": "yesterday",
+        "answer": "вчерА"
+    },
+    {
+        "definition": "in the afternoon",
+        "answer": "днём"
+    },
+    {
+        "definition": "at home",
+        "answer": "дОма"
+    },
+    {
+        "definition": "here",
+        "answer": "здесь"
+    },
+    {
+        "definition": "sometimes",
+        "answer": "иногдА"
+    },
+    {
+        "definition": "interesting",
+        "answer": "интерЕсно"
+    },
+    {
+        "definition": "in the summer",
+        "answer": "лЕтом"
+    },
+    {
+        "definition": "little, few",
+        "answer": "мАло"
+    },
+    {
+        "definition": "much, many",
+        "answer": "мнОго"
+    },
+    {
+        "definition": "probably",
+        "answer": "навЕрное"
+    },
+    {
+        "definition": "not bad",
+        "answer": "неплОхо"
+    },
+    {
+        "definition": "excellent",
+        "answer": "отлИчно"
+    },
+    {
+        "definition": "very",
+        "answer": "Очень"
+    },
+    {
+        "definition": "bad",
+        "answer": "плОхо"
+    },
+    {
+        "definition": "in English",
+        "answer": "по-англИйски"
+    },
+    {
+        "definition": "in Spanish",
+        "answer": "по-испАнски"
+    },
+    {
+        "definition": "in German",
+        "answer": "пo–немЕцки"
+    },
+    {
+        "definition": "in Russian",
+        "answer": "по-рУсски"
+    },
+    {
+        "definition": "in French",
+        "answer": "по-францУзски"
+    },
+    {
+        "definition": "in Japanese",
+        "answer": "по-япОнски"
+    },
+    {
+        "definition": "simply",
+        "answer": "прОсто"
+    },
+    {
+        "definition": "previously, used to",
+        "answer": "рАньше"
+    },
+    {
+        "definition": "seldom",
+        "answer": "рЕдко"
+    },
+    {
+        "definition": "today",
+        "answer": "сегОдня"
+    },
+    {
+        "definition": "now",
+        "answer": "сейчАс"
+    },
+    {
+        "definition": "in the morning",
+        "answer": "Утром"
+    },
+    {
+        "definition": "good",
+        "answer": "хорошО"
+    },
+    {
+        "definition": "often",
+        "answer": "чАсто"
+    },
+    {
+        "definition": "in, at",
+        "answer": "в"
+    },
+    {
+        "definition": "on, in/at",
+        "answer": "на"
+    },
+    {
+        "definition": "or",
+        "answer": "Или"
+    },
+    {
+        "definition": "see you tomorrow",
+        "answer": "до зАвтра"
+    },
+    {
+        "definition": "how come?",
+        "answer": "как же так?"
+    },
+    {
+        "definition": "in my opinion, I think",
+        "answer": "по-мОему"
+    },
+    {
+        "definition": "can you please tell me",
+        "answer": "скажИте, пожалуйста"
+    },
+    {
+        "definition": "what are you talking about?",
+        "answer": "что ты!"
+    }
+    ],
+
+    "grammar": [
+    {
+        "type": "multiple",
+        "definition": "possesive pronouns",
+        "rows": [
+        { "prompt": "он", "answer": "мой"},
+        { "prompt": "онА", "answer": "твой"},
+        { "prompt": "их", "answer": "наш"},
+        { "prompt": "whose (m)", "answer": "чей"},
+        { "prompt": "whose (f)", "answer": "чья"},
+        { "prompt": "whose (n)", "answer": "чьё"},
+        { "prompt": "whose (pl)", "answer": "чьи"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "prepositional case",
+        "rows": [
+        { "prompt": "-ø, e.g. стол (on)", "answer": "на столЕ"},
+        { "prompt": "-й, e.g. музей (in)", "answer": "в музее"},
+        { "prompt": "-ь, e.g. учитель (about)", "answer": "об учителе"},
+        { "prompt": "-а, e.g. сестра (about)", "answer": "о сестре"},
+        { "prompt": "-я, e.g. неделя (week) (about)", "answer": "о неделе"},
+        { "prompt": "-ия, e.g. история (about)", "answer": "об исотории"},
+        { "prompt": "-ь, e.g. дверь (door) (about)", "answer": "о двери"},
+        { "prompt": "-о, e.g. лицо (face) (on)", "answer": "на лице"},
+        { "prompt": "-е, e.g. море (in)", "answer": "в море"},
+        { "prompt": "-ие, e.g. здание (on)", "answer": "в здании"},
+        { "prompt": "-мя, e.g. время (time period) (about)", "answer": "о времени"}
+        ]
+    },
+    {
+        "type": "single",
+        "definition": "о vs. об",
+        "prompt": "о vs. об",
+        "answer": "о before яа,ю,е,ё, об before а, у, э, о, и"
+    },
+    {
+        "type": "single",
+        "definition": "в vs. во",
+        "prompt": "в vs. во",
+        "answer": "во before в..."
+    },
+    {
+        "type": "multiple",
+        "definition": "to speak",
+        "rows": [
+        { "prompt": "infinitive", "answer": "говорИть (говорИ-)"},
+        { "prompt": "я", "answer": "говорЮ"},
+        { "prompt": "ты", "answer": "говорИшь"},
+        { "prompt": "он", "answer": "говорИт"},
+        { "prompt": "мы", "answer": "говорИм"},
+        { "prompt": "вы", "answer": "говорИте"},
+        { "prompt": "они", "answer": "говорЯт"},
+        { "prompt": "past (m)", "answer": "говориИл"},
+        { "prompt": "past (f)", "answer": "говорИла"},
+        { "prompt": "past (n)", "answer": "говорИло"},
+        { "prompt": "past (pl)", "answer": "говорИли"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to walk",
+        "rows": [
+        { "prompt": "infinitive", "answer": "гулЯть (гулЯй-)"},
+        { "prompt": "я", "answer": "гуляЮ"},
+        { "prompt": "ты", "answer": "гулЯешь"},
+        { "prompt": "он", "answer": "гулЯет"},
+        { "prompt": "мы", "answer": "гулЯем"},
+        { "prompt": "вы", "answer": "гулЯете"},
+        { "prompt": "они", "answer": "гулЯют"},
+        { "prompt": "past (m)", "answer": "гулЯл"},
+        { "prompt": "past (f)", "answer": "гулЯла"},
+        { "prompt": "past (n)", "answer": "гулЯло"},
+        { "prompt": "past (pl)", "answer": "гулЯли"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to do",
+        "rows": [
+        { "prompt": "infinitive", "answer": "дУмать (дУмай-)"},
+        { "prompt": "я", "answer": "дУмаю"},
+        { "prompt": "ты", "answer": "дУмаешь"},
+        { "prompt": "он", "answer": "дУмает"},
+        { "prompt": "мы", "answer": "дУмаем"},
+        { "prompt": "вы", "answer": "дУмаете"},
+        { "prompt": "они", "answer": "дУмают"},
+        { "prompt": "past (m)", "answer": "дУмал"},
+        { "prompt": "past (f)", "answer": "дУмала"},
+        { "prompt": "past (n)", "answer": "дУмало"},
+        { "prompt": "past (pl)", "answer": "дУмали"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to live",
+        "rows": [
+        { "prompt": "infinitive", "answer": "жить (жив-)"},
+        { "prompt": "я", "answer": "живУ"},
+        { "prompt": "ты", "answer": "живёшь"},
+        { "prompt": "он", "answer": "живёт"},
+        { "prompt": "мы", "answer": "живём"},
+        { "prompt": "вы", "answer": "живёте"},
+        { "prompt": "они", "answer": "живУт"},
+        { "prompt": "past (m)", "answer": "жИл"},
+        { "prompt": "past (f)", "answer": "жИла"},
+        { "prompt": "past (n)", "answer": "жИло"},
+        { "prompt": "past (pl)", "answer": "жИли"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to have breakfast",
+        "rows": [
+        { "prompt": "infinitive", "answer": "зАвтракать (зАвтракай-)"},
+        { "prompt": "я", "answer": "зАвтракaю"},
+        { "prompt": "ты", "answer": "зАвтракaешь"},
+        { "prompt": "он", "answer": "зАвтракaет"},
+        { "prompt": "мы", "answer": "зАвтракaем"},
+        { "prompt": "вы", "answer": "зАвтракaете"},
+        { "prompt": "они", "answer": "зАвтракaют"},
+        { "prompt": "past (m)", "answer": "зАвтракaл"},
+        { "prompt": "past (f)", "answer": "зАвтракaла"},
+        { "prompt": "past (n)", "answer": "зАвтракaло"},
+        { "prompt": "past (pl)", "answer": "зАвтракaли"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to know",
+        "rows": [
+        { "prompt": "infinitive", "answer": "знать (знАй-)"},
+        { "prompt": "я", "answer": "знАю"},
+        { "prompt": "ты", "answer": "знАешь"},
+        { "prompt": "он", "answer": "знАет"},
+        { "prompt": "мы", "answer": "знАем"},
+        { "prompt": "вы", "answer": "знАете"},
+        { "prompt": "они", "answer": "знАют"},
+        { "prompt": "past (m)", "answer": "знАл"},
+        { "prompt": "past (f)", "answer": "знАла"},
+        { "prompt": "past (n)", "answer": "знАло"},
+        { "prompt": "past (pl)", "answer": "знАли"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to have lunch",
+        "rows": [
+        { "prompt": "infinitive", "answer": "обЕдать (обЕдай-)"},
+        { "prompt": "я", "answer": "обЕдаю"},
+        { "prompt": "ты", "answer": "обЕдаешь"},
+        { "prompt": "он", "answer": "обЕдает"},
+        { "prompt": "мы", "answer": "обЕдаем"},
+        { "prompt": "вы", "answer": "обЕдаете"},
+        { "prompt": "они", "answer": "обЕдают"},
+        { "prompt": "past (m)", "answer": "обЕдал"},
+        { "prompt": "past (f)", "answer": "обЕдала"},
+        { "prompt": "past (n)", "answer": "обЕдало"},
+        { "prompt": "past (pl)", "answer": "обЕдали"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to be late",
+        "rows": [
+        { "prompt": "infinitive", "answer": "опАздывать (пюАздывай-)"},
+        { "prompt": "я", "answer": "опАзываю"},
+        { "prompt": "ты", "answer": "опАзываешь"},
+        { "prompt": "он", "answer": "опАзывает"},
+        { "prompt": "мы", "answer": "опАзываем"},
+        { "prompt": "вы", "answer": "опАзываете"},
+        { "prompt": "они", "answer": "опАзывают"},
+        { "prompt": "past (m)", "answer": "опАзывал"},
+        { "prompt": "past (f)", "answer": "опАзывала"},
+        { "prompt": "past (n)", "answer": "опАзывало"},
+        { "prompt": "past (pl)", "answer": "опАзывали"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to answer",
+        "rows": [
+        { "prompt": "infinitive", "answer": "отвечАть (отвечАй-)"},
+        { "prompt": "я", "answer": "отвечаЮ"},
+        { "prompt": "ты", "answer": "отвечАешь"},
+        { "prompt": "он", "answer": "отвечАет"},
+        { "prompt": "мы", "answer": "отвечАем"},
+        { "prompt": "вы", "answer": "отвечАете"},
+        { "prompt": "они", "answer": "отвечАют"},
+        { "prompt": "past (m)", "answer": "отвечАл"},
+        { "prompt": "past (f)", "answer": "отвечАла"},
+        { "prompt": "past (n)", "answer": "отвечАло"},
+        { "prompt": "past (pl)", "answer": "отвечАли"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to rest",
+        "rows": [
+        { "prompt": "infinitive", "answer": "отдыхАть (отдыхАй-)"},
+        { "prompt": "я", "answer": "отдыхАю"},
+        { "prompt": "ты", "answer": "отдыхАешь"},
+        { "prompt": "он", "answer": "отдыхАет"},
+        { "prompt": "мы", "answer": "отдыхАем"},
+        { "prompt": "вы", "answer": "отдыхАете"},
+        { "prompt": "они", "answer": "отдыхАют"},
+        { "prompt": "past (m)", "answer": "отдыхАл"},
+        { "prompt": "past (f)", "answer": "отдыхАла"},
+        { "prompt": "past (n)", "answer": "отдыхАло"},
+        { "prompt": "past (pl)", "answer": "отдыхАли"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to understand",
+        "rows": [
+        { "prompt": "infinitive", "answer": "понимАть (пнимАй-)"},
+        { "prompt": "я", "answer": "понимАю"},
+        { "prompt": "ты", "answer": "понимАешь"},
+        { "prompt": "он", "answer": "понимАет"},
+        { "prompt": "мы", "answer": "понимАем"},
+        { "prompt": "вы", "answer": "понимАете"},
+        { "prompt": "они", "answer": "понимАют"},
+        { "prompt": "past (m)", "answer": "понимАл"},
+        { "prompt": "past (f)", "answer": "понимАла"},
+        { "prompt": "past (n)", "answer": "понимАло"},
+        { "prompt": "past (pl)", "answer": "понимАли"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to work",
+        "rows": [
+        { "prompt": "infinitive", "answer": "рабОтать (рабОтай-)"},
+        { "prompt": "я", "answer": "рабОтаю"},
+        { "prompt": "ты", "answer": "рабОтаешь"},
+        { "prompt": "он", "answer": "рабОтает"},
+        { "prompt": "мы", "answer": "рабОтаем"},
+        { "prompt": "вы", "answer": "рабОтаете"},
+        { "prompt": "они", "answer": "рабОтают"},
+        { "prompt": "past (m)", "answer": "рабОтал"},
+        { "prompt": "past (f)", "answer": "рабОтала"},
+        { "prompt": "past (n)", "answer": "рабОтало"},
+        { "prompt": "past (pl)", "answer": "рабОтали"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to ask",
+        "rows": [
+        { "prompt": "infinitive", "answer": "спрАшивать (спрАшивай-)"},
+        { "prompt": "я", "answer": "спрАшиваю"},
+        { "prompt": "ты", "answer": "спрАшиваешь"},
+        { "prompt": "он", "answer": "спрАшивает"},
+        { "prompt": "мы", "answer": "спрАшиваем"},
+        { "prompt": "вы", "answer": "спрАшиваете"},
+        { "prompt": "они", "answer": "спрАшивают"},
+        { "prompt": "past (m)", "answer": "спрАшивал"},
+        { "prompt": "past (f)", "answer": "спрАшивала"},
+        { "prompt": "past (n)", "answer": "спрАшивало"},
+        { "prompt": "past (pl)", "answer": "спрАшивали"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to have dinner",
+        "rows": [
+        { "prompt": "infinitive", "answer": "Ужинать (Ужинай-)"},
+        { "prompt": "я", "answer": "Ужинаю"},
+        { "prompt": "ты", "answer": "Ужинаешь"},
+        { "prompt": "он", "answer": "Ужинает"},
+        { "prompt": "мы", "answer": "Ужинааем"},
+        { "prompt": "вы", "answer": "Ужинаете"},
+        { "prompt": "они", "answer": "Ужинают"},
+        { "prompt": "past (m)", "answer": "Ужинал"},
+        { "prompt": "past (f)", "answer": "Ужинала"},
+        { "prompt": "past (n)", "answer": "Ужинало"},
+        { "prompt": "past (pl)", "answer": "Ужинали"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "to read",
+        "rows": [
+        { "prompt": "infinitive", "answer": "читАть (читАй-)"},
+        { "prompt": "я", "answer": "читАю"},
+        { "prompt": "ты", "answer": "читАешь"},
+        { "prompt": "он", "answer": "читАет"},
+        { "prompt": "мы", "answer": "читАем"},
+        { "prompt": "вы", "answer": "читАете"},
+        { "prompt": "они", "answer": "читАют"},
+        { "prompt": "past (m)", "answer": "читАл"},
+        { "prompt": "past (f)", "answer": "читАла"},
+        { "prompt": "past (n)", "answer": "читАло"},
+        { "prompt": "past (pl)", "answer": "читАли"}
+        ]
+    },
+    {
+        "type": "multiple",
+        "definition": "на exceptions",
+        "rows": [
+        { "prompt": "north", "answer": "Юге"},
+        { "prompt": "east", "answer": "сЕвере"},
+        { "prompt": "south", "answer": "зАпаде"},
+        { "prompt": "west", "answer": "востОке"},
+        { "prompt": "dacha", "answer": "дАче"},
+        { "prompt": "kitchen", "answer": "кУхне"},
+        { "prompt": "post office", "answer": "пОчте"},
+        { "prompt": "work", "answer": "рабОте"},
+        { "prompt": "street", "answer": "Улице"},
+        { "prompt": "class", "answer": "занЯтии"},
+        { "prompt": "course", "answer": "кУрсе"},
+        { "prompt": "lecture", "answer": "лЕкции"},
+        { "prompt": "practice", "answer": "прАктике"},
+        { "prompt": "rehearsal", "answer": "репетИции"},
+        { "prompt": "seminar", "answer": "семинАре"},
+        { "prompt": "meeting", "answer": "собАнии"},
+        { "prompt": "faculty", "answer": "факультЕте"},
+        { "prompt": "ballet", "answer": "балЕте"},
+        { "prompt": "show, exhibition", "answer": "вЫставке"},
+        { "prompt": "disco", "answer": "дискотЕке"},
+        { "prompt": "concert", "answer": "концЕрте"},
+        { "prompt": "play, performance", "answer": "спектАкле"}
+        ]
+    }
+    ]
+}
